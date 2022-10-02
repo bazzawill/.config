@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Despertador"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "Cancel · lar"
+   },
+   "Countdown": {
+      "message": "Compte enrere"
+   },
+   "Pause": {
+      "message": "Pausa"
+   },
+   "Resume": {
+      "message": "Resum"
+   },
+   "Stop": {
+      "message": "Pare"
+   },
+   "Stopwatch": {
+      "message": "cronògraf"
+   }
+}

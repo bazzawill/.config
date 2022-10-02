@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "الارم گھڑی"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "منسوخ کریں"
+   },
+   "Countdown": {
+      "message": "الٹی گنتی"
+   },
+   "Pause": {
+      "message": "توقف"
+   },
+   "Resume": {
+      "message": "دوبارہ شروع کریں"
+   },
+   "Stop": {
+      "message": "رکو۔"
+   },
+   "Stopwatch": {
+      "message": "انگریزی زبانیں"
+   }
+}

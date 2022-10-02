@@ -1,0 +1,6 @@
+2022/06/29-20:40:06.234 1f6c4a Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_related.pcmag.com_0.indexeddb.leveldb since it was missing.
+2022/06/29-20:40:06.257 1f6c4a Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_related.pcmag.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/29-20:40:25.814 1fbb40 Level-0 table #5: started
+2022/06/29-20:40:25.821 1fbb40 Level-0 table #5: 385 bytes OK
+2022/06/29-20:40:25.835 1fbb40 Delete type=0 #3
+2022/06/29-20:40:25.835 1fbb40 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

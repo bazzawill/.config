@@ -1,0 +1,1 @@
+Okta.LastError=function(e,n){var t={},r=Okta._okta,a=r.noop,o=r.partial,s=Okta.fn.settings.ifPluginVersionSupported(n,"5.48.0");return t.set=function(t,r){return e.setLastError({message:t,description:r}).then(s(o(n.updateBadge,{text:"!",color:"red"}))).fail(a)},t.reset=function(){return e.setLastError(null).then(n.resetBadge)},t};

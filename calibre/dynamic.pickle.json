@@ -1,0 +1,42 @@
+{
+  "add a plugin dialog": "/home/bazza/src/DeDRM_tools/DeDRM_calibre_plugin", 
+  "add books dialog dir": "/media/mythfs/downloads/complete", 
+  "catalogs_to_be_synced": {
+    "__class__": "set", 
+    "__value__": []
+  }, 
+  "choose calibre library": "/media/mythfs/Books", 
+  "notified-version-updates": {
+    "__class__": "set", 
+    "__value__": [
+      "3.45"
+    ]
+  }, 
+  "recursive book import root dir dialog": "/media/mythfs/downloads/complete/Terry Pratchett/Discworld Series", 
+  "sort_history": [
+    [
+      "timestamp", 
+      false
+    ], 
+    [
+      "timestamp", 
+      false
+    ]
+  ], 
+  "update to version 2.25.0": false, 
+  "update to version 2.34.0": false, 
+  "update to version 2.39.0": false, 
+  "update to version 2.4.0": false, 
+  "update to version 2.5.0": false, 
+  "update to version 2.50.1": false, 
+  "update to version 2.53.0": false, 
+  "update to version 2.6.0": false, 
+  "update to version 2.83.0": false, 
+  "update to version 3.11.1": false, 
+  "update to version 3.12.0": false, 
+  "update to version 3.13.0": false, 
+  "update to version 3.15.0": false, 
+  "update to version 3.18.0": false, 
+  "welcome_wizard_device": "kindle_pw", 
+  "welcome_wizard_was_run": true
+}

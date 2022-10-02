@@ -1,0 +1,6 @@
+2022/09/05-20:20:34.189 32dfe3 Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb since it was missing.
+2022/09/05-20:20:34.213 32dfe3 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/05-20:32:58.630 33739c Level-0 table #5: started
+2022/09/05-20:32:58.638 33739c Level-0 table #5: 5783 bytes OK
+2022/09/05-20:32:58.654 33739c Delete type=0 #3
+2022/09/05-20:32:58.654 33739c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

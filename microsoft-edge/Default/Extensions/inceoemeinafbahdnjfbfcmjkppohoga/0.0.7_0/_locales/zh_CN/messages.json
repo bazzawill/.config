@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "使用画中画模式（浮动视频播放器）观看视频。支持各种视频网站。"
+   },
+   "name": {
+      "message": "画中画视频"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

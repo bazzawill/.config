@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Xem video bằng chế độ Hình trong Hình (Trình phát video nổi). Hỗ trợ tất cả các loại trang web video."
+   },
+   "name": {
+      "message": "Hình ảnh trong Video Hình ảnh"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

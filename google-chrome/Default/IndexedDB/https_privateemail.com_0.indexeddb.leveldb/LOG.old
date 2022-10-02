@@ -1,0 +1,15 @@
+2022/08/24-12:42:34.288 119136 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_privateemail.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/24-12:42:34.288 119136 Recovering log #4
+2022/08/24-12:42:34.288 119136 Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_privateemail.com_0.indexeddb.leveldb/000004.log 
+2022/08/24-12:46:02.325 119136 Level-0 table #8: started
+2022/08/24-12:46:02.339 119136 Level-0 table #8: 865292 bytes OK
+2022/08/24-12:46:02.355 119136 Delete type=0 #4
+2022/08/24-12:46:02.355 119136 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/08/24-12:46:02.355 119136 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x07\x00d\x00e\x00f\x00a\x00u\x00l\x00t' @ 3636 : 1
+2022/08/24-12:46:02.355 119136 Compacting 1@1 + 1@2 files
+2022/08/24-12:46:02.368 119136 Generated table #9@1: 422 keys, 426744 bytes
+2022/08/24-12:46:02.368 119136 Compacted 1@1 + 1@2 files => 426744 bytes
+2022/08/24-12:46:02.383 119136 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/08/24-12:46:02.383 119136 Delete type=2 #5
+2022/08/24-12:46:02.383 119136 Delete type=2 #8
+2022/08/24-12:46:02.384 119136 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x07\x00d\x00e\x00f\x00a\x00u\x00l\x00t' @ 3636 : 1 .. (end); will stop at (end)

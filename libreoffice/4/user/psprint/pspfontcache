@@ -1,0 +1,2609 @@
+LibreOffice PspFontCacheFile format 6
+FontCacheDirectory:1426902349:/usr/share/fonts
+File:wabbit_sans.ttf
+2;1
+Wabbit Sans
+0;Wabbit-Sans;0;5;5;2;65535;619;87;-294;0;624;706;624;706;0;0;0;4;Regular
+
+FontCacheDirectory:1484804965:/usr/share/fonts/cantarell
+File:Cantarell-Bold.otf
+2;1
+Cantarell
+0;Cantarell-Bold;0;8;5;2;65535;964;293;188;0;1645;1257;1645;1257;0;0;0;65536;Bold
+
+File:Cantarell-BoldOblique.otf
+2;1
+Cantarell
+0;Cantarell-BoldOblique;1;8;5;2;65535;964;293;188;0;1697;1257;1697;1257;0;0;0;65536;BoldOblique
+
+File:Cantarell-Oblique.otf
+2;1
+Cantarell
+0;Cantarell-Oblique;1;5;5;2;65535;964;293;188;0;1478;1257;1478;1257;0;0;0;65536;Oblique
+
+File:Cantarell-Regular.otf
+2;1
+Cantarell
+0;Cantarell-Regular;0;5;5;2;65535;964;293;188;0;1445;1257;1445;1257;0;0;0;65536;Regular
+
+FontCacheDirectory:1470039337:/usr/share/fonts/Type1
+FontCacheDirectory:1484804965:/usr/share/fonts/misc
+FontCacheDirectory:1500293722:/usr/share/fonts/OTF
+File:HelveticaNeue-Italic.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-Italic;2;6;5;2;65535;957;210;175;0;1272;1167;1272;1167;0;0;0;65536;Regular
+
+File:HelveticaNeue-LightCondObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-LightCondObl;0;3;5;2;65535;927;204;169;0;1239;1131;1239;1131;0;0;0;65536;Regular
+
+File:HelveticaNeue-UltraLigExtObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-UltraLigExtObl;0;3;5;2;65535;937;220;173;0;1481;1157;1481;1157;0;0;0;65536;Regular
+
+File:Helvetica-Fraction.otf
+2;1
+Helvetica;Helvetica Fractions
+0;Helvetica-Fraction;0;6;5;2;65535;779;123;135;0;687;902;687;902;0;0;0;65536;Regular
+
+File:HelveticaNeue-ThinCond.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-ThinCond;0;1;5;2;65535;913;194;166;0;1163;1107;1163;1107;0;0;0;65536;Regular
+
+File:HelvFE.otf
+2;1
+HelvFE
+0;HelvFE;0;6;5;2;65535;771;81;127;0;978;852;978;852;0;0;0;65536;Regular
+
+File:gotham-extra-narrow-book-italic.otf
+2;1
+Gotham XNarrow;Gotham XNarrow Book
+0;GothamXNarrow-BookItalic;2;4;3;2;65535;800;200;200;0;1133;1000;1133;1000;0;0;0;65540;Book Italic
+
+File:HelveticaNeueLTStd-BdCn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Cn
+0;HelveticaNeueLTStd-BdCn;0;8;3;2;65535;714;286;200;0;1230;1000;1230;1000;0;0;0;65540;77 Bold Condensed
+
+File:helvetica-neue-condensed.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-Condensed;0;6;5;2;65535;932;212;171;0;1164;1144;1164;1144;0;0;0;65536;Regular
+
+File:Helvetica-Narrow-Bold.otf
+2;1
+Helvetica;Helvetica Narrow
+0;Helvetica-Narrow-Bold;0;8;5;2;65535;944;225;175;0;1003;1169;1003;1169;0;0;0;65536;Bold
+
+File:Helvetica-Narrow-Italic.otf
+2;1
+Helvetica;Helvetica Narrow
+0;Helvetica-Narrow-Italic;2;6;5;2;65535;942;225;175;0;1062;1167;1062;1167;0;0;0;65536;Italic
+
+File:HelveticaNeueLTStd-XBlkCnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std ExtBlk Cn
+0;HelveticaNeueLTStd-XBlkCnO;1;10;3;2;65535;714;286;200;0;1340;1000;1340;1000;0;0;0;65540;107 Extra Black Condensed Oblique
+
+File:URWBookman-Light.otf
+2;1
+URW Bookman
+0;URWBookman-Light;0;3;5;2;65535;717;283;200;0;1454;1000;1454;1000;0;0;0;65540;Light
+
+File:HelveticaLTStd-Fraction.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Fractions
+0;HelveticaLTStd-Fraction;0;5;5;2;65535;709;291;200;0;1389;1000;1389;1000;0;0;0;65540;Fractions
+
+File:HelveticaRoundedLT-BoldCondObl.otf
+2;1
+Helvetica Rounded LT;Helvetica Rounded LT Condensed
+0;HelveticaRoundedLT-BoldCondObl;1;8;3;2;65535;965;216;177;0;1184;1181;1184;1181;0;0;0;65536;Bold Oblique
+
+File:HelveticaLTStd-ExtraComp.otf
+2;1
+Helvetica LT Std;Helvetica LT Std ExtCompressed
+0;HelveticaLTStd-ExtraComp;0;5;1;2;65535;718;282;200;0;1123;1000;1123;1000;0;0;0;65540;Extra Compressed
+
+File:HelveticaLTStd-Light.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Light
+0;HelveticaLTStd-Light;0;3;5;2;65535;718;282;200;0;1164;1000;1164;1000;0;0;0;65540;Light
+
+File:Gotham-BoldItalic.otf
+2;1
+Gotham;Gotham Bold
+0;Gotham-BoldItalic;2;5;5;2;65535;800;200;200;0;1572;1000;1572;1000;0;0;0;65540;Bold Italic
+
+File:HelveticaLTStd-LightCondObl.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Cond Light
+0;HelveticaLTStd-LightCondObl;1;3;3;2;65535;718;282;200;0;1239;1000;1239;1000;0;0;0;65540;Light Condensed Oblique
+
+File:HelveticaLTStd-BoldCondObl.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Cond
+0;HelveticaLTStd-BoldCondObl;1;8;3;2;65535;718;282;200;0;1311;1000;1311;1000;0;0;0;65540;Bold Condensed Oblique
+
+File:HelveticaLTStd-BlkCond.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Cond Blk
+0;HelveticaLTStd-BlkCond;0;10;3;2;65535;718;282;200;0;1281;1000;1281;1000;0;0;0;65540;Black Condensed
+
+File:HelveticaNeueLTStd-ThCnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Thin Cn
+0;HelveticaNeueLTStd-ThCnO;1;3;3;2;65535;714;286;200;0;1231;1000;1231;1000;0;0;0;65540;37 Thin Condensed Oblique
+
+File:Helvetica-Narrow-BoldItalic.otf
+2;1
+Helvetica;Helvetica Narrow
+0;Helvetica-Narrow-BoldItalic;2;8;5;2;65535;944;234;176;0;1061;1178;1061;1178;0;0;0;65536;Bold Italic
+
+File:HelveticaCE-CondObl.otf
+2;1
+Helvetica;Helvetica CE Cond
+0;HelveticaCE-CondObl;1;5;3;2;65535;750;188;302;0;1147;938;1147;938;0;0;0;65540;CE Condensed Oblique
+
+File:HelveticaNeue-CondensedObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-CondensedObl;0;6;5;2;65535;932;212;171;0;1239;1144;1239;1144;0;0;0;65536;Regular
+
+File:NimbusSans-Regular.otf
+2;1
+Nimbus Sans
+0;NimbusSans-Regular;0;5;5;2;65535;729;271;200;0;1242;1000;1242;1000;0;0;0;65540;Regular
+
+File:HelveticaLTStd-UltraComp.otf
+2;1
+Helvetica LT Std;Helvetica LT Std UltCompressed
+0;HelveticaLTStd-UltraComp;0;5;1;2;65535;718;282;200;0;1167;1000;1167;1000;0;0;0;65540;Ultra Compressed
+
+File:HelveticaConBQ-Light.otf
+2;1
+Helvetica Condensed BQ
+0;HelveticaConBQ-Light;0;3;5;2;65535;892;262;173;0;1028;1154;1028;1154;0;0;0;65536;Regular
+
+File:P052-Roman.otf
+2;1
+P052
+0;P052-Roman;0;5;5;2;65535;726;274;200;0;1246;1000;1246;1000;0;0;0;65540;Roman
+
+File:HelveticaLTStd-Blk.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Black
+0;HelveticaLTStd-Blk;0;10;5;2;65535;718;282;200;0;1174;1000;1174;1000;0;0;0;65540;Black
+
+File:HelveticaNeueLTStd-UltLtEx.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std UltLt Ext
+0;HelveticaNeueLTStd-UltLtEx;0;3;7;2;65535;714;286;200;0;1327;1000;1327;1000;0;0;0;65540;23 Ultra Light Extended
+
+File:HelveticaNeue-LightCond.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-LightCond;0;3;5;2;65535;927;204;169;0;1167;1131;1167;1131;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-LtIt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Lt
+0;HelveticaNeueLTStd-LtIt;2;3;5;2;65535;714;286;200;0;1264;1000;1264;1000;0;0;0;65540;46 Light Italic
+
+File:HelveticaLTStd-Roman.otf
+2;1
+Helvetica LT Std
+0;HelveticaLTStd-Roman;0;5;5;2;65535;718;282;200;0;1166;1000;1166;1000;0;0;0;65540;Roman
+
+File:HelveticaBQ-Bold.otf
+2;1
+Helvetica BQ
+0;HelveticaBQ-Bold;0;6;5;2;65535;946;262;181;0;1235;1208;1235;1208;0;0;0;65536;Regular
+
+File:Gotham-Medium.otf
+2;1
+Gotham;Gotham Medium
+0;Gotham-Medium;0;4;5;2;65535;800;200;200;0;1403;1000;1403;1000;0;0;0;65540;Medium
+
+File:HelveticaLTStd-Bold.otf
+2;1
+Helvetica LT Std
+0;HelveticaLTStd-Bold;0;8;5;2;65535;718;282;200;0;1173;1000;1173;1000;0;0;0;65540;Bold
+
+File:HelveticaCE-NarrowBoldOblique.otf
+2;1
+Helvetica;Helvetica CE Narrow
+0;HelveticaCE-NarrowBoldOblique;1;8;4;2;65535;718;207;265;0;945;925;945;925;0;0;0;65540;CE Bold Narrow Oblique
+
+File:HelveticaNeueLT-ExtendedObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-ExtendedObl;0;6;5;2;65535;963;220;177;0;1428;1183;1428;1183;0;0;0;65536;Regular
+
+File:HelveticaNeue-HeavyExt.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-HeavyExt;0;6;5;2;65535;999;223;183;0;1497;1222;1497;1222;0;0;0;65536;Regular
+
+File:GothamNarrow-ThinItalic.otf
+2;1
+Gotham Narrow;Gotham Narrow Thin
+0;GothamNarrow-ThinItalic;2;3;3;2;65535;800;200;200;0;1132;1000;1132;1000;0;0;0;65540;Thin Italic
+
+File:gotham-extra-narrow-light-italic.otf
+2;1
+Gotham XNarrow;Gotham XNarrow Light
+0;GothamXNarrow-LightItalic;2;3;3;2;65535;800;200;200;0;1104;1000;1104;1000;0;0;0;65540;Light Italic
+
+File:Helvetica-Light.otf
+2;1
+Helvetica;Helvetica Light
+0;Helvetica-Light;0;3;5;2;65535;979;212;178;0;1164;1191;1164;1191;0;0;0;65536;Regular
+
+File:gotham-extra-narrow-book.otf
+2;1
+Gotham XNarrow;Gotham XNarrow Book
+0;GothamXNarrow-Book;0;4;3;2;65535;800;200;200;0;1055;1000;1055;1000;0;0;0;65540;Book
+
+File:HelveticaNeueLT-BoldCond.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BoldCond;0;8;5;2;65535;961;224;177;0;1230;1185;1230;1185;0;0;0;65536;Regular
+
+File:HelveticaInserat-Roman.otf
+2;1
+Helvetica Inserat
+0;HelveticaInserat-Roman;0;6;5;2;65535;990;250;186;0;1176;1240;1176;1240;0;0;0;65536;Roman
+
+File:URWBookman-DemiItalic.otf
+2;1
+URW Bookman
+0;URWBookman-DemiItalic;2;7;5;2;65535;732;268;200;0;1564;1000;1564;1000;0;0;0;65540;Demi Italic
+
+File:Helvetica-FractionBold.otf
+2;1
+Helvetica;Helvetica Fractions
+0;Helvetica-FractionBold;0;8;5;2;65535;781;125;135;0;716;906;716;906;0;0;0;65536;Bold
+
+File:HelveticaNeue-HeavyExtObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-HeavyExtObl;0;6;5;2;65535;999;223;183;0;1538;1222;1538;1222;0;0;0;65536;Regular
+
+File:Helvetica-ExtraCompressed.otf
+2;1
+Helvetica;Helvetica Extra Compressed
+0;Helvetica-ExtraCompressed;0;6;5;2;65535;956;235;178;0;1123;1191;1123;1191;0;0;0;65536;Regular
+
+File:HelveticaExtendedBQ-Bold.otf
+2;1
+Helvetica Extended BQ
+0;HelveticaExtendedBQ-Bold;0;6;5;2;65535;929;262;178;0;1566;1191;1566;1191;0;0;0;65536;Regular
+
+File:HelveticaNeue-ThinCondObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-ThinCondObl;0;1;5;2;65535;913;194;166;0;1231;1107;1231;1107;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-BlackCond.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BlackCond;0;6;5;2;65535;972;230;180;0;1264;1202;1264;1202;0;0;0;65536;Regular
+
+File:HelveticaExtendedBQ-Light.otf
+2;1
+Helvetica Extended BQ
+0;HelveticaExtendedBQ-Light;0;6;5;2;65535;920;262;177;0;1281;1182;1281;1182;0;0;0;65536;Regular
+
+File:HelveticaRoundedLTStd-Bd.otf
+2;1
+Helvetica Rounded LT Std;HelveticaRounded LT Std Bd
+0;HelveticaRoundedLTStd-Bd;0;8;5;2;65535;733;267;200;0;1131;1000;1131;1000;0;0;0;65540;Bold
+
+File:Helvetica-Condensed-LightObl.otf
+2;1
+Helvetica;Helvetica Condensed Light
+0;Helvetica-Condensed-LightObl;1;3;3;2;65535;986;250;185;0;1239;1236;1239;1236;0;0;0;65536;Oblique
+
+File:SyrCOMUrhoyBold.otf
+2;1
+Serto Urhoy
+0;SertoUrhoyBold;0;8;5;2;65535;761;360;168;0;1170;1121;1170;1121;0;0;0;12;Bold
+
+File:Helvetica-Condensed-Black.otf
+2;1
+Helvetica;Helvetica Condensed Black
+0;Helvetica-Condensed-Black;0;10;3;2;65535;1000;250;187;0;1281;1250;1281;1250;0;0;0;65536;Regular
+
+File:Helvetica-Condensed-BoldObl.otf
+2;1
+Helvetica;Helvetica Condensed
+0;Helvetica-Condensed-BoldObl;1;8;3;2;65535;991;250;186;0;1310;1241;1310;1241;0;0;0;65536;Bold Oblique
+
+File:Helvetica-Black.otf
+2;1
+Helvetica;Helvetica Black
+0;Helvetica-Black;0;10;5;2;65535;1013;232;186;0;1174;1245;1174;1245;0;0;0;65536;Regular
+
+File:HelveticaLTStd-Comp.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Compressed
+0;HelveticaLTStd-Comp;0;5;2;2;65535;718;282;200;0;1120;1000;1120;1000;0;0;0;65540;Compressed
+
+File:HelveticaNeueLT-BoldExt.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BoldExt;0;8;5;2;65535;984;213;179;0;1308;1197;1308;1197;0;0;0;65536;Regular
+
+File:HelveticaBQ-Light.otf
+2;1
+Helvetica BQ
+0;HelveticaBQ-Light;0;6;5;2;65535;915;262;176;0;1134;1177;1134;1177;0;0;0;65536;Regular
+
+File:SyrCOMAntioch.otf
+2;1
+Estrangelo Antioch
+0;EstrangeloAntioch;0;5;5;2;65535;761;316;161;0;1374;1077;1374;1077;0;0;0;12;Regular
+
+File:NimbusRoman-Regular.otf
+2;1
+Nimbus Roman
+0;NimbusRoman-Regular;0;5;5;2;65535;683;317;200;0;1168;1000;1168;1000;0;0;0;65540;Regular
+
+File:HelveticaBQ-Black.otf
+2;1
+Helvetica BQ
+0;HelveticaBQ-Black;0;6;5;2;65535;950;262;181;0;1136;1212;1136;1212;0;0;0;65536;Regular
+
+File:HelveticaNeue-UltraLigCondObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-UltraLigCondObl;0;3;5;2;65535;899;184;162;0;1232;1083;1232;1083;0;0;0;65536;Regular
+
+File:URWGothic-Book.otf
+2;1
+URW Gothic
+0;URWGothic-Book;0;5;5;2;65535;739;261;200;0;1295;1000;1295;1000;0;0;0;65540;Book
+
+File:HelveticaTwoBQ-Italic.otf
+2;1
+Helvetica 2 BQ 
+0;HelveticaTwoBQ-Italic;2;6;5;2;65535;946;262;181;0;1033;1208;1033;1208;0;0;0;65536;Regular
+
+File:HelveticaNeue-Light.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-Light;0;3;5;2;65535;967;213;29;0;1850;1180;1850;1180;0;0;0;65536;Light
+
+File:HelveticaLTStd-Cond.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Cond
+0;HelveticaLTStd-Cond;0;5;3;2;65535;718;282;200;0;1245;1000;1245;1000;0;0;0;65540;Condensed
+
+File:Gotham-MediumItalic.otf
+2;1
+Gotham;Gotham Medium
+0;Gotham-MediumItalic;2;4;5;2;65535;800;200;200;0;1540;1000;1540;1000;0;0;0;65540;Medium Italic
+
+File:HelveticaTwoBQ-Bold.otf
+2;1
+Helvetica 2 BQ 
+0;HelveticaTwoBQ-Bold;0;6;5;2;65535;920;262;177;0;1026;1182;1026;1182;0;0;0;65536;Regular
+
+File:HelveticaCE-Narrow.otf
+2;1
+Helvetica;Helvetica CE Narrow
+0;HelveticaCE-Narrow;0;5;4;2;65535;718;207;231;0;846;925;846;925;0;0;0;65540;CE Narrow
+
+File:Helvetica-Condensed-Light.otf
+2;1
+Helvetica;Helvetica Condensed Light
+0;Helvetica-Condensed-Light;0;3;3;2;65535;986;250;185;0;1170;1236;1170;1236;0;0;0;65536;Regular
+
+File:URWGothic-Demi.otf
+2;1
+URW Gothic
+0;URWGothic-Demi;0;7;5;2;65535;739;261;200;0;1392;1000;1392;1000;0;0;0;65540;Demi
+
+File:Helvetica-BlackOblique.otf
+2;1
+Helvetica;Helvetica .Black
+0;Helvetica-BlackOblique;1;10;5;2;65535;1013;232;186;0;1291;1245;1291;1245;0;0;0;65536;Oblique
+
+File:GothamNarrow-Light.otf
+2;1
+Gotham Narrow;Gotham Narrow Light
+0;GothamNarrow-Light;0;3;3;2;65535;800;200;200;0;1202;1000;1202;1000;0;0;0;65540;Light
+
+File:Helvetica-BoldOblique.otf
+2;1
+Helvetica
+0;Helvetica-BoldOblique;1;8;5;2;65535;962;228;178;0;1288;1190;1288;1190;0;0;0;65536;Bold Oblique
+
+File:NimbusMonoPS-Regular.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-Regular;0;5;5;1;65535;603;397;200;0;922;1000;922;1000;0;0;0;65540;Regular
+
+File:HelveticaNeue-HeavyItalic.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-HeavyItalic;2;6;5;2;65535;952;228;177;0;1304;1180;1304;1180;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-BlackExtObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BlackExtObl;0;6;5;2;65535;1011;216;184;0;1669;1227;1669;1227;0;0;0;65536;Regular
+
+File:Helvetica-Bold.otf
+2;1
+Helvetica
+0;Helvetica-Bold;0;8;5;2;65535;962;228;178;0;1173;1190;1173;1190;0;0;0;65536;Bold
+
+File:HelveticaCE-CondBold.otf
+2;1
+Helvetica;Helvetica CE Cond
+0;HelveticaCE-CondBold;0;8;3;2;65535;750;189;302;0;1139;939;1139;939;0;0;0;65540;CE Bold Condensed
+
+File:HelveticaNeueLT-UltraLigCondObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-UltraLigCondObl;0;3;5;2;65535;899;184;162;0;1232;1083;1232;1083;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-ThIt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Thin
+0;HelveticaNeueLTStd-ThIt;2;3;5;2;65535;714;286;200;0;1244;1000;1244;1000;0;0;0;65540;36 Thin Italic
+
+File:HelveticaRounded-BoldCondObl.otf
+2;1
+Helvetica;Helvetica Rounded Condensed
+0;HelveticaRounded-BoldCondObl;1;8;3;2;65535;965;216;177;0;1184;1181;1184;1181;0;0;0;65536;Bold Oblique
+
+File:HelveticaCE-Oblique.otf
+2;1
+Helvetica;Helvetica CE
+0;HelveticaCE-Oblique;1;5;5;2;65535;718;207;231;0;1143;925;1143;925;0;0;0;65540;CE Oblique
+
+File:Helvetica-Compressed.otf
+2;1
+Helvetica;Helvetica Compressed
+0;Helvetica-Compressed;0;6;5;2;65535;990;244;185;0;1120;1234;1120;1234;0;0;0;65536;Regular
+
+File:HelveticaLTStd-LightCond.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Cond Light
+0;HelveticaLTStd-LightCond;0;3;3;2;65535;718;282;200;0;1170;1000;1170;1000;0;0;0;65540;Light Condensed
+
+File:GothamNarrow-LightItalic.otf
+2;1
+Gotham Narrow;Gotham Narrow Light
+0;GothamNarrow-LightItalic;2;3;3;2;65535;800;200;200;0;1296;1000;1296;1000;0;0;0;65540;Light Italic
+
+File:HelveticaNeueLTStd-CnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Cn
+0;HelveticaNeueLTStd-CnO;1;5;3;2;65535;714;286;200;0;1239;1000;1239;1000;0;0;0;65540;57 Condensed Oblique
+
+File:HelveticaRoundedLTStd-BdCn.otf
+2;1
+Helvetica Rounded LT Std;HelveticaRounded LT Std BdCn
+0;HelveticaRoundedLTStd-BdCn;0;8;3;2;65535;733;267;200;0;1100;1000;1100;1000;0;0;0;65540;Bold Condensed
+
+File:HelveticaCE-NarrowOblique.otf
+2;1
+Helvetica;Helvetica CE Narrow
+0;HelveticaCE-NarrowOblique;1;5;4;2;65535;718;207;231;0;938;925;938;925;0;0;0;65540;CE Narrow Oblique
+
+File:HelveticaRoundedLT-BlackObl.otf
+2;1
+Helvetica Rounded LT;Helvetica Rounded LT Black
+0;HelveticaRoundedLT-BlackObl;1;10;5;2;65535;1000;222;183;0;1258;1222;1258;1222;0;0;0;65536;Oblique
+
+File:Helvetica-UltraCompressed.otf
+2;1
+Helvetica;Helvetica Ultra Compressed
+0;Helvetica-UltraCompressed;0;6;5;2;65535;925;207;169;0;1167;1132;1167;1132;0;0;0;65536;Regular
+
+File:HelveticaLTStd-CondObl.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Cond
+0;HelveticaLTStd-CondObl;1;5;3;2;65535;718;282;200;0;1293;1000;1293;1000;0;0;0;65540;Condensed Oblique
+
+File:HelveticaTwoBQ-Roman.otf
+2;1
+Helvetica 2 BQ 
+0;HelveticaTwoBQ-Roman;0;6;5;2;65535;946;262;181;0;988;1208;988;1208;0;0;0;65536;Regular
+
+File:HelveticaCE-NarrowBold.otf
+2;1
+Helvetica;Helvetica CE Narrow
+0;HelveticaCE-NarrowBold;0;8;4;2;65535;718;207;265;0;854;925;854;925;0;0;0;65540;CE Bold Narrow
+
+File:HelveticaCE-CondBoldObl.otf
+2;1
+Helvetica;Helvetica CE Cond
+0;HelveticaCE-CondBoldObl;1;8;3;2;65535;750;189;302;0;1173;939;1173;939;0;0;0;65540;CE Bold Condensed Oblique
+
+File:GothamNarrow-Thin.otf
+2;1
+Gotham Narrow;Gotham Narrow Thin
+0;GothamNarrow-Thin;0;3;3;2;65535;800;200;200;0;997;1000;997;1000;0;0;0;65540;Thin
+
+File:HelveticaNeueLTStd-XBlkCn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std ExtBlk Cn
+0;HelveticaNeueLTStd-XBlkCn;0;10;3;2;65535;714;286;200;0;1284;1000;1284;1000;0;0;0;65540;107 Extra Black Condensed
+
+File:HelveticaNeue-UltraLigCond.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-UltraLigCond;0;3;5;2;65535;899;184;162;0;1166;1083;1166;1083;0;0;0;65536;Regular
+
+File:GothamNarrow-UltraItalic.otf
+2;1
+Gotham Narrow;Gotham Narrow Ultra
+0;GothamNarrow-UltraItalic;2;6;3;2;65535;800;200;200;0;1335;1000;1335;1000;0;0;0;65540;Ultra Italic
+
+File:HelveticaLTStd-BoldObl.otf
+2;1
+Helvetica LT Std
+0;HelveticaLTStd-BoldObl;1;8;5;2;65535;718;282;200;0;1288;1000;1288;1000;0;0;0;65540;Bold Oblique
+
+File:HelveticaLTStd-BoldCond.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Cond
+0;HelveticaLTStd-BoldCond;0;8;3;2;65535;718;282;200;0;1260;1000;1260;1000;0;0;0;65540;Bold Condensed
+
+File:HelveticaNeueLT-ThinExtObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-ThinExtObl;0;1;5;2;65535;950;220;175;0;1463;1170;1463;1170;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-Cn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Cn
+0;HelveticaNeueLTStd-Cn;0;5;3;2;65535;714;286;200;0;1164;1000;1164;1000;0;0;0;65540;57 Condensed
+
+File:Gotham-ThinItalic.otf
+2;1
+Gotham;Gotham Thin
+0;Gotham-ThinItalic;2;3;5;2;65535;800;200;200;0;1513;1000;1513;1000;0;0;0;65540;Thin Italic
+
+File:GothamNarrow-BlackItalic.otf
+2;1
+Gotham Narrow;Gotham Narrow Black
+0;GothamNarrow-BlackItalic;2;6;3;2;65535;800;200;200;0;1272;1000;1272;1000;0;0;0;65540;Black Italic
+
+File:GothamNarrow-Bold.otf
+2;1
+Gotham Narrow;Gotham Narrow Bold
+0;GothamNarrow-Bold;0;5;3;2;65535;800;200;200;0;1282;1000;1282;1000;0;0;0;65540;Bold
+
+File:Gotham-Thin.otf
+2;1
+Gotham;Gotham Thin
+0;Gotham-Thin;0;3;5;2;65535;800;200;200;0;1316;1000;1316;1000;0;0;0;65540;Thin
+
+File:P052-Bold.otf
+2;1
+P052
+0;P052-Bold;0;8;5;2;65535;720;280;200;0;1267;1000;1267;1000;0;0;0;65540;Bold
+
+File:Gotham-Book.otf
+2;1
+Gotham;Gotham Book
+0;Gotham-Book;0;4;5;2;65535;800;200;200;0;1374;1000;1374;1000;0;0;0;65540;Book
+
+File:Helvetica-Condensed-BlackObl.otf
+2;1
+Helvetica;Helvetica Condensed Black
+0;Helvetica-Condensed-BlackObl;1;10;3;2;65535;1000;250;187;0;1329;1250;1329;1250;0;0;0;65536;Oblique
+
+File:Helvetica-Condensed-Bold.otf
+2;1
+Helvetica;Helvetica Condensed
+0;Helvetica-Condensed-Bold;0;8;3;2;65535;991;250;186;0;1260;1241;1260;1241;0;0;0;65536;Bold
+
+File:SyrCOMBatnan.otf
+2;1
+Serto Batnan
+0;SertoBatnan;0;5;5;2;65535;761;316;161;0;1141;1077;1141;1077;0;0;0;12;Regular
+
+File:SyrCOMKharput.otf
+2;1
+Serto Kharput
+0;SertoKharput;0;5;5;2;65535;761;328;163;0;1132;1089;1132;1089;0;0;0;12;Regular
+
+File:Gotham-ExtraLight.otf
+2;1
+Gotham;Gotham Extra Light
+0;Gotham-ExtraLight;0;3;5;2;65535;800;200;200;0;1330;1000;1330;1000;0;0;0;65540;Extra Light
+
+File:GothamNarrow-XLight.otf
+2;1
+Gotham Narrow;Gotham Narrow XLight
+0;GothamNarrow-XLight;0;3;3;2;65535;800;200;200;0;1011;1000;1011;1000;0;0;0;65540;Extra Light
+
+File:HelveticaExtendedBQ-Medium.otf
+2;1
+Helvetica Extended BQ
+0;HelveticaExtendedBQ-Medium;0;6;5;2;65535;889;262;172;0;1300;1151;1300;1151;0;0;0;65536;Regular
+
+File:SyrCOMQenNeshrin.otf
+2;1
+Estrangelo Quenneshrin
+0;EstrangeloQuenneshrin;0;5;5;2;65535;761;349;166;0;1000;1110;1000;1110;0;0;0;12;Regular
+
+File:SyrCOMMardinBold.otf
+2;1
+Serto Mardin
+0;SertoMardinBold;0;8;5;2;65535;761;316;161;0;1168;1077;1168;1077;0;0;0;12;Bold
+
+File:GothamNarrow-MediumItalic.otf
+2;1
+Gotham Narrow;Gotham Narrow Medium
+0;GothamNarrow-MediumItalic;2;4;3;2;65535;800;200;200;0;1356;1000;1356;1000;0;0;0;65540;Medium Italic
+
+File:Gotham-LightItalic.otf
+2;1
+Gotham;Gotham Light
+0;Gotham-LightItalic;2;3;5;2;65535;800;200;200;0;1511;1000;1511;1000;0;0;0;65540;Light Italic
+
+File:HelveticaLTStd-BlkCondObl.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Cond Blk
+0;HelveticaLTStd-BlkCondObl;1;10;3;2;65535;718;282;200;0;1330;1000;1330;1000;0;0;0;65540;Black Condensed Oblique
+
+File:NimbusSansNarrow-Oblique.otf
+2;1
+Nimbus Sans Narrow
+0;NimbusSansNarrow-Oblique;1;5;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Oblique
+
+File:Gotham-ExtraLightItalic.otf
+2;1
+Gotham;Gotham Extra Light
+0;Gotham-ExtraLightItalic;2;3;5;2;65535;800;200;200;0;1512;1000;1512;1000;0;0;0;65540;Extra Light Italic
+
+File:SyrCOMNisibin.otf
+2;1
+Estrangelo Nisibin
+0;EstrangeloNisibin;0;5;5;2;65535;761;316;161;0;1000;1077;1000;1077;0;0;0;12;Regular
+
+File:URWGothic-DemiOblique.otf
+2;1
+URW Gothic
+0;URWGothic-DemiOblique;1;7;5;2;65535;739;261;200;0;1425;1000;1425;1000;0;0;0;65540;Demi Oblique
+
+File:HelveticaNeue-UltraLightItal.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-UltraLightItal;2;3;5;2;65535;924;189;166;0;1226;1113;1226;1113;0;0;0;65536;Regular
+
+File:SyrCOMCtesiphon.otf
+2;1
+East Syriac Ctesiphon
+0;EastSyriacCtesiphon;0;5;5;2;65535;761;323;162;0;1000;1084;1000;1084;0;0;0;12;Regular
+
+File:Gotham-Light.otf
+2;1
+Gotham;Gotham Light
+0;Gotham-Light;0;3;5;2;65535;800;200;200;0;1355;1000;1355;1000;0;0;0;65540;Light
+
+File:HelveticaRoundedLT-Black.otf
+2;1
+Helvetica Rounded LT;Helvetica Rounded LT Black
+0;HelveticaRoundedLT-Black;0;10;5;2;65535;1000;222;183;0;1138;1222;1138;1222;0;0;0;65536;Regular
+
+File:GothamNarrow-BoldItalic.otf
+2;1
+Gotham Narrow;Gotham Narrow Bold
+0;GothamNarrow-BoldItalic;2;5;3;2;65535;800;200;200;0;1382;1000;1382;1000;0;0;0;65540;Bold Italic
+
+File:HelveticaInseratLTStd-Roman.otf
+2;1
+Helvetica Inserat LT Std
+0;HelveticaInseratLTStd-Roman;0;9;5;2;65535;799;201;200;0;1176;1000;1176;1000;0;0;0;65540;Roman
+
+File:HelveticaLTStd-LightObl.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Light
+0;HelveticaLTStd-LightObl;1;3;5;2;65535;718;282;200;0;1277;1000;1277;1000;0;0;0;65540;Light Oblique
+
+File:C059-Roman.otf
+2;1
+C059
+0;C059-Roman;0;5;5;2;65535;737;263;200;0;1335;1000;1335;1000;0;0;0;65540;Roman
+
+File:Gotham-Bold.otf
+2;1
+Gotham;Gotham Bold
+0;Gotham-Bold;0;5;5;2;65535;800;200;200;0;1424;1000;1424;1000;0;0;0;65540;Bold
+
+File:Gotham-Ultra.otf
+2;1
+Gotham;Gotham Ultra
+0;Gotham-Ultra;0;6;5;2;65535;800;200;200;0;1553;1000;1553;1000;0;0;0;65540;Ultra
+
+File:HelveticaDiagonalBQ.otf
+2;1
+Helvetica Diagonal BQ
+0;HelveticaDiagonalBQ;0;6;5;2;65535;927;250;176;0;1672;1177;1672;1177;0;0;0;65536;Regular
+
+File:gotham-extra-narrow-medium.otf
+2;1
+Gotham XNarrow;Gotham XNarrow Medium
+0;GothamXNarrow-Medium;0;4;3;2;65535;800;200;200;0;1094;1000;1094;1000;0;0;0;65540;Medium
+
+File:HelveticaNeueLT-HeavyCond.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-HeavyCond;0;6;5;2;65535;975;230;180;0;1266;1205;1266;1205;0;0;0;65536;Regular
+
+File:C059-BdIta.otf
+2;1
+C059
+0;C059-BdIta;2;8;5;2;65535;736;264;200;0;1447;1000;1447;1000;0;0;0;65540;Bold Italic
+
+File:SyrCOMEdessa.otf
+2;1
+Estrangelo Edessa
+0;EstrangeloEdessa;0;5;5;2;65535;700;299;149;0;1321;999;1321;999;0;0;0;0;Regular
+
+File:Gotham-Black.otf
+2;1
+Gotham;Gotham Black
+0;Gotham-Black;0;6;5;2;65535;800;200;200;0;1489;1000;1489;1000;0;0;0;65540;Black
+
+File:HelveticaBQ-Roman.otf
+2;1
+Helvetica BQ
+0;HelveticaBQ-Roman;0;6;5;2;65535;895;262;173;0;1163;1157;1163;1157;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-HvIt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med
+0;HelveticaNeueLTStd-HvIt;2;9;5;2;65535;714;286;200;0;1304;1000;1304;1000;0;0;0;65540;86 Heavy Italic
+
+File:C059-Italic.otf
+2;1
+C059
+0;C059-Italic;2;5;5;2;65535;737;263;200;0;1366;1000;1366;1000;0;0;0;65540;Italic
+
+File:Gotham-BlackItalic.otf
+2;1
+Gotham;Gotham Black
+0;Gotham-BlackItalic;2;6;5;2;65535;800;200;200;0;1636;1000;1636;1000;0;0;0;65540;Black Italic
+
+File:D050000L.otf
+2;1
+D050000L
+0;D050000L;0;5;5;2;65535;1057;143;150;0;982;1200;982;1200;0;0;0;65536;Regular
+
+File:HelvFB-Bold.otf
+2;1
+HelvFB
+0;HelvFB-Bold;0;8;5;2;65535;749;20;115;0;917;769;917;769;0;0;0;65536;Bold
+
+File:SyrCOMTalada.otf
+2;1
+Estrangelo Talada
+0;EstrangeloTalada;0;5;5;2;65535;761;316;161;0;1795;1077;1795;1077;0;0;0;12;Regular
+
+File:Helvetica-LightOblique.otf
+2;1
+Helvetica;Helvetica Light
+0;Helvetica-LightOblique;1;3;5;2;65535;979;212;178;0;1277;1191;1277;1191;0;0;0;65536;Oblique
+
+File:HelveticaNeue-CondensedBold.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-CondensedBold;0;8;3;2;65535;961;221;28;0;1566;1182;1566;1182;0;0;0;65536;Condensed Bold
+
+File:HelveticaNeue-ThinExt.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-ThinExt;0;1;5;2;65535;950;220;175;0;1327;1170;1327;1170;0;0;0;65536;Regular
+
+File:HelveticaRoundedLT-BoldObl.otf
+2;1
+Helvetica Rounded LT
+0;HelveticaRoundedLT-BoldObl;1;6;5;2;65535;963;214;176;0;1263;1177;1263;1177;0;0;0;65536;Bold Oblique
+
+File:HelveticaNeueLT-BlackCondObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BlackCondObl;0;6;5;2;65535;972;230;180;0;1320;1202;1320;1202;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-ThinExt.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-ThinExt;0;1;5;2;65535;950;220;175;0;1327;1170;1327;1170;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-UltraLigExtObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-UltraLigExtObl;0;3;5;2;65535;937;220;173;0;1481;1157;1481;1157;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-ThinCondObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-ThinCondObl;0;1;5;2;65535;913;194;166;0;1231;1107;1231;1107;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-LightExt.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-LightExt;0;3;5;2;65535;953;220;175;0;1321;1173;1321;1173;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-HeavyCondObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-HeavyCondObl;0;6;5;2;65535;975;230;180;0;1322;1205;1322;1205;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-Th.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Thin
+0;HelveticaNeueLTStd-Th;0;3;5;2;65535;714;286;200;0;1210;1000;1210;1000;0;0;0;65540;35 Thin
+
+File:HelveticaNeueLTStd-Roman.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std
+0;HelveticaNeueLTStd-Roman;0;5;5;2;65535;714;286;200;0;1242;1000;1242;1000;0;0;0;65540;55 Roman
+
+File:HelveticaNeueLTStd-ThEx.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Thin Ext
+0;HelveticaNeueLTStd-ThEx;0;3;7;2;65535;714;286;200;0;1327;1000;1327;1000;0;0;0;65540;33 Thin Extended
+
+File:HelveticaRounded-BoldCond.otf
+2;1
+Helvetica;Helvetica Rounded Condensed
+0;HelveticaRounded-BoldCond;0;8;3;2;65535;965;216;177;0;1100;1181;1100;1181;0;0;0;65536;Bold
+
+File:HelveticaNeue-HeavyCondObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-HeavyCondObl;0;6;5;2;65535;975;230;180;0;1322;1205;1322;1205;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-ThExO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Thin Ext
+0;HelveticaNeueLTStd-ThExO;1;3;7;2;65535;714;286;200;0;1463;1000;1463;1000;0;0;0;65540;33 Thin Extended Oblique
+
+File:HelveticaNeueLTStd-Ex.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Ext
+0;HelveticaNeueLTStd-Ex;0;5;7;2;65535;714;286;200;0;1317;1000;1317;1000;0;0;0;65540;53 Extended
+
+File:HelveticaTwoBQ-BoldItalic.otf
+2;1
+Helvetica 2 BQ 
+0;HelveticaTwoBQ-BoldItalic;2;6;5;2;65535;945;262;181;0;1033;1207;1033;1207;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-LtCnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Lt Cn
+0;HelveticaNeueLTStd-LtCnO;1;3;3;2;65535;714;286;200;0;1239;1000;1239;1000;0;0;0;65540;47 Light Condensed Oblique
+
+File:HelveticaNeueLTStd-LtExO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Lt Ext
+0;HelveticaNeueLTStd-LtExO;1;3;7;2;65535;714;286;200;0;1446;1000;1446;1000;0;0;0;65540;43 Light Extended Oblique
+
+File:HelveticaNeueLTStd-Md.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med
+0;HelveticaNeueLTStd-Md;0;6;5;2;65535;714;286;200;0;1231;1000;1231;1000;0;0;0;65540;65 Medium
+
+File:URWBookman-Demi.otf
+2;1
+URW Bookman
+0;URWBookman-Demi;0;7;5;2;65535;724;276;200;0;1540;1000;1540;1000;0;0;0;65540;Demi
+
+File:HelveticaNeueLT-MediumCondObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-MediumCondObl;0;6;5;2;65535;951;216;175;0;1250;1167;1250;1167;0;0;0;65536;Regular
+
+File:HelveticaCyr-Bold.otf
+2;1
+Helvetica Cyrillic
+0;HelveticaCyr-Bold;0;8;5;2;65535;924;214;170;0;1113;1138;1113;1138;0;0;0;65536;Bold
+
+File:HelveticaFractionsBQ.otf
+2;1
+Helvetica Fractions BQ
+0;HelveticaFractionsBQ;0;6;5;2;65535;811;161;145;0;926;972;926;972;0;0;0;65536;Regular
+
+File:HelveticaNeue-Extended.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-Extended;0;6;5;2;65535;963;220;177;0;1317;1183;1317;1183;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-LightExtObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-LightExtObl;0;3;5;2;65535;953;220;175;0;1446;1173;1446;1173;0;0;0;65536;Regular
+
+File:NimbusSansNarrow-Bold.otf
+2;1
+Nimbus Sans Narrow
+0;NimbusSansNarrow-Bold;0;8;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Bold
+
+File:SyrCOMMidyat.otf
+2;1
+Estrangelo Midyat
+0;EstrangeloMidyat;0;5;5;2;65535;761;316;161;0;1231;1077;1231;1077;0;0;0;12;Regular
+
+File:HelveticaNeueLT-LightCondObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-LightCondObl;0;3;5;2;65535;927;204;169;0;1239;1131;1239;1131;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-BlkIt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Blk
+0;HelveticaNeueLTStd-BlkIt;2;10;5;2;65535;714;286;200;0;1321;1000;1321;1000;0;0;0;65540;96 Black Italic
+
+File:HelveticaNeueLTStd-ThCn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Thin Cn
+0;HelveticaNeueLTStd-ThCn;0;3;3;2;65535;714;286;200;0;1163;1000;1163;1000;0;0;0;65540;37 Thin Condensed
+
+File:HelveticaNeueLTStd-BlkCnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Blk Cn
+0;HelveticaNeueLTStd-BlkCnO;1;10;3;2;65535;714;286;200;0;1320;1000;1320;1000;0;0;0;65540;97 Black Condensed Oblique
+
+File:HelveticaNeue-CondensedBlack.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-CondensedBlack;0;10;3;2;65535;972;227;28;0;1613;1199;1613;1199;0;0;0;65536;Condensed Black
+
+File:HelveticaRoundedLTStd-Black.otf
+2;1
+Helvetica Rounded LT Std;HelveticaRounded LT Std Blk
+0;HelveticaRoundedLTStd-Black;0;10;5;2;65535;733;267;200;0;1138;1000;1138;1000;0;0;0;65540;Black
+
+File:GothamNarrow-Book.otf
+2;1
+Gotham Narrow;Gotham Narrow Book
+0;GothamNarrow-Book;0;4;3;2;65535;800;200;200;0;1224;1000;1224;1000;0;0;0;65540;Book
+
+File:HelveticaRoundedLT-BoldCond.otf
+2;1
+Helvetica Rounded LT;Helvetica Rounded LT Condensed
+0;HelveticaRoundedLT-BoldCond;0;8;3;2;65535;965;216;177;0;1100;1181;1100;1181;0;0;0;65536;Bold
+
+File:HelveticaNeueLTStd-HvCn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med Cn
+0;HelveticaNeueLTStd-HvCn;0;9;3;2;65535;714;286;200;0;1266;1000;1266;1000;0;0;0;65540;87 Heavy Condensed
+
+File:HelveticaNeueLT-UltraLigExt.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-UltraLigExt;0;3;5;2;65535;937;220;173;0;1327;1157;1327;1157;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-MdCn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med Cn
+0;HelveticaNeueLTStd-MdCn;0;6;3;2;65535;714;286;200;0;1195;1000;1195;1000;0;0;0;65540;67 Medium Condensed
+
+File:NimbusSansNarrow-BdOblique.otf
+2;1
+Nimbus Sans Narrow
+0;NimbusSansNarrow-BoldOblique;1;8;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Bold Oblique
+
+File:HelveticaRounded-BoldObl.otf
+2;1
+Helvetica;Helvetica Rounded
+0;HelveticaRounded-BoldObl;1;8;5;2;65535;963;214;176;0;1263;1177;1263;1177;0;0;0;65536;Bold Oblique
+
+File:HelveticaNeueLTStd-UltLt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std UltLt
+0;HelveticaNeueLTStd-UltLt;0;3;5;2;65535;714;286;200;0;1182;1000;1182;1000;0;0;0;65540;25 Ultra Light
+
+File:NimbusSans-Oblique.otf
+2;1
+Nimbus Sans
+0;NimbusSans-Oblique;1;5;5;2;65535;729;271;200;0;1298;1000;1298;1000;0;0;0;65540;Oblique
+
+File:HelveticaNeueLTStd-It.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std
+0;HelveticaNeueLTStd-It;2;5;5;2;65535;714;286;200;0;1272;1000;1272;1000;0;0;0;65540;56 Italic
+
+File:HelveticaRoundedLTStd-BlkO.otf
+2;1
+Helvetica Rounded LT Std;HelveticaRounded LT Std Blk
+0;HelveticaRoundedLTStd-BlkO;1;10;5;2;65535;733;267;200;0;1260;1000;1260;1000;0;0;0;65540;Black Oblique
+
+File:HelveticaCE.otf
+2;1
+Helvetica;Helvetica CE
+0;HelveticaCE;0;5;5;2;65535;718;207;231;0;1031;925;1031;925;0;0;0;65540;CE Medium
+
+File:SyrCOMJerusalemItalic.otf
+2;1
+Serto Jerusalem
+0;SertoJerusalemItalic;2;5;5;2;65535;761;316;161;0;1353;1077;1353;1077;0;0;0;12;Italic
+
+File:StandardSymbolsPS.otf
+2;1
+Standard Symbols PS
+0;StandardSymbolsPS;0;5;5;2;65535;778;222;150;0;1270;1000;1270;1000;0;0;0;65540;Regular
+
+File:SyrCOMBatnanBold.otf
+2;1
+Serto Batnan
+0;SertoBatnanBold;0;8;5;2;65535;761;316;161;0;1243;1077;1243;1077;0;0;0;12;Bold
+
+File:HelveticaNeueLTStd-UltLtExO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std UltLt Ext
+0;HelveticaNeueLTStd-UltLtExO;1;3;7;2;65535;714;286;200;0;1481;1000;1481;1000;0;0;0;65540;23 Ultra Light Extended Oblique
+
+File:HelveticaRoundedLT-Bold.otf
+2;1
+Helvetica Rounded LT
+0;HelveticaRoundedLT-Bold;0;6;5;2;65535;963;214;176;0;1131;1177;1131;1177;0;0;0;65536;Bold
+
+File:P052-BoldItalic.otf
+2;1
+P052
+0;P052-BoldItalic;2;8;5;2;65535;726;274;200;0;1304;1000;1304;1000;0;0;0;65540;Bold Italic
+
+File:Z003-MediumItalic.otf
+2;1
+Z003
+0;Z003-MediumItalic;2;6;5;2;65535;677;323;200;0;1293;1000;1293;1000;0;0;0;65540;Medium Italic
+
+File:NimbusSans-Bold.otf
+2;1
+Nimbus Sans
+0;NimbusSans-Bold;0;8;5;2;65535;729;271;200;0;1257;1000;1257;1000;0;0;0;65540;Bold
+
+File:HelveticaRounded-BlackObl.otf
+2;1
+Helvetica;Helvetica Rounded Black
+0;HelveticaRounded-BlackObl;1;10;5;2;65535;1000;222;183;0;1258;1222;1258;1222;0;0;0;65536;Oblique
+
+File:HelveticaNeueLTStd-Bd.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std
+0;HelveticaNeueLTStd-Bd;0;8;5;2;65535;714;286;200;0;1244;1000;1244;1000;0;0;0;65540;75 Bold
+
+File:HelveticaNeueLTStd-BdIt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std
+0;HelveticaNeueLTStd-BdIt;2;8;5;2;65535;714;286;200;0;1295;1000;1295;1000;0;0;0;65540;76 Bold Italic
+
+File:gotham-extra-narrow-light.otf
+2;1
+Gotham XNarrow;Gotham XNarrow Light
+0;GothamXNarrow-Light;0;3;3;2;65535;800;200;200;0;1030;1000;1030;1000;0;0;0;65540;Light
+
+File:HelveticaNeueLT-MediumExt.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-MediumExt;0;6;5;2;65535;978;220;179;0;1331;1198;1331;1198;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-MdExO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med Ext
+0;HelveticaNeueLTStd-MdExO;1;6;7;2;65535;714;286;200;0;1481;1000;1481;1000;0;0;0;65540;63 Medium Extended Oblique
+
+File:SyrCOMJerusalemBold.otf
+2;1
+Serto Jerusalem
+0;SertoJerusalemBold;0;8;5;2;65535;761;316;161;0;1255;1077;1255;1077;0;0;0;12;Bold
+
+File:HelveticaCE-BoldOblique.otf
+2;1
+Helvetica;Helvetica CE
+0;HelveticaCE-BoldOblique;1;8;5;2;65535;718;207;265;0;1152;925;1152;925;0;0;0;65540;CE Bold Oblique
+
+File:SyrCOMJerusalemOutline.otf
+2;1
+Serto Jerusalem Outline
+0;SertoJerusalemOutline;0;5;5;2;65535;781;316;164;0;1275;1097;1275;1097;0;0;0;12;Regular
+
+File:SyrCOMMardin.otf
+2;1
+Serto Mardin
+0;SertoMardin;0;5;5;2;65535;761;316;161;0;1146;1077;1146;1077;0;0;0;12;Regular
+
+File:P052-Italic.otf
+2;1
+P052
+0;P052-Italic;2;5;5;2;65535;733;267;200;0;1272;1000;1272;1000;0;0;0;65540;Italic
+
+File:HelvFB-Oblique.otf
+2;1
+HelvFB
+0;HelvFB-Oblique;1;6;5;2;65535;737;20;113;0;1063;757;1063;757;0;0;0;65536;Oblique
+
+File:HelveticaNeueLT-LightCond.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-LightCond;0;3;5;2;65535;927;204;169;0;1167;1131;1167;1131;0;0;0;65536;Regular
+
+File:HelveticaCE-Bold.otf
+2;1
+Helvetica;Helvetica CE
+0;HelveticaCE-Bold;0;8;5;2;65535;718;207;265;0;1040;925;1040;925;0;0;0;65540;CE Bold
+
+File:Helvetica-Condensed-Oblique.otf
+2;1
+Helvetica;Helvetica .Condensed
+0;Helvetica-Condensed-Oblique;1;6;3;2;65535;990;224;182;0;1292;1214;1292;1214;0;0;0;65536;Oblique
+
+File:URWGothic-BookOblique.otf
+2;1
+URW Gothic
+0;URWGothic-BookOblique;1;5;5;2;65535;739;261;200;0;1419;1000;1419;1000;0;0;0;65540;Book Oblique
+
+File:HelveticaRoundedLTStd-BdCnO.otf
+2;1
+Helvetica Rounded LT Std;HelveticaRounded LT Std BdCn
+0;HelveticaRoundedLTStd-BdCnO;1;8;3;2;65535;733;267;200;0;1184;1000;1184;1000;0;0;0;65540;Bold Condensed Oblique
+
+File:SyrCOMUrhoy.otf
+2;1
+Serto Urhoy
+0;SertoUrhoy;0;5;5;2;65535;761;360;168;0;1158;1121;1158;1121;0;0;0;12;Regular
+
+File:HelveticaNeueLT-ThinCond.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-ThinCond;0;1;5;2;65535;913;194;166;0;1163;1107;1163;1107;0;0;0;65536;Regular
+
+File:Gotham-UltraItalic.otf
+2;1
+Gotham;Gotham Ultra
+0;Gotham-UltraItalic;2;6;5;2;65535;800;200;200;0;1700;1000;1700;1000;0;0;0;65540;Ultra Italic
+
+File:HelveticaNeueLT-HeavyExtObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-HeavyExtObl;0;6;5;2;65535;999;223;183;0;1538;1222;1538;1222;0;0;0;65536;Regular
+
+File:NimbusRoman-BoldItalic.otf
+2;1
+Nimbus Roman
+0;NimbusRoman-BoldItalic;2;8;5;2;65535;699;301;200;0;1354;1000;1354;1000;0;0;0;65540;Bold Italic
+
+File:HelveticaNeueLTStd-HvEx.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med Ext
+0;HelveticaNeueLTStd-HvEx;0;9;7;2;65535;714;286;200;0;1497;1000;1497;1000;0;0;0;65540;83 Heavy Extended
+
+File:HelveticaNeueLTStd-MdCnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med Cn
+0;HelveticaNeueLTStd-MdCnO;1;6;3;2;65535;714;286;200;0;1250;1000;1250;1000;0;0;0;65540;67 Medium Condensed Oblique
+
+File:NimbusMonoPS-Italic.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-Italic;2;5;5;1;65535;603;397;200;0;953;1000;953;1000;0;0;0;65540;Italic
+
+File:GothamNarrow-Black.otf
+2;1
+Gotham Narrow;Gotham Narrow Black
+0;GothamNarrow-Black;0;6;3;2;65535;800;200;200;0;1174;1000;1174;1000;0;0;0;65540;Black
+
+File:HelveticaNeue-UltraLigExt.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-UltraLigExt;0;3;5;2;65535;937;220;173;0;1327;1157;1327;1157;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-LtCn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Lt Cn
+0;HelveticaNeueLTStd-LtCn;0;3;3;2;65535;714;286;200;0;1167;1000;1167;1000;0;0;0;65540;47 Light Condensed
+
+File:HelveticaNeueLTStd-ExO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Ext
+0;HelveticaNeueLTStd-ExO;1;5;7;2;65535;714;286;200;0;1428;1000;1428;1000;0;0;0;65540;53 Extended Oblique
+
+File:HelveticaNeueLTStd-UltLtCn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std UltLt Cn
+0;HelveticaNeueLTStd-UltLtCn;0;3;3;2;65535;714;286;200;0;1166;1000;1166;1000;0;0;0;65540;27 Ultra Light Condensed
+
+File:SyrCOMMalankara.otf
+2;1
+Serto Malankara
+0;SertoMalankara;0;5;5;2;65535;761;355;167;0;1009;1116;1009;1116;0;0;0;12;Regular
+
+File:NimbusSansNarrow-Regular.otf
+2;1
+Nimbus Sans Narrow
+0;NimbusSansNarrow-Regular;0;5;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Regular
+
+File:HelveticaNeueLTStd-Blk.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Blk
+0;HelveticaNeueLTStd-Blk;0;10;5;2;65535;714;286;200;0;1266;1000;1266;1000;0;0;0;65540;95 Black
+
+File:HelveticaNeueLTStd-UltLtCnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std UltLt Cn
+0;HelveticaNeueLTStd-UltLtCnO;1;3;3;2;65535;714;286;200;0;1232;1000;1232;1000;0;0;0;65540;27 Ultra Light Condensed Oblique
+
+File:HelveticaNeueLTStd-LtEx.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Lt Ext
+0;HelveticaNeueLTStd-LtEx;0;3;7;2;65535;714;286;200;0;1321;1000;1321;1000;0;0;0;65540;43 Light Extended
+
+File:HelveticaRoundedLTStd-BdO.otf
+2;1
+Helvetica Rounded LT Std;HelveticaRounded LT Std Bd
+0;HelveticaRoundedLTStd-BdO;1;8;5;2;65535;733;267;200;0;1265;1000;1265;1000;0;0;0;65540;Bold Oblique
+
+File:HelveticaNeueLTStd-UltLtIt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std UltLt
+0;HelveticaNeueLTStd-UltLtIt;2;3;5;2;65535;714;286;200;0;1226;1000;1226;1000;0;0;0;65540;26 Ultra Light Italic
+
+File:GothamNarrow-Ultra.otf
+2;1
+Gotham Narrow;Gotham Narrow Ultra
+0;GothamNarrow-Ultra;0;6;3;2;65535;800;200;200;0;1237;1000;1237;1000;0;0;0;65540;Ultra
+
+File:URWBookman-LightItalic.otf
+2;1
+URW Bookman
+0;URWBookman-LightItalic;2;3;5;2;65535;715;285;200;0;1497;1000;1497;1000;0;0;0;65540;Light Italic
+
+File:HelveticaRounded-Bold.otf
+2;1
+Helvetica;Helvetica Rounded
+0;HelveticaRounded-Bold;0;8;5;2;65535;963;214;176;0;1131;1177;1131;1177;0;0;0;65536;Bold
+
+File:HelveticaNeueLTStd-MdIt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med
+0;HelveticaNeueLTStd-MdIt;2;6;5;2;65535;714;286;200;0;1290;1000;1290;1000;0;0;0;65540;66 Medium Italic
+
+File:HelveticaNeue-Heavy.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-Heavy;0;6;5;2;65535;951;234;177;0;1265;1185;1265;1185;0;0;0;65536;Regular
+
+File:HelveticaNeue-ExtendedObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-ExtendedObl;0;6;5;2;65535;963;220;177;0;1428;1183;1428;1183;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-BlkExO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Blk Ext
+0;HelveticaNeueLTStd-BlkExO;1;10;7;2;65535;714;286;200;0;1669;1000;1669;1000;0;0;0;65540;93 Black Extended Oblique
+
+File:gotham-rounded-medium.otf
+2;1
+Gotham Rounded;Gotham Rounded Medium
+0;GothamRounded-Medium;0;4;5;2;65535;800;200;200;0;1229;1000;1229;1000;0;0;0;65540;Medium
+
+File:HelveticaExtendedBQ-ExtraLight.otf
+2;1
+Helvetica Extended BQ
+0;HelveticaExtendedBQ-ExtraLight;0;6;5;2;65535;920;262;177;0;1324;1182;1324;1182;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-BdCnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Cn
+0;HelveticaNeueLTStd-BdCnO;1;8;3;2;65535;714;286;200;0;1287;1000;1287;1000;0;0;0;65540;77 Bold Condensed Oblique
+
+File:NimbusRoman-Italic.otf
+2;1
+Nimbus Roman
+0;NimbusRoman-Italic;2;5;5;2;65535;683;317;200;0;1254;1000;1254;1000;0;0;0;65540;Italic
+
+File:NimbusSans-BoldOblique.otf
+2;1
+Nimbus Sans
+0;NimbusSans-BoldOblique;1;8;5;2;65535;729;271;200;0;1340;1000;1340;1000;0;0;0;65540;Bold Oblique
+
+File:HelveticaNeueLTStd-HvCnO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med Cn
+0;HelveticaNeueLTStd-HvCnO;1;9;3;2;65535;714;286;200;0;1323;1000;1323;1000;0;0;0;65540;87 Heavy Condensed Oblique
+
+File:HelveticaRounded-Black.otf
+2;1
+Helvetica;Helvetica Rounded Black
+0;HelveticaRounded-Black;0;10;5;2;65535;1000;222;183;0;1138;1222;1138;1222;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-Hv.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med
+0;HelveticaNeueLTStd-Hv;0;9;5;2;65535;714;286;200;0;1265;1000;1265;1000;0;0;0;65540;85 Heavy
+
+File:HelveticaNeueLT-ExtBlackCond.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-ExtBlackCond;0;6;5;2;65535;996;236;184;0;1284;1232;1284;1232;0;0;0;65536;Regular
+
+File:Helvetica-Narrow-Oblique.otf
+2;1
+Helvetica;Helvetica-Narrow
+0;Helvetica-Narrow-Oblique;1;5;4;2;65535;718;207;231;0;1055;925;1055;925;0;0;0;65540;Narrow Oblique
+
+File:HelveticaNeueLT-BlackExt.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BlackExt;0;6;5;2;65535;1011;216;184;0;1650;1227;1650;1227;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-BoldOutline.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BoldOutline;0;6;5;2;65535;992;229;183;0;1127;1221;1127;1221;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-Condensed.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-Condensed;0;6;5;2;65535;932;212;171;0;1164;1144;1164;1144;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-CondensedObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-CondensedObl;0;6;5;2;65535;932;212;171;0;1239;1144;1239;1144;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-Extended.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-Extended;0;6;5;2;65535;963;220;177;0;1317;1183;1317;1183;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-MdEx.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med Ext
+0;HelveticaNeueLTStd-MdEx;0;6;7;2;65535;714;286;200;0;1331;1000;1331;1000;0;0;0;65540;63 Medium Extended
+
+File:HelveticaNeueLT-ExtBlackCondObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-ExtBlackCondObl;0;6;5;2;65535;996;236;184;0;1339;1232;1339;1232;0;0;0;65536;Regular
+
+File:HelveticaNeue-HeavyCond.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-HeavyCond;0;6;5;2;65535;975;230;180;0;1266;1205;1266;1205;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-BdOu.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Bold Outln
+0;HelveticaNeueLTStd-BdOu;0;8;5;2;65535;714;286;200;0;1502;1000;1502;1000;0;0;0;65540;75 Bold Outline
+
+File:HelveticaNeue-ThinExtObl.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-ThinExtObl;0;1;5;2;65535;950;220;175;0;1463;1170;1463;1170;0;0;0;65536;Regular
+
+File:HelveticaNeue-ThinItalic.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-ThinItalic;2;1;5;2;65535;927;211;170;0;1244;1138;1244;1138;0;0;0;65536;Regular
+
+File:HelveticaNeueLT-BoldExtObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BoldExtObl;0;8;5;2;65535;984;213;179;0;1452;1197;1452;1197;0;0;0;65536;Regular
+
+File:HelveticaCE-Cond.otf
+2;1
+Helvetica;Helvetica CE Cond
+0;HelveticaCE-Cond;0;6;3;2;65535;750;188;302;0;1105;938;1105;938;0;0;0;65540;CE Medium Condensed
+
+File:gotham-rounded-book.otf
+2;1
+Gotham Rounded;Gotham Rounded Book
+0;GothamRounded-Book;0;4;5;2;65535;800;200;200;0;1207;1000;1207;1000;0;0;0;65540;Book
+
+File:HelveticaNeueLTStd-BdEx.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Extended
+0;HelveticaNeueLTStd-BdEx;0;8;7;2;65535;714;286;200;0;1308;1000;1308;1000;0;0;0;65540;73 Bold Extended
+
+File:Helvetica-Narrow-BoldOblique.otf
+2;1
+Helvetica;Helvetica-Narrow
+0;Helvetica-Narrow-BoldOblique;1;8;4;2;65535;718;207;265;0;1057;925;1057;925;0;0;0;65540;Bold Narrow Oblique
+
+File:HelvFE-Bold.otf
+2;1
+HelvFE
+0;HelvFE-Bold;0;8;5;2;65535;778;82;129;0;997;860;997;860;0;0;0;65536;Bold
+
+File:NimbusMonoPS-BoldItalic.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-BoldItalic;2;8;5;1;65535;603;397;200;0;1005;1000;1005;1000;0;0;0;65540;Bold Italic
+
+File:HelvFE-Oblique.otf
+2;1
+HelvFE
+0;HelvFE-Oblique;1;6;5;2;65535;770;81;127;0;1141;851;1141;851;0;0;0;65536;Oblique
+
+File:C059-Bold.otf
+2;1
+C059
+0;C059-Bold;0;8;5;2;65535;737;263;200;0;1396;1000;1396;1000;0;0;0;65540;Bold
+
+File:GohaTibebZemen.otf
+2;1
+Goha-Tibeb Zemen
+0;GohaTibebZemen;0;6;5;2;65535;820;180;150;0;1212;1000;1212;1000;0;0;0;65536;Regular
+
+File:gotham-rounded-bold-italic.otf
+2;1
+Gotham Rounded;Gotham Rounded Bold
+0;GothamRounded-BoldItalic;2;5;5;2;65535;800;200;200;0;1404;1000;1404;1000;0;0;0;65540;Bold Italic
+
+File:HelveticaNeueLT-UltraLigCond.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-UltraLigCond;0;3;5;2;65535;899;184;162;0;1166;1083;1166;1083;0;0;0;65536;Regular
+
+File:HelvFB-BoldOblique.otf
+2;1
+HelvFB
+0;HelvFB-BoldOblique;1;8;5;2;65535;749;20;115;0;1078;769;1078;769;0;0;0;65536;Bold Oblique
+
+File:HelvFB.otf
+2;1
+HelvFB
+0;HelvFB;0;6;5;2;65535;737;20;113;0;893;757;893;757;0;0;0;65536;Regular
+
+File:gotham-extra-narrow-bold-italic.otf
+2;1
+Gotham XNarrow;Gotham XNarrow Bold
+0;GothamXNarrow-BoldItalic;2;5;3;2;65535;800;200;200;0;1211;1000;1211;1000;0;0;0;65540;Bold Italic
+
+File:GothamNarrow-XLightItalic.otf
+2;1
+Gotham Narrow;Gotham Narrow XLight
+0;GothamNarrow-XLightItalic;2;3;3;2;65535;800;200;200;0;1132;1000;1132;1000;0;0;0;65540;Extra Light Italic
+
+File:HelveticaLTStd-FractionBold.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Fractions
+0;HelveticaLTStd-FractionBold;0;8;5;2;65535;709;291;200;0;1432;1000;1432;1000;0;0;0;65540;Bold Fractions
+
+File:NimbusRoman-Bold.otf
+2;1
+Nimbus Roman
+0;NimbusRoman-Bold;0;8;5;2;65535;676;324;200;0;1247;1000;1247;1000;0;0;0;65540;Bold
+
+File:HelveticaNeue-UltraLight.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-UltraLight;0;3;5;2;65535;931;189;168;0;1182;1120;1182;1120;0;0;0;65536;Regular
+
+File:HelveticaNeueLTStd-Lt.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Lt
+0;HelveticaNeueLTStd-Lt;0;3;5;2;65535;714;286;200;0;1216;1000;1216;1000;0;0;0;65540;45 Light
+
+File:SyrCOMNisibinOutline.otf
+2;1
+Estrangelo Nisibin Outline
+0;EstrangeloNisibinOutline;0;5;5;2;65535;781;316;164;0;1010;1097;1010;1097;0;0;0;12;Regular
+
+File:Helvetica-Oblique.otf
+2;1
+Helvetica
+0;Helvetica-Oblique;1;6;5;2;65535;931;225;173;0;1286;1156;1286;1156;0;0;0;65536;Oblique
+
+File:gotham-extra-narrow-medium-italic.otf
+2;1
+Gotham XNarrow;Gotham XNarrow Medium
+0;GothamXNarrow-MediumItalic;2;4;3;2;65535;800;200;200;0;1179;1000;1179;1000;0;0;0;65540;Medium Italic
+
+File:HelveticaLTStd-Obl.otf
+2;1
+Helvetica LT Std
+0;HelveticaLTStd-Obl;1;5;5;2;65535;718;282;200;0;1286;1000;1286;1000;0;0;0;65540;Oblique
+
+File:gotham-extra-narrow-bold.otf
+2;1
+Gotham XNarrow;Gotham XNarrow Bold
+0;GothamXNarrow-Bold;0;5;3;2;65535;800;200;200;0;1122;1000;1122;1000;0;0;0;65540;Bold
+
+File:HelvFE-BoldOblique.otf
+2;1
+HelvFE
+0;HelvFE-BoldOblique;1;8;5;2;65535;778;82;129;0;1186;860;1186;860;0;0;0;65536;Bold Oblique
+
+File:HelveticaNeueLTStd-BlkEx.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Blk Ext
+0;HelveticaNeueLTStd-BlkEx;0;10;7;2;65535;714;286;200;0;1650;1000;1650;1000;0;0;0;65540;93 Black Extended
+
+File:gotham-rounded-light-italic.otf
+2;1
+Gotham Rounded;Gotham Rounded Light
+0;GothamRounded-LightItalic;2;3;5;2;65535;800;200;200;0;1332;1000;1332;1000;0;0;0;65540;Light Italic
+
+File:NimbusMonoPS-Bold.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-Bold;0;8;5;1;65535;603;397;200;0;922;1000;922;1000;0;0;0;65540;Bold
+
+File:HelveticaNeue-Thin.otf
+2;1
+Helvetica Neue
+0;HelveticaNeue-Thin;0;1;5;2;65535;927;211;170;0;1210;1138;1210;1138;0;0;0;65536;Regular
+
+File:gotham-rounded-book-italic.otf
+2;1
+Gotham Rounded;Gotham Rounded Book
+0;GothamRounded-BookItalic;2;4;5;2;65535;800;200;200;0;1321;1000;1321;1000;0;0;0;65540;Book Italic
+
+File:HelveticaNeueLT-BoldCondObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-BoldCondObl;0;8;5;2;65535;961;224;177;0;1286;1185;1286;1185;0;0;0;65536;Regular
+
+File:gotham-rounded-medium-italic.otf
+2;1
+Gotham Rounded;Gotham Rounded Medium
+0;GothamRounded-MediumItalic;2;4;5;2;65535;800;200;200;0;1370;1000;1370;1000;0;0;0;65540;Medium Italic
+
+File:GothamNarrow-BookItalic.otf
+2;1
+Gotham Narrow;Gotham Narrow Book
+0;GothamNarrow-BookItalic;2;4;3;2;65535;800;200;200;0;1319;1000;1319;1000;0;0;0;65540;Book Italic
+
+File:SyrCOMAdiabene.otf
+2;1
+East Syriac Adiabene
+0;EastSyriacAdiabene;0;5;5;2;65535;761;349;166;0;1000;1110;1000;1110;0;0;0;12;Regular
+
+File:SyrCOMJerusalem.otf
+2;1
+Serto Jerusalem
+0;SertoJerusalem;0;5;5;2;65535;761;316;161;0;1180;1077;1180;1077;0;0;0;12;Regular
+
+File:HelveticaNeueLTStd-BlkCn.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Blk Cn
+0;HelveticaNeueLTStd-BlkCn;0;10;3;2;65535;714;286;200;0;1264;1000;1264;1000;0;0;0;65540;97 Black Condensed
+
+File:HelveticaNeueLT-HeavyExt.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-HeavyExt;0;6;5;2;65535;999;223;183;0;1497;1222;1497;1222;0;0;0;65536;Regular
+
+File:GothamNarrow-Medium.otf
+2;1
+Gotham Narrow;Gotham Narrow Medium
+0;GothamNarrow-Medium;0;4;3;2;65535;800;200;200;0;1258;1000;1258;1000;0;0;0;65540;Medium
+
+File:HelveticaConBQ-Bold.otf
+2;1
+Helvetica Condensed BQ
+0;HelveticaConBQ-Bold;0;8;5;2;65535;898;262;174;0;1030;1160;1030;1160;0;0;0;65536;Regular
+
+File:HelveticaLTStd-BlkObl.otf
+2;1
+Helvetica LT Std;Helvetica LT Std Black
+0;HelveticaLTStd-BlkObl;1;10;5;2;65535;718;282;200;0;1291;1000;1291;1000;0;0;0;65540;Black Oblique
+
+File:HelveticaNeueLTStd-BdExO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Extended
+0;HelveticaNeueLTStd-BdExO;1;8;7;2;65535;714;286;200;0;1452;1000;1452;1000;0;0;0;65540;73 Bold Extended Oblique
+
+File:HelveticaNeueLT-MediumExtObl.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-MediumExtObl;0;6;5;2;65535;978;220;179;0;1481;1198;1481;1198;0;0;0;65536;Regular
+
+File:Gotham-BookItalic.otf
+2;1
+Gotham;Gotham Book
+0;Gotham-BookItalic;2;4;5;2;65535;800;200;200;0;1495;1000;1495;1000;0;0;0;65540;Book Italic
+
+File:HelveticaNeueLT-MediumCond.otf
+2;1
+Helvetica Neue LT
+0;HelveticaNeueLT-MediumCond;0;6;5;2;65535;951;216;175;0;1195;1167;1195;1167;0;0;0;65536;Regular
+
+File:gotham-rounded-bold.otf
+2;1
+Gotham Rounded;Gotham Rounded Bold
+0;GothamRounded-Bold;0;5;5;2;65535;800;200;200;0;1255;1000;1255;1000;0;0;0;65540;Bold
+
+File:HelveticaNeueLTStd-HvExO.otf
+2;1
+Helvetica Neue LT Std;HelveticaNeueLT Std Med Ext
+0;HelveticaNeueLTStd-HvExO;1;9;7;2;65535;714;286;200;0;1538;1000;1538;1000;0;0;0;65540;83 Heavy Extended Oblique
+
+File:SyrCOMTurAbdin.otf
+2;1
+Estrangelo TurAbdin
+0;EstrangeloTurAbdin;0;5;5;2;65535;761;316;161;0;1020;1077;1020;1077;0;0;0;12;Regular
+
+File:Helvetica-Narrow.otf
+2;1
+Helvetica;Helvetica Narrow
+0;Helvetica-Narrow;0;6;5;2;65535;943;225;175;0;1004;1168;1004;1168;0;0;0;65536;Regular
+
+File:gotham-rounded-light.otf
+2;1
+Gotham Rounded;Gotham Rounded Light
+0;GothamRounded-Light;0;3;5;2;65535;800;200;200;0;1198;1000;1198;1000;0;0;0;65540;Light
+
+FontCacheDirectory:1498370868:/usr/lib/libreoffice/share/fonts/truetype
+File:opens___.ttf
+2;1
+OpenSymbol
+0;OpenSymbol;0;5;5;2;65535;693;215;149;0;1262;908;1262;908;0;0;0;8;Regular
+
+FontCacheDirectory:1502327875:/usr/share/fonts/TTF
+File:verdanaz.ttf
+2;1
+Verdana
+0;Verdana-BoldItalic;2;8;5;2;65535;1005;209;182;0;1870;1214;1870;1214;0;0;0;0;Bold Italic
+
+File:trebucbd.ttf
+2;1
+Trebuchet MS
+0;TrebuchetMS-Bold;0;8;5;2;65535;938;222;174;0;1229;1160;1229;1160;0;0;0;8;Bold
+
+File:timesi.ttf
+2;1
+Times New Roman
+0;TimesNewRomanPS-ItalicMT;2;5;5;2;65535;891;216;42;0;1617;1107;1617;1107;0;0;0;0;Italic
+
+File:tahoma.ttf
+2;1
+Tahoma
+0;WineTahoma;0;5;5;2;65535;1000;206;180;0;1446;1206;1446;1206;0;0;0;0;Regular
+
+File:tahomabd.ttf
+2;1
+Tahoma
+0;WineTahomaBold;0;8;5;2;65535;1000;206;180;0;1505;1206;1505;1206;0;0;0;0;Bold
+
+File:pali-helvetica-smcps-cond-regular.ttf
+2;1
+Pali Helvetica SmCps Cond
+0;PaliHelvetica-SmCpsCondRegular;0;5;5;2;65535;700;200;67;0;964;900;964;900;0;0;0;0;Regular
+
+File:pali-helvetica-cond-italic.ttf
+2;1
+Pali Helvetica Cond
+0;PaliHelvetica-CondItalic;0;5;5;2;65535;729;213;71;0;1055;942;1055;942;0;0;0;0;Regular
+
+File:trebuc.ttf
+2;1
+Trebuchet MS
+0;TrebuchetMS;0;5;5;2;65535;938;222;174;0;1167;1160;1167;1160;0;0;0;8;Regular
+
+File:pali-helvetica-regular.ttf
+2;1
+Pali Helvetica
+0;PaliHelvetica-Regular;0;5;5;2;65535;700;200;67;0;1175;900;1175;900;0;0;0;0;Regular
+
+File:pali-helvetica-italic.ttf
+2;1
+Pali Helvetica
+0;PaliHelvetica-Italic;0;5;5;2;65535;729;213;71;0;1286;942;1286;942;0;0;0;0;Regular
+
+File:OpenSansCondensed-Light.ttf
+2;1
+Open Sans Condensed;Open Sans Condensed Light
+0;OpenSansCondensed-Light;0;3;3;2;65535;1068;292;204;0;1475;1360;1475;1360;0;0;0;0;Light
+
+File:OpenSansCondensed-Bold.ttf
+2;1
+Open Sans Condensed
+0;OpenSansCondensed-Bold;0;8;3;2;65535;1068;292;204;0;1711;1360;1711;1360;0;0;0;0;Bold
+
+File:OpenSans-Bold.ttf
+2;1
+Open Sans
+0;OpenSans-Bold;0;8;5;2;65535;1068;292;204;0;1937;1360;1937;1360;0;0;0;0;Bold
+
+File:OpenSans-BoldItalic.ttf
+2;1
+Open Sans
+0;OpenSans-BoldItalic;2;8;5;2;65535;1068;292;204;0;1805;1360;1805;1360;0;0;0;0;Bold Italic
+
+File:OpenSans-Regular.ttf
+2;1
+Open Sans
+0;OpenSans-Regular;0;5;5;2;65535;1068;292;204;0;1753;1360;1753;1360;0;0;0;0;Regular
+
+File:OpenSans-LightItalic.ttf
+2;1
+Open Sans;Open Sans Light
+0;OpenSans-LightItalic;2;3;5;2;65535;1068;292;204;0;1730;1360;1730;1360;0;0;0;0;Light Italic
+
+File:OpenSans-Italic.ttf
+2;1
+Open Sans
+0;OpenSans-Italic;2;5;5;2;65535;1068;292;204;0;1728;1360;1728;1360;0;0;0;0;Italic
+
+File:LiberationSerif-Italic.ttf
+2;1
+Liberation Serif
+0;LiberationSerif-Italic;2;5;5;2;65535;891;216;42;0;1829;1107;1829;1107;0;0;0;0;Italic
+
+File:pali-helvetica-bold.ttf
+2;1
+Pali Helvetica
+0;PaliHelvetica-Bold;0;8;5;2;65535;729;217;71;0;1176;946;1176;946;0;0;0;0;Regular
+
+File:LiberationSerif-BoldItalic.ttf
+2;1
+Liberation Serif
+0;LiberationSerif-BoldItalic;2;8;5;2;65535;891;216;42;0;1850;1107;1850;1107;0;0;0;0;Bold Italic
+
+File:LiberationSerif-Bold.ttf
+2;1
+Liberation Serif
+0;LiberationSerif-Bold;0;8;5;2;65535;891;216;42;0;1887;1107;1887;1107;0;0;0;0;Bold
+
+File:LiberationSans-Bold.ttf
+2;1
+Liberation Sans
+0;LiberationSans-Bold;0;8;5;2;65535;905;211;32;0;1785;1116;1785;1116;0;0;0;0;Bold
+
+File:impact.ttf
+2;1
+Impact
+0;Impact;0;5;3;2;65535;1008;210;182;0;1390;1218;1390;1218;0;0;0;0;Regular
+
+File:HelveticaObl-Th.ttf
+2;1
+HelveticaObl-Th
+0;HelveticaObl-Th;0;5;5;2;65535;716;183;150;0;1102;899;1102;899;0;0;0;4;Regular
+
+File:HelveticaObl-Li.ttf
+2;1
+HelveticaObl-Li
+0;HelveticaObl-Li;0;5;5;2;65535;767;186;150;0;1021;953;1021;953;0;0;0;4;Regular
+
+File:LiberationMono-Italic.ttf
+2;1
+Liberation Mono
+0;LiberationMono-Italic;2;5;5;1;65535;832;300;169;0;1304;1132;1304;1132;0;0;0;0;Italic
+
+File:helvetica-normal.ttf
+2;1
+Helvetica-Normal
+0;Helvetica-Normal;0;5;5;2;65535;764;252;150;0;1042;1016;1042;1016;0;0;0;4;Regular
+
+File:OpenSans-SemiBold.ttf
+2;1
+Open Sans;Open Sans SemiBold
+0;OpenSans-SemiBold;0;7;5;2;65535;1068;292;204;0;1844;1360;1844;1360;0;0;0;0;SemiBold
+
+File:Helvetica-Conth.ttf
+2;1
+Helvetica-Conth
+0;Helvetica-Conth;0;5;5;2;65535;780;219;150;0;732;999;732;999;0;0;0;0;Regular
+
+File:HelveticaWorld-Regular.ttf
+2;1
+Helvetica World
+0;HelveticaWorld-Regular;0;5;5;2;65535;1171;258;214;0;1477;1429;1477;1429;0;0;0;4;Regular
+
+File:HelveticaWorld-Italic.ttf
+2;1
+Helvetica World
+0;HelveticaWorld-Italic;2;5;5;2;65535;1171;258;214;0;1549;1429;1549;1429;0;0;0;4;Italic
+
+File:HelveticaWorld-Bold.ttf
+2;1
+Helvetica World
+0;HelveticaWorld-Bold;0;8;5;2;65535;1171;258;214;0;1644;1429;1644;1429;0;0;0;4;Bold
+
+File:helvetica-neue-bold.ttf
+2;1
+Helvetica Neue
+0;HelveticaNeue-Bold;0;8;5;2;65535;975;217;29;0;1474;1192;1474;1192;0;0;0;0;Bold
+
+File:LiberationSans-Regular.ttf
+2;1
+Liberation Sans
+0;LiberationSans;0;5;5;2;65535;905;211;32;0;1844;1116;1844;1116;0;0;0;0;Regular
+
+File:HelvFE BoldOblique.ttf
+2;1
+HelvFE
+0;HelvFEBoldOblique;1;5;5;2;65535;783;217;150;0;1186;1000;1186;1000;0;0;0;1;BoldOblique
+
+File:HelvFB Oblique.ttf
+2;1
+HelvFB
+0;HelvFBOblique;1;5;5;2;65535;780;220;150;0;1063;1000;1063;1000;0;0;0;1;Oblique
+
+File:HelvFB BoldOblique.ttf
+2;1
+HelvFB
+0;HelvFBBoldOblique;1;5;5;2;65535;783;217;150;0;1078;1000;1078;1000;0;0;0;1;BoldOblique
+
+File:HelvFB Bold.ttf
+2;1
+HelvFB
+0;HelvFBBold;0;5;5;2;65535;783;217;150;0;917;1000;917;1000;0;0;0;1;Bold
+
+File:pali-helvetica-cond-bold.ttf
+2;1
+Pali Helvetica Cond
+0;PaliHelvetica-CondBold;0;8;5;2;65535;729;217;71;0;964;946;964;946;0;0;0;0;Regular
+
+File:HelveticaObl-He.ttf
+2;1
+HelveticaObl-He
+0;HelveticaObl-He;0;5;5;2;65535;745;196;150;0;1167;941;1167;941;0;0;0;4;Regular
+
+File:GohaTibebZemen.ttf
+2;1
+Goha-Tibeb Zemen
+0;GohaTibebZemen;0;6;5;2;65535;820;180;150;0;1223;1000;1223;1000;0;0;0;0;Regular
+
+File:verdana.ttf
+2;1
+Verdana
+0;Verdana;0;5;5;2;65535;1005;209;182;0;1495;1214;1495;1214;0;0;0;0;Regular
+
+File:georgiaz.ttf
+2;1
+Georgia
+0;Georgia-BoldItalic;2;8;5;2;65535;916;219;170;0;1596;1135;1596;1135;0;0;0;0;Bold Italic
+
+File:georgiai.ttf
+2;1
+Georgia
+0;Georgia-Italic;2;5;5;2;65535;916;219;170;0;1391;1135;1391;1135;0;0;0;0;Italic
+
+File:georgiab.ttf
+2;1
+Georgia
+0;Georgia-Bold;0;8;5;2;65535;916;219;170;0;1485;1135;1485;1135;0;0;0;0;Bold
+
+File:verdanab.ttf
+2;1
+Verdana
+0;Verdana-Bold;0;8;5;2;65535;1005;209;182;0;1780;1214;1780;1214;0;0;0;0;Bold
+
+File:DejaVuSans.ttf
+2;1
+DejaVu Sans
+0;DejaVuSans;0;5;5;2;65535;928;235;174;1;2813;1163;2813;1163;0;0;0;0;Book
+
+File:DejaVuMathTeXGyre.ttf
+2;1
+DejaVu Math TeX Gyre
+0;DejaVuMathTeXGyre-Regular;0;5;5;2;65535;792;208;200;0;4501;1000;4501;1000;0;0;0;12;Regular
+
+File:DejaVuSansCondensed-Oblique.ttf
+2;1
+DejaVu Sans Condensed
+0;DejaVuSansCondensed-Oblique;1;5;4;2;65535;928;235;174;0;2407;1163;2407;1163;0;0;0;0;Condensed Oblique
+
+File:futura-black.ttf
+2;1
+FuturaBlack BT
+0;FuturaBlackBT-Regular;0;5;6;2;65535;956;245;180;0;1388;1201;1388;1201;0;0;0;6;Regular
+
+File:trebucit.ttf
+2;1
+Trebuchet MS
+0;TrebuchetMS-Italic;2;5;5;2;65535;938;222;174;0;1216;1160;1216;1160;0;0;0;8;Italic
+
+File:DejaVuSerifCondensed-Italic.ttf
+2;1
+DejaVu Serif Condensed
+0;DejaVuSerifCondensed-Italic;2;5;4;2;65535;928;235;174;0;2235;1163;2235;1163;0;0;0;0;Condensed Italic
+
+File:pali-helvetica-bold-italic.ttf
+2;1
+Pali Helvetica
+0;PaliHelvetica-BoldItalic;0;8;5;2;65535;729;217;71;0;1284;946;1284;946;0;0;0;0;Regular
+
+File:dinbek-light.ttf
+2;1
+DINbek Light
+0;DINbekLight;0;5;5;2;65535;975;236;28;0;1126;1211;1126;1211;0;0;0;1;Regular
+
+File:pali-helvetica-cond-bold-italic.ttf
+2;1
+Pali Helvetica Cond
+0;PaliHelvetica-CondBoldItalic;0;8;5;2;65535;729;217;71;0;1053;946;1053;946;0;0;0;0;Regular
+
+File:DejaVuSerif-Italic.ttf
+2;1
+DejaVu Serif
+0;DejaVuSerif-Italic;2;5;5;2;65535;928;235;174;0;2483;1163;2483;1163;0;0;0;0;Italic
+
+File:dinbek-bold.ttf
+2;1
+DINbek Bold
+0;DINbekBold;0;5;5;2;65535;1015;206;31;0;1201;1221;1201;1221;0;0;0;1;Regular
+
+File:dinbek-black.ttf
+2;1
+DINbek Black
+0;DINbekBlack;0;10;5;2;65535;1031;200;184;0;1239;1231;1239;1231;0;0;0;1;Black
+
+File:VeraBI.ttf
+2;1
+Bitstream Vera Sans
+0;BitstreamVeraSans-BoldOblique;1;8;5;2;65535;928;235;174;0;1677;1163;1677;1163;0;0;0;4;Bold Oblique
+
+File:comicbd.ttf
+2;1
+Comic Sans MS
+0;ComicSansMS-Bold;0;8;5;2;65535;1102;291;208;0;1340;1393;1340;1393;0;0;0;0;Bold
+
+File:pali-helvetica-cond-regular.ttf
+2;1
+Pali Helvetica Cond
+0;PaliHelvetica-CondRegular;0;5;5;2;65535;700;200;67;0;964;900;964;900;0;0;0;0;Regular
+
+File:couri.ttf
+2;1
+Courier New
+0;CourierNewPS-ItalicMT;2;5;5;1;65535;832;300;169;0;867;1132;867;1132;0;0;0;0;Italic
+
+File:cour.ttf
+2;1
+Courier New
+0;CourierNewPSMT;0;5;5;1;65535;832;300;169;0;658;1132;658;1132;0;0;0;0;Regular
+
+File:comic.ttf
+2;1
+Comic Sans MS
+0;ComicSansMS;0;5;5;2;65535;1102;291;208;0;1278;1393;1278;1393;0;0;0;0;Regular
+
+File:DejaVuSerifCondensed-Bold.ttf
+2;1
+DejaVu Serif Condensed
+0;DejaVuSerifCondensed-Bold;0;8;4;2;65535;938;235;175;0;2420;1173;2420;1173;0;0;0;0;Condensed Bold
+
+File:Vera.ttf
+2;1
+Bitstream Vera Sans
+0;BitstreamVeraSans-Roman;0;5;5;2;65535;928;235;174;0;1470;1163;1470;1163;0;0;0;4;Roman
+
+File:DejaVuSansCondensed.ttf
+2;1
+DejaVu Sans Condensed
+0;DejaVuSansCondensed;0;5;4;2;65535;928;235;174;1;2532;1163;2532;1163;0;0;0;0;Condensed
+
+File:ariali.ttf
+2;1
+Arial
+0;Arial-ItalicMT;2;5;5;2;65535;905;211;32;0;1598;1116;1598;1116;0;0;0;0;Italic
+
+File:VeraMoIt.ttf
+2;1
+Bitstream Vera Sans Mono
+0;BitstreamVeraSansMono-Oblique;1;5;5;1;65535;928;235;174;0;760;1163;760;1163;0;0;0;4;Oblique
+
+File:ariblk.ttf
+2;1
+Arial Black
+0;Arial-Black;0;5;5;2;65535;1100;309;211;0;1880;1409;1880;1409;0;0;0;0;Regular
+
+File:din-c.ttf
+2;1
+DinC
+0;DinC;0;5;5;2;65535;895;224;167;0;977;1119;977;1119;0;0;0;2;Regular
+
+File:futura-lt-bold.ttf
+2;1
+Futura LT
+0;FuturaLT-Bold;0;8;5;2;65535;1040;264;90;0;1612;1304;1612;1304;0;0;0;0;Bold
+
+File:futurist-black.ttf
+2;1
+FuturistBlack
+0;FuturistBlack;0;5;5;2;65535;904;238;171;0;1287;1142;1287;1142;0;0;0;2;Regular
+
+File:DejaVuSans-Oblique.ttf
+2;1
+DejaVu Sans
+0;DejaVuSans-Oblique;1;5;5;2;65535;928;235;174;0;2674;1163;2674;1163;0;0;0;0;Oblique
+
+File:times.ttf
+2;1
+Times New Roman
+0;TimesNewRomanPSMT;0;5;5;2;65535;891;216;42;0;2596;1107;2596;1107;0;0;0;0;Regular
+
+File:Futurex Phat Outline Italic.ttf
+2;1
+Futurex Phat Outline
+0;FuturexPhatOutline-Italic;2;5;5;2;65535;791;235;9;0;1179;1026;1179;1026;0;0;0;0;Italic
+
+File:courbd.ttf
+2;1
+Courier New
+0;CourierNewPS-BoldMT;0;8;5;1;65535;832;300;169;0;747;1132;747;1132;0;0;0;0;Bold
+
+File:dinbek-regular.ttf
+2;1
+DINBek
+0;DINBek-Regular;0;5;5;2;65535;985;226;46;0;1147;1211;1147;1211;0;0;0;0;Regular
+
+File:georgia.ttf
+2;1
+Georgia
+0;Georgia;0;5;5;2;65535;916;219;170;0;1339;1135;1339;1135;0;0;0;0;Regular
+
+File:VeraIt.ttf
+2;1
+Bitstream Vera Sans
+0;BitstreamVeraSans-Oblique;1;5;5;2;65535;928;235;174;0;1520;1163;1520;1163;0;0;0;4;Oblique
+
+File:OpenSansCondensed-LightItalic.ttf
+2;1
+Open Sans Condensed;Open Sans Condensed Light
+0;OpenSansCondensed-LightItalic;2;3;3;2;65535;1068;292;204;0;1363;1360;1363;1360;0;0;0;0;Light Italic
+
+File:LiberationSans-Italic.ttf
+2;1
+Liberation Sans
+0;LiberationSans-Italic;2;5;5;2;65535;905;211;32;0;2024;1116;2024;1116;0;0;0;0;Italic
+
+File:DejaVuSans-ExtraLight.ttf
+2;1
+DejaVu Sans Light
+0;DejaVuSans-ExtraLight;0;2;5;2;65535;928;235;174;0;2391;1163;2391;1163;0;0;0;0;ExtraLight
+
+File:Futurex Phat.ttf
+2;1
+Futurex Phat
+0;FuturexPhat;0;5;5;2;65535;776;220;9;0;1061;996;1061;996;0;0;0;0;Regular
+
+File:dinbek-medium.ttf
+2;1
+DINbek
+0;DINbek-Medium;0;6;5;2;65535;1000;211;46;0;1179;1211;1179;1211;0;0;0;0;Regular
+
+File:VeraBd.ttf
+2;1
+Bitstream Vera Sans
+0;BitstreamVeraSans-Bold;0;8;5;2;65535;928;235;174;0;1615;1163;1615;1163;0;0;0;4;Bold
+
+File:din-engschrift.ttf
+2;1
+DINEngschrift
+0;DINEngschrift;0;5;5;2;65535;793;250;150;0;1165;1043;1165;1043;0;0;0;4;Regular
+
+File:HelveticaWorld-BoldItalic.ttf
+2;1
+Helvetica World
+0;HelveticaWorld-BoldItalic;2;8;5;2;65535;1171;258;214;0;1711;1429;1711;1429;0;0;0;4;Bold Italic
+
+File:andalemo.ttf
+2;1
+Andale Mono
+0;AndaleMono;0;5;5;1;65535;907;217;168;0;600;1124;600;1124;0;0;0;8;Regular
+
+File:OpenSans-SemiBoldItalic.ttf
+2;1
+Open Sans;Open Sans SemiBold
+0;OpenSans-SemiBoldItalic;2;7;5;2;65535;1068;292;204;0;1746;1360;1746;1360;0;0;0;0;SemiBold Italic
+
+File:DejaVuSans-Bold.ttf
+2;1
+DejaVu Sans
+0;DejaVuSans-Bold;0;8;5;2;65535;928;235;174;0;3044;1163;3044;1163;0;0;0;0;Bold
+
+File:futura-lt-condensed-extra-bold-oblique.ttf
+2;1
+Futura LT
+0;FuturaLT-CondExtraBoldObl;2;8;5;2;65535;999;247;90;0;1338;1246;1338;1246;0;0;0;0;CondExtraBoldObl
+
+File:VeraMoBI.ttf
+2;1
+Bitstream Vera Sans Mono
+0;BitstreamVeraSansMono-BoldOb;1;8;5;1;65535;928;235;174;0;754;1163;754;1163;0;0;0;4;Bold Oblique
+
+File:futurex-voyager.ttf
+2;1
+Futurex Voyager
+0;FuturexVoyager;0;5;5;2;65535;800;250;157;0;1893;1050;1893;1050;0;0;0;8;Regular
+
+File:VeraMoBd.ttf
+2;1
+Bitstream Vera Sans Mono
+0;BitstreamVeraSansMono-Bold;0;8;5;1;65535;928;235;174;0;624;1163;624;1163;0;0;0;4;Bold
+
+File:pali-helvetica-smcps-regular.ttf
+2;1
+Pali Helvetica SmCps
+0;PaliHelvetica-SmCpsRegular;0;5;5;2;65535;700;200;67;0;1175;900;1175;900;0;0;0;0;Regular
+
+File:VeraSe.ttf
+2;1
+Bitstream Vera Serif
+0;BitstreamVeraSerif-Roman;0;5;5;2;65535;928;235;174;0;1470;1163;1470;1163;0;0;0;4;Roman
+
+File:DejaVuSerif.ttf
+2;1
+DejaVu Serif
+0;DejaVuSerif;0;5;5;2;65535;928;235;174;0;2874;1163;2874;1163;0;0;0;0;Book
+
+File:din-schablonierschrift.ttf
+2;1
+DIN Schablonierschrift
+0;DINSchablonierschrift;0;5;5;2;65535;882;118;150;0;975;1000;975;1000;0;0;0;2;Regular
+
+File:DejaVuSerifCondensed.ttf
+2;1
+DejaVu Serif Condensed
+0;DejaVuSerifCondensed;0;5;4;2;65535;928;235;174;0;2587;1163;2587;1163;0;0;0;0;Condensed
+
+File:courbi.ttf
+2;1
+Courier New
+0;CourierNewPS-BoldItalicMT;2;8;5;1;65535;832;300;169;0;938;1132;938;1132;0;0;0;0;Bold Italic
+
+File:VeraSeBd.ttf
+2;1
+Bitstream Vera Serif
+0;BitstreamVeraSerif-Bold;0;8;5;2;65535;938;235;175;0;1546;1173;1546;1173;0;0;0;4;Bold
+
+File:DejaVuSansCondensed-Bold.ttf
+2;1
+DejaVu Sans Condensed
+0;DejaVuSansCondensed-Bold;0;8;4;2;65535;928;235;174;0;2739;1163;2739;1163;0;0;0;0;Condensed Bold
+
+File:DejaVuSansCondensed-BoldOblique.ttf
+2;1
+DejaVu Sans Condensed
+0;DejaVuSansCondensed-BoldOblique;1;8;4;2;65535;928;235;174;0;2758;1163;2758;1163;0;0;0;0;Condensed Bold Oblique
+
+File:timesbi.ttf
+2;1
+Times New Roman
+0;TimesNewRomanPS-BoldItalicMT;2;8;5;2;65535;891;216;42;0;1753;1107;1753;1107;0;0;0;0;Bold Italic
+
+File:arialbi.ttf
+2;1
+Arial
+0;Arial-BoldItalicMT;2;8;5;2;65535;905;211;32;0;1715;1116;1715;1116;0;0;0;0;Bold Italic
+
+File:DejaVuSansMono-Bold.ttf
+2;1
+DejaVu Sans Mono
+0;DejaVuSansMono-Bold;0;8;5;1;65535;928;235;174;0;1176;1163;1176;1163;0;0;0;0;Bold
+
+File:futurist-stencil.ttf
+2;1
+Futurist-Stencil
+0;FuturistStencil;0;5;5;2;65535;919;230;172;0;1347;1149;1347;1149;0;0;0;2;Regular
+
+File:OpenSans-Light.ttf
+2;1
+Open Sans;Open Sans Light
+0;OpenSans-Light;0;3;5;2;65535;1068;292;204;0;1660;1360;1660;1360;0;0;0;0;Light
+
+File:DejaVuSansMono-BoldOblique.ttf
+2;1
+DejaVu Sans Mono
+0;DejaVuSansMono-BoldOblique;1;8;5;1;65535;928;235;174;0;1232;1163;1232;1163;0;0;0;0;Bold Oblique
+
+File:LiberationMono-BoldItalic.ttf
+2;1
+Liberation Mono
+0;LiberationMono-BoldItalic;2;8;5;1;65535;832;300;169;0;1272;1132;1272;1132;0;0;0;0;Bold Italic
+
+File:DejaVuSansMono-Oblique.ttf
+2;1
+DejaVu Sans Mono
+0;DejaVuSansMono-Oblique;1;5;5;1;65535;928;235;174;0;1148;1163;1148;1163;0;0;0;0;Oblique
+
+File:LiberationMono-Regular.ttf
+2;1
+Liberation Mono
+0;LiberationMono;0;5;5;1;65535;832;300;169;0;1223;1132;1223;1132;0;0;0;0;Regular
+
+File:futurist-fixed-width.ttf
+2;1
+Futurist Fixed-width
+0;FuturistFixedWidth Regular;0;5;5;2;65535;1010;240;187;0;2419;1250;2419;1250;0;0;0;0;Regular
+
+File:DejaVuSansMono.ttf
+2;1
+DejaVu Sans Mono
+0;DejaVuSansMono;0;5;5;1;65535;928;235;174;0;1274;1163;1274;1163;0;0;0;0;Book
+
+File:LiberationSans-BoldItalic.ttf
+2;1
+Liberation Sans
+0;LiberationSans-BoldItalic;2;8;5;2;65535;905;211;32;0;1834;1116;1834;1116;0;0;0;0;Bold Italic
+
+File:DejaVuSerif-Bold.ttf
+2;1
+DejaVu Serif
+0;DejaVuSerif-Bold;0;8;5;2;65535;938;235;175;0;2689;1173;2689;1173;0;0;0;0;Bold
+
+File:arial.ttf
+2;1
+Arial
+0;ArialMT;0;5;5;2;65535;905;211;32;0;2692;1116;2692;1116;0;0;0;0;Regular
+
+File:DejaVuSerif-BoldItalic.ttf
+2;1
+DejaVu Serif
+0;DejaVuSerif-BoldItalic;2;8;5;2;65535;938;235;175;0;2829;1173;2829;1173;0;0;0;0;Bold Italic
+
+File:DejaVuSerifCondensed-BoldItalic.ttf
+2;1
+DejaVu Serif Condensed
+0;DejaVuSerifCondensed-BoldItalic;2;8;4;2;65535;938;235;175;0;2547;1173;2547;1173;0;0;0;0;Condensed Bold Italic
+
+File:futura-lt-book-oblique.ttf
+2;1
+Futura LT
+0;FuturaLT-BookOblique;1;5;5;2;65535;1006;293;90;0;1403;1299;1403;1299;0;0;0;0;BookOblique
+
+File:futura-sallow.ttf
+2;1
+Future Sallow
+0;FutureSallow;0;5;5;2;65535;810;189;29;0;1351;999;1351;999;0;0;0;0;Regular
+
+File:trebucbi.ttf
+2;1
+Trebuchet MS
+0;Trebuchet-BoldItalic;2;8;5;2;65535;938;222;174;0;1262;1160;1262;1160;0;0;0;8;Bold Italic
+
+File:LiberationSerif-Regular.ttf
+2;1
+Liberation Serif
+0;LiberationSerif;0;5;5;2;65535;891;216;42;0;1821;1107;1821;1107;0;0;0;0;Regular
+
+File:futura-lt-book.ttf
+2;1
+Futura LT
+0;FuturaLT-Book;0;5;5;2;65535;1006;293;90;0;1339;1299;1339;1299;0;0;0;0;Book
+
+File:futura-lt-bold-oblique.ttf
+2;1
+Futura LT
+0;FuturaLT-BoldOblique;1;8;5;2;65535;1040;264;90;0;1640;1304;1640;1304;0;0;0;0;BoldOblique
+
+File:futura-lt-condensed-light-oblique.ttf
+2;1
+Futura LT
+0;FuturaLT-CondensedLightObl;2;2;3;2;65535;961;221;90;0;1050;1182;1050;1182;0;0;0;0;CondensedLightObl
+
+File:futura-lt-condensed-bold-oblique.ttf
+2;1
+Futura LT
+0;FuturaLT-CondensedBoldOblique;1;8;3;2;65535;990;261;90;0;1369;1251;1369;1251;0;0;0;0;CondensedBoldOblique
+
+File:Futurex Phat Outline.ttf
+2;1
+Futurex Phat Outline
+0;FuturexPhatOutline;0;5;5;2;65535;791;235;9;0;1092;1026;1092;1026;0;0;0;0;Regular
+
+File:DejaVuSans-BoldOblique.ttf
+2;1
+DejaVu Sans
+0;DejaVuSans-BoldOblique;1;8;5;2;65535;928;235;174;0;3064;1163;3064;1163;0;0;0;0;Bold Oblique
+
+File:VeraMono.ttf
+2;1
+Bitstream Vera Sans Mono
+0;BitstreamVeraSansMono-Roman;0;5;5;1;65535;928;235;174;0;609;1163;609;1163;0;0;0;4;Roman
+
+File:futura-lt-condensed-bold.ttf
+2;1
+Futura LT
+0;FuturaLT-CondensedBold;0;8;3;2;65535;990;261;90;0;1335;1251;1335;1251;0;0;0;0;CondensedBold
+
+File:futura-lt-condensed-oblique.ttf
+2;1
+Futura LT
+0;FuturaLT-CondensedOblique;1;6;3;2;65535;969;216;90;0;1074;1185;1074;1185;0;0;0;0;CondensedOblique
+
+File:verdanai.ttf
+2;1
+Verdana
+0;Verdana-Italic;2;5;5;2;65535;1005;209;182;0;1591;1214;1591;1214;0;0;0;0;Italic
+
+File:OpenSans-ExtraBoldItalic.ttf
+2;1
+Open Sans;Open Sans ExtraBold
+0;OpenSans-ExtraBoldItalic;2;9;5;2;65535;1068;292;204;0;1869;1360;1869;1360;0;0;0;0;ExtraBold Italic
+
+File:futura-lt-condensed-light.ttf
+2;1
+Futura LT
+0;FuturaLT-CondensedLight;0;2;3;2;65535;961;221;90;0;1010;1182;1010;1182;0;0;0;0;CondensedLight
+
+File:futura-lt-condensed-extra-bold.ttf
+2;1
+Futura LT
+0;FuturaLT-CondensedExtraBold;0;8;2;2;65535;999;247;90;0;1314;1246;1314;1246;0;0;0;0;CondensedExtraBold
+
+File:futura-poster-light.ttf
+2;1
+Futura_Poster-Light
+0;Futura_Poster-Light;0;6;5;2;65535;782;217;150;0;966;999;966;999;0;0;0;0;Regular
+
+File:timesbd.ttf
+2;1
+Times New Roman
+0;TimesNewRomanPS-BoldMT;0;8;5;2;65535;891;216;42;0;2591;1107;2591;1107;0;0;0;0;Bold
+
+File:HelvFE Oblique.ttf
+2;1
+HelvFE
+0;HelvFEOblique;1;5;5;2;65535;780;220;150;0;1141;1000;1141;1000;0;0;0;1;Oblique
+
+File:arialbd.ttf
+2;1
+Arial
+0;Arial-BoldMT;0;8;5;2;65535;905;211;32;0;2660;1116;2660;1116;0;0;0;0;Bold
+
+File:din-mittelschrift.ttf
+2;1
+DINMittelschrift
+0;DINMittelschrift;0;5;5;2;65535;788;250;150;0;1165;1038;1165;1038;0;0;0;4;Regular
+
+File:futura-sallow-wide.ttf
+2;1
+Future Sallow Wide
+0;FutureSallowWide;0;5;5;2;65535;810;189;29;0;2093;999;2093;999;0;0;0;0;Regular
+
+File:webdings.ttf
+2;1
+Webdings
+0;Webdings;0;5;5;2;10;799;200;149;0;4001;999;4001;999;0;0;0;0;Regular
+
+File:futurex-apocalypse.ttf
+2;1
+Futurex Apocalypse
+0;FuturexApocalypse;0;5;5;2;65535;706;185;133;0;671;891;671;891;0;0;0;0;Regular
+
+File:LiberationMono-Bold.ttf
+2;1
+Liberation Mono
+0;LiberationMono-Bold;0;8;5;1;65535;832;300;169;0;1177;1132;1177;1132;0;0;0;0;Bold
+
+File:Futurex Phat Italic.ttf
+2;1
+Futurex Phat
+0;FuturexPhat-Italic;2;5;5;2;65535;776;220;9;0;1145;996;1145;996;0;0;0;1;Italic
+
+File:OpenSans-ExtraBold.ttf
+2;1
+Open Sans;Open Sans ExtraBold
+0;OpenSans-ExtraBold;0;9;5;2;65535;1068;292;204;0;2134;1360;2134;1360;0;0;0;0;ExtraBold
+
+File:HelvFE Bold.ttf
+2;1
+HelvFE
+0;HelvFEBold;0;5;5;2;65535;783;217;150;0;997;1000;997;1000;0;0;0;1;Bold
+
+File:futurex-bob.ttf
+2;1
+FuturexBob
+0;FuturexBob;0;5;5;2;65535;800;227;154;0;629;1027;629;1027;0;0;0;2;Regular
+
+FontCacheDirectory:1482230216:/home/bazza/.local/share/fonts
+File:x-files.ttf
+2;1
+Overexposed;X-Files
+0;x-files;0;5;5;2;65535;780;294;161;0;836;1074;836;1074;0;0;0;0;Regular
+
+File:Achafsex.ttf
+2;1
+A Charming Font Superexpanded
+0;ACharmingFontSuperexpanded;0;5;5;2;65535;911;336;32;0;3139;1247;3139;1247;0;0;0;0;Regular
+
+File:tolkien.ttf
+2;1
+Tolkien
+0;Tolkien;0;5;5;2;65535;737;274;151;0;1636;1011;1636;1011;0;0;0;0;Regular
+
+File:Star_Jedi_Rounded.ttf
+2;1
+Star Jedi Rounded
+0;StarJediRounded;0;5;5;2;65535;1250;345;239;0;3430;1595;3430;1595;0;0;0;0;Regular
+
+File:LoversQuarrel-Regular.ttf
+2;1
+Lovers Quarrel
+0;LoversQuarrel-Regular;0;5;5;2;65535;726;401;169;0;1427;1127;1427;1127;0;0;0;0;Regular
+
+File:gabrwffr.ttf
+2;1
+Gabriel Weiss' Friends Font
+0;GabrielWeissFriendsFont;0;5;5;2;65535;900;278;176;0;1217;1178;1217;1178;0;0;0;2;Regular
+
+File:Starjhol.ttf
+2;1
+Star Jedi Hollow
+0;StarJediHollow;0;5;5;2;65535;1250;345;239;0;3567;1595;3567;1595;0;0;0;0;Regular
+
+File:Achaflft.ttf
+2;1
+A Charming Font Leftleaning
+0;ACharmingFontLeftleaning;0;5;5;2;65535;911;336;32;0;1400;1247;1400;1247;0;0;0;0;Regular
+
+File:Brixton Book Oblique.ttf
+2;1
+Brixton
+0;BrixtonBookOblique;1;5;5;2;65535;750;250;150;0;1323;1000;1323;1000;0;0;0;4;Book Oblique
+
+File:Brixton Medium Oblique.ttf
+2;1
+Brixton
+0;BrixtonMediumOblique;1;5;5;2;65535;750;250;150;0;1301;1000;1301;1000;0;0;0;4;Medium Oblique
+
+File:Supernatural_Knight.ttf
+2;1
+Supernatural Knight
+0;SupernaturalKnight;0;5;5;2;65535;905;211;32;0;1506;1116;1506;1116;0;0;0;8;Regular
+
+File:ufonts.com_solid-antique-roman.ttf
+2;1
+Solid Antique Roman
+0;SolidAntiqueRoman;0;5;5;2;65535;942;293;185;0;1127;1235;1127;1235;0;0;0;6;Regular
+
+File:Doctor-Who.ttf
+2;1
+Doctor Who
+0;Doctor-Who;0;5;5;2;65535;625;62;103;0;625;687;625;687;0;0;0;4;Regular
+
+File:BATTLEST.TTF
+2;1
+Battlestar
+0;Battlestar;0;5;5;2;65535;806;200;150;0;1320;1006;1320;1006;0;0;0;0;Regular
+
+File:Brixton Light Oblique.ttf
+2;1
+Brixton
+0;BrixtonLightOblique;1;5;5;2;65535;750;250;150;0;1335;1000;1335;1000;0;0;0;4;Light Oblique
+
+File:BUFFIED_.TTF
+2;1
+Buffied
+0;Buffied;0;5;5;2;65535;762;564;71;0;1290;1326;1290;1326;0;0;0;2;Regular
+
+File:GABRWFFR.TTF
+2;1
+Gabriel Weiss' Friends Font
+0;GabrielWeissFriendsFont;0;5;5;2;65535;900;278;176;0;1217;1178;1217;1178;0;0;0;2;Regular
+
+File:Brixton Light.ttf
+2;1
+Brixton
+0;BrixtonLight;0;3;5;2;65535;750;250;150;0;1263;1000;1263;1000;0;0;0;4;Light
+
+File:elvish ring nfi.ttf
+2;1
+Elvish Ring NFI
+0;ElvishRingNFI;2;1;5;2;65535;750;170;9;0;1713;920;1713;920;0;0;0;0;Regular
+
+File:HARRYP__.TTF
+2;1
+Harry P
+0;HarryP;0;5;5;2;65535;803;200;150;0;1751;1003;1751;1003;0;0;0;2;Regular
+
+File:BLKCHCRY.TTF
+2;1
+BlackChancery
+0;BlackChancery;0;5;5;2;65535;833;417;187;0;1656;1250;1656;1250;0;0;0;0;Regular
+
+File:Achafout.ttf
+2;1
+A Charming Font Outline
+0;ACharmingFontOutline;0;5;5;2;65535;911;336;32;0;1409;1247;1409;1247;0;0;0;0;Regular
+
+File:stargate.ttf
+2;1
+Stargate
+0;Stargate;0;6;5;2;65535;745;252;149;0;1035;997;1035;997;0;0;0;0;Regular
+
+File:Achafont.ttf
+2;1
+A Charming Font
+0;ACharmingFont;0;5;5;2;65535;911;336;32;0;1394;1247;1394;1247;0;0;0;0;Regular
+
+File:Brixton Book.ttf
+2;1
+Brixton
+0;BrixtonBook;0;5;5;2;65535;750;250;150;0;1252;1000;1252;1000;0;0;0;4;Book
+
+File:Brixton Bold.ttf
+2;1
+Brixton
+0;BrixtonBold;0;8;5;2;65535;750;250;150;0;1221;1000;1221;1000;0;0;0;4;Bold
+
+File:Achafita.ttf
+2;1
+A Charming Font Italic
+0;ACharmingFontItalic;0;5;5;2;65535;911;336;32;0;1434;1247;1434;1247;0;0;0;0;Regular
+
+File:Game of Thrones.ttf
+2;1
+Game of Thrones
+0;GameofThrones;0;5;5;2;65535;1010;187;179;0;8661;1197;8661;1197;0;0;0;8;Regular
+
+File:Brixton Bold Oblique.ttf
+2;1
+Brixton
+0;BrixtonBoldOblique;1;5;5;2;65535;750;250;150;0;1268;1000;1268;1000;0;0;0;4;Bold Oblique
+
+File:Achafexp.ttf
+2;1
+A Charming Font Expanded
+0;ACharmingFontExpanded;0;5;5;2;65535;911;336;32;0;2092;1247;2092;1247;0;0;0;0;Regular
+
+File:Lazy Spring Day Demo.ttf
+2;1
+Lazy Spring Day Demo
+0;LazySpringDayDemo;0;5;5;2;65535;750;250;150;0;1761;1000;1761;1000;0;0;0;4;Regular
+
+File:anirm___.ttf
+2;1
+Aniron
+0;Aniron;0;5;5;2;65535;1462;576;305;0;2022;2038;2022;2038;0;0;0;0;Regular
+
+File:FunSized.ttf
+2;1
+FunSized
+0;FunSized;0;5;5;2;65535;943;308;187;0;1085;1251;1085;1251;0;0;0;8;Regular
+
+File:Starjedi.ttf
+2;1
+Star Jedi
+0;StarJedi;0;5;5;2;65535;1250;345;239;0;3430;1595;3430;1595;0;0;0;0;Regular
+
+File:PAPYRUS.TTF
+2;1
+Papyrus
+0;Papyrus-Regular;0;5;5;2;65535;1052;521;235;0;1913;1573;1913;1573;0;0;0;8;Regular
+
+File:Nuptial Script.ttf
+2;1
+NuptialScript
+0;NuptialScript;2;5;5;2;65535;842;294;170;0;1215;1136;1215;1136;0;0;0;6;Italic
+
+File:I AM SHERLOCKED.ttf
+2;1
+I AM SHERLOCKED
+0;IAMSHERLOCKED;0;5;5;2;65535;1000;423;44;0;2327;1423;2327;1423;0;0;0;2;Regular
+
+File:anirb___.ttf
+2;1
+Aniron
+0;Aniron-Bold;0;8;5;2;65535;1462;576;305;0;2004;2038;2004;2038;0;0;0;0;Bold
+
+File:My Big Heart Demo.ttf
+2;1
+My Big Heart Demo
+0;MyBigHeartDemo;0;5;5;2;65535;750;250;150;0;1399;1000;1399;1000;0;0;0;4;Regular
+
+File:DaxRegular.ttf
+2;1
+Dax-Regular
+0;Dax-Regular;0;5;5;2;65535;917;208;168;0;1239;1125;1239;1125;0;0;0;0;Regular
+
+File:Brixton Medium.ttf
+2;1
+Brixton
+0;BrixtonMedium;0;6;5;2;65535;750;250;150;0;1231;1000;1231;1000;0;0;0;4;Medium
+

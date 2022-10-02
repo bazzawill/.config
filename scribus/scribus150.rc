@@ -1,0 +1,1069 @@
+<SCRIBUSRC VERSION="1.5.0">
+ <UI MouseMoveTimeout="150" ShowStartupDialog="1" StickyTools="0" UseSmallWidgets="0" UseDocumentTabs="0" IconSet="Scribus 1.5.1" PaletteFontSize="10" ShowSplashOnStartup="1" Theme="" ScrollWheelJump="40" UseGrayscaleIcons="0" ApplicationFontSize="10" RecentDocumentCount="5"/>
+ <DocumentSetup AutoSaveKeep="0" MarginRight="40.000" AutoSaveCount="1" BleedRight="0.000" MarginLeft="40.000" PagePositioning="0" SaveCompressed="0" MarginPreset="0" PageSize="A4" UnitIndex="1" BleedLeft="0.000" BleedBottom="0.000" MarginBottom="40.000" PageOrientation="0" PageHeight="841.890" BleedTop="0.000" PageWidth="595.276" AutoSaveTime="600000" AutoSaveLoc="1" Language="en_AU" MarginTop="40.000" AutoSaveDir="" AutoSave="1"/>
+ <Paths Scripts="" Documents="/home/bazza/Documents/" Profiles="" Templates=""/>
+ <Guides MajorGridSpacing="100.000" GuidesColor="#000080" ObjectToGuideSnapRadius="10.000" BaselineGridOffset="0.000" ShowLayerMarkers="0" ShowBleed="1" ShowBaselineGrid="0" ShowGuides="1" GridType="0" ShowColumnBorders="1" GrabRadius="4" RulerMode="1" MinorGridColor="#00ff00" ShowRulers="1" MarginColor="#0000ff" BaselineGridColor="#c0c0c0" ShowControls="0" ShowImages="1" renderStack="2 0 4 1 3" ShowFrames="1" ShowMargins="1" MajorGridColor="#00ff00" ShowGrid="0" ShowLinks="0" MinorGridSpacing="20.000" BaselineGridDistance="14.400"/>
+ <Miscellaneous saveEmergencyFile="1" LoremIpsumUseStandard="0" LoremIpsumParagraphs="10" ShowStylePreview="1"/>
+ <StoryEditor Font="Sans,10,-1,5,50,0,0,0,0,0" FontColorBackground="#ffffff" SmartTextSelection="0"/>
+ <Display FrameSelectedColor="#ff0000" ShowPageShadow="1" ControlCharColor="#800000" ShowVerifierWarningsOnCanvas="1" ShowMarginsFilled="0" FrameNormColor="#000000" ScratchLeft="100.000" PageBorderColor="#ff0000" ToolTips="1" FrameLinkColor="#ff0000" PageGapVertical="40.000" DisplayScale="1.25000000" ScratchRight="100.000" ScratchBottom="20.000" ScratchColor="#efefef" FrameGroupColor="#008080" PageGapHorizontal="0.000" FrameAnnotationColor="#0000ff" ShowAutosaveClockOnCanvas="0" FrameLockColor="#800000" ScratchTop="20.000" PageColor="#ffffff" ShowMouseCoordinates="1"/>
+ <Font Name="Andale Mono Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Arial Black Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Arial Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Arial Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Arial Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Arial Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Asana Math Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Alphabets-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Arrows-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_DoubleStruck-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Fraktur-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Latin-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Main-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Misc-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Monospace-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_NonUnicode-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Normal-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Operators-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_SansSerif-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Script-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Shapes-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Size1-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Size2-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Size3-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Size4-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Size5-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Size6-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Symbols-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Asana Math Regular (AsanaMathJax_Variants-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Bitstream Vera Sans Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Sans Bold Oblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Sans Mono Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Sans Mono Bold Oblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Sans Mono Oblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Sans Mono Roman" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Sans Oblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Sans Roman" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Serif Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Bitstream Vera Serif Roman" Use="1" Embed="1" Subset="0"/>
+ <Font Name="C059 Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="C059 Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="C059 Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="C059 Roman" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Cantarell Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Cantarell Extra Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Cantarell Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Cantarell Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Cantarell Thin" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Comic Sans MS Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Comic Sans MS Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Courier New Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Courier New Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Courier New Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Courier New Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="D050000L Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DIN Schablonierschrift Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DINBek Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DINEngschrift Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DINMittelschrift Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DINbek Black Black" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DINbek Bold Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DINbek Light Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DINbek Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DejaVu Math TeX Gyre Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Book" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Condensed Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Condensed Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans ExtraLight" Use="1" Embed="1" Subset="0"/>
+ <Font Name="DejaVu Sans Mono Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Mono Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Mono Book" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Mono Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Sans Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Serif Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Serif Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Serif Book" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Serif Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Serif Condensed Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Serif Condensed Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Serif Condensed Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DejaVu Serif Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="DinC Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Droid Sans Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Droid Sans Mono Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Droid Sans Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Droid Serif Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Droid Serif Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Droid Serif Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Droid Serif Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT BoldOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT Book" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT BookOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT CondExtraBoldObl" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT Condensed" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT CondensedBold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT CondensedBoldOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT CondensedExtraBold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT CondensedLight" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT CondensedLightObl" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT CondensedOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT ExtraBold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT ExtraBoldOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT Heavy" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT HeavyOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT Light" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT LightOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT Oblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura LT Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="FuturaBlack BT Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futura_Poster-Light Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Future Sallow Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Future Sallow Wide Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futurex Apocalypse Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futurex Phat Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futurex Phat Outline Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futurex Phat Outline Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futurex Phat Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futurex Voyager Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="FuturexBob Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futurist Fixed-width Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Futurist-Stencil Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="FuturistBlack Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Georgia Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Georgia Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Georgia Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Georgia Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Gotham Black" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Black Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Book" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Book Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Extra Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Extra Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Medium Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Black" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Black Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Book" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Book Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Extra Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Extra Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Medium Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Thin" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Thin Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Ultra" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Narrow Ultra Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Rounded Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Rounded Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Rounded Book" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Rounded Book Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Rounded Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Rounded Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Rounded Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Rounded Medium Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Thin" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Thin Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Ultra" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham Ultra Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham XNarrow Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham XNarrow Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham XNarrow Book" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham XNarrow Book Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham XNarrow Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham XNarrow Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham XNarrow Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Gotham XNarrow Medium Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="HelvFB Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="HelvFB Bold (HelvFBBold)" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelvFB Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="HelvFB BoldOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelvFB Oblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelvFB Oblique (HelvFB-Oblique)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="HelvFB Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="HelvFE Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelvFE Bold (HelvFE-Bold)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="HelvFE Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="HelvFE BoldOblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelvFE Oblique" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelvFE Oblique (HelvFE-Oblique)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="HelvFE Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica .Black Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica .Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica 2 BQ  Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica 2 BQ  Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica 2 BQ  Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica 2 BQ  Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica BQ Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica BQ Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica BQ Regular (HelveticaBQ-Light)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica BQ Regular (HelveticaBQ-Roman)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Black Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Bold Narrow Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Bold Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Bold Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Bold Narrow" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Bold Narrow Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Medium Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Narrow" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Narrow Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica CE Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Compressed Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed BQ Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed BQ Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed Black Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed Black Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed Light Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed Light Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Condensed Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Cyrillic Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Diagonal BQ Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Extended BQ Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Extended BQ Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Extended BQ Regular (HelveticaExtendedBQ-ExtraLight)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Extended BQ Regular (HelveticaExtendedBQ-Light)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Extra Compressed Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Fractions BQ Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Fractions Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Fractions Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Inserat LT Std Roman" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Inserat Roman" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Black" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Black Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Black Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Black Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Bold Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Bold Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Bold Fractions" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Compressed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Extra Compressed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Fractions" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Light Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Light Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Light Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Roman" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica LT Std Ultra Compressed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Light Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Light Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Narrow Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Narrow Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Narrow Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Narrow Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Narrow Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Helvetica Neue Condensed Black" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Condensed Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Italic (HelveticaNeue-HeavyItalic)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Italic (HelveticaNeue-Italic)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Italic (HelveticaNeue-UltraLightItal)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Bold (HelveticaNeueLT-BoldCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Bold (HelveticaNeueLT-BoldExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Bold (HelveticaNeueLT-BoldExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Bold (HelveticaNeueLT-BoldOutline)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-BlackCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-BlackCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-BlackExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-BlackExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-Condensed)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-CondensedObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-ExtBlackCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-Extended)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-ExtendedObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-HeavyCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-HeavyCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-HeavyExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-HeavyExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-LightCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-LightCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-LightExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-LightExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-MediumCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-MediumCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-MediumExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-MediumExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-ThinCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-ThinCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-ThinExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-ThinExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-UltraLigCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-UltraLigCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-UltraLigExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Regular (HelveticaNeueLT-UltraLigExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 107 Extra Black Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 107 Extra Black Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 23 Ultra Light Extended" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 23 Ultra Light Extended Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 25 Ultra Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 26 Ultra Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 27 Ultra Light Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 27 Ultra Light Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 33 Thin Extended" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 33 Thin Extended Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 35 Thin" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 36 Thin Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 37 Thin Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 37 Thin Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 43 Light Extended" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 43 Light Extended Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 45 Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 46 Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 47 Light Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 47 Light Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 53 Extended" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 53 Extended Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 55 Roman" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 56 Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 57 Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 57 Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 63 Medium Extended" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 63 Medium Extended Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 65 Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 66 Medium Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 67 Medium Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 67 Medium Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 73 Bold Extended" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 73 Bold Extended Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 75 Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 75 Bold Outline" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 76 Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 77 Bold Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 77 Bold Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 83 Heavy Extended" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 83 Heavy Extended Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 85 Heavy" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 86 Heavy Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 87 Heavy Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 87 Heavy Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 93 Black Extended" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 93 Black Extended Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 95 Black" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 96 Black Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 97 Black Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue LT Std 97 Black Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue)" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-Condensed)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-CondensedObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-ExtendedObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-Heavy)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-HeavyCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-HeavyCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-HeavyExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-HeavyExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-LightCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-LightCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-Thin)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-ThinCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-ThinCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-ThinExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-ThinExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-UltraLigCond)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-UltraLigCondObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-UltraLigExt)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-UltraLigExtObl)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Neue Regular (HelveticaNeue-UltraLight)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded Black Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded Black Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded Condensed Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded Condensed Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Black Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Black Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Condensed Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Condensed Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Std Black" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Std Black Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Std Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Std Bold Condensed" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Std Bold Condensed Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Rounded LT Std Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica Ultra Compressed Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Helvetica World Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Helvetica World Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Helvetica World Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Helvetica World Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Helvetica-Conth Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Helvetica-Normal Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelveticaObl-He Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelveticaObl-Li Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="HelveticaObl-Th Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Impact Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Latin Modern Math Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Alphabets-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Arrows-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_DoubleStruck-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Fraktur-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Latin-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Main-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Marks-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Misc-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Monospace-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_NonUnicode-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Normal-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_SansSerif-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Script-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Shapes-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Size1-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Size2-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Size3-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Size4-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Size5-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Size6-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Size7-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Symbols-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Latin Modern Math Regular (LatinModernMathJax_Variants-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Mono Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Mono Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Mono Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Mono Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Sans Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Sans Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Sans Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Sans Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Serif Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Serif Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Serif Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Liberation Serif Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_AMS Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Caligraphic Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Caligraphic Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Fraktur Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Fraktur Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Main Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Main Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Main Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Math BoldItalic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Math Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Math Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_SansSerif Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_SansSerif Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_SansSerif Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Script Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Size1 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Size2 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Size3 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Size4 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Typewriter Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Vector Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="MathJax_Vector-Bold Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Alphabets-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Arrows-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Fraktur-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Main-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Marks-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_NonUnicode-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Normal-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Script-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Shapes-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Size1-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Size2-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Size3-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Size4-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Size5-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Symbols-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Neo Euler Medium (NeoEulerMathJax_Variants-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Mono PS Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Mono PS Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Mono PS Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Mono PS Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Roman Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Roman Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Roman Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Roman Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Sans Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Sans Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Sans Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Sans Narrow Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Sans Narrow Bold Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Sans Narrow Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Sans Narrow Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Nimbus Sans Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Open Sans Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans Condensed Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans Condensed Light" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans Condensed Light Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans ExtraBold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans ExtraBold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans Light" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans Light Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans SemiBold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Open Sans SemiBold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="P052 Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="P052 Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="P052 Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="P052 Roman" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Pali Helvetica Cond Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica Cond Regular (PaliHelvetica-CondBold)" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica Cond Regular (PaliHelvetica-CondBoldItalic)" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica Cond Regular (PaliHelvetica-CondRegular)" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica Regular (PaliHelvetica-Bold)" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica Regular (PaliHelvetica-Italic)" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica Regular (PaliHelvetica-Regular)" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica SmCps Cond Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Pali Helvetica SmCps Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="STIX MathJax Alphabets Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Alphabets Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Alphabets Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Alphabets Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Arrows Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Arrows Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax DoubleStruck Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax DoubleStruck Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax DoubleStruck Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax DoubleStruck Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Fraktur Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Fraktur Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Latin Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Latin Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Latin Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Latin Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Main Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Main Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Main Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Main Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Marks Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Marks Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Marks Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Marks Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Misc Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Misc Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Misc Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Misc Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Monospace Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Normal Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Normal Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Normal Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Operators Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Operators Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax SansSerif Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax SansSerif Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax SansSerif Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax SansSerif Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Script Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Script Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Script Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Shapes Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Shapes Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Shapes Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Size1 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Size2 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Size3 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Size4 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Size5 Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Symbols Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Symbols Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Variants Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Variants Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Variants Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="STIX MathJax Variants Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Black" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Black Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Bold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Bold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro ExtraLight" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro ExtraLight Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Medium" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Medium Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Semibold" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Pro Semibold Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Source Code Variable Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Source Code Variable Roman" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Standard Symbols PS Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Tahoma Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Tahoma Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="TeX Gyre Pagella Math Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Alphabets-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Arrows-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_DoubleStruck-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Fraktur-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Main-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Marks-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Misc-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Monospace-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_NonUnicode-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Normal-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Operators-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_SansSerif-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Script-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Shapes-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Size1-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Size2-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Size3-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Size4-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Size5-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Size6-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Symbols-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Pagella Math Regular (GyrePagellaMathJax_Variants-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Alphabets-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Arrows-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_DoubleStruck-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Fraktur-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Latin-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Main-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Marks-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Misc-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_NonUnicode-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Normal-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Operators-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_SansSerif-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Script-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Shapes-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Size1-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Size2-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Size3-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Size4-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Size5-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Size6-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Symbols-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="TeX Gyre Termes Math Regular (GyreTermesMathJax_Variants-Regular)" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Times New Roman Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Times New Roman Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Times New Roman Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Times New Roman Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Trebuchet MS Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Trebuchet MS Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Trebuchet MS Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Trebuchet MS Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="URW Bookman Demi" Use="1" Embed="1" Subset="1"/>
+ <Font Name="URW Bookman Demi Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="URW Bookman Light" Use="1" Embed="1" Subset="1"/>
+ <Font Name="URW Bookman Light Italic" Use="1" Embed="1" Subset="1"/>
+ <Font Name="URW Gothic Book" Use="1" Embed="1" Subset="1"/>
+ <Font Name="URW Gothic Book Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="URW Gothic Demi" Use="1" Embed="1" Subset="1"/>
+ <Font Name="URW Gothic Demi Oblique" Use="1" Embed="1" Subset="1"/>
+ <Font Name="Verdana Bold" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Verdana Bold Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Verdana Italic" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Verdana Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Wabbit Sans Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Webdings Regular" Use="1" Embed="1" Subset="0"/>
+ <Font Name="Z003 Medium Italic" Use="1" Embed="1" Subset="1"/>
+ <Fonts AutomaticSubstitution="1"/>
+ <Typography SuperScriptDistance="33" SmallCapsScaling="75" SuperScriptScaling="66" StrikeThruWidth="-1" SubScriptDistance="33" SubScriptScaling="66" AutomaticLineSpacing="100" UnderlineWidth="-1" UnderlineDistance="-1" StrikeThruDistance="-1"/>
+ <ItemTools PolygonCorners="4" TextColor="Black" ImageAspectRatio="1" TextColorShade="100" ArcStartAngle="30.000" ImageScaleType="1" TextBackgroundColor="None" LineColor="Black" PolygonCurvature="0.000" ImageUseEmbeddedPath="0" LineColorShade="100" PolygonRotation="0.000" TextStrokeColor="Black" FontSize="12" ShapeLineStyle="1" PolygonUseFactor="0" TextLineColorShade="100" TextColumnCount="1" TabFillCharacter="" SpiralFactor="1.200" ImageLowResType="1" CalligraphicPenFillColor="Black" TextDistanceBottom="0.000" SpiralEndAngle="1080.000" ImageStrokeColor="None" PolygonInnerRotation="0.000" TextLineColor="None" ImageScaleY="1.000" TextTabWidth="36.000" ImageFillColorShade="100" TextBackgroundColorShade="100" ShapeLineColorShade="100" ImageStrokeColorShade="100" PolygonFactor="0.500" LineStartArrow="0" TextDistanceRight="0.000" ArcSweepAngle="300.000" LineWidth="1.000" ImageScaleX="1.000" CalligraphicPenLineColorShade="100" TextStrokeColorShade="100" TextColumnGap="0.000" CalligraphicPenAngle="0" CalligraphicPenLineColor="Black" FontFace="Arial Regular" LineEndArrow="0" TextDistanceTop="0.000" ShapeFillColor="None" CalligraphicPenStyle="1" TextDistanceLeft="0.000" ShapeLineWidth="1.000" CalligraphicPenFillColorShade="100" CalligraphicPenWidth="10" ShapeFillColorShade="100" PolygonOuterCurvature="0.000" CalligraphicPenLineWidth="1" ShapeLineColor="Black" LineStyle="1" ImageFillColor="None" SpiralStartAngle="0.000"/>
+ <OperatorTools DisplayOffsetX="10.000" MagnificationStep="25" MaximumMagnification="32000" DisplayOffsetY="10.000" MinimumMagnification="1" RotationConstrainAngle="15.000"/>
+ <MainWindow YPosition="0" Maximized="1" Height="1004" Width="1680" XPosition="0"/>
+ <ScrapBook CopyToScrapbook="1" PersistentScrapbook="0" WritePreviews="1" ScrapbookCopies="10"/>
+ <PageSets>
+  <Set Rows="1" Name="Single Page" Columns="1" FirstPage="0"/>
+  <Set Rows="1" Name="Facing Pages" Columns="2" FirstPage="1">
+   <PageNames Name="Left Page"/>
+   <PageNames Name="Right Page"/>
+  </Set>
+  <Set Rows="1" Name="3-Fold" Columns="3" FirstPage="0">
+   <PageNames Name="Left Page"/>
+   <PageNames Name="Middle"/>
+   <PageNames Name="Right Page"/>
+  </Set>
+  <Set Rows="1" Name="4-Fold" Columns="4" FirstPage="0">
+   <PageNames Name="Left Page"/>
+   <PageNames Name="Middle Left"/>
+   <PageNames Name="Middle Right"/>
+   <PageNames Name="Right Page"/>
+  </Set>
+ </PageSets>
+ <PreflightVerifier ShowPagesWithoutErrors="0" ShowNonPrintingLayerErrors="0" CurrentProfile="PDF 1.4"/>
+ <VerifierProfile CheckForGIF="1" CheckTransparency="1" CheckPictures="1" CheckResolution="1" IgnoreErrors="0" CheckPartFilledImageFrames="0" CheckAppliedMasterDifferentSide="1" IgnoreOffLayers="0" CheckDeviceColorsAndOutputIntent="0" MaximumResolution="2400.000" CheckOffConflictLayers="0" AutoCheck="1" CheckGlyphs="1" CheckFontIsOpenType="1" CheckEmptyTextFrames="1" Name="PDF 1.3" CheckAnnotations="0" MinimumResolution="144.000" CheckOverflow="1" CheckRasterPDF="1" CheckOrphans="1" CheckNotCMYKOrSpot="0" CheckFontNotEmbedded="1"/>
+ <VerifierProfile CheckForGIF="1" CheckTransparency="0" CheckPictures="1" CheckResolution="1" IgnoreErrors="0" CheckPartFilledImageFrames="0" CheckAppliedMasterDifferentSide="1" IgnoreOffLayers="0" CheckDeviceColorsAndOutputIntent="0" MaximumResolution="2400.000" CheckOffConflictLayers="0" AutoCheck="1" CheckGlyphs="1" CheckFontIsOpenType="1" CheckEmptyTextFrames="1" Name="PDF 1.4" CheckAnnotations="0" MinimumResolution="144.000" CheckOverflow="1" CheckRasterPDF="1" CheckOrphans="1" CheckNotCMYKOrSpot="0" CheckFontNotEmbedded="1"/>
+ <VerifierProfile CheckForGIF="1" CheckTransparency="0" CheckPictures="1" CheckResolution="1" IgnoreErrors="0" CheckPartFilledImageFrames="0" CheckAppliedMasterDifferentSide="1" IgnoreOffLayers="0" CheckDeviceColorsAndOutputIntent="0" MaximumResolution="2400.000" CheckOffConflictLayers="0" AutoCheck="1" CheckGlyphs="1" CheckFontIsOpenType="1" CheckEmptyTextFrames="1" Name="PDF 1.5" CheckAnnotations="0" MinimumResolution="144.000" CheckOverflow="1" CheckRasterPDF="1" CheckOrphans="1" CheckNotCMYKOrSpot="0" CheckFontNotEmbedded="1"/>
+ <VerifierProfile CheckForGIF="1" CheckTransparency="1" CheckPictures="1" CheckResolution="1" IgnoreErrors="0" CheckPartFilledImageFrames="0" CheckAppliedMasterDifferentSide="1" IgnoreOffLayers="0" CheckDeviceColorsAndOutputIntent="0" MaximumResolution="2400.000" CheckOffConflictLayers="0" AutoCheck="1" CheckGlyphs="1" CheckFontIsOpenType="1" CheckEmptyTextFrames="1" Name="PDF/X-1a" CheckAnnotations="1" MinimumResolution="144.000" CheckOverflow="1" CheckRasterPDF="1" CheckOrphans="1" CheckNotCMYKOrSpot="1" CheckFontNotEmbedded="1"/>
+ <VerifierProfile CheckForGIF="1" CheckTransparency="1" CheckPictures="1" CheckResolution="1" IgnoreErrors="0" CheckPartFilledImageFrames="0" CheckAppliedMasterDifferentSide="1" IgnoreOffLayers="0" CheckDeviceColorsAndOutputIntent="1" MaximumResolution="2400.000" CheckOffConflictLayers="0" AutoCheck="1" CheckGlyphs="1" CheckFontIsOpenType="1" CheckEmptyTextFrames="1" Name="PDF/X-3" CheckAnnotations="1" MinimumResolution="144.000" CheckOverflow="1" CheckRasterPDF="1" CheckOrphans="1" CheckNotCMYKOrSpot="0" CheckFontNotEmbedded="1"/>
+ <VerifierProfile CheckForGIF="1" CheckTransparency="0" CheckPictures="1" CheckResolution="1" IgnoreErrors="0" CheckPartFilledImageFrames="0" CheckAppliedMasterDifferentSide="1" IgnoreOffLayers="0" CheckDeviceColorsAndOutputIntent="1" MaximumResolution="2400.000" CheckOffConflictLayers="0" AutoCheck="1" CheckGlyphs="1" CheckFontIsOpenType="0" CheckEmptyTextFrames="1" Name="PDF/X-4" CheckAnnotations="1" MinimumResolution="144.000" CheckOverflow="1" CheckRasterPDF="1" CheckOrphans="1" CheckNotCMYKOrSpot="0" CheckFontNotEmbedded="1"/>
+ <VerifierProfile CheckForGIF="1" CheckTransparency="1" CheckPictures="1" CheckResolution="1" IgnoreErrors="0" CheckPartFilledImageFrames="0" CheckAppliedMasterDifferentSide="1" IgnoreOffLayers="0" CheckDeviceColorsAndOutputIntent="0" MaximumResolution="2400.000" CheckOffConflictLayers="0" AutoCheck="1" CheckGlyphs="1" CheckFontIsOpenType="0" CheckEmptyTextFrames="1" Name="PostScript" CheckAnnotations="0" MinimumResolution="144.000" CheckOverflow="1" CheckRasterPDF="1" CheckOrphans="1" CheckNotCMYKOrSpot="0" CheckFontNotEmbedded="0"/>
+ <ColorManagement DefaultSolorColorCMYKProfile="ISO Coated v2 300% (basICColor)" BlackPoint="1" GamutCheck="0" DefaultMonitorProfile="sRGB display profile (ICC v2.2)" DefaultSolidColorRGBProfile="sRGB display profile (ICC v2.2)" DefaultPrinterProfile="ISO Coated v2 300% (basICColor)" DefaultImageCMYKProfile="ISO Coated v2 300% (basICColor)" SoftProofFullOn="0" DefaultImageRGBProfile="sRGB display profile (ICC v2.2)" DefaultIntentColors="1" SoftProofOn="0" DefaultIntentImages="0" ColorManagementActive="0"/>
+ <Printer Name="" GCRMode="0" ClipToMargins="0" Command="" File=""/>
+ <PrintPreview Mode="0" Magenta="1" AntiAliasing="0" Yellow="1" InkThreshold="250" InkCoverage="0" Transparency="0" Cyan="1" Black="1"/>
+ <ExternalTools PDFViewer="" GhostscriptAntiAliasGraphics="1" LatexResolution="72" ImageEditor="gimp" Ghostscript="gs" LatexEditor="" Uniconvertor="uniconv" LatexForceDpi="1" WebBrowser="" Resolution="72" GhostscriptAntiAliasText="1" LatexStartWithEmptyFrames="0">
+  <LatexConfig file="100_latex.xml" command="pdflatex --interaction nonstopmode"/>
+  <LatexConfig file="200_gnuplot.xml" command="gnuplot"/>
+  <LatexConfig file="300_lilypond.xml" command="lilypond --pdf"/>
+  <LatexConfig file="400_dot.xml" command="dot -Tsvg %file -o %file.svg"/>
+  <LatexConfig file="500_povray.xml" command="povray +WL0 -D +W$scribus_width_px$ +H$scribus_height_px$ +Q$scribus_quality$ $scribus_antialias$$scribus_aathres$ +R$scribus_aadepth$ +I%file"/>
+ </ExternalTools>
+ <Hyphenator AutomaticCheck="0" Automatic="1"/>
+ <Recent Name="/home/bazza/1stAniversary.sla"/>
+ <Recent Name="/home/bazza/dad_autosave_19_10_2019_21_19.sla"/>
+ <Shortcut KeySequence="" Action="BarcodeGenerator"/>
+ <Shortcut KeySequence="" Action="ColorWheel"/>
+ <Shortcut KeySequence="Ctrl+Shift+E" Action="ExportAsImage"/>
+ <Shortcut KeySequence="" Action="ExportAsSVG"/>
+ <Shortcut KeySequence="" Action="ExportAsXPS"/>
+ <Shortcut KeySequence="" Action="FlattenPath"/>
+ <Shortcut KeySequence="" Action="FontPreview"/>
+ <Shortcut KeySequence="Shift+F7" Action="HunspellPlugin"/>
+ <Shortcut KeySequence="" Action="LensEffects"/>
+ <Shortcut KeySequence="" Action="MeshDistortion"/>
+ <Shortcut KeySequence="Ctrl+Alt+N" Action="NewFromDocumentTemplate"/>
+ <Shortcut KeySequence="" Action="PathAlongPath"/>
+ <Shortcut KeySequence="" Action="PathConnect"/>
+ <Shortcut KeySequence="" Action="PathCutter"/>
+ <Shortcut KeySequence="" Action="PathFinder"/>
+ <Shortcut KeySequence="" Action="PathStroker"/>
+ <Shortcut KeySequence="" Action="Picture Browser"/>
+ <Shortcut KeySequence="" Action="PrintPreview"/>
+ <Shortcut KeySequence="Ctrl+Alt+S" Action="SaveAsDocumentTemplate"/>
+ <Shortcut KeySequence="" Action="ShortWords"/>
+ <Shortcut KeySequence="" Action="SmoothPath"/>
+ <Shortcut KeySequence="" Action="Subdivide"/>
+ <Shortcut KeySequence="" Action="alignBlock"/>
+ <Shortcut KeySequence="" Action="alignCenter"/>
+ <Shortcut KeySequence="" Action="alignForced"/>
+ <Shortcut KeySequence="" Action="alignLeft"/>
+ <Shortcut KeySequence="" Action="alignRight"/>
+ <Shortcut KeySequence="" Action="editActionMode"/>
+ <Shortcut KeySequence="Ctrl+Shift+Del" Action="editClearContents"/>
+ <Shortcut KeySequence="" Action="editColorsAndFills"/>
+ <Shortcut KeySequence="Ctrl+C" Action="editCopy"/>
+ <Shortcut KeySequence="Ctrl+Shift+C" Action="editCopyContents"/>
+ <Shortcut KeySequence="Ctrl+X" Action="editCut"/>
+ <Shortcut KeySequence="Ctrl+Shift+A" Action="editDeselectAll"/>
+ <Shortcut KeySequence="" Action="editEditRenderSource"/>
+ <Shortcut KeySequence="" Action="editEditWithImageEditor"/>
+ <Shortcut KeySequence="" Action="editJavascripts"/>
+ <Shortcut KeySequence="" Action="editMark"/>
+ <Shortcut KeySequence="" Action="editMarks"/>
+ <Shortcut KeySequence="" Action="editMasterPages"/>
+ <Shortcut KeySequence="" Action="editNotesStyles"/>
+ <Shortcut KeySequence="Ctrl+V" Action="editPaste"/>
+ <Shortcut KeySequence="Ctrl+Shift+V" Action="editPasteContents"/>
+ <Shortcut KeySequence="Ctrl+Alt+Shift+V" Action="editPasteContentsAbs"/>
+ <Shortcut KeySequence="" Action="editPasteImageFromClipboard"/>
+ <Shortcut KeySequence="Ctrl+Shift+Z" Action="editRedoAction"/>
+ <Shortcut KeySequence="" Action="editReplaceColors"/>
+ <Shortcut KeySequence="Ctrl+F" Action="editSearchReplace"/>
+ <Shortcut KeySequence="Ctrl+A" Action="editSelectAll"/>
+ <Shortcut KeySequence="Ctrl+Alt+A" Action="editSelectAllOnLayer"/>
+ <Shortcut KeySequence="F4" Action="editStyles"/>
+ <Shortcut KeySequence="" Action="editTruncateContents"/>
+ <Shortcut KeySequence="Ctrl+Z" Action="editUndoAction"/>
+ <Shortcut KeySequence="" Action="extrasDeHyphenateText"/>
+ <Shortcut KeySequence="" Action="extrasGenerateTableOfContents"/>
+ <Shortcut KeySequence="" Action="extrasHyphenateText"/>
+ <Shortcut KeySequence="" Action="extrasManageImages"/>
+ <Shortcut KeySequence="" Action="extrasUpdateDocument"/>
+ <Shortcut KeySequence="Ctrl+W" Action="fileClose"/>
+ <Shortcut KeySequence="" Action="fileCollect"/>
+ <Shortcut KeySequence="" Action="fileDocSetup150"/>
+ <Shortcut KeySequence="" Action="fileExportAsEPS"/>
+ <Shortcut KeySequence="Ctrl+Shift+P" Action="fileExportAsPDF"/>
+ <Shortcut KeySequence="" Action="fileExportText"/>
+ <Shortcut KeySequence="" Action="fileImportAppendText"/>
+ <Shortcut KeySequence="Ctrl+I" Action="fileImportImage"/>
+ <Shortcut KeySequence="Ctrl+I" Action="fileImportText"/>
+ <Shortcut KeySequence="" Action="fileImportText2"/>
+ <Shortcut KeySequence="" Action="fileImportVector"/>
+ <Shortcut KeySequence="Ctrl+N" Action="fileNew"/>
+ <Shortcut KeySequence="Ctrl+Alt+N" Action="fileNewFromTemplate"/>
+ <Shortcut KeySequence="Ctrl+O" Action="fileOpen"/>
+ <Shortcut KeySequence="" Action="filePreferences150"/>
+ <Shortcut KeySequence="Ctrl+P" Action="filePrint"/>
+ <Shortcut KeySequence="Ctrl+Q" Action="fileQuit"/>
+ <Shortcut KeySequence="" Action="fileRevert"/>
+ <Shortcut KeySequence="Ctrl+S" Action="fileSave"/>
+ <Shortcut KeySequence="Ctrl+Shift+S" Action="fileSaveAs"/>
+ <Shortcut KeySequence="" Action="fontSize10"/>
+ <Shortcut KeySequence="" Action="fontSize11"/>
+ <Shortcut KeySequence="" Action="fontSize12"/>
+ <Shortcut KeySequence="" Action="fontSize14"/>
+ <Shortcut KeySequence="" Action="fontSize18"/>
+ <Shortcut KeySequence="" Action="fontSize24"/>
+ <Shortcut KeySequence="" Action="fontSize36"/>
+ <Shortcut KeySequence="" Action="fontSize48"/>
+ <Shortcut KeySequence="" Action="fontSize60"/>
+ <Shortcut KeySequence="" Action="fontSize7"/>
+ <Shortcut KeySequence="" Action="fontSize72"/>
+ <Shortcut KeySequence="" Action="fontSize9"/>
+ <Shortcut KeySequence="" Action="fontSizeOther"/>
+ <Shortcut KeySequence="" Action="helpAboutPlugins"/>
+ <Shortcut KeySequence="" Action="helpAboutQt"/>
+ <Shortcut KeySequence="" Action="helpAboutScribus"/>
+ <Shortcut KeySequence="Ctrl+/" Action="helpActionSearch"/>
+ <Shortcut KeySequence="" Action="helpChat"/>
+ <Shortcut KeySequence="" Action="helpCheckUpdates"/>
+ <Shortcut KeySequence="F1" Action="helpManual"/>
+ <Shortcut KeySequence="" Action="helpOnlineDocs"/>
+ <Shortcut KeySequence="" Action="helpOnlineTutorial1"/>
+ <Shortcut KeySequence="" Action="helpOnlineWWW"/>
+ <Shortcut KeySequence="" Action="helpOnlineWiki"/>
+ <Shortcut KeySequence="" Action="helpTooltips"/>
+ <Shortcut KeySequence="" Action="insertFrame"/>
+ <Shortcut KeySequence="" Action="insertGlyph"/>
+ <Shortcut KeySequence="" Action="insertMark2Mark"/>
+ <Shortcut KeySequence="" Action="insertMarkAnchor"/>
+ <Shortcut KeySequence="" Action="insertMarkItem"/>
+ <Shortcut KeySequence="" Action="insertMarkNote"/>
+ <Shortcut KeySequence="" Action="insertMarkVariableText"/>
+ <Shortcut KeySequence="" Action="insertSampleText"/>
+ <Shortcut KeySequence="" Action="itemAdjustFrameHeightToText"/>
+ <Shortcut KeySequence="" Action="itemAdjustFrameToImage"/>
+ <Shortcut KeySequence="" Action="itemAdjustImageToFrame"/>
+ <Shortcut KeySequence="" Action="itemAttachTextToPath"/>
+ <Shortcut KeySequence="" Action="itemAttributes"/>
+ <Shortcut KeySequence="" Action="itemCombinePolygons"/>
+ <Shortcut KeySequence="" Action="itemConvertToBezierCurve"/>
+ <Shortcut KeySequence="" Action="itemConvertToImageFrame"/>
+ <Shortcut KeySequence="" Action="itemConvertToOutlines"/>
+ <Shortcut KeySequence="" Action="itemConvertToPolygon"/>
+ <Shortcut KeySequence="" Action="itemConvertToSymbolFrame"/>
+ <Shortcut KeySequence="" Action="itemConvertToTextFrame"/>
+ <Shortcut KeySequence="Del" Action="itemDelete"/>
+ <Shortcut KeySequence="" Action="itemDetachTextFromPath"/>
+ <Shortcut KeySequence="Ctrl+D" Action="itemDuplicate"/>
+ <Shortcut KeySequence="" Action="itemEditWeld"/>
+ <Shortcut KeySequence="" Action="itemExtendedImageProperties"/>
+ <Shortcut KeySequence="" Action="itemFlipH"/>
+ <Shortcut KeySequence="" Action="itemFlipV"/>
+ <Shortcut KeySequence="Ctrl+G" Action="itemGroup"/>
+ <Shortcut KeySequence="" Action="itemGroupAdjust"/>
+ <Shortcut KeySequence="" Action="itemImageInfo"/>
+ <Shortcut KeySequence="" Action="itemImageIsVisible"/>
+ <Shortcut KeySequence="Ctrl+L" Action="itemLock"/>
+ <Shortcut KeySequence="Ctrl+Shift+L" Action="itemLockSize"/>
+ <Shortcut KeySequence="Ctrl+End" Action="itemLower"/>
+ <Shortcut KeySequence="End" Action="itemLowerToBottom"/>
+ <Shortcut KeySequence="Ctrl+Shift+D" Action="itemMulDuplicate"/>
+ <Shortcut KeySequence="" Action="itemPDFAnnotationProps"/>
+ <Shortcut KeySequence="" Action="itemPDFFieldProps"/>
+ <Shortcut KeySequence="" Action="itemPDFIsAnnotation"/>
+ <Shortcut KeySequence="" Action="itemPDFIsBookmark"/>
+ <Shortcut KeySequence="" Action="itemPreviewFull"/>
+ <Shortcut KeySequence="" Action="itemPreviewLow"/>
+ <Shortcut KeySequence="" Action="itemPreviewNormal"/>
+ <Shortcut KeySequence="" Action="itemPrintingEnabled"/>
+ <Shortcut KeySequence="Ctrl+Home" Action="itemRaise"/>
+ <Shortcut KeySequence="Home" Action="itemRaiseToTop"/>
+ <Shortcut KeySequence="" Action="itemSendToInline"/>
+ <Shortcut KeySequence="" Action="itemSendToPattern"/>
+ <Shortcut KeySequence="" Action="itemShapeEdit"/>
+ <Shortcut KeySequence="" Action="itemSplitPolygons"/>
+ <Shortcut KeySequence="" Action="itemToggleInlineImage"/>
+ <Shortcut KeySequence="" Action="itemTransform"/>
+ <Shortcut KeySequence="Ctrl+Shift+G" Action="itemUngroup"/>
+ <Shortcut KeySequence="" Action="itemUpdateImage"/>
+ <Shortcut KeySequence="" Action="itemUpdateMarks"/>
+ <Shortcut KeySequence="" Action="itemWeld"/>
+ <Shortcut KeySequence="" Action="itemsUnWeld"/>
+ <Shortcut KeySequence="" Action="pageApplyMasterPage"/>
+ <Shortcut KeySequence="" Action="pageCopy"/>
+ <Shortcut KeySequence="" Action="pageCopyToMasterPage"/>
+ <Shortcut KeySequence="" Action="pageDelete"/>
+ <Shortcut KeySequence="" Action="pageImport"/>
+ <Shortcut KeySequence="" Action="pageInsert"/>
+ <Shortcut KeySequence="" Action="pageManageGuides"/>
+ <Shortcut KeySequence="" Action="pageManageProperties"/>
+ <Shortcut KeySequence="" Action="pageMove"/>
+ <Shortcut KeySequence="" Action="showMouseCoordinates"/>
+ <Shortcut KeySequence="F11" Action="specialToggleAllGuides"/>
+ <Shortcut KeySequence="F12" Action="specialToggleAllPalettes"/>
+ <Shortcut KeySequence="Ctrl+Shift+U" Action="specialUnicodeSequenceBegin"/>
+ <Shortcut KeySequence="" Action="stickyTools"/>
+ <Shortcut KeySequence="Ctrl+E" Action="styleImageEffects"/>
+ <Shortcut KeySequence="" Action="styleTabulators"/>
+ <Shortcut KeySequence="" Action="tableAdjustFrameToTable"/>
+ <Shortcut KeySequence="" Action="tableAdjustTableToFrame"/>
+ <Shortcut KeySequence="" Action="tableDeleteColumns"/>
+ <Shortcut KeySequence="" Action="tableDeleteRows"/>
+ <Shortcut KeySequence="" Action="tableDistributeColumnsEvenly"/>
+ <Shortcut KeySequence="" Action="tableDistributeRowsEvenly"/>
+ <Shortcut KeySequence="" Action="tableInsertColumns"/>
+ <Shortcut KeySequence="" Action="tableInsertRows"/>
+ <Shortcut KeySequence="" Action="tableMergeCells"/>
+ <Shortcut KeySequence="" Action="tableSetColumnWidths"/>
+ <Shortcut KeySequence="" Action="tableSetRowHeights"/>
+ <Shortcut KeySequence="" Action="tableSplitCells"/>
+ <Shortcut KeySequence="" Action="toolsActionHistory"/>
+ <Shortcut KeySequence="" Action="toolsAlignDistribute"/>
+ <Shortcut KeySequence="" Action="toolsBookmarks"/>
+ <Shortcut KeySequence="" Action="toolsCopyProperties"/>
+ <Shortcut KeySequence="" Action="toolsDownloads"/>
+ <Shortcut KeySequence="E" Action="toolsEditContents"/>
+ <Shortcut KeySequence="Ctrl+T" Action="toolsEditWithStoryEditor"/>
+ <Shortcut KeySequence="Y" Action="toolsEyeDropper"/>
+ <Shortcut KeySequence="" Action="toolsInline"/>
+ <Shortcut KeySequence="" Action="toolsInsertArc"/>
+ <Shortcut KeySequence="B" Action="toolsInsertBezier"/>
+ <Shortcut KeySequence="" Action="toolsInsertCalligraphicLine"/>
+ <Shortcut KeySequence="F" Action="toolsInsertFreehandLine"/>
+ <Shortcut KeySequence="I" Action="toolsInsertImageFrame"/>
+ <Shortcut KeySequence="L" Action="toolsInsertLine"/>
+ <Shortcut KeySequence="P" Action="toolsInsertPolygon"/>
+ <Shortcut KeySequence="D" Action="toolsInsertRenderFrame"/>
+ <Shortcut KeySequence="S" Action="toolsInsertShape"/>
+ <Shortcut KeySequence="" Action="toolsInsertSpiral"/>
+ <Shortcut KeySequence="A" Action="toolsInsertTable"/>
+ <Shortcut KeySequence="T" Action="toolsInsertTextFrame"/>
+ <Shortcut KeySequence="F6" Action="toolsLayers"/>
+ <Shortcut KeySequence="N" Action="toolsLinkTextFrame"/>
+ <Shortcut KeySequence="" Action="toolsMeasurements"/>
+ <Shortcut KeySequence="" Action="toolsOutline"/>
+ <Shortcut KeySequence="" Action="toolsPDFAnnot3D"/>
+ <Shortcut KeySequence="" Action="toolsPDFAnnotLink"/>
+ <Shortcut KeySequence="" Action="toolsPDFAnnotText"/>
+ <Shortcut KeySequence="" Action="toolsPDFCheckBox"/>
+ <Shortcut KeySequence="" Action="toolsPDFComboBox"/>
+ <Shortcut KeySequence="" Action="toolsPDFListBox"/>
+ <Shortcut KeySequence="" Action="toolsPDFPushButton"/>
+ <Shortcut KeySequence="" Action="toolsPDFRadioButton"/>
+ <Shortcut KeySequence="" Action="toolsPDFTextField"/>
+ <Shortcut KeySequence="" Action="toolsPages"/>
+ <Shortcut KeySequence="" Action="toolsPreflightVerifier"/>
+ <Shortcut KeySequence="F2" Action="toolsProperties"/>
+ <Shortcut KeySequence="" Action="toolsResources"/>
+ <Shortcut KeySequence="R" Action="toolsRotate"/>
+ <Shortcut KeySequence="" Action="toolsScrapbook"/>
+ <Shortcut KeySequence="C" Action="toolsSelect"/>
+ <Shortcut KeySequence="" Action="toolsSymbols"/>
+ <Shortcut KeySequence="F3" Action="toolsText"/>
+ <Shortcut KeySequence="" Action="toolsToolbarPDF"/>
+ <Shortcut KeySequence="" Action="toolsToolbarTools"/>
+ <Shortcut KeySequence="" Action="toolsToolbarView"/>
+ <Shortcut KeySequence="U" Action="toolsUnlinkTextFrame"/>
+ <Shortcut KeySequence="" Action="toolsUnlinkTextFrameAndCutText"/>
+ <Shortcut KeySequence="Z" Action="toolsZoom"/>
+ <Shortcut KeySequence="Ctrl++" Action="toolsZoomIn"/>
+ <Shortcut KeySequence="Ctrl+-" Action="toolsZoomOut"/>
+ <Shortcut KeySequence="" Action="typeEffectAllCaps"/>
+ <Shortcut KeySequence="" Action="typeEffectNormal"/>
+ <Shortcut KeySequence="" Action="typeEffectOutline"/>
+ <Shortcut KeySequence="" Action="typeEffectShadow"/>
+ <Shortcut KeySequence="" Action="typeEffectSmallCaps"/>
+ <Shortcut KeySequence="" Action="typeEffectStrikeThrough"/>
+ <Shortcut KeySequence="" Action="typeEffectSubscript"/>
+ <Shortcut KeySequence="" Action="typeEffectSuperscript"/>
+ <Shortcut KeySequence="" Action="typeEffectUnderline"/>
+ <Shortcut KeySequence="" Action="typeEffectUnderlineWords"/>
+ <Shortcut KeySequence="" Action="unicodeBullet"/>
+ <Shortcut KeySequence="Ctrl+Shift+Return" Action="unicodeColumnBreak"/>
+ <Shortcut KeySequence="" Action="unicodeCopyRight"/>
+ <Shortcut KeySequence="" Action="unicodeDashEm"/>
+ <Shortcut KeySequence="" Action="unicodeDashEn"/>
+ <Shortcut KeySequence="" Action="unicodeDashFigure"/>
+ <Shortcut KeySequence="" Action="unicodeDashQuotation"/>
+ <Shortcut KeySequence="Ctrl+Return" Action="unicodeFrameBreak"/>
+ <Shortcut KeySequence="" Action="unicodeLigature_ff"/>
+ <Shortcut KeySequence="" Action="unicodeLigature_ffi"/>
+ <Shortcut KeySequence="" Action="unicodeLigature_ffl"/>
+ <Shortcut KeySequence="" Action="unicodeLigature_fi"/>
+ <Shortcut KeySequence="" Action="unicodeLigature_fl"/>
+ <Shortcut KeySequence="" Action="unicodeLigature_ft"/>
+ <Shortcut KeySequence="" Action="unicodeLigature_st"/>
+ <Shortcut KeySequence="" Action="unicodeMidpoint"/>
+ <Shortcut KeySequence="Shift+Return" Action="unicodeNewLine"/>
+ <Shortcut KeySequence="Ctrl+Alt+-" Action="unicodeNonBreakingHyphen"/>
+ <Shortcut KeySequence="Ctrl+Space" Action="unicodeNonBreakingSpace"/>
+ <Shortcut KeySequence="" Action="unicodePageCount"/>
+ <Shortcut KeySequence="Ctrl+Alt+Shift+P" Action="unicodePageNumber"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteApostrophe"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteCJKDoubleLeft"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteCJKDoubleRight"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteCJKSingleLeft"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteCJKSingleRight"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteDoubleLeft"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteDoubleLeftGuillemet"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteDoubleReversed"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteDoubleRight"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteDoubleRightGuillemet"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteLowDoubleComma"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteLowSingleComma"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteSingleLeft"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteSingleLeftGuillemet"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteSingleReversed"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteSingleRight"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteSingleRightGuillemet"/>
+ <Shortcut KeySequence="" Action="unicodeQuoteStraight"/>
+ <Shortcut KeySequence="" Action="unicodeRegdTM"/>
+ <Shortcut KeySequence="Ctrl+Shift+-" Action="unicodeSoftHyphen"/>
+ <Shortcut KeySequence="" Action="unicodeSolidus"/>
+ <Shortcut KeySequence="" Action="unicodeSpaceEM"/>
+ <Shortcut KeySequence="" Action="unicodeSpaceEN"/>
+ <Shortcut KeySequence="" Action="unicodeSpaceHair"/>
+ <Shortcut KeySequence="" Action="unicodeSpaceMid"/>
+ <Shortcut KeySequence="" Action="unicodeSpaceThick"/>
+ <Shortcut KeySequence="" Action="unicodeSpaceThin"/>
+ <Shortcut KeySequence="" Action="unicodeTM"/>
+ <Shortcut KeySequence="" Action="unicodeZWJ"/>
+ <Shortcut KeySequence="" Action="unicodeZWNJ"/>
+ <Shortcut KeySequence="" Action="unicodeZerowidthNonBreakingSpace"/>
+ <Shortcut KeySequence="" Action="unicodeZerowidthSpace"/>
+ <Shortcut KeySequence="" Action="viewEditInPreview"/>
+ <Shortcut KeySequence="Ctrl+1" Action="viewFit100"/>
+ <Shortcut KeySequence="" Action="viewFit200"/>
+ <Shortcut KeySequence="" Action="viewFit400"/>
+ <Shortcut KeySequence="" Action="viewFit50"/>
+ <Shortcut KeySequence="" Action="viewFit75"/>
+ <Shortcut KeySequence="Ctrl+0" Action="viewFitInWindow"/>
+ <Shortcut KeySequence="" Action="viewFitWidth"/>
+ <Shortcut KeySequence="Ctrl+Alt+P" Action="viewPreviewMode"/>
+ <Shortcut KeySequence="" Action="viewRulerMode"/>
+ <Shortcut KeySequence="" Action="viewShowBaseline"/>
+ <Shortcut KeySequence="" Action="viewShowBleeds"/>
+ <Shortcut KeySequence="" Action="viewShowColumnBorders"/>
+ <Shortcut KeySequence="Menu" Action="viewShowContextMenu"/>
+ <Shortcut KeySequence="" Action="viewShowFrames"/>
+ <Shortcut KeySequence="" Action="viewShowGrid"/>
+ <Shortcut KeySequence="" Action="viewShowGuides"/>
+ <Shortcut KeySequence="" Action="viewShowImages"/>
+ <Shortcut KeySequence="" Action="viewShowLayerMarkers"/>
+ <Shortcut KeySequence="" Action="viewShowMargins"/>
+ <Shortcut KeySequence="Ctrl+Shift+R" Action="viewShowRulers"/>
+ <Shortcut KeySequence="" Action="viewShowTextChain"/>
+ <Shortcut KeySequence="" Action="viewShowTextControls"/>
+ <Shortcut KeySequence="" Action="viewSnapToElements"/>
+ <Shortcut KeySequence="" Action="viewSnapToGrid"/>
+ <Shortcut KeySequence="" Action="viewSnapToGuides"/>
+ <Shortcut KeySequence="" Action="viewToggleCM"/>
+ <Shortcut KeySequence="" Action="viewToggleCMS"/>
+ <Shortcut KeySequence="" Action="windowsCascade"/>
+ <Shortcut KeySequence="" Action="windowsTile"/>
+ <DefaultColorSet Name="/usr/share/scribus/swatches/Scribus Basic"/>
+ <PDF DoMultiFile="0" EmbedPDF="0" fitWindow="0" PassUser="" UseLpi="0" RotateDeg="0" OpenAction="" MarkOffset="0" PageLayout="0" BleedRight="0.000" Thumbnails="0" DisplayBookmarks="0" MarkLength="20" UseLayers="0" CompressionMethod="0" DocInfoMarks="0" Permissions="-4" CropMarks="0" BleedMarks="0" hideMenuBar="0" Encrypt="0" RecalcPic="0" Version="14" MirrorPagesVertical="0" openAfterExport="0" UseSpotColors="1" Intent2="0" PresentMode="0" InfoString="" FontEmbedding="0" Binding="0" Compress="1" Intent="0" PicRes="300" DisplayThumbs="0" Quality="0" UseDocBleeds="1" Grayscale="0" ColorMarks="0" MirrorPagesHorizontal="0" BleedTop="0.000" SolidProfile="" UseProfiles2="0" DisplayFullscreen="0" hideToolBar="0" Bookmarks="0" RegistrationMarks="0" BleedLeft="0.000" UseProfiles="0" RGBMode="1" BleedBottom="0.000" ImageProfile="" Resolution="300" ImagePr="0" Articles="0" PrintProfile="" DoClip="0" PassOwner="" DisplayLayers="0"/>
+ <DefaultItemAttributes/>
+ <TablesOfContents/>
+ <ImageCache Enabled="0" MaximumCacheSizeMiB="1000" CompressionLevel="1" MaximumCacheEntries="1000"/>
+ <ActivePageSizes Names="A4,Letter"/>
+</SCRIBUSRC>

@@ -1,0 +1,13 @@
+2022/10/02-11:40:36.288 249074 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/02-11:40:36.288 249074 Recovering log #1593
+2022/10/02-11:40:36.298 249074 Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/001593.log 
+2022/10/02-11:40:44.175 24b8c1 Level-0 table #1601: started
+2022/10/02-11:40:44.194 24b8c1 Level-0 table #1601: 1490115 bytes OK
+2022/10/02-11:40:44.233 24b8c1 Delete type=0 #1593
+2022/10/02-11:40:44.294 249074 Compacting 1@1 + 4@2 files
+2022/10/02-11:40:44.315 249074 Generated table #1602@1: 2902 keys, 2143984 bytes
+2022/10/02-11:40:44.340 249074 Generated table #1603@1: 812 keys, 2133331 bytes
+2022/10/02-11:40:44.365 249074 Generated table #1604@1: 843 keys, 2136235 bytes
+2022/10/02-11:40:44.378 249074 Generated table #1605@1: 4337 keys, 532283 bytes
+2022/10/02-11:40:44.378 249074 Compacted 1@1 + 4@2 files => 6945833 bytes
+2022/10/02-11:40:44.393 249074 compacted to: files[ 0 0 4 0 0 0 0 ]

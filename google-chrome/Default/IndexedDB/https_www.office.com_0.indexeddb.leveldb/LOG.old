@@ -1,0 +1,46 @@
+2022/09/13-00:02:18.409 353fd1 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/13-00:02:18.410 353fd1 Recovering log #2048
+2022/09/13-00:02:18.413 353fd1 Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.office.com_0.indexeddb.leveldb/002048.log 
+2022/09/13-00:02:24.515 353fa3 Level-0 table #2056: started
+2022/09/13-00:02:24.544 353fa3 Level-0 table #2056: 2922287 bytes OK
+2022/09/13-00:02:24.581 353fa3 Delete type=0 #2048
+2022/09/13-00:02:24.653 353fc8 Compacting 1@1 + 11@2 files
+2022/09/13-00:02:24.671 353fc8 Generated table #2057@1: 834 keys, 2128886 bytes
+2022/09/13-00:02:24.688 353fc8 Generated table #2058@1: 613 keys, 2136053 bytes
+2022/09/13-00:02:24.705 353fc8 Generated table #2059@1: 591 keys, 2136272 bytes
+2022/09/13-00:02:24.732 353fc8 Generated table #2060@1: 6714 keys, 2171445 bytes
+2022/09/13-00:02:24.751 353fc8 Generated table #2061@1: 623 keys, 2131344 bytes
+2022/09/13-00:02:24.769 353fc8 Generated table #2062@1: 593 keys, 2133314 bytes
+2022/09/13-00:02:24.788 353fc8 Generated table #2063@1: 598 keys, 2134783 bytes
+2022/09/13-00:02:24.806 353fc8 Generated table #2064@1: 507 keys, 2128935 bytes
+2022/09/13-00:02:24.833 353fc8 Generated table #2065@1: 8129 keys, 2198039 bytes
+2022/09/13-00:02:24.851 353fc8 Generated table #2066@1: 662 keys, 92660 bytes
+2022/09/13-00:02:24.851 353fc8 Compacted 1@1 + 11@2 files => 19391731 bytes
+2022/09/13-00:02:24.884 353fc8 compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/09/13-00:02:24.884 353fc8 Delete type=2 #2035
+2022/09/13-00:02:24.884 353fc8 Delete type=2 #2036
+2022/09/13-00:02:24.884 353fc8 Delete type=2 #2037
+2022/09/13-00:02:24.884 353fc8 Delete type=2 #2038
+2022/09/13-00:02:24.884 353fc8 Delete type=2 #2039
+2022/09/13-00:02:24.884 353fc8 Delete type=2 #2040
+2022/09/13-00:02:24.885 353fc8 Delete type=2 #2047
+2022/09/13-00:02:24.885 353fc8 Delete type=2 #2050
+2022/09/13-00:02:24.885 353fc8 Delete type=2 #2051
+2022/09/13-00:02:24.885 353fc8 Delete type=2 #2052
+2022/09/13-00:02:24.885 353fc8 Delete type=2 #2053
+2022/09/13-00:02:24.885 353fc8 Delete type=2 #2056
+2022/09/13-00:12:19.853 357cf0 Level-0 table #2068: started
+2022/09/13-00:12:19.871 357cf0 Level-0 table #2068: 2928056 bytes OK
+2022/09/13-00:12:19.902 357cf0 Delete type=0 #2055
+2022/09/13-00:12:20.035 35be63 Compacting 1@1 + 4@2 files
+2022/09/13-00:12:20.053 35be63 Generated table #2069@1: 807 keys, 2125736 bytes
+2022/09/13-00:12:20.069 35be63 Generated table #2070@1: 611 keys, 2131274 bytes
+2022/09/13-00:12:20.087 35be63 Generated table #2071@1: 591 keys, 2135324 bytes
+2022/09/13-00:12:20.112 35be63 Generated table #2072@1: 6732 keys, 2162687 bytes
+2022/09/13-00:12:20.112 35be63 Compacted 1@1 + 4@2 files => 8555021 bytes
+2022/09/13-00:12:20.143 35be63 compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/09/13-00:12:20.143 35be63 Delete type=2 #2057
+2022/09/13-00:12:20.143 35be63 Delete type=2 #2058
+2022/09/13-00:12:20.143 35be63 Delete type=2 #2059
+2022/09/13-00:12:20.143 35be63 Delete type=2 #2060
+2022/09/13-00:12:20.143 35be63 Delete type=2 #2068

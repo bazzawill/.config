@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Jam loceng"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "Batal"
+   },
+   "Countdown": {
+      "message": "Undur"
+   },
+   "Pause": {
+      "message": "Jeda"
+   },
+   "Resume": {
+      "message": "Sambung semula"
+   },
+   "Stop": {
+      "message": "Berhenti"
+   },
+   "Stopwatch": {
+      "message": "jam randik"
+   }
+}

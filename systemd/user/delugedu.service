@@ -1,0 +1,12 @@
+[Unit]
+Description=Deluge Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/deluged -d -P %h/.config/deluge/deluge.pid
+PIDFile=%h/.config/deluge/deluge.pid
+RemainAfterExit=no
+Restart=on-failure
+RestartSec=5s
+[Install]
+WantedBy=default.target

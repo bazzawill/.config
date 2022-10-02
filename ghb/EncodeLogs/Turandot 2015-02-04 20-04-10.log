@@ -1,0 +1,194 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:11832): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[20:04:10] CPU: 
+[20:04:10]  - logical processor count: 4
+[20:04:10] hb_scan: path=/run/media/bazza/TURANDOT, title_index=1
+index_parse.c:190: indx_parse(): error opening /run/media/bazza/TURANDOT/BDMV/index.bdmv
+index_parse.c:190: indx_parse(): error opening /run/media/bazza/TURANDOT/BDMV/BACKUP/index.bdmv
+bluray.c:2365: nav_get_title_list(/run/media/bazza/TURANDOT) failed
+[20:04:10] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/TURANDOT for CSS authentication
+libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+libdvdnav: vm: dvd_read_name failed
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000126
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00001614
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00001806
+libdvdread: Elapsed time 0
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 0
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/TURANDOT for CSS authentication
+[20:04:10] scan: DVD has 3 title(s)
+[20:04:10] scan: scanning title 1
+[20:04:10] scan: opening IFO for VTS 1
+[20:04:10] scan: duration is 02:08:09 (7689600 ms)
+[20:04:10] pgc_id: 1, pgn: 1: pgc: 0x7f8ff400c6a0
+[20:04:10] scan: vts=1, ttn=1, cells=0->30, blocks=6770->3668323, 3661554 blocks
+[20:04:10] scan: checking audio 1
+[20:04:10] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[20:04:10] scan: checking subtitle 1
+[20:04:10] scan: id=0x20bd, lang=English, 3cc=eng ext=0
+[20:04:10] scan: title 1 has 31 chapters
+[20:04:10] scan: chap 1 c=0->0, b=6770->96488 (89719), 202800 ms
+[20:04:10] scan: chap 2 c=1->1, b=96489->170978 (74490), 163680 ms
+[20:04:10] scan: chap 3 c=2->2, b=170979->248736 (77758), 167880 ms
+[20:04:10] scan: chap 4 c=3->3, b=248737->379960 (131224), 278280 ms
+[20:04:10] scan: chap 5 c=4->4, b=379961->522541 (142581), 298440 ms
+[20:04:10] scan: chap 6 c=5->5, b=522542->570711 (48170), 100440 ms
+[20:04:10] scan: chap 7 c=6->6, b=570712->690515 (119804), 248160 ms
+[20:04:10] scan: chap 8 c=7->7, b=690516->756038 (65523), 135600 ms
+[20:04:10] scan: chap 9 c=8->8, b=756039->833153 (77115), 159240 ms
+[20:04:10] scan: chap 10 c=9->9, b=833154->996363 (163210), 339240 ms
+[20:04:10] scan: chap 11 c=10->10, b=996364->1090980 (94617), 212040 ms
+[20:04:10] scan: chap 12 c=11->11, b=1090981->1180002 (89022), 193440 ms
+[20:04:10] scan: chap 13 c=12->12, b=1180003->1353885 (173883), 369360 ms
+[20:04:10] scan: chap 14 c=13->13, b=1353886->1363690 (9805), 20640 ms
+[20:04:10] scan: chap 15 c=14->14, b=1363691->1485105 (121415), 253800 ms
+[20:04:10] scan: chap 16 c=15->15, b=1485106->1610772 (125667), 260520 ms
+[20:04:10] scan: chap 17 c=16->16, b=1610773->1661686 (50914), 105480 ms
+[20:04:10] scan: chap 18 c=17->17, b=1661687->1848633 (186947), 386040 ms
+[20:04:10] scan: chap 19 c=18->18, b=1848634->2047367 (198734), 409320 ms
+[20:04:10] scan: chap 20 c=19->19, b=2047368->2172634 (125267), 257760 ms
+[20:04:10] scan: chap 21 c=20->20, b=2172635->2310345 (137711), 282960 ms
+[20:04:10] scan: chap 22 c=21->21, b=2310346->2406741 (96396), 215520 ms
+[20:04:10] scan: chap 23 c=22->22, b=2406742->2611799 (205058), 440160 ms
+[20:04:10] scan: chap 24 c=23->23, b=2611800->2844246 (232447), 486360 ms
+[20:04:10] scan: chap 25 c=24->24, b=2844247->2936897 (92651), 192120 ms
+[20:04:10] scan: chap 26 c=25->25, b=2936898->3094540 (157643), 325440 ms
+[20:04:10] scan: chap 27 c=26->26, b=3094541->3193990 (99450), 205080 ms
+[20:04:10] scan: chap 28 c=27->27, b=3193991->3283795 (89805), 185760 ms
+[20:04:10] scan: chap 29 c=28->28, b=3283796->3382266 (98471), 202440 ms
+[20:04:10] scan: chap 30 c=29->29, b=3382267->3423632 (41366), 85080 ms
+[20:04:10] scan: chap 31 c=30->30, b=3423633->3668323 (244691), 506520 ms
+[20:04:10] scan: aspect = 1.33333
+[20:04:10] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[20:04:10] scan: title angle(s) 1
+[ac3 @ 0x7f8ff4136d60] frame sync error
+[ac3 @ 0x7f8ff412d620] frame sync error
+[20:04:10] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=384000 English (AC3) (2.0 ch)
+[20:04:10] Broken timestamps detected.  Reordering.
+[20:04:10] scan: 10 previews, 720x576, 25.000 fps, autocrop = 0/0/8/16, aspect 4:3, PAR 16:15
+[20:04:10] libhb: scan thread found 1 valid title(s)
+[20:04:12] gtkgui: Preset: Regular->Normal
+[20:04:12] 1 job(s) to process
+[20:04:12] starting job
+[20:04:12] sync: expecting 192240 video frames
+[20:04:12] job configuration:
+[20:04:12]  * source
+[20:04:12]    + /run/media/bazza/TURANDOT
+[20:04:12]    + title 1, chapter(s) 1 to 31
+[20:04:12]  * destination
+[20:04:12]    + /media/mythfs/videos/Turandot.m4v
+[20:04:12]    + container: MPEG-4 (libavformat)
+[20:04:12]      + chapter markers
+[20:04:12]  * video track
+[20:04:12]    + decoder: mpeg2video
+[20:04:12]      + bitrate 8500 kbps
+[20:04:12]    + filters
+[20:04:12]      + Framerate Shaper (0:27000000:1080000)
+[20:04:12]        + frame rate: same as source (around 25.000 fps)
+[20:04:12]      + Crop and Scale (696:576:0:0:8:16)
+[20:04:12]        + source: 720 * 576, crop (0/0/8/16): 696 * 576, scale: 696 * 576
+[20:04:12]    + loose anamorphic
+[20:04:12]      + storage dimensions: 696 * 576, mod 2
+[20:04:12]      + pixel aspect ratio: 16 / 15
+[20:04:12]      + display dimensions: 742 * 576
+[20:04:12]    + encoder: H.264 (libx264)
+[20:04:12]      + preset:  veryfast
+[20:04:12]      + profile: main
+[20:04:12]      + level:   4.0
+[20:04:12]      + quality: 20.00 (RF)
+[20:04:12]  * audio track 1
+[20:04:12]    + decoder: English (AC3) (2.0 ch) (track 1, id 0x80bd)
+[20:04:12]      + bitrate: 384 kbps, samplerate: 48000 Hz
+[20:04:12]    + mixdown: Stereo
+[20:04:12]    + encoder: AAC (libavcodec)
+[20:04:12]      + bitrate: 160 kbps, samplerate: 48000 Hz
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/TURANDOT for CSS authentication
+libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+libdvdnav: vm: dvd_read_name failed
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000126
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00001614
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00001806
+libdvdread: Elapsed time 0
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 0
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/TURANDOT for CSS authentication
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[20:04:12] encx264: encoding at constant RF 20.000000
+[20:04:12] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=16/15
+[20:04:12] reader: first SCR 146 id 0xe0 DTS 22254
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+[20:04:12] mpeg2video: "Chapter 1" (1) at frame 0 time 0
+x264 [info]: profile Main, level 4.0
+[20:05:25] mpeg2video: "Chapter 2" (2) at frame 5072 time 18262800
+[20:06:22] mpeg2video: "Chapter 3" (3) at frame 9164 time 32994000
+[20:07:17] mpeg2video: "Chapter 4" (4) at frame 13361 time 48103200
+[20:08:44] mpeg2video: "Chapter 5" (5) at frame 20318 time 73148400
+[20:10:11] mpeg2video: "Chapter 6" (6) at frame 27779 time 100008000
+[20:10:38] mpeg2video: "Chapter 7" (7) at frame 30290 time 109047600
+[20:11:45] mpeg2video: "Chapter 8" (8) at frame 36494 time 131382000
+[20:12:20] mpeg2video: "Chapter 9" (9) at frame 39884 time 143586000
+[20:13:00] mpeg2video: "Chapter 10" (10) at frame 43865 time 157917600
+[20:14:20] mpeg2video: "Chapter 11" (11) at frame 52342 time 188434800
+[20:15:05] mpeg2video: "Chapter 12" (12) at frame 57647 time 207532800
+[20:15:46] mpeg2video: "Chapter 13" (13) at frame 62483 time 224942400
+[20:17:03] mpeg2video: "Chapter 14" (14) at frame 71717 time 258184800
+[20:17:07] mpeg2video: "Chapter 15" (15) at frame 72233 time 260042400
+[20:17:59] mpeg2video: "Chapter 16" (16) at frame 78578 time 282884400
+[20:18:52] mpeg2video: "Chapter 17" (17) at frame 85091 time 306331200
+[20:19:12] mpeg2video: "Chapter 18" (18) at frame 87728 time 315824400
+[20:20:26] mpeg2video: "Chapter 19" (19) at frame 97379 time 350568000
+[20:21:43] mpeg2video: "Chapter 20" (20) at frame 107612 time 387406800
+[20:22:35] mpeg2video: "Chapter 21" (21) at frame 114056 time 410605200
+[20:23:34] mpeg2video: "Chapter 22" (22) at frame 121126 time 436057200
+[20:24:15] mpeg2video: "Chapter 23" (23) at frame 126518 time 455468400
+[20:25:49] mpeg2video: "Chapter 24" (24) at frame 137522 time 495082800
+[20:27:41] mpeg2video: "Chapter 25" (25) at frame 149681 time 538855200
+[20:28:29] mpeg2video: "Chapter 26" (26) at frame 154484 time 556146000
+[20:29:54] mpeg2video: "Chapter 27" (27) at frame 162620 time 585435600
+[20:30:51] mpeg2video: "Chapter 28" (28) at frame 167747 time 603892800
+[20:31:46] mpeg2video: "Chapter 29" (29) at frame 172391 time 620611200
+[20:32:49] mpeg2video: "Chapter 30" (30) at frame 177452 time 638830800
+[20:33:16] mpeg2video: "Chapter 31" (31) at frame 179579 time 646488000
+[20:36:19] reader: done. 3 scr changes
+[20:36:19] work: average encoding speed for job is 99.770546 fps
+[20:36:19] sync: got 192240 frames, 192240 expected
+[20:36:19] render: lost time: 0 (0 frames)
+[20:36:19] render: gained time: 0 (0 frames) (0 not accounted for)
+[20:36:19] mpeg2video-decoder done: 192240 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:1101  Avg QP:18.13  size: 45835
+x264 [info]: frame P:137085 Avg QP:20.91  size: 10838
+x264 [info]: frame B:54054 Avg QP:23.29  size:  3942
+x264 [info]: consecutive B-frames: 48.1% 40.1%  9.7%  2.2%
+x264 [info]: mb I  I16..4: 54.5%  0.0% 45.5%
+x264 [info]: mb P  I16..4: 24.6%  0.0%  0.4%  P16..4: 33.0%  9.8%  6.7%  0.0%  0.0%    skip:25.6%
+x264 [info]: mb B  I16..4:  4.0%  0.0%  0.0%  B16..8: 15.0%  4.8%  0.8%  direct:21.7%  skip:53.7%  L0:29.1% L1:40.8% BI:30.1%
+x264 [info]: coded y,uvDC,uvAC intra: 47.5% 50.9% 7.1% inter: 23.2% 25.2% 1.0%
+x264 [info]: i16 v,h,dc,p: 45% 25% 25%  5%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 26% 20%  5%  5%  6%  6%  6%  6%
+x264 [info]: i8c dc,h,v,p: 61% 21% 17%  2%
+x264 [info]: Weighted P-Frames: Y:3.1% UV:0.7%
+x264 [info]: kb/s:1819.90
+[20:36:20] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[20:36:20] mux: track 0, 192240 frames, 1749247634 bytes, 1819.85 kbps, fifo 4096
+[20:36:20] mux: track 1, 360447 frames, 153830060 bytes, 160.04 kbps, fifo 8192
+[20:36:20] libhb: work result = 0

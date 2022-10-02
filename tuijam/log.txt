@@ -1,0 +1,50 @@
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+ERROR:root:[Errno 2] No such file or directory: '/home/bazza/.config/tuijam/queue.json'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/tuijam/app.py", line 613, in restore_queue
+    with open(QUEUE_FILE, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/bazza/.config/tuijam/queue.json'
+ERROR:root:[Errno 2] No such file or directory: '/home/bazza/.config/tuijam/hist.json'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/tuijam/app.py", line 627, in restore_history
+    with open(HISTORY_FILE, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/bazza/.config/tuijam/hist.json'
+ERROR:root:Missing Key 'artistId' in dict 
+{'kind': 'sj#track', 'title': 'Help! (From "Help!")', 'artist': 'Various Artists', 'composer': '', 'album': 'Best Movie Soundtracks', 'albumArtist': 'Various Artists', 'year': 2015, 'trackNumber': 9, 'genre': 'Soundtracks', 'durationMillis': '140000', 'albumArtRef': [{'kind': 'sj#imageRef', 'url': 'http://lh3.googleusercontent.com/Bv_HzbwIjQqjViT95HNpwAit2N6KeaAJDGvEROErDxcZBQDpNG8loJ9UF5w_XCVzUmgq4gQ8Tg', 'aspectRatio': '1', 'autogen': False}], 'discNumber': 1, 'estimatedSize': '5639341', 'trackType': '7', 'storeId': 'T4znyhxsofwuylvsnhtofysftpe', 'albumId': 'ogzaugqqdubjjla4jz2d6dru64', 'nid': '4znyhxsofwuylvsnhtofysftpe', 'trackAvailableForSubscription': True, 'trackAvailableForPurchase': True, 'albumAvailableForPurchase': True, 'explicitType': '2'}
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/tuijam/music_objects.py", line 104, in from_dict
+    artistId = d["artistId"][0]
+KeyError: 'artistId'
+ERROR:root:Missing Key 'albumArtRef' in dict 
+{'kind': 'sj#track', 'title': 'Help Me', 'artist': 'Joni Mitchell', 'composer': 'Joni Mitchell', 'album': 'The Studio Albums (1968-1979)', 'albumArtist': 'Joni Mitchell', 'year': 2012, 'trackNumber': 2, 'genre': 'Singer-Songwriter', 'durationMillis': '204000', 'discNumber': 6, 'estimatedSize': '8170084', 'trackType': '7', 'storeId': 'Tvgl6rk3prwtv53gm22ltykwvt4', 'albumId': 'rr656mnigl6f6ibtgvwhivwamq', 'artistId': ['watgo67d7s4din34scsnshrb4q'], 'nid': 'vgl6rk3prwtv53gm22ltykwvt4', 'trackAvailableForSubscription': True, 'trackAvailableForPurchase': True, 'albumAvailableForPurchase': True, 'explicitType': '2'}
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/tuijam/music_objects.py", line 102, in from_dict
+    albumArtRef = d["albumArtRef"][0]["url"]
+KeyError: 'albumArtRef'

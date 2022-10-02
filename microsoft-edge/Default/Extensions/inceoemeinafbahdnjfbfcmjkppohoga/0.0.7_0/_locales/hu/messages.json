@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Videók megtekintése a Kép a képben módban (Lebegő Videolejátszó). Támogasson mindenféle videó weboldalt."
+   },
+   "name": {
+      "message": "Kép a képben videó"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

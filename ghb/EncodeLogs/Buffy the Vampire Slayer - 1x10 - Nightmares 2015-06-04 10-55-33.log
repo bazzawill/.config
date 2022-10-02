@@ -1,0 +1,165 @@
+Handbrake Version: 0.10.1 (2015032200)
+
+** (ghb:16482): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[10:55:34] CPU: 
+[10:55:34]  - logical processor count: 4
+[10:55:34] hb_scan: path=/run/media/bazza/BUFFY_DISC3, title_index=2
+disc.c:332: error opening file BDMV/index.bdmv
+disc.c:332: error opening file BDMV/BACKUP/index.bdmv
+[10:55:34] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/BUFFY_DISC3 for CSS authentication
+libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+libdvdnav: vm: dvd_read_name failed
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000130
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000281
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x0000656c
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x0037a027
+libdvdread: Elapsed time 0
+libdvdread: Found 2 VTS's
+libdvdread: Elapsed time 0
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/BUFFY_DISC3 for CSS authentication
+[10:55:34] scan: DVD has 19 title(s)
+[10:55:34] scan: scanning title 2
+[10:55:34] scan: opening IFO for VTS 1
+[10:55:34] scan: duration is 00:43:03 (2583080 ms)
+[10:55:34] pgc_id: 2, pgn: 1: pgc: 0x7f0fec010a40
+[10:55:34] scan: vts=1, ttn=2, cells=0->11, blocks=906529->1808355, 901827 blocks
+[10:55:34] scan: checking audio 1
+[10:55:34] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[10:55:34] scan: checking audio 2
+[10:55:34] scan: id=0x81bd, lang=Francais (AC3), 3cc=fra ext=0
+[10:55:34] scan: checking subtitle 1
+[10:55:34] scan: id=0x20bd, lang=Nederlands, 3cc=nld ext=0
+[10:55:34] scan: checking subtitle 2
+[10:55:34] scan: id=0x21bd, lang=English, 3cc=eng ext=0
+[10:55:34] scan: checking subtitle 3
+[10:55:34] scan: id=0x22bd, lang=Francais, 3cc=fra ext=0
+[10:55:34] scan: title 2 has 12 chapters
+[10:55:34] scan: chap 1 c=0->0, b=906529->1008505 (101977), 289000 ms
+[10:55:34] scan: chap 2 c=1->1, b=1008506->1025764 (17259), 49720 ms
+[10:55:34] scan: chap 3 c=2->2, b=1025765->1155850 (130086), 363320 ms
+[10:55:34] scan: chap 4 c=3->3, b=1155851->1217293 (61443), 169560 ms
+[10:55:34] scan: chap 5 c=4->4, b=1217294->1268212 (50919), 145640 ms
+[10:55:34] scan: chap 6 c=5->5, b=1268213->1341452 (73240), 209800 ms
+[10:55:34] scan: chap 7 c=6->6, b=1341453->1383569 (42117), 121720 ms
+[10:55:34] scan: chap 8 c=7->7, b=1383570->1451443 (67874), 205640 ms
+[10:55:34] scan: chap 9 c=8->8, b=1451444->1610647 (159204), 461600 ms
+[10:55:34] scan: chap 10 c=9->9, b=1610648->1687735 (77088), 226240 ms
+[10:55:34] scan: chap 11 c=10->10, b=1687736->1798220 (110485), 296960 ms
+[10:55:34] scan: chap 12 c=11->11, b=1798221->1808355 (10135), 43880 ms
+[10:55:34] scan: aspect = 1.33333
+[10:55:34] scan: decoding previews for title 2
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+[10:55:34] scan: title angle(s) 1
+[ac3 @ 0x7f0fec018a40] frame sync error
+[10:55:34] scan: audio 0x81bd: ac3, rate=48000Hz, bitrate=192000 Francais (AC3) (2.0 ch) (Dolby Surround)
+[ac3 @ 0x7f0fec231140] frame sync error
+[10:55:34] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch) (Dolby Surround)
+[10:55:34] scan: 10 previews, 720x576, 25.000 fps, autocrop = 0/0/4/2, aspect 4:3, PAR 16:15
+[10:55:34] libhb: scan thread found 1 valid title(s)
+[10:55:36] gtkgui: Modified Preset: Regular->Normal
+[10:55:36] 1 job(s) to process
+[10:55:36] starting job
+[10:55:36] sync: expecting 64577 video frames
+[10:55:36] job configuration:
+[10:55:36]  * source
+[10:55:36]    + /run/media/bazza/BUFFY_DISC3
+[10:55:36]    + title 2, chapter(s) 1 to 12
+[10:55:36]  * destination
+[10:55:36]    + /media/mythfs/tv/Buffy/Season 1/Buffy the Vampire Slayer - 1x10 - Nightmares.mkv
+[10:55:36]    + container: Matroska (libavformat)
+[10:55:36]      + chapter markers
+[10:55:36]  * video track
+[10:55:36]    + decoder: mpeg2video
+[10:55:36]      + bitrate 7500 kbps
+[10:55:36]    + filters
+[10:55:36]      + Framerate Shaper (0:27000000:1080000)
+[10:55:36]        + frame rate: same as source (around 25.000 fps)
+[10:55:36]      + Crop and Scale (714:576:0:0:4:2)
+[10:55:36]        + source: 720 * 576, crop (0/0/4/2): 714 * 576, scale: 714 * 576
+[10:55:36]    + loose anamorphic
+[10:55:36]      + storage dimensions: 714 * 576, mod 2
+[10:55:36]      + pixel aspect ratio: 16 / 15
+[10:55:36]      + display dimensions: 761 * 576
+[10:55:36]    + encoder: H.264 (libx264)
+[10:55:36]      + preset:  veryfast
+[10:55:36]      + profile: main
+[10:55:36]      + level:   4.0
+[10:55:36]      + quality: 20.00 (RF)
+[10:55:36]  * audio track 1
+[10:55:36]    + decoder: English (AC3) (2.0 ch) (Dolby Surround) (track 1, id 0x80bd)
+[10:55:36]      + bitrate: 192 kbps, samplerate: 48000 Hz
+[10:55:36]    + mixdown: Dolby Surround
+[10:55:36]    + encoder: AAC (libavcodec)
+[10:55:36]      + bitrate: 160 kbps, samplerate: 48000 Hz
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/BUFFY_DISC3 for CSS authentication
+libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+libdvdnav: vm: dvd_read_name failed
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000130
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000281
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x0000656c
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x0037a027
+libdvdread: Elapsed time 0
+libdvdread: Found 2 VTS's
+libdvdread: Elapsed time 0
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/BUFFY_DISC3 for CSS authentication
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+[10:55:36] encx264: encoding at constant RF 20.000000
+[10:55:36] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=16/15
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+x264 [info]: profile Main, level 4.0
+[10:55:39] reader: first SCR 146 id 0xe0 DTS 1080
+[10:55:39] mpeg2video: "Chapter 1" (1) at frame 0 time 0
+[10:56:30] mpeg2video: "Chapter 2" (2) at frame 7227 time 26020800
+[10:56:39] mpeg2video: "Chapter 3" (3) at frame 8470 time 30495600
+[10:57:45] mpeg2video: "Chapter 4" (4) at frame 17553 time 63194400
+[10:58:15] mpeg2video: "Chapter 5" (5) at frame 21792 time 78454800
+[10:58:44] mpeg2video: "Chapter 6" (6) at frame 25433 time 91562400
+[10:59:28] mpeg2video: "Chapter 7" (7) at frame 30678 time 110444400
+[10:59:54] mpeg2video: "Chapter 8" (8) at frame 33721 time 121399200
+[11:00:40] mpeg2video: "Chapter 9" (9) at frame 38862 time 139906800
+[11:02:03] mpeg2video: "Chapter 10" (10) at frame 50402 time 181450800
+[11:02:42] mpeg2video: "Chapter 11" (11) at frame 56058 time 201812400
+[11:03:37] mpeg2video: "Chapter 12" (12) at frame 63482 time 228538800
+[11:03:41] reader: done. 1 scr changes
+[11:03:42] work: average encoding speed for job is 133.685303 fps
+[11:03:42] sync: got 64577 frames, 64577 expected
+[11:03:42] render: lost time: 0 (0 frames)
+[11:03:42] render: gained time: 0 (0 frames) (0 not accounted for)
+[11:03:42] mpeg2video-decoder done: 64577 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:1051  Avg QP:18.16  size: 35521
+x264 [info]: frame P:34260 Avg QP:21.41  size: 12807
+x264 [info]: frame B:29266 Avg QP:22.80  size:  3215
+x264 [info]: consecutive B-frames: 22.8% 43.9% 19.3% 14.0%
+x264 [info]: mb I  I16..4: 40.4%  0.0% 59.6%
+x264 [info]: mb P  I16..4: 17.9%  0.0%  3.1%  P16..4: 35.6% 17.1% 10.0%  0.0%  0.0%    skip:16.2%
+x264 [info]: mb B  I16..4:  1.1%  0.0%  0.1%  B16..8: 16.7%  5.4%  0.7%  direct:17.9%  skip:58.1%  L0:24.6% L1:47.0% BI:28.4%
+x264 [info]: coded y,uvDC,uvAC intra: 59.3% 55.7% 22.2% inter: 25.1% 18.6% 0.8%
+x264 [info]: i16 v,h,dc,p: 43% 22% 27%  9%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 34% 17%  4%  4%  6%  4%  5%  4%
+x264 [info]: i8c dc,h,v,p: 53% 20% 23%  4%
+x264 [info]: Weighted P-Frames: Y:3.0% UV:1.3%
+x264 [info]: kb/s:1765.90
+[11:03:42] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[11:03:42] mux: track 0, 64577 frames, 570156153 bytes, 1765.79 kbps, fifo 4096
+[11:03:42] mux: track 1, 121080 frames, 51701388 bytes, 160.12 kbps, fifo 8192
+[11:03:42] libhb: work result = 0

@@ -1,0 +1,10 @@
+2022/06/11-21:18:42.969 891b Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_youtube.googleapis.com_0.indexeddb.leveldb since it was missing.
+2022/06/11-21:18:42.985 891b Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_youtube.googleapis.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/11-21:30:19.909 891b Level-0 table #5: started
+2022/06/11-21:30:19.915 891b Level-0 table #5: 12681 bytes OK
+2022/06/11-21:30:19.936 891b Delete type=0 #3
+2022/06/11-21:30:19.936 891b Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/11-21:30:21.931 147a7 Level-0 table #7: started
+2022/06/11-21:30:21.936 147a7 Level-0 table #7: 4186 bytes OK
+2022/06/11-21:30:21.957 147a7 Delete type=0 #4
+2022/06/11-21:30:21.957 147a7 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,159 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:29151): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[12:03:33] CPU: 
+[12:03:33]  - logical processor count: 4
+[12:03:33] hb_scan: path=/dev/sr0, title_index=1
+index_parse.c:191: indx_parse(): error opening /run/media/bazza/NINE_2009/BDMV/index.bdmv
+index_parse.c:191: indx_parse(): error opening /run/media/bazza/NINE_2009/BDMV/BACKUP/index.bdmv
+bluray.c:2356: nav_get_title_list(/run/media/bazza/NINE_2009) failed
+[12:03:33] bd: not a bd - trying as a stream/file instead
+[12:03:33] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: HAWKING
+libdvdnav: DVD Serial Number: 45651bf8
+libdvdnav: DVD Title (Alternative): 
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000121
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000379
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000464
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x001e67ad
+libdvdread: Elapsed time 0
+libdvdread: Found 2 VTS's
+libdvdread: Elapsed time 0
+[12:03:33] scan: DVD has 2 title(s)
+[12:03:33] scan: scanning title 1
+[12:03:33] scan: opening IFO for VTS 1
+[12:03:33] scan: duration is 01:28:40 (5320000 ms)
+[12:03:33] pgc_id: 1, pgn: 1: pgc: 0x7fb4dc00dc70
+[12:03:33] scan: vts=1, ttn=1, cells=0->12, blocks=0->1991443, 1991444 blocks
+[12:03:33] scan: checking audio 1
+[12:03:33] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[12:03:33] scan: title 1 has 13 chapters
+[12:03:33] scan: chap 1 c=0->0, b=0->179941 (179942), 494000 ms
+[12:03:33] scan: chap 2 c=1->1, b=179942->378965 (199024), 510640 ms
+[12:03:33] scan: chap 3 c=2->2, b=378966->536060 (157095), 405600 ms
+[12:03:33] scan: chap 4 c=3->3, b=536061->704080 (168020), 483600 ms
+[12:03:33] scan: chap 5 c=4->4, b=704081->898126 (194046), 521040 ms
+[12:03:33] scan: chap 6 c=5->5, b=898127->1073156 (175030), 472680 ms
+[12:03:33] scan: chap 7 c=6->6, b=1073157->1280785 (207629), 530400 ms
+[12:03:33] scan: chap 8 c=7->7, b=1280786->1417046 (136261), 362960 ms
+[12:03:33] scan: chap 9 c=8->8, b=1417047->1588754 (171708), 461000 ms
+[12:03:33] scan: chap 10 c=9->9, b=1588755->1779631 (190877), 499440 ms
+[12:03:33] scan: chap 11 c=10->10, b=1779632->1976740 (197109), 517400 ms
+[12:03:33] scan: chap 12 c=11->11, b=1976741->1991368 (14628), 60320 ms
+[12:03:33] scan: chap 13 c=12->12, b=1991369->1991443 (75), 920 ms
+[12:03:33] scan: aspect = 1.77778
+[12:03:33] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+[12:03:33] scan: title angle(s) 1
+[ac3 @ 0x7fb4dc210040] frame sync error
+[12:03:33] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=224000 English (AC3) (2.0 ch)
+[12:03:33] scan: 10 previews, 720x576, 25.000 fps, autocrop = 0/0/2/0, aspect 16:9, PAR 64:45
+[12:03:33] libhb: scan thread found 1 valid title(s)
+[12:03:35] gtkgui: Preset: Regular->Normal
+[12:03:35] 1 job(s) to process
+[12:03:35] starting job
+[12:03:35] sync: expecting 133000 video frames
+[12:03:35] job configuration:
+[12:03:35]  * source
+[12:03:35]    + /dev/sr0
+[12:03:35]    + title 1, chapter(s) 1 to 13
+[12:03:35]  * destination
+[12:03:35]    + /media/mythfs/videos/Hawking.m4v
+[12:03:35]    + container: MPEG-4 (libavformat)
+[12:03:35]      + chapter markers
+[12:03:35]  * video track
+[12:03:35]    + decoder: mpeg2video
+[12:03:35]      + bitrate 9000 kbps
+[12:03:35]    + filters
+[12:03:35]      + Framerate Shaper (0:27000000:1080000)
+[12:03:35]        + frame rate: same as source (around 25.000 fps)
+[12:03:35]      + Crop and Scale (718:576:0:0:2:0)
+[12:03:35]        + source: 720 * 576, crop (0/0/2/0): 718 * 576, scale: 718 * 576
+[12:03:35]    + loose anamorphic
+[12:03:35]      + storage dimensions: 718 * 576, mod 2
+[12:03:35]      + pixel aspect ratio: 64 / 45
+[12:03:35]      + display dimensions: 1021 * 576
+[12:03:35]    + encoder: H.264 (libx264)
+[12:03:35]      + preset:  veryfast
+[12:03:35]      + profile: main
+[12:03:35]      + level:   4.0
+[12:03:35]      + quality: 20.00 (RF)
+[12:03:35]  * audio track 1
+[12:03:35]    + decoder: English (AC3) (2.0 ch) (track 1, id 0x80bd)
+[12:03:35]      + bitrate: 224 kbps, samplerate: 48000 Hz
+[12:03:35]    + mixdown: Stereo
+[12:03:35]    + encoder: AAC (libavcodec)
+[12:03:35]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[12:03:35] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: HAWKING
+libdvdnav: DVD Serial Number: 45651bf8
+libdvdnav: DVD Title (Alternative): 
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000121
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000379
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000464
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x001e67ad
+libdvdread: Elapsed time 0
+libdvdread: Found 2 VTS's
+libdvdread: Elapsed time 0
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+[12:03:35] encx264: encoding at constant RF 20.000000
+[12:03:35] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=64/45
+[12:03:35] reader: first SCR 146 id 0xe0 DTS 22254
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+x264 [info]: profile Main, level 4.0
+[12:03:35] mpeg2video: "Chapter 1" (1) at frame 0 time 3600
+[12:03:35] sync: first pts is 3600
+[12:06:03] mpeg2video: "Chapter 2" (2) at frame 12350 time 44463600
+[12:08:21] mpeg2video: "Chapter 3" (3) at frame 25116 time 90421200
+[12:10:04] mpeg2video: "Chapter 4" (4) at frame 35256 time 126925200
+[12:11:55] mpeg2video: "Chapter 5" (5) at frame 47346 time 170449200
+[12:13:59] mpeg2video: "Chapter 6" (6) at frame 60372 time 217342800
+[12:15:49] mpeg2video: "Chapter 7" (7) at frame 72189 time 259884000
+[12:17:57] mpeg2video: "Chapter 8" (8) at frame 85449 time 307620000
+[12:19:24] mpeg2video: "Chapter 9" (9) at frame 94523 time 340286400
+[12:21:07] mpeg2video: "Chapter 10" (10) at frame 106048 time 381776400
+[12:23:11] mpeg2video: "Chapter 11" (11) at frame 118534 time 426726000
+[12:25:06] mpeg2video: "Chapter 12" (12) at frame 131469 time 473292000
+[12:25:13] reader: done. 1 scr changes
+[12:25:14] mpeg2video: "Chapter 13" (13) at frame 132977 time 478720800
+[12:25:14] work: average encoding speed for job is 102.425690 fps
+[12:25:14] sync: got 133000 frames, 133000 expected
+[12:25:14] render: lost time: 0 (0 frames)
+[12:25:14] render: gained time: 0 (0 frames) (0 not accounted for)
+[12:25:14] mpeg2video-decoder done: 133000 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:1230  Avg QP:18.04  size: 36515
+x264 [info]: frame P:64337 Avg QP:21.52  size: 10307
+x264 [info]: frame B:67433 Avg QP:23.11  size:  2466
+x264 [info]: consecutive B-frames: 15.6% 41.6% 26.7% 16.2%
+x264 [info]: mb I  I16..4: 40.8%  0.0% 59.2%
+x264 [info]: mb P  I16..4: 16.5%  0.0%  2.0%  P16..4: 37.9% 16.6%  9.1%  0.0%  0.0%    skip:17.9%
+x264 [info]: mb B  I16..4:  2.0%  0.0%  0.1%  B16..8: 18.8%  5.3%  0.5%  direct:12.7%  skip:60.6%  L0:31.2% L1:49.0% BI:19.8%
+x264 [info]: coded y,uvDC,uvAC intra: 49.0% 52.6% 16.3% inter: 19.3% 15.6% 0.8%
+x264 [info]: i16 v,h,dc,p: 50% 17% 23% 10%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 31% 16% 19%  5%  6%  7%  5%  6%  5%
+x264 [info]: i8c dc,h,v,p: 50% 16% 30%  4%
+x264 [info]: Weighted P-Frames: Y:1.4% UV:0.5%
+x264 [info]: kb/s:1314.75
+[12:25:14] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[12:25:14] mux: track 0, 133000 frames, 874257390 bytes, 1314.67 kbps, fifo 4096
+[12:25:14] mux: track 1, 249372 frames, 106616481 bytes, 160.33 kbps, fifo 8192
+[12:25:14] libhb: work result = 0

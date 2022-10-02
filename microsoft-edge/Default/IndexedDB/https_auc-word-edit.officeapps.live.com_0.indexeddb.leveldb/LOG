@@ -1,0 +1,7 @@
+2022/09/26-21:40:18.317 20cbea Reusing MANIFEST /home/bazza/.config/microsoft-edge/Default/IndexedDB/https_auc-word-edit.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/26-21:40:18.317 20cbea Recovering log #3
+2022/09/26-21:40:18.317 20cbea Reusing old log /home/bazza/.config/microsoft-edge/Default/IndexedDB/https_auc-word-edit.officeapps.live.com_0.indexeddb.leveldb/000003.log 
+2022/09/26-22:16:45.821 1f3a84 Level-0 table #5: started
+2022/09/26-22:16:45.829 1f3a84 Level-0 table #5: 1342 bytes OK
+2022/09/26-22:16:45.845 1f3a84 Delete type=0 #3
+2022/09/26-22:16:45.845 1f3a84 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

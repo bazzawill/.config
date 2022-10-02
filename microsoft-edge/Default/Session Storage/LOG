@@ -1,0 +1,27 @@
+2022/09/26-20:58:46.474 3 Reusing MANIFEST /home/bazza/.config/microsoft-edge/Default/Session Storage/MANIFEST-000001
+2022/09/26-20:58:46.474 3 Recovering log #52
+2022/09/26-20:58:46.475 3 Reusing old log /home/bazza/.config/microsoft-edge/Default/Session Storage/000052.log 
+2022/09/26-20:58:56.162 5 Level-0 table #57: started
+2022/09/26-20:58:56.177 5 Level-0 table #57: 21331 bytes OK
+2022/09/26-20:58:56.194 5 Delete type=0 #52
+2022/09/26-20:59:02.663 5 Level-0 table #59: started
+2022/09/26-20:59:02.672 5 Level-0 table #59: 96410 bytes OK
+2022/09/26-20:59:02.688 5 Delete type=0 #56
+2022/09/26-21:40:16.071 28 Level-0 table #61: started
+2022/09/26-21:40:16.079 28 Level-0 table #61: 78818 bytes OK
+2022/09/26-21:40:16.095 28 Delete type=0 #58
+2022/09/26-21:40:26.456 28 Level-0 table #63: started
+2022/09/26-21:40:26.467 28 Level-0 table #63: 75120 bytes OK
+2022/09/26-21:40:26.490 28 Delete type=0 #60
+2022/09/26-21:40:26.490 28 Compacting 4@0 + 1@1 files
+2022/09/26-21:40:26.501 28 Generated table #64@0: 603 keys, 278178 bytes
+2022/09/26-21:40:26.501 28 Compacted 4@0 + 1@1 files => 278178 bytes
+2022/09/26-21:40:26.517 28 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/09/26-21:40:26.517 28 Delete type=2 #54
+2022/09/26-21:40:26.517 28 Delete type=2 #57
+2022/09/26-21:40:26.517 28 Delete type=2 #59
+2022/09/26-21:40:26.517 28 Delete type=2 #61
+2022/09/26-21:40:26.517 28 Delete type=2 #63
+2022/09/26-22:14:23.132 4c Level-0 table #66: started
+2022/09/26-22:14:23.140 4c Level-0 table #66: 64793 bytes OK
+2022/09/26-22:14:23.157 4c Delete type=0 #62

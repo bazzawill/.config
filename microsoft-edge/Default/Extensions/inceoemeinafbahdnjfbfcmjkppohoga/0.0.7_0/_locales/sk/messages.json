@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Pozerajte videá pomocou režimu obrazu v obraze (pohyblivý videoprehrávač). Podpora všetkých druhov webových stránok s videom."
+   },
+   "name": {
+      "message": "Obraz v obraze Video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

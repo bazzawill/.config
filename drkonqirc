@@ -1,0 +1,6 @@
+[General]
+HDMI-0 DVI-D-0 Height 1080x1920=548
+HDMI-0 DVI-D-0 Width 1080x1920=974
+
+[SystemInformation]
+CompiledSources=false

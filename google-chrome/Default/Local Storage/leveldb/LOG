@@ -1,0 +1,54 @@
+2022/10/01-06:33:43.838 3 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/10/01-06:33:43.839 3 Recovering log #3308
+2022/10/01-06:33:43.840 3 Reusing old log /home/bazza/.config/google-chrome/Default/Local Storage/leveldb/003308.log 
+2022/10/01-06:34:52.318 4 Level-0 table #3312: started
+2022/10/01-06:34:52.331 4 Level-0 table #3312: 19725 bytes OK
+2022/10/01-06:34:52.342 4 Delete type=0 #3308
+2022/10/01-06:34:52.343 4 Compacting 4@0 + 4@1 files
+2022/10/01-06:34:52.362 4 Generated table #3313@0: 2084 keys, 2126258 bytes
+2022/10/01-06:34:52.385 4 Generated table #3314@0: 2482 keys, 2177857 bytes
+2022/10/01-06:34:52.404 4 Generated table #3315@0: 5398 keys, 2114195 bytes
+2022/10/01-06:34:52.422 4 Generated table #3316@0: 4270 keys, 1794951 bytes
+2022/10/01-06:34:52.422 4 Compacted 4@0 + 4@1 files => 8213261 bytes
+2022/10/01-06:34:52.433 4 compacted to: files[ 0 4 1 0 0 0 0 ]
+2022/10/01-06:34:52.433 4 Delete type=2 #3299
+2022/10/01-06:34:52.433 4 Delete type=2 #3300
+2022/10/01-06:34:52.433 4 Delete type=2 #3301
+2022/10/01-06:34:52.433 4 Delete type=2 #3302
+2022/10/01-06:34:52.433 4 Delete type=2 #3304
+2022/10/01-06:34:52.433 4 Delete type=2 #3306
+2022/10/01-06:34:52.433 4 Delete type=2 #3309
+2022/10/01-06:34:52.433 4 Delete type=2 #3312
+2022/10/01-11:25:41.321 47 Level-0 table #3318: started
+2022/10/01-11:25:41.338 47 Level-0 table #3318: 11049 bytes OK
+2022/10/01-11:25:41.354 47 Delete type=0 #3311
+2022/10/01-16:35:41.321 8b Level-0 table #3320: started
+2022/10/01-16:35:41.338 8b Level-0 table #3320: 11118 bytes OK
+2022/10/01-16:35:41.354 8b Delete type=0 #3317
+2022/10/01-21:46:03.498 c3 Level-0 table #3322: started
+2022/10/01-21:46:03.519 c3 Level-0 table #3322: 10993 bytes OK
+2022/10/01-21:46:03.535 c3 Delete type=0 #3319
+2022/10/02-03:50:41.324 10a Level-0 table #3324: started
+2022/10/02-03:50:41.341 10a Level-0 table #3324: 11002 bytes OK
+2022/10/02-03:50:41.356 10a Delete type=0 #3321
+2022/10/02-03:50:41.356 10a Compacting 4@0 + 4@1 files
+2022/10/02-03:50:41.380 10a Generated table #3325@0: 2084 keys, 2126278 bytes
+2022/10/02-03:50:41.405 10a Generated table #3326@0: 2482 keys, 2177857 bytes
+2022/10/02-03:50:41.428 10a Generated table #3327@0: 5398 keys, 2114195 bytes
+2022/10/02-03:50:41.449 10a Generated table #3328@0: 4273 keys, 1794875 bytes
+2022/10/02-03:50:41.449 10a Compacted 4@0 + 4@1 files => 8213205 bytes
+2022/10/02-03:50:41.465 10a compacted to: files[ 0 4 1 0 0 0 0 ]
+2022/10/02-03:50:41.465 10a Delete type=2 #3313
+2022/10/02-03:50:41.465 10a Delete type=2 #3314
+2022/10/02-03:50:41.465 10a Delete type=2 #3315
+2022/10/02-03:50:41.465 10a Delete type=2 #3316
+2022/10/02-03:50:41.465 10a Delete type=2 #3318
+2022/10/02-03:50:41.465 10a Delete type=2 #3320
+2022/10/02-03:50:41.465 10a Delete type=2 #3322
+2022/10/02-03:50:41.465 10a Delete type=2 #3324
+2022/10/02-08:15:42.175 14b Level-0 table #3330: started
+2022/10/02-08:15:42.192 14b Level-0 table #3330: 11100 bytes OK
+2022/10/02-08:15:42.208 14b Delete type=0 #3323
+2022/10/02-11:20:07.419 17a Level-0 table #3332: started
+2022/10/02-11:20:07.436 17a Level-0 table #3332: 29663 bytes OK
+2022/10/02-11:20:07.452 17a Delete type=0 #3329

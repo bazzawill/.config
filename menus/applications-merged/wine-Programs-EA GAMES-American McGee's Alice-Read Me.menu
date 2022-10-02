@@ -1,0 +1,24 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>wine-wine</Name>
+    <Directory>wine-wine.directory</Directory>
+  <Menu>
+    <Name>wine-Programs</Name>
+    <Directory>wine-Programs.directory</Directory>
+  <Menu>
+    <Name>wine-Programs-EA GAMES</Name>
+    <Directory>wine-Programs-EA GAMES.directory</Directory>
+  <Menu>
+    <Name>wine-Programs-EA GAMES-American McGee&apos;s Alice</Name>
+    <Directory>wine-Programs-EA GAMES-American McGee&apos;s Alice.directory</Directory>
+    <Include>
+      <Filename>wine-Programs-EA GAMES-American McGee&apos;s Alice-Read Me.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+  </Menu>
+  </Menu>
+</Menu>

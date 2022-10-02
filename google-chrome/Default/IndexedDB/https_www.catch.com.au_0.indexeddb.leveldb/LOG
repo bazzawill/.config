@@ -1,0 +1,25 @@
+2022/08/21-14:24:17.709 13ab Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.catch.com.au_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/21-14:24:17.709 13ab Recovering log #58
+2022/08/21-14:24:17.709 13ab Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.catch.com.au_0.indexeddb.leveldb/000058.log 
+2022/08/21-14:24:17.709 13ab Delete type=2 #57
+2022/08/21-14:24:25.965 ffe Level-0 table #63: started
+2022/08/21-14:24:25.970 ffe Level-0 table #63: 615 bytes OK
+2022/08/21-14:24:25.981 ffe Delete type=0 #58
+2022/08/21-14:24:25.981 ffe Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x13\x00\x00\x05' @ 335 : 1
+2022/08/21-14:24:25.981 ffe Compacting 1@0 + 1@1 files
+2022/08/21-14:24:25.986 ffe Generated table #64@0: 32 keys, 985 bytes
+2022/08/21-14:24:25.986 ffe Compacted 1@0 + 1@1 files => 985 bytes
+2022/08/21-14:24:25.997 ffe compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/21-14:24:25.997 ffe Delete type=2 #63
+2022/08/21-14:24:25.997 ffe Manual compaction at level-0 from '\x00\x13\x00\x00\x05' @ 335 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/08/21-14:24:25.997 ffe Level-0 table #66: started
+2022/08/21-14:24:26.002 ffe Level-0 table #66: 476 bytes OK
+2022/08/21-14:24:26.013 ffe Delete type=2 #60
+2022/08/21-14:24:26.013 ffe Delete type=0 #62
+2022/08/21-14:24:26.013 ffe Manual compaction at level-0 from '\x00\x13\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at '\x00\x13\x00\x00\x05' @ 362 : 0
+2022/08/21-14:24:26.013 ffe Compacting 1@0 + 1@1 files
+2022/08/21-14:24:26.018 ffe Generated table #67@0: 30 keys, 1051 bytes
+2022/08/21-14:24:26.018 ffe Compacted 1@0 + 1@1 files => 1051 bytes
+2022/08/21-14:24:26.029 ffe compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/21-14:24:26.029 ffe Delete type=2 #66
+2022/08/21-14:24:26.029 ffe Manual compaction at level-0 from '\x00\x13\x00\x00\x05' @ 362 : 0 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "منبه"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "إلغاء"
+   },
+   "Countdown": {
+      "message": "العد التنازلي"
+   },
+   "Pause": {
+      "message": "وقفة"
+   },
+   "Resume": {
+      "message": "استئنف"
+   },
+   "Stop": {
+      "message": "توقف"
+   },
+   "Stopwatch": {
+      "message": "ساعة التوقيف"
+   }
+}

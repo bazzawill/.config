@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Budzik"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "Anuluj"
+   },
+   "Countdown": {
+      "message": "Odliczanie"
+   },
+   "Pause": {
+      "message": "Pauza"
+   },
+   "Resume": {
+      "message": "Wznawianie"
+   },
+   "Stop": {
+      "message": "Zatrzymać"
+   },
+   "Stopwatch": {
+      "message": "Stoper"
+   }
+}

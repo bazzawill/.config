@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Se videoer ved å bruke bilde-i-bilde-modus (flytende videospiller). Støtt alle slags videosider."
+   },
+   "name": {
+      "message": "Bilde i bilde-video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

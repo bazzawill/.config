@@ -1,0 +1,170 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:32168): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[17:15:55] CPU: 
+[17:15:55]  - logical processor count: 4
+[17:15:55] hb_scan: path=/dev/sr0, title_index=1
+index_parse.c:190: indx_parse(): error opening /run/media/bazza/HAIR/BDMV/index.bdmv
+index_parse.c:190: indx_parse(): error opening /run/media/bazza/HAIR/BDMV/BACKUP/index.bdmv
+bluray.c:2365: nav_get_title_list(/run/media/bazza/HAIR) failed
+[17:15:55] bd: not a bd - trying as a stream/file instead
+[17:15:55] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: DONQUIXOTE
+libdvdnav: DVD Serial Number: 26A1A2FB00000000
+libdvdnav: DVD Title (Alternative): DONQUIXOTE
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000126
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x0000077d
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000c45
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x001d9e49
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x001dc4af
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x002228c4
+libdvdread: Elapsed time 0
+libdvdread: Found 4 VTS's
+libdvdread: Elapsed time 0
+[17:15:55] scan: DVD has 4 title(s)
+[17:15:55] scan: scanning title 1
+[17:15:55] scan: opening IFO for VTS 1
+[17:15:55] scan: duration is 01:42:02 (6122400 ms)
+[17:15:55] pgc_id: 1, pgn: 1: pgc: 0x7fc878808830
+[17:15:55] scan: vts=1, ttn=1, cells=0->28, blocks=0->1937880, 1937881 blocks
+[17:15:55] scan: checking audio 1
+[17:15:55] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=1
+[17:15:55] scan: checking audio 2
+[17:15:55] scan: id=0x81bd, lang=English (AC3), 3cc=eng ext=1
+[17:15:55] scan: checking audio 3
+[17:15:55] scan: id=0xc2, lang=English (MPEG), 3cc=eng ext=1
+[17:15:55] scan: title 1 has 29 chapters
+[17:15:55] scan: chap 1 c=0->0, b=0->132673 (132674), 381640 ms
+[17:15:55] scan: chap 2 c=1->1, b=132674->193092 (60419), 172760 ms
+[17:15:55] scan: chap 3 c=2->2, b=193093->257483 (64391), 185000 ms
+[17:15:55] scan: chap 4 c=3->3, b=257484->318309 (60826), 219800 ms
+[17:15:55] scan: chap 5 c=4->4, b=318310->372602 (54293), 177200 ms
+[17:15:55] scan: chap 6 c=5->5, b=372603->461062 (88460), 251600 ms
+[17:15:55] scan: chap 7 c=6->6, b=461063->522531 (61469), 188520 ms
+[17:15:55] scan: chap 8 c=7->7, b=522532->599622 (77091), 213680 ms
+[17:15:55] scan: chap 9 c=8->8, b=599623->662750 (63128), 174600 ms
+[17:15:55] scan: chap 10 c=9->9, b=662751->777889 (115139), 379920 ms
+[17:15:55] scan: chap 11 c=10->10, b=777890->884297 (106408), 306920 ms
+[17:15:55] scan: chap 12 c=11->11, b=884298->1022535 (138238), 443880 ms
+[17:15:55] scan: chap 13 c=12->12, b=1022536->1060637 (38102), 114360 ms
+[17:15:55] scan: chap 14 c=13->13, b=1060638->1112452 (51815), 157120 ms
+[17:15:55] scan: chap 15 c=14->14, b=1112453->1172529 (60077), 185000 ms
+[17:15:55] scan: chap 16 c=15->15, b=1172530->1269214 (96685), 344680 ms
+[17:15:55] scan: chap 17 c=16->16, b=1269215->1306310 (37096), 132040 ms
+[17:15:55] scan: chap 18 c=17->17, b=1306311->1336943 (30633), 108440 ms
+[17:15:55] scan: chap 19 c=18->18, b=1336944->1373104 (36161), 122480 ms
+[17:15:55] scan: chap 20 c=19->19, b=1373105->1411303 (38199), 135960 ms
+[17:15:55] scan: chap 21 c=20->20, b=1411304->1486194 (74891), 244840 ms
+[17:15:55] scan: chap 22 c=21->21, b=1486195->1558655 (72461), 236800 ms
+[17:15:55] scan: chap 23 c=22->22, b=1558656->1597406 (38751), 125640 ms
+[17:15:55] scan: chap 24 c=23->23, b=1597407->1642261 (44855), 137520 ms
+[17:15:55] scan: chap 25 c=24->24, b=1642262->1694589 (52328), 174240 ms
+[17:15:55] scan: chap 26 c=25->25, b=1694590->1769956 (75367), 256240 ms
+[17:15:55] scan: chap 27 c=26->26, b=1769957->1794800 (24844), 84560 ms
+[17:15:55] scan: chap 28 c=27->27, b=1794801->1841913 (47113), 160000 ms
+[17:15:55] scan: chap 29 c=28->28, b=1841914->1937880 (95967), 306960 ms
+[17:15:55] scan: aspect = 1.77778
+[17:15:55] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+[17:15:55] scan: title angle(s) 1
+[mp2 @ 0x7fc8789412a0] Header missing
+[ac3 @ 0x7fc878941b60] frame sync error
+[ac3 @ 0x7fc87893d880] frame sync error
+[17:15:55] scan: audio 0x81bd: ac3, rate=48000Hz, bitrate=384000 English (AC3) (5.1 ch)
+[ac3 @ 0x7fc87893d880] frame sync error
+[17:15:55] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=224000 English (AC3) (2.0 ch) (Dolby Surround)
+[mp2 @ 0x7fc87893d880] Header missing
+[17:15:55] decavcodecaBSInfo: warning: invalid frame sample_rate! Using context sample_rate.
+[17:15:55] scan: audio 0xc2: mp2, rate=48000Hz, bitrate=200000 English (MPEG) (2.0 ch)
+[17:15:55] scan: 10 previews, 720x576, 25.000 fps, autocrop = 2/0/10/8, aspect 16:9, PAR 64:45
+[17:15:55] libhb: scan thread found 1 valid title(s)
+[17:15:57] gtkgui: Preset: Regular->Normal
+[17:15:57] 1 job(s) to process
+[17:15:57] starting job
+[17:15:57] sync: expecting 153060 video frames
+[17:15:57] job configuration:
+[17:15:57]  * source
+[17:15:57]    + /dev/sr0
+[17:15:57]    + title 1, chapter(s) 1 to 29
+[17:15:57]  * destination
+[17:15:57]    + /media/mythfs/videos/Donquixote.m4v
+[17:15:57]    + container: MPEG-4 (libavformat)
+[17:15:57]      + chapter markers
+[17:15:57]  * video track
+[17:15:57]    + decoder: mpeg2video
+[17:15:57]      + bitrate 9780 kbps
+[17:15:57]    + filters
+[17:15:57]      + Framerate Shaper (0:27000000:1080000)
+[17:15:57]        + frame rate: same as source (around 25.000 fps)
+[17:15:57]      + Crop and Scale (702:574:2:0:10:8)
+[17:15:57]        + source: 720 * 576, crop (2/0/10/8): 702 * 574, scale: 702 * 574
+[17:15:57]    + loose anamorphic
+[17:15:57]      + storage dimensions: 702 * 574, mod 2
+[17:15:57]      + pixel aspect ratio: 64 / 45
+[17:15:57]      + display dimensions: 998 * 574
+[17:15:57]    + encoder: H.264 (libx264)
+[17:15:57]      + preset:  veryfast
+[17:15:57]      + profile: main
+[17:15:57]      + level:   4.0
+[17:15:57]      + quality: 20.00 (RF)
+[17:15:57]  * audio track 1
+[17:15:57]    + decoder: English (AC3) (2.0 ch) (Dolby Surround) (track 1, id 0x80bd)
+[17:15:57]      + bitrate: 224 kbps, samplerate: 48000 Hz
+[17:15:57]    + mixdown: Dolby Surround
+[17:15:57]    + encoder: AAC (libavcodec)
+[17:15:57]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[17:15:57] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: DONQUIXOTE
+libdvdnav: DVD Serial Number: 26A1A2FB00000000
+libdvdnav: DVD Title (Alternative): DONQUIXOTE
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000126
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x0000077d
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000c45
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x001d9e49
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x001dc4af
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x002228c4
+libdvdread: Elapsed time 0
+libdvdread: Found 4 VTS's
+libdvdread: Elapsed time 0
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+[17:15:57] encx264: encoding at constant RF 20.000000
+[17:15:57] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=64/45
+[17:15:57] reader: first SCR 146 id 0xe0 DTS 19559
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+x264 [info]: profile Main, level 4.0
+[17:15:57] mpeg2video: "Chapter 1" (1) at frame 0 time 3600
+[17:15:57] sync: first pts is 3600
+[17:17:47] mpeg2video: "Chapter 2" (2) at frame 9541 time 34351200
+[17:18:32] mpeg2video: "Chapter 3" (3) at frame 13860 time 49899600
+[17:19:19] mpeg2video: "Chapter 4" (4) at frame 18485 time 66549600
+[17:20:00] mpeg2video: "Chapter 5" (5) at frame 23980 time 86331600
+[17:20:36] mpeg2video: "Chapter 6" (6) at frame 28410 time 102279600
+[17:21:33] mpeg2video: "Chapter 7" (7) at frame 34700 time 124923600
+[17:22:12] mpeg2video: "Chapter 8" (8) at frame 39413 time 141890400
+[17:23:01] mpeg2video: "Chapter 9" (9) at frame 44755 time 161121600
+[17:23:39] mpeg2video: "Chapter 10" (10) at frame 49120 time 176835600
+[17:24:47] mpeg2video: "Chapter 11" (11) at frame 58618 time 211028400
+[17:25:53] mpeg2video: "Chapter 12" (12) at frame 66291 time 238651200

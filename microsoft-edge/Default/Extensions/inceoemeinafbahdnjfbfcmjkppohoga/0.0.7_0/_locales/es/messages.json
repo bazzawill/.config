@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Vea videos usando el modo Picture-in-Picture (Reproductor de video flotante). Admite todo tipo de sitios web de videos."
+   },
+   "name": {
+      "message": "Imagen en vídeo de imagen"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

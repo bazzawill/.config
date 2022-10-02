@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Herätyskello"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "Peruuttaa"
+   },
+   "Countdown": {
+      "message": "Lähtölaskenta"
+   },
+   "Pause": {
+      "message": "Tauko"
+   },
+   "Resume": {
+      "message": "Jatkaa"
+   },
+   "Stop": {
+      "message": "Lopettaa"
+   },
+   "Stopwatch": {
+      "message": "Sekuntikello"
+   }
+}

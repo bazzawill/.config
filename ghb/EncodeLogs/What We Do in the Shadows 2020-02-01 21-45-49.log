@@ -1,0 +1,420 @@
+Handbrake Version: 1.3.0 (2019111100)
+[21:45:49] gtkgui: Modified Preset: /General/Fast 1080p30
+[21:45:49] Starting work at: Sat Feb  1 21:45:49 2020
+
+[21:45:49] 1 job(s) to process
+[21:45:49] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 6,
+                    "Seconds": 40,
+                    "Ticks": 36017230
+                },
+                "Name": "Chapter 1"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 5,
+                    "Seconds": 23,
+                    "Ticks": 29065286
+                },
+                "Name": "Chapter 2"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 7,
+                    "Seconds": 6,
+                    "Ticks": 38314526
+                },
+                "Name": "Chapter 3"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 8,
+                    "Seconds": 49,
+                    "Ticks": 47575028
+                },
+                "Name": "Chapter 4"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 4,
+                    "Seconds": 43,
+                    "Ticks": 25514240
+                },
+                "Name": "Chapter 5"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 7,
+                    "Seconds": 51,
+                    "Ticks": 42406112
+                },
+                "Name": "Chapter 6"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 6,
+                    "Seconds": 54,
+                    "Ticks": 37222186
+                },
+                "Name": "Chapter 7"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 6,
+                    "Seconds": 56,
+                    "Ticks": 37432394
+                },
+                "Name": "Chapter 8"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 6,
+                    "Seconds": 11,
+                    "Ticks": 33393360
+                },
+                "Name": "Chapter 9"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 9,
+                    "Seconds": 42,
+                    "Ticks": 52421120
+                },
+                "Name": "Chapter 10"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 6,
+                    "Seconds": 8,
+                    "Ticks": 33100568
+                },
+                "Name": "Chapter 11"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 9,
+                    "Seconds": 11,
+                    "Ticks": 49560760
+                },
+                "Name": "Chapter 12"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 0,
+                    "Ticks": 37536
+                },
+                "Name": "Chapter 13"
+            }
+        ],
+        "ChapterMarkers": true,
+        "File": "/media/mythfs/videos/What We Do in the Shadows (2014)/What We Do in the Shadows.mkv",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "mkv"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 12,
+                "Settings": {
+                    "crop-bottom": 22,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 22,
+                    "height": 1036,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "5 Zimmer Küche Sarg"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/media/mythfs/downloads/complete/videos/What.We.Do.in.the.Shadows.2014.COMPLETE.BLURAY-XORBiTANT/xorbitant-what.we.do.in.the.shadows.iso",
+        "Range": {
+            "End": 13,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": true,
+            "Forced": true
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ColorFormat": 0,
+        "ColorMatrix": 1,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "Level": "4.0",
+        "Options": "",
+        "Preset": "fast",
+        "Profile": "main",
+        "QSV": {
+            "AsyncDepth": 4,
+            "Decode": false
+        },
+        "Quality": 22.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[21:45:49] CPU: 
+[21:45:49]  - logical processor count: 4
+[21:45:49] Intel Quick Sync Video support: no
+[21:45:49] hb_scan: path=/media/mythfs/downloads/complete/videos/What.We.Do.in.the.Shadows.2014.COMPLETE.BLURAY-XORBiTANT/xorbitant-what.we.do.in.the.shadows.iso, title_index=1
+[21:45:49] scan: BD has 46 title(s)
+[21:45:49] bd: scanning title 1
+[21:45:49] bd: playlist 00000.MPLS
+[21:45:49] bd: duration is 01:25:34 (5134003 ms)
+[21:45:49] bd: video id=0x1011, stream type=H.264, format 1080p
+[21:45:49] bd: aspect = 16:9
+[21:45:49] bd: audio id=0x711100, lang=Deutsch (DTS), 3cc=deu
+[21:45:49] bd: audio id=0x1100, lang=Deutsch (DTS-HD MA), 3cc=deu
+[21:45:49] bd: audio id=0x711101, lang=Deutsch (DTS), 3cc=deu
+[21:45:49] bd: audio id=0x1101, lang=Deutsch (DTS-HD MA), 3cc=deu
+[21:45:49] bd: audio id=0x711102, lang=English (DTS), 3cc=eng
+[21:45:49] bd: audio id=0x1102, lang=English (DTS-HD MA), 3cc=eng
+[21:45:49] bd: subtitle id=0x1200, lang=Deutsch [PGS], 3cc=deu
+[21:45:49] bd: chap 1, 400191 ms
+[21:45:49] bd: chap 2, 322947 ms
+[21:45:49] bd: chap 3, 425716 ms
+[21:45:49] bd: chap 4, 528611 ms
+[21:45:49] bd: chap 5, 283491 ms
+[21:45:49] bd: chap 6, 471179 ms
+[21:45:49] bd: chap 7, 413579 ms
+[21:45:49] bd: chap 8, 415915 ms
+[21:45:49] bd: chap 9, 371037 ms
+[21:45:49] bd: chap 10, 582456 ms
+[21:45:49] bd: chap 11, 367784 ms
+[21:45:49] bd: chap 12, 550675 ms
+[21:45:49] bd: chap 13, 417 ms
+[21:45:49] bd: title 1 has 13 chapters
+[21:45:49] scan: decoding previews for title 1
+[21:45:49] scan: title angle(s) 1
+[21:45:49] scan: audio 0x711100: dca, rate=48000Hz, bitrate=1536000 Deutsch (DTS) (5.1 ch) (1536 kbps)
+[21:45:49] scan: audio 0x1100: dca, rate=48000Hz, bitrate=1 Deutsch (DTS-HD MA) (5.1 ch)
+[21:45:49] scan: audio 0x711102: dca, rate=48000Hz, bitrate=1536000 English (DTS) (5.1 ch) (1536 kbps)
+[21:45:49] scan: audio 0x1102: dca, rate=48000Hz, bitrate=1 English (DTS-HD MA) (5.1 ch)
+[21:45:49] scan: audio 0x711101: dca, rate=48000Hz, bitrate=768000 Deutsch (DTS) (2.0 ch) (768 kbps)
+[21:45:49] scan: audio 0x1101: dca, rate=48000Hz, bitrate=1 Deutsch (DTS-HD MA) (2.0 ch)
+[21:45:51] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 22/22/0/0, aspect 16:9, PAR 1:1
+[21:45:51] scan: supported video decoders: avcodec qsv
+[21:45:51] stream: 4 good frames, 0 errors (0%)
+[21:45:51] libhb: scan thread found 1 valid title(s)
+[21:45:51] Starting Task: Subtitle Scan
+[21:45:51] job configuration:
+[21:45:51]  * source
+[21:45:51]    + /media/mythfs/downloads/complete/videos/What.We.Do.in.the.Shadows.2014.COMPLETE.BLURAY-XORBiTANT/xorbitant-what.we.do.in.the.shadows.iso
+[21:45:51]    + title 1, chapter(s) 1 to 13
+[21:45:51]  * destination
+[21:45:51]    + /media/mythfs/videos/What We Do in the Shadows (2014)/What We Do in the Shadows.mkv
+[21:45:51]    + container: Matroska (libavformat)
+[21:45:51]      + chapter markers
+[21:45:51]  * video track
+[21:45:51]    + decoder: h264
+[21:45:51]      + bitrate 200 kbps
+[21:45:51]    + filters
+[21:45:51]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[21:45:51]      + Decomb (mode=39)
+[21:45:51]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[21:45:51]        + frame rate: 23.976 fps -> peak rate limited to 30.000 fps
+[21:45:51]      + Crop and Scale (width=1920:height=1036:crop-top=22:crop-bottom=22:crop-left=0:crop-right=0)
+[21:45:51]        + source: 1920 * 1080, crop (22/22/0/0): 1920 * 1036, scale: 1920 * 1036
+[21:45:51]    + Output geometry
+[21:45:51]      + storage dimensions: 1920 x 1036
+[21:45:51]      + pixel aspect ratio: 1 : 1
+[21:45:51]      + display dimensions: 1920 x 1036
+[21:45:51]  * Foreign Audio Search: Render/Burn-in, Forced Only
+[21:45:51]    + subtitle, Deutsch [PGS] (track 0, id 0x1200, Picture)
+[21:45:51] sync: expecting 123092 video frames
+[21:51:01] bd: End of title
+[21:51:01] reader: done. 4 scr changes
+[21:51:02] work: average encoding speed for job is 0.000000 fps
+[21:51:02] comb detect: heavy 0 | light 0 | uncombed 0 | total 0
+[21:51:02] decomb: deinterlaced 0 | blended 0 | unfiltered 0 | total 0
+[21:51:02] vfr: 0 frames output, 0 dropped and 0 duped for CFR/PFR
+[21:51:02] vfr: lost time: 0 (0 frames)
+[21:51:02] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[21:51:02] stream: 123093 good frames, 0 errors (0%)
+[21:51:02] h264-decoder done: 0 frames, 1 decoder errors
+[21:51:02] sync: got 0 frames, 123092 expected
+[21:51:02] Subtitle track 0 (id 0x1200) 'Deutsch [PGS]': 1150 hits (0 forced)
+[21:51:02] No candidate detected during subtitle scan
+[21:51:02] Starting Task: Encoding Pass
+[21:51:02] job configuration:
+[21:51:02]  * source
+[21:51:02]    + /media/mythfs/downloads/complete/videos/What.We.Do.in.the.Shadows.2014.COMPLETE.BLURAY-XORBiTANT/xorbitant-what.we.do.in.the.shadows.iso
+[21:51:02]    + title 1, chapter(s) 1 to 13
+[21:51:02]  * destination
+[21:51:02]    + /media/mythfs/videos/What We Do in the Shadows (2014)/What We Do in the Shadows.mkv
+[21:51:02]    + container: Matroska (libavformat)
+[21:51:02]      + chapter markers
+[21:51:02]  * video track
+[21:51:02]    + decoder: h264
+[21:51:02]      + bitrate 200 kbps
+[21:51:02]    + filters
+[21:51:02]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[21:51:02]      + Decomb (mode=39)
+[21:51:02]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[21:51:02]        + frame rate: 23.976 fps -> peak rate limited to 30.000 fps
+[21:51:02]      + Crop and Scale (width=1920:height=1036:crop-top=22:crop-bottom=22:crop-left=0:crop-right=0)
+[21:51:02]        + source: 1920 * 1080, crop (22/22/0/0): 1920 * 1036, scale: 1920 * 1036
+[21:51:02]    + Output geometry
+[21:51:02]      + storage dimensions: 1920 x 1036
+[21:51:02]      + pixel aspect ratio: 1 : 1
+[21:51:02]      + display dimensions: 1920 x 1036
+[21:51:02]    + encoder: H.264 (libx264)
+[21:51:02]      + preset:  fast
+[21:51:02]      + profile: main
+[21:51:02]      + level:   4.0
+[21:51:02]      + quality: 22.00 (RF)
+[21:51:02]      + color profile: 1-1-1
+[21:51:02]  * audio track 1
+[21:51:02]    + decoder: Deutsch (DTS) (5.1 ch) (1536 kbps) (track 1, id 0x711100)
+[21:51:02]      + bitrate: 1536 kbps, samplerate: 48000 Hz
+[21:51:02]    + mixdown: Stereo
+[21:51:02]    + dither: triangular
+[21:51:02]    + encoder: AAC (libavcodec)
+[21:51:02]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[21:51:02] sync: expecting 123092 video frames
+[21:51:02] encx264: min-keyint: 24, keyint: 240
+[21:51:02] encx264: encoding at constant RF 22.000000
+[21:51:02] encx264: unparsed options: level=4.0:ref=2:8x8dct=0:weightp=1:subme=6:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX XOP FMA4
+x264 [info]: profile Main, level 4.0, 4:2:0, 8-bit
+[21:51:02] sync: first pts video is 0
+[21:51:02] sync: "Chapter 1" (1) at frame 1 time 0
+[21:51:02] sync: first pts audio 0x711100 is 0
+[22:12:30] sync: "Chapter 2" (2) at frame 9596 time 36017231
+[22:30:47] sync: "Chapter 3" (3) at frame 17339 time 65082517
+[22:55:56] sync: "Chapter 4" (4) at frame 27546 time 103397043
+[23:14:37] sync: "Chapter 5" (5) at frame 40220 time 150972071
+[23:23:19] sync: "Chapter 6" (6) at frame 47017 time 176486310
+[23:37:14] sync: "Chapter 7" (7) at frame 58314 time 218892423
+[23:49:55] sync: "Chapter 8" (8) at frame 68230 time 256114608
+[00:03:56] sync: "Chapter 9" (9) at frame 78202 time 293547003
+[00:14:41] sync: "Chapter 10" (10) at frame 87098 time 326940363
+[00:33:51] sync: "Chapter 11" (11) at frame 101063 time 379361482
+[00:44:53] sync: "Chapter 12" (12) at frame 109881 time 412462050
+[00:58:16] bd: End of title
+[00:58:16] reader: done. 4 scr changes
+[00:58:20] work: average encoding speed for job is 10.952227 fps
+[00:58:20] comb detect: heavy 679 | light 4365 | uncombed 118048 | total 123092
+[00:58:20] decomb: deinterlaced 679 | blended 4365 | unfiltered 118048 | total 123092
+[00:58:20] vfr: 123092 frames output, 0 dropped and 0 duped for CFR/PFR
+[00:58:20] vfr: lost time: 0 (0 frames)
+[00:58:20] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[00:58:20] stream: 123093 good frames, 0 errors (0%)
+[00:58:20] dca-decoder done: 481271 frames, 0 decoder errors
+[00:58:20] h264-decoder done: 123093 frames, 0 decoder errors
+[00:58:20] sync: got 123092 frames, 123092 expected
+[00:58:20] sync: framerate min 11.987 fps, max 23.976 fps, avg 23.976 fps
+x264 [info]: frame I:1801  Avg QP:18.35  size:102063
+x264 [info]: frame P:44445 Avg QP:21.25  size: 23143
+x264 [info]: frame B:76846 Avg QP:22.25  size: 10991
+x264 [info]: consecutive B-frames: 16.1%  1.4%  2.2% 80.3%
+x264 [info]: mb I  I16..4: 40.8%  0.0% 59.2%
+x264 [info]: mb P  I16..4:  8.2%  0.0%  3.1%  P16..4: 39.7%  8.5%  7.6%  0.0%  0.0%    skip:32.8%
+x264 [info]: mb B  I16..4:  7.9%  0.0%  0.3%  B16..8: 24.2%  3.8%  0.1%  direct:16.1%  skip:47.7%  L0:45.7% L1:50.0% BI: 4.3%
+x264 [info]: coded y,uvDC,uvAC intra: 28.7% 45.0% 7.4% inter: 10.2% 24.7% 0.1%
+x264 [info]: i16 v,h,dc,p: 43% 20% 21% 16%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 15% 27%  6%  7%  6%  6%  5%  4%
+x264 [info]: i8c dc,h,v,p: 65% 15% 19%  2%
+x264 [info]: Weighted P-Frames: Y:2.9% UV:1.3%
+x264 [info]: ref P L0: 66.6% 33.4%
+x264 [info]: ref B L0: 81.1% 18.9%
+x264 [info]: ref B L1: 94.1%  5.9%
+x264 [info]: kb/s:3205.30
+[00:58:20] mux: track 0, 123092 frames, 2056937632 bytes, 3205.17 kbps, fifo 4096
+[00:58:20] mux: track 1, 240636 frames, 102226647 bytes, 159.29 kbps, fifo 8192
+[00:58:20] Finished work at: Sun Feb  2 00:58:20 2020
+

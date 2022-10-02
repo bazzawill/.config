@@ -1,0 +1,41 @@
+{
+   "author": "Microsoft Corporation",
+   "background": {
+      "persistent": true,
+      "scripts": [ "edgeExtension.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/icon-19.png",
+         "38": "icons/icon-38.png"
+      },
+      "default_title": "Clip to OneNote"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "appendIsInstalledMarker.js" ],
+      "matches": [ "https://onenote.officeapps.live.com/*", "https://ppc-onenote.officeapps.live.com/*", "https://onenote.officeapps-df.live.com/*", "https://onenote.officeapps.live-int.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "19": "icons/icon-19.png",
+      "256": "icons/icon-256.png",
+      "32": "icons/icon-32.png",
+      "38": "icons/icon-38.png",
+      "48": "icons/icon-48.png",
+      "64": "icons/icon-64.png",
+      "96": "icons/icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2nHdZ1sqnm1LApSNlwFt5l945mhjCC5FDy6TjOmRsXfFIMKjffX7bcZBqlKS51YoeRgsQLAMSOMQNdq5kjjYBSiEO9pgLjrDNtLEgffdBH6S73xaKvTgAQ8mA4akxU2Z0Aeq/voZ0W8y9UJX65x65UCfLU5awownhHyav7pPQjgTtkgxF4VrzuN0SPraw8WL2f3rPWyVfB6pYsPtS7AFepIeSR82W5qlllZ4yQ1bsVaFAfnXeBOgxgoxDDtOcf+Lh6eNwSmTP3O7b28Ma5iGXmWagUG7YhN8HpjvA2FziglCyxPL++habYwzRJt5gF/xWdLjI5jBrAKxdLPTOMQsQwIDAQAB",
+   "manifest_version": 2,
+   "name": "OneNote Web Clipper",
+   "permissions": [ "\u003Call_urls>", "activeTab", "contextMenus", "cookies", "tabs", "webRequest", "storage", "webNavigation" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "3.8.8",
+   "web_accessible_resources": [ "clipper.html" ]
+}

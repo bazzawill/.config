@@ -1,0 +1,18 @@
+{
+  "disabled_plugins": {
+    "__class__": "set", 
+    "__value__": []
+  }, 
+  "enabled_plugins": {
+    "__class__": "set", 
+    "__value__": []
+  }, 
+  "filetype_mapping": {}, 
+  "plugin_customization": {}, 
+  "plugins": {
+    "DeDRM": "/home/bazza/.config/calibre/plugins/DeDRM.zip", 
+    "FanFicFare": "/home/bazza/.config/calibre/plugins/FanFicFare.zip", 
+    "Recipe Reader": "/home/bazza/.config/calibre/plugins/Recipe Reader.zip", 
+    "all recipes Recipe Reader": "/home/bazza/.config/calibre/plugins/all recipes Recipe Reader.zip"
+  }
+}

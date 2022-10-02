@@ -1,0 +1,50 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "bundles/background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "html/popup.html"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "inboxsdk.js" ],
+      "matches": [ "https://mail.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "bundles/writingMonitor.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": false,
+      "js": [ "bundles/gdocsCanvasFallback.js" ],
+      "matches": [ "*://docs.google.com/document/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "bundles/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
+   "description": "Your thoughts in words.",
+   "externally_connectable": {
+      "matches": [ "https://app.wordtune.com/*", "https://www.wordtune.com/*" ]
+   },
+   "icons": {
+      "128": "media/logo-128.png",
+      "48": "media/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs/PzCoy4irDrvE66dwqNbNfnyj0QZ1zvoRezVDTy//sBnbNmThjNV5il72paUcA/l7NEtzhud4tQJsAx0wxPyWAbbGYtEWrYvGDACa2yVKL+Ve8pla0ZBBwkYYIxdrGGm7aFlXdNmGK5wNvK571wDvs9geVQv7HjLzfj/GFno4yteUTuAPpQd6rTHkN/qNRGZ/DbBvz+M3Az0llEVlAfFJCfHpRKspCEYOTrRgNyxCcXQGUS6jcN8X79xOEGXZjf15iTjhIdUAYQF/tbNKsnmkvj2Xxkhp7JyqFKXMpIkr9Ym+zMNvq72eWujRHk1F0ZbP8WUX+wsuHhtHQcqge7dQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "77",
+   "name": "Wordtune - AI-powered Writing Companion",
+   "optional_permissions": [ "clipboardRead", "clipboardWrite" ],
+   "permissions": [ "alarms", "cookies", "storage", "https://mail.google.com/*", "*://*/*", "https://*.wordtune.com/*" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "3.3.2",
+   "web_accessible_resources": [ "media/*.png", "assets/*.png", "assets/*.eot", "assets/*.woff", "assets/*.woff2", "assets/*.ttf", "assets/*.svg", "assets/*.gif", "html/*.html" ]
+}

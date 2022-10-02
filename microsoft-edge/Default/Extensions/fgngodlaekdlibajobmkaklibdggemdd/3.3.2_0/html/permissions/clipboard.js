@@ -1,0 +1,1 @@
+console.log("fff"),document.querySelector("button").addEventListener("click",(function(){console.log("fff2"),window.parent.postMessage({type:"permissionsPopupOpen"},"*"),chrome.permissions.request({permissions:["clipboardWrite","clipboardRead"]},(e=>{window.parent.postMessage({granted:e,type:"clipboardPermissionsCallback"},"*")}))}));

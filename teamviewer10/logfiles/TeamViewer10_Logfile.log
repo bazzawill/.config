@@ -1,0 +1,870 @@
+2015/09/16 19:13:06.140  5954 2167760704 gX0   Logger started.
+2015/09/16 19:13:06.145  5954 2167760704 gX0   Found 0 core dump files ...
+2015/09/16 19:13:06.147  5954 2167760704 gX0   systemd: logind service available
+2015/09/16 19:13:06.148  5954 2167760704 gX0   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='c1', canGraphical=1, canTTY=1, canMultiSession=1]
+2015/09/16 19:13:06.149  5954 2167760704 gX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c1 user=bazza state=user active=1 reliable=1 infoId=0] [path=/org/freedesktop/login1/session/c1 TTY=tty1 seat=seat0 display=:0 vtnr=1 owner=[SysUser_Lin: bazza [uid=1000, gid=1000 home=/home/bazza gecos= shell=/bin/bash]] idle=0(0) active=1 type=x11 class=user state=active timestamp=1442060362447075 service=lxdm defaultCG= leader=2055 audit=0 remote=0 rHost= rUser= killProc=0]
+2015/09/16 19:13:06.149  5954 2167760704 gX0   Session Information provided by systemd
+2015/09/16 19:13:06.149  5954 2167760704 gX0   XSocket observer: watching /tmp/.X11-unix
+2015/09/16 19:13:06.149  5954 2167760704 gX0   XSocket observer: adding XSession: 0
+2015/09/16 19:13:06.270  5954 2167760704 gX0   Initialised XFixes extension (base=87 error=140)
+2015/09/16 19:13:06.270  5954 2167760704 gX0   TVGuiSlave.64: Running
+2015/09/16 19:13:06.523  5954 2088466176 gX0   Audio: PulseAudio enabled
+2015/09/16 19:13:06.527  5954 2073556736 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2015/09/16 19:13:06.528  5954 2088466176 gX0   PulseAudio: Connection established
+2015/09/16 19:13:06.528  5954 2073556736 gX0   PulseAudio: Exit main loop (0), err=-2
+2015/09/16 19:13:05.628    31    32 GX0   Logger started.
+2015/09/16 19:13:05.687    31    32 GX0!! SetProcessStartupOptions(): SetProcessDEPPolicy() failed! LE=120
+2015/09/16 19:13:06.036    31    32 GX0   TVW X ErrorHandler org 7e4ecaf0, def 7e34b9e0 cur 7d6138d7
+2015/09/16 19:13:06.044    31    32 GX0   Wine: Wine DLL initialized
+2015/09/16 19:13:06.044    31    32 GX0   Wine: wine-1.6
+
+2015/09/16 19:13:06.045    31    32 GX0   TVW SID0: SpawnSlave: pid 0
+2015/09/16 19:13:06.056    31    32 GX0   TVW SID0: SpawnSlave: loading TVGuiSlave.64
+2015/09/16 19:13:06.145    31    32 GX0   TVW ObserveFork: OK
+2015/09/16 19:13:06.145    31    32 GX0   Wine: Spawned slave process with type 0
+2015/09/16 19:13:06.147    31    32 GX0   TVW SID1: SpawnSlave: pid 0
+2015/09/16 19:13:06.156    31    32 GX0   TVW SID1: SpawnSlave: loading TVGuiDelegate
+2015/09/16 19:13:06.158    31    32 GX0   TVW ReadSlave [1]: Socket closed
+2015/09/16 19:13:06.158    31    32 GX0!! TVW ObserveFork(ID = 1): read -2
+2015/09/16 19:13:06.158    31    32 GX0!! TVW SpawnSlave(type = 1): Death by exit [127]
+2015/09/16 19:13:06.158    31    32 GX0!! TVW SpawnSlave(type = 1): failed, exiting
+2015/09/16 19:13:06.158    31    32 GX0!!!Wine: Unable to spawn slave process of type 1
+2015/09/16 19:13:06.159    31    32 GX0   Starting GUI master for slave type 0
+2015/09/16 19:13:06.159    31    32 GX0   Starting GUI master for slave type 1
+2015/09/16 19:13:06.160    31    32 GX0!  TeamViewer.exe: unable to send command 1
+2015/09/16 19:13:06.160    31    32 GX0!!!WineGuiMaster[1]: Slave terminated unexpectedly
+2015/09/16 19:13:06.160    31    32 GX0!  TeamViewer.exe: unable to send command 2
+2015/09/16 19:13:06.161    31    32 GX0   InterProcessBase::SecureNetwork created
+2015/09/16 19:13:06.214    31    32 GX0   Monitors: X11 Windowing System, \\.\DISPLAY1, 1920x1080 (0,0), flags=21, dpi=96
+2015/09/16 19:13:06.214    31    32 GX0   Monitors: X11 Windowing System, \\.\DISPLAY1, 1680x1050 (1920,0), flags=21, dpi=96
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.224    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.225    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.226    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.227    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.228    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.229    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.230    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.231    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.232    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.233    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.234    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.235    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.236    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.237    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.271    31    32 GX0   Slave connected to GUI master
+2015/09/16 19:13:06.271    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.271    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.271    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.272    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.272    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.272    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.272    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.272    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.272    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.273    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.273    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.273    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.273    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.273    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.273    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.273    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.273    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.274    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.275    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.275    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.275    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.275    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.275    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.275    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.275    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.275    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.276    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.277    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.277    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.277    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.277    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.277    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.277    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.277    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.277    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.278    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.279    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.280    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.280    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.280    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.280    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.280    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.280    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.280    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.280    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.281    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.282    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.283    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.284    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.285    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.286    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.287    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.288    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.289    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.290    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.291    31    32 GX0!  TeamViewer.exe: unable to send command 3
+                    
+                    
+                    
+Start:              2015/09/16 19:13:06.292 (UTC+9:30)
+Version:            10.0.46203 Dev 
+ID:                 0
+Loglevel:           LogAll (0)
+License:            0
+Server:             master10.teamviewer.com
+IC:                 0
+CPU:                x86 Family 21 Model 1 Stepping 2, GenuineIntel
+CPU extensions:     g9
+OS:                 Lx Arch Linux (32-bit)
+IP:                 192.168.1.100
+Proxy-Settings:     Type=0 IP= User=
+AppPath:            C:\TeamViewer\TeamViewer.exe
+UserAccount:        bazza
+
+2015/09/16 19:13:06.331    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.373    31    32 GX0   CMain::LoadResourceDLLs(): No custom resource dll found
+2015/09/16 19:13:06.374    31    32 GX0   Win32_GUI::FontReallyExists: 'Segoe UI' found 0 matches.
+2015/09/16 19:13:06.374    31    32 GX0   Win32_GUI::FontReallyExists: 'Liberation Sans' found 0 matches.
+2015/09/16 19:13:06.379    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.379    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.379    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.380    31    32 GX0   InterProcessBase::StartTcpCommunicationInternal(): setting m_NetworkConnector to new TCP connector
+2015/09/16 19:13:06.380    31    32 GX0   Opening local TCP connection to 127.0.0.1:5939
+2015/09/16 19:13:06.381    31    32 GX0   Local TCP connection established
+2015/09/16 19:13:06.381    31    32 GX0   Process ID:  L 5742 /  W 31
+2015/09/16 19:13:06.505    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.505    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.505    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.505    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.506    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.506    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.506    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.507    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.507    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.507    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.507    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.508    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.509    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.510    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.510    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.510    31    32 GX0   SettingsIPCReception receive a SYNCHRONISE Settings command : UserSettings
+2015/09/16 19:13:06.510    31    32 GX0   Received Control_InitIPC_Response processtype=1
+2015/09/16 19:13:06.510    31    32 GX0   Received Control_InitIPC_Response runningProcesses=3
+2015/09/16 19:13:06.511    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.511    31    32 GX0   Control_InitIPC_Response: all processes 3 completely initialized
+2015/09/16 19:13:06.574    31    32 GX0!  TeamViewer.exe: unable to send command 7
+2015/09/16 19:13:06.575  5954 2167760704 gX0!  XSM: No X Session Management for current session available (yet)
+2015/09/16 19:13:06.758    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.760    31    32 GX0!! GetSimpleDisplayCertNameFromFile: File 'C:\TeamViewer\tv_w32.dll' does not exist., Errorcode=2
+2015/09/16 19:13:06.761    31    32 GX0!! VerifyTeamViewerSignature() : WinVerifyTrust failed, result=2, Errorcode=2
+2015/09/16 19:13:06.761    31    32 GX0!! MachineHooks: Library not found, Errorcode=2
+2015/09/16 19:13:06.765    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.765    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:06.791    31    42 GX0!! ProxySearch.GetProxiesFromPAC: WinHttpGetProxyForUrl(WPAD) failed for URL 'http://www.teamviewer.com/' with error 12167, Errorcode=12167
+2015/09/16 19:13:06.846    31    42 GX0!! ProxySearch.GetProxiesFromPAC: WinHttpGetProxyForUrl(WPAD) failed for URL 'https://www.teamviewer.com:443/' with error 12167, Errorcode=12167
+2015/09/16 19:13:08.606    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.681    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.682    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.691    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.691    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.692    31    32 GX0   MachineID m=0 - 0
+2015/09/16 19:13:08.694    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.695    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.696    31    32 GX0   TVUpdate::Init() Version-URL: download.teamviewer.com/download/update/ Update-URL: download.teamviewer.com/download/update/
+2015/09/16 19:13:08.696    31    32 GX0   CMain::ShowIntroScreen()::Show Intro Screen
+2015/09/16 19:13:08.696    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.696    31    32 GX0!  TeamViewer.exe: unable to send command 5
+2015/09/16 19:13:08.697    31    32 GX0!  TeamViewer.exe: unable to send command 5
+2015/09/16 19:13:08.765    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.768    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.770    31    32 GX0   IncomingChatCommandRegistration::StartRegistration: registering for ready state properties
+2015/09/16 19:13:08.770    31    32 GX0!! DragDropRegistration: could not register window, HR=80040155
+2015/09/16 19:13:08.771    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.771    31    32 GX0   AccountLoginGUI::CreateLoginKey(): [OnlineState] System is set to Visible.
+2015/09/16 19:13:08.798    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:08.798    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.057    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.060    31    32 GX0   InitTrayIcon: waited 0s
+2015/09/16 19:13:11.062    31    32 GX0   Tray created!
+2015/09/16 19:13:11.064    31    32 GX0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=234077273 ka=0 lanAllowed=0 lanOnly=0 networkState=1 showDynPwd=0
+2015/09/16 19:13:11.067    31    40 GX0   IDLabelContent::UpdateImpl() IDs changed: SessionID "234077273", TSUserID "0", ServerID "0"
+2015/09/16 19:13:11.067    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.067    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.068    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.068    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.068    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.069    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.070    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.070    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.071    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.071    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.072    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.072    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.085    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.087    31    32 GX0   Account::TryAutoLogin: enabled: 0
+2015/09/16 19:13:11.087    31    32 GX0!! ServerControl: RegisterPowerSettingNotification failed with error 0
+2015/09/16 19:13:11.130  5954 2056771328 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2015/09/16 19:13:11.130  5954 2088466176 gX0   PulseAudio: Connection established
+2015/09/16 19:13:11.131    31    34 GX0   Mixer: Device added: alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1, GK107 HDMI Audio Controller Digital Stereo (HDMI 2) {04274894-375b-5083-a88f-3c510b2f3b05}
+2015/09/16 19:13:11.131    31    34 GX0   Mixer: Device added: alsa_output.pci-0000_00_14.2.analog-stereo, Built-in Audio Analog Stereo {860e971a-3a93-56e8-963c-1589c2bc9b79}
+2015/09/16 19:13:11.131    31    34 GX0   Mixer: Device added: alsa_input.pci-0000_00_14.2.analog-stereo, Built-in Audio Analog Stereo {e4e14108-739f-5927-a13b-f78b2e2f7361}
+2015/09/16 19:13:11.132  5954 2056771328 gX0   PulseAudio: Exit main loop (0), err=-2
+2015/09/16 19:13:11.522    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.561    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.561    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.562    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.562    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:11.562    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.978    31    32 GX0   Account::UpdateState: KA = 1, active = 1
+2015/09/16 19:13:12.978    31    32 GX0   Account::SetLoginState: new state: 2
+2015/09/16 19:13:12.979    31    37 GX0   InterProcessBase::SecureNetworkCallbackHandle created (RegistrationID: 3cecb929-936f-4e40-9456-588d3685ab10)
+2015/09/16 19:13:12.979    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.979    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.981    31    37 GX0   InterProcessBase::SecureNetworkCallbackHandle created (RegistrationID: d7a5f484-3d7d-456d-9a23-1d87e1e5c319)
+2015/09/16 19:13:12.981    31    37 GX0   IncomingChatCommandRegistration::RegisterIncomingCommands: Registered successfully for incoming commands (after 0 retries)
+2015/09/16 19:13:12.981    31    38 GX0   ChatRoomManager::ChatRoomManager: created
+2015/09/16 19:13:12.981    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.982    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.982    31    38 GX0   IncomingChatCommandRegistration::SetIncomingCommandCb: set incomingCommandCb
+2015/09/16 19:13:12.983    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.983    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.988    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.989    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:12.993    31    32 GX0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=234077273 ka=1 lanAllowed=0 lanOnly=0 networkState=1 showDynPwd=1
+2015/09/16 19:13:13.697    31    37 GX0!  IntroScreen::CloseOnError(): startedViaMenuItem=0, current state=7
+2015/09/16 19:13:13.702    31    37 GX0   Account::TryAutoLogin: enabled: 0
+2015/09/16 19:13:13.702    31    37 GX0!  TeamViewer.exe: unable to send command 5
+2015/09/16 19:13:13.702    31    37 GX0!  TeamViewer.exe: unable to send command 5
+2015/09/16 19:13:20.759  5954 2073556736 gX0   XClipboard: RequestClipboard as TARGETS (445)
+2015/09/16 19:13:20.764  5954 2073556736 gX0   XClipboard: RequestClipboard as UTF8_STRING (296)
+2015/09/16 19:13:20.857  5954 2073556736 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=11, c=22)
+2015/09/16 19:13:26.714    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.715    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.716    31    32 GX0   Trying connection to 149766676, mode = 1
+2015/09/16 19:13:26.716    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.717    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.717    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.717    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.718    31    46 GX0   CLogin::run()
+2015/09/16 19:13:26.718    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.719    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.754    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.755    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.755    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.755    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.756    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:26.756    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:27.516    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:27.517    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:27.518    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:27.518    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:27.519    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:27.547    31    37 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:27.548    31    46 GX0   CLoginClient::NegotiateVersionClient()
+2015/09/16 19:13:27.549    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:32.071    31    46 GX0   CLoginClient::AuthenticateClient()
+2015/09/16 19:13:32.071    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:35.548    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:35.756    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:35.757    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:35.758    31    46 GX0   VoIP: using pipeline factory async = 1
+2015/09/16 19:13:35.759    31    46 GX0   VoIP: Receiver: VoiceReceiverAudioPipeline: Building pipeline finished
+2015/09/16 19:13:35.759    31    46 GX0   VoIP: Receiver: VoiceReceiverAudioPipeline: VoiceReceiverAudioPipeline RegisterPlaybackDataObserver
+2015/09/16 19:13:35.761  5954 2046260992 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2015/09/16 19:13:35.761    31    46 GX0   RA: RemoteAudioReceiver::Factory started
+2015/09/16 19:13:35.761    31    46 GX0   Resetting Cache. Cache disabled.
+2015/09/16 19:13:35.762    31    46 GX0   Default keyboard layout: 0C090C09
+2015/09/16 19:13:35.762  5954 2088466176 gX0   PulseAudio: Connection established
+2015/09/16 19:13:35.762    31    46 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2015/09/16 19:13:35.762    31    46 GX0   Client: RemoteDesktop 03229370 created (rdp-id = 0)
+2015/09/16 19:13:35.763    31    34 GX0   Mixer: Device added: alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1, GK107 HDMI Audio Controller Digital Stereo (HDMI 2) {04274894-375b-5083-a88f-3c510b2f3b05}
+2015/09/16 19:13:35.763    31    34 GX0   Mixer: Device added: alsa_output.pci-0000_00_14.2.analog-stereo, Built-in Audio Analog Stereo {860e971a-3a93-56e8-963c-1589c2bc9b79}
+2015/09/16 19:13:35.764    31    34 GX0   Mixer: Device added: alsa_input.pci-0000_00_14.2.analog-stereo, Built-in Audio Analog Stereo {e4e14108-739f-5927-a13b-f78b2e2f7361}
+2015/09/16 19:13:35.797    31    32 GX0   CClientWindow::OnCreate(): Local display is 1920x1080
+2015/09/16 19:13:35.813    31    46 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:35.868    31    32 GX0   TVW X Error 3 on ???, Req 2.0 (#4766 r48234524): BadWindow (invalid Window parameter)
+2015/09/16 19:13:35.974    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.034    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.094    31    53 GX0   ClientThread started
+2015/09/16 19:13:36.095    31    53 GX0   ClientThread: Waiting for ParticipantManager synchronization
+2015/09/16 19:13:36.098    31    46 GX0   CLogin::run() leave
+2015/09/16 19:13:36.098    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.099    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.099    31    39 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.099    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.132    31    37 GX0   CParticipantManagerBase participant  (ID [234077273,17789033]) was added with the role 6
+2015/09/16 19:13:36.133    31    37 GX0   New Participant added in CParticipantManager  ([234077273,17789033])
+2015/09/16 19:13:36.133    31    37 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2015/09/16 19:13:36.134    31    37 GX0   CParticipantManagerBase participant  (ID [149766676,-137193283]) was added with the role 3
+2015/09/16 19:13:36.134    31    37 GX0   New Participant added in CParticipantManager  ([149766676,-137193283])
+2015/09/16 19:13:36.134    31    37 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2015/09/16 19:13:36.135    31    50 GX0    VoIP: Receiver: Participant channel "149 766 676" [149766676,-137193283]: VoIPBCommandReceiver: created
+2015/09/16 19:13:36.135    31    50 GX0   VoIP: Receiver: Channel created for participant [149766676,-137193283] called "149 766 676" [149766676,-137193283]
+2015/09/16 19:13:36.172    31    38 GX0   CParticipantManagerBase::CheckAndSubscribeNewStream(): Subscribe stream now streamID=1 type=5 required=1 supported=1
+2015/09/16 19:13:36.237    31    53 GX0!!!DataTransceiver.CallGuiCallback: callback empty
+2015/09/16 19:13:36.237  5954 2088466176 gX0   CClipboardChangeListener::RegisterForClipboardChanges
+2015/09/16 19:13:36.238    31    53 GX0   Client connection to 149766676, server version is 10.0.45862 QS, OS=8 Participant=[149766676,-137193283]
+2015/09/16 19:13:36.239    31    53 GX0   Client::SendInfo, resolution settings: mode = 1, width = 0, height = 0, selected monitor = 0
+2015/09/16 19:13:36.241    31    53 GX0   ConnectionAccessSettings: RCAccessControl: RemoteControl='Allowed', FileTransfer='Allowed', ControlRemoteTV='Allowed', SwitchSides='Allowed', AllowDisableRemoteInput='Allowed', AllowVPN='Allowed', AllowPartnerViewDesktop='Allowed', ShareMyFiles='Allowed', ShareFilesWithMe='Allowed', PrintOnMyPrinters='Allowed', PrintOnRemotePrinters='Allowed'
+2015/09/16 19:13:36.331    31    53 GX0!!!DataTransceiver.CallGuiCallback: callback empty
+2015/09/16 19:13:36.395    31    53 GX0   Client connection to 149766676, server version is 10.0.45862 QS, OS=8 Participant=[149766676,-137193283]
+2015/09/16 19:13:36.396    31    53 GX0   Client::SendInfo, resolution settings: mode = 1, width = 0, height = 0, selected monitor = 0
+2015/09/16 19:13:36.444    31    40 GX0   RemoteDesktop 03229370: StreamID=5
+2015/09/16 19:13:36.762    31    51 GX0   MM: Number of Audio Devices changed
+2015/09/16 19:13:36.945    31    53 GX0   Server display is 1280x1024x8, quali=100, monitors=0/1, sw=0, tilsize=0, scaling=1
+2015/09/16 19:13:36.949    31    53 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.949    31    53 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.959    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:36.999    31    53 GX0   Caching activated, partners version is 2, own version is 2
+2015/09/16 19:13:36.999    31    53 GX0   Compress: Caching active, partners version is 2, own version is 2
+2015/09/16 19:13:37.028    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:43.756    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:13:46.746    31    53 GX0   Server display is 1280x1024x32, quali=80, monitors=0/1, sw=0, tilsize=64, scaling=1
+2015/09/16 19:13:46.780    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:15:23.560    31    32 GX0   TVW X Error 3 on ???, Req 2.0 (#51290 r48234542): BadWindow (invalid Window parameter)
+2015/09/16 19:25:08.770    31    32 GX0   CMainWindow::TrackIdleTime(): System goes idle. (IdleTime=341641)
+2015/09/16 19:30:43.543    31    32 GX0   Connection closed by user
+2015/09/16 19:30:43.561  5954 2088466176 gX0   CClipboardChangeListener::UnregisterFromClipboardChanges
+2015/09/16 19:30:43.578    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:43.578    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:43.581    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:43.585    31    32 GX0   VoIP: Receiver: Terminate
+2015/09/16 19:30:43.585  5954 2046260992 gX0   PulseAudio: Exit main loop (0), err=-2
+2015/09/16 19:30:43.586    31    39 GX0   VoIP: Receiver: ThreadPool:StopThreads
+2015/09/16 19:30:43.588    31    40 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:43.647    31    38 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:47.982    31    32 GX0   CMainWindow::InitCloseTV(): Prepare to close TeamViewer
+2015/09/16 19:30:47.982    31    32 GX0!  TeamViewer.exe: unable to send command 5
+2015/09/16 19:30:47.983    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:47.983    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:47.983    31    32 GX0!! ServerControl: UnregisterPowerSettingNotification failed with error 0
+2015/09/16 19:30:47.986    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:47.986    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:47.986    31    32 GX0   Chat::Stop: Stopping chat
+2015/09/16 19:30:47.986    31    32 GX0   ChatRoomManager::Reset: resetMode 0
+2015/09/16 19:30:47.987    31    32 GX0   IncomingChatCommandRegistration::UnregisterIncomingCommands: Unregistering incoming commands
+2015/09/16 19:30:47.987    31    32 GX0   InterProcessBase::SecureNetworkCallbackHandle destroyed (RegistrationID: d7a5f484-3d7d-456d-9a23-1d87e1e5c319)
+2015/09/16 19:30:47.987    31    32 GX0   ChatRoomManager::ChatRoomManager: destroyed
+2015/09/16 19:30:47.987    31    32 GX0!! MainWindow.OnDestroy: WTSUnRegisterSessionNotification failed with error 0
+2015/09/16 19:30:47.992    31    32 GX0   CMainWindow::OnDestroy(): Closing TeamViewer
+2015/09/16 19:30:47.999    31    32 GX0   InterProcessBase::SecureNetworkCallbackHandle destroyed (RegistrationID: 3cecb929-936f-4e40-9456-588d3685ab10)
+2015/09/16 19:30:48.002    31    32 GX0!  TeamViewer.exe: unable to send command 3
+2015/09/16 19:30:48.002    31    32 GX0!  TeamViewer.exe: unable to send command 4
+2015/09/16 19:30:48.095  5954 2073556736 gX0   XClipboard: Shutting down event loop
+2015/09/16 19:30:48.098    31    40 GX0   CTcpProcessConnector::HandleRead(): Socket gracefully closed (PID=5724)
+2015/09/16 19:30:48.098    31    40 GX0   CTcpProcessConnector::CloseConnection(): PID=5724
+2015/09/16 19:30:48.098    31    40 GX0!  InterProcessBase::EventFunctionInternal(): IPC-Connection Closed
+2015/09/16 19:30:48.098    31    40 GX0   CTcpProcessConnector::CloseConnection(): PID=5724
+2015/09/16 19:30:48.099    31    40 GX0   CTcpProcessConnector::CloseConnection(): Shutdown socket returned error 10058: Unknown error
+2015/09/16 19:30:48.099    31    40 GX0!! CTcpProcessConnector::CloseConnection(): Shutdown socket returned error 10009: Unknown error, Errorcode=317
+2015/09/16 19:30:48.105    31    32 GX0   interprocessbase::SecureNetwork destroyed
+2015/09/16 19:30:48.108    31    32 GX0   TVW Terminating GUI slave
+2015/09/16 19:30:48.108    31    32 GX0   Wine: Wine DLL freed
+2015/09/16 19:30:48.108  5954 2167760704 gX0   TVGuiSlave.64: Terminated

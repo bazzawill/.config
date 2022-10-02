@@ -1,0 +1,1 @@
+Okta.Modal.Popup=function(i){var r=Okta.fn.promises.pollP,a=Okta._okta.identity,t={open:function(n,t,o){var e=open("",o,["toolbar=0","width=500","height="+t,"location=1","menubar=0","scrollbars=yes"].join(","));return i.setPopupVerified(!1).then(i.getOktaDomain).then(function(t){e.location=t+n}).then(function(){return r(i.getPopupVerified,a,1e3)})}};return t};

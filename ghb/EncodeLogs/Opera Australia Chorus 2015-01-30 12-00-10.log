@@ -1,0 +1,156 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:27375): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[12:00:10] CPU: 
+[12:00:10]  - logical processor count: 4
+[12:00:10] hb_scan: path=/dev/sr0, title_index=1
+index_parse.c:191: indx_parse(): error opening /run/media/bazza/OPERA_AUSTRALIA_CHORUS/BDMV/index.bdmv
+index_parse.c:191: indx_parse(): error opening /run/media/bazza/OPERA_AUSTRALIA_CHORUS/BDMV/BACKUP/index.bdmv
+bluray.c:2356: nav_get_title_list(/run/media/bazza/OPERA_AUSTRALIA_CHORUS) failed
+[12:00:10] bd: not a bd - trying as a stream/file instead
+[12:00:10] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: Opera Australia Chorus
+libdvdnav: DVD Serial Number: c86fdfd9        
+libdvdnav: DVD Title (Alternative): Opera Australia Chorus
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x0000012e
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x000016c9
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x000018c8
+libdvdread: Elapsed time 0
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 0
+[12:00:10] scan: DVD has 2 title(s)
+[12:00:10] scan: scanning title 1
+[12:00:10] scan: opening IFO for VTS 1
+[12:00:10] scan: duration is 01:08:25 (4105920 ms)
+[12:00:10] pgc_id: 1, pgn: 1: pgc: 0x7f77b400e1f0
+[12:00:10] scan: vts=1, ttn=1, cells=0->11, blocks=0->1627718, 1627719 blocks
+[12:00:10] scan: checking audio 1
+[12:00:10] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[12:00:10] scan: checking subtitle 1
+[12:00:10] scan: id=0x20bd, lang=Unknown, 3cc=und ext=0
+[12:00:10] scan: title 1 has 12 chapters
+[12:00:10] scan: chap 1 c=0->0, b=0->79340 (79341), 191360 ms
+[12:00:10] scan: chap 2 c=1->1, b=79341->162656 (83316), 191880 ms
+[12:00:10] scan: chap 3 c=2->2, b=162657->295941 (133285), 317720 ms
+[12:00:10] scan: chap 4 c=3->3, b=295942->414401 (118460), 302640 ms
+[12:00:10] scan: chap 5 c=4->4, b=414402->549348 (134947), 346840 ms
+[12:00:10] scan: chap 6 c=5->5, b=549349->750176 (200828), 514800 ms
+[12:00:10] scan: chap 7 c=6->6, b=750177->904878 (154702), 400400 ms
+[12:00:10] scan: chap 8 c=7->7, b=904879->1006371 (101493), 252200 ms
+[12:00:10] scan: chap 9 c=8->8, b=1006372->1086040 (79669), 219960 ms
+[12:00:10] scan: chap 10 c=9->9, b=1086041->1143433 (57393), 126880 ms
+[12:00:10] scan: chap 11 c=10->10, b=1143434->1432394 (288961), 749840 ms
+[12:00:10] scan: chap 12 c=11->11, b=1432395->1627718 (195324), 491400 ms
+[12:00:10] scan: aspect = 1.33333
+[12:00:10] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[12:00:10] scan: title angle(s) 1
+[ac3 @ 0x7f77b412aa00] frame sync error
+[ac3 @ 0x7f77b41256a0] frame sync error
+[12:00:10] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=384000 English (AC3) (2.0 ch)
+[12:00:10] scan: 10 previews, 720x576, 25.000 fps, autocrop = 10/0/14/12, aspect 4:3, PAR 16:15
+[12:00:10] libhb: scan thread found 1 valid title(s)
+[12:00:12] gtkgui: Preset: Regular->Normal
+[12:00:12] 1 job(s) to process
+[12:00:12] starting job
+[12:00:12] sync: expecting 102648 video frames
+[12:00:12] job configuration:
+[12:00:12]  * source
+[12:00:12]    + /dev/sr0
+[12:00:12]    + title 1, chapter(s) 1 to 12
+[12:00:12]  * destination
+[12:00:12]    + /media/mythfs/videos/Opera Australia Chorus.m4v
+[12:00:12]    + container: MPEG-4 (libavformat)
+[12:00:12]      + chapter markers
+[12:00:12]  * video track
+[12:00:12]    + decoder: mpeg2video
+[12:00:12]      + bitrate 8000 kbps
+[12:00:12]    + filters
+[12:00:12]      + Framerate Shaper (0:27000000:1080000)
+[12:00:12]        + frame rate: same as source (around 25.000 fps)
+[12:00:12]      + Crop and Scale (694:566:10:0:14:12)
+[12:00:12]        + source: 720 * 576, crop (10/0/14/12): 694 * 566, scale: 694 * 566
+[12:00:12]    + loose anamorphic
+[12:00:12]      + storage dimensions: 694 * 566, mod 2
+[12:00:12]      + pixel aspect ratio: 16 / 15
+[12:00:12]      + display dimensions: 740 * 566
+[12:00:12]    + encoder: H.264 (libx264)
+[12:00:12]      + preset:  veryfast
+[12:00:12]      + profile: main
+[12:00:12]      + level:   4.0
+[12:00:12]      + quality: 20.00 (RF)
+[12:00:12]  * audio track 1
+[12:00:12]    + decoder: English (AC3) (2.0 ch) (track 1, id 0x80bd)
+[12:00:12]      + bitrate: 384 kbps, samplerate: 48000 Hz
+[12:00:12]    + mixdown: Stereo
+[12:00:12]    + encoder: AAC (libavcodec)
+[12:00:12]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[12:00:12] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: Opera Australia Chorus
+libdvdnav: DVD Serial Number: c86fdfd9        
+libdvdnav: DVD Title (Alternative): Opera Australia Chorus
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x0000012e
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x000016c9
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x000018c8
+libdvdread: Elapsed time 0
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 0
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[12:00:13] encx264: encoding at constant RF 20.000000
+[12:00:13] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=16/15
+[12:00:13] reader: first SCR 989 id 0xe0 DTS 1800
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+[12:00:13] mpeg2video: "Chapter 1" (1) at frame 0 time 3600
+x264 [info]: profile Main, level 4.0
+[12:00:13] sync: first pts is 3600
+[12:01:20] mpeg2video: "Chapter 2" (2) at frame 4784 time 17226000
+[12:02:24] mpeg2video: "Chapter 3" (3) at frame 9581 time 34495200
+[12:03:59] mpeg2video: "Chapter 4" (4) at frame 17524 time 63090000
+[12:05:16] mpeg2video: "Chapter 5" (5) at frame 25090 time 90327600
+[12:06:38] mpeg2video: "Chapter 6" (6) at frame 33761 time 121543200
+[12:08:32] mpeg2video: "Chapter 7" (7) at frame 46631 time 167875200
+[12:09:53] mpeg2video: "Chapter 8" (8) at frame 56641 time 203911200
+[12:10:44] mpeg2video: "Chapter 9" (9) at frame 62946 time 226609200
+[12:11:22] mpeg2video: "Chapter 10" (10) at frame 68445 time 246405600
+[12:11:49] mpeg2video: "Chapter 11" (11) at frame 71617 time 257824800
+[12:14:00] mpeg2video: "Chapter 12" (12) at frame 90363 time 325310400
+[12:15:23] reader: done. 1 scr changes
+[12:15:23] work: average encoding speed for job is 112.728439 fps
+[12:15:23] sync: got 102638 frames, 102648 expected
+[12:15:23] render: lost time: 0 (0 frames)
+[12:15:23] render: gained time: 0 (0 frames) (0 not accounted for)
+[12:15:23] mpeg2video-decoder done: 102638 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:590   Avg QP:16.84  size: 35505
+x264 [info]: frame P:46611 Avg QP:19.93  size:  6756
+x264 [info]: frame B:55437 Avg QP:21.52  size:  1339
+x264 [info]: consecutive B-frames: 13.4% 38.1% 16.9% 31.5%
+x264 [info]: mb I  I16..4: 51.6%  0.0% 48.4%
+x264 [info]: mb P  I16..4:  9.7%  0.0%  0.6%  P16..4: 32.4% 10.3%  6.3%  0.0%  0.0%    skip:40.8%
+x264 [info]: mb B  I16..4:  0.7%  0.0%  0.0%  B16..8:  8.6%  2.4%  0.3%  direct: 9.4%  skip:78.6%  L0:28.9% L1:48.3% BI:22.8%
+x264 [info]: coded y,uvDC,uvAC intra: 31.2% 58.6% 21.7% inter: 10.5% 13.7% 0.4%
+x264 [info]: i16 v,h,dc,p: 48% 28% 19%  5%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 28% 17%  4%  5%  6%  5%  5%  5%
+x264 [info]: i8c dc,h,v,p: 56% 19% 22%  4%
+x264 [info]: Weighted P-Frames: Y:4.2% UV:2.4%
+x264 [info]: kb/s:799.01
+[12:15:23] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[12:15:23] mux: track 0, 102638 frames, 410019774 bytes, 798.96 kbps, fifo 8192
+[12:15:23] mux: track 1, 192447 frames, 81892076 bytes, 159.57 kbps, fifo 16384
+[12:15:23] libhb: work result = 0

@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Tonton video menggunakan mode Picture-in-Picture (Floating Video Player). Mendukung semua jenis situs web video."
+   },
+   "name": {
+      "message": "Gambar dalam Video Gambar"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "ピクチャーインピクチャーモード（フローティングビデオプレーヤー）を使用してビデオを視聴します。あらゆる種類のビデオWebサイトをサポートします。"
+   },
+   "name": {
+      "message": "ピクチャーインピクチャービデオ"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

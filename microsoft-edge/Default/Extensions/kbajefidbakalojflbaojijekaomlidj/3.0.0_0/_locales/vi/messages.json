@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Đồng hồ báo thức"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "Hủy"
+   },
+   "Countdown": {
+      "message": "Đếm ngược"
+   },
+   "Pause": {
+      "message": "Tạm ngừng"
+   },
+   "Resume": {
+      "message": "Sơ yếu lý lịch"
+   },
+   "Stop": {
+      "message": "Dừng lại"
+   },
+   "Stopwatch": {
+      "message": "Stopwatch"
+   }
+}

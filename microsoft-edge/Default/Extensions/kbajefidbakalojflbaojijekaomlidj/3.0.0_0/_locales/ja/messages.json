@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "目覚まし時計"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "キャンセル"
+   },
+   "Countdown": {
+      "message": "カウントダウン"
+   },
+   "Pause": {
+      "message": "一時停止"
+   },
+   "Resume": {
+      "message": "履歴書"
+   },
+   "Stop": {
+      "message": "やめる"
+   },
+   "Stopwatch": {
+      "message": "ストップウォッチ"
+   }
+}

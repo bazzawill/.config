@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Alarm klokke"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "Avbryt"
+   },
+   "Countdown": {
+      "message": "nedtelling"
+   },
+   "Pause": {
+      "message": "Pause"
+   },
+   "Resume": {
+      "message": "Gjenoppta"
+   },
+   "Stop": {
+      "message": "Stoppe"
+   },
+   "Stopwatch": {
+      "message": "Stoppeklokke"
+   }
+}

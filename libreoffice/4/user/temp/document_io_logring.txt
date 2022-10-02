@@ -1,0 +1,59 @@
+30m0(Build:2)
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "current.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "sc_imagelist.xml"
+Rethrow
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1106: Begin
+
+Rethrow
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1307: SaveAs/Export
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1323: Locking
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1376: Storing in own format.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1425: Save as own format.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1442: Thumbnail creation.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1456: Preserve versions.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1650: Medium commit.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1661: Storing is successful.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/sfxbasemodel.cxx:3073: Storing succeeded!
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1106: Begin
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1307: SaveAs/Export
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1323: Locking
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1376: Storing in own format.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1425: Save as own format.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1442: Thumbnail creation.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1456: Preserve versions.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1650: Medium commit.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1661: Storing is successful.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/sfxbasemodel.cxx:3073: Storing succeeded!
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1106: Begin
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1307: SaveAs/Export
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1323: Locking
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1376: Storing in own format.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1425: Save as own format.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1442: Thumbnail creation.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1456: Preserve versions.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1650: Medium commit.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1661: Storing is successful.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/sfxbasemodel.cxx:3073: Storing succeeded!
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1106: Begin
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1307: SaveAs/Export
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1323: Locking
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1376: Storing in own format.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1425: Save as own format.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1442: Thumbnail creation.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1456: Preserve versions.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1650: Medium commit.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1661: Storing is successful.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/sfxbasemodel.cxx:3073: Storing succeeded!
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/sfxbasemodel.cxx:1667: storeToURL
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1106: Begin
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1192: Save
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objstor.cxx:1200: 
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/objmisc.cxx:244: Resetting Error.
+/build/libreoffice-fresh/src/libreoffice-5.3.4.2/sfx2/source/doc/sfxbasemodel.cxx:3092: Storing failed!

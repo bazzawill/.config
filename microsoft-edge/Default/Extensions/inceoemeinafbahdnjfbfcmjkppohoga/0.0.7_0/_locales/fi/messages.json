@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Katso videoita Picture-in-Picture-tilassa (kelluva videosoitin). Tukea kaikenlaisia video-sivustoja."
+   },
+   "name": {
+      "message": "Kuva kuvassa -video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

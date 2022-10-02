@@ -1,0 +1,166 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:4298): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[15:14:41] CPU: 
+[15:14:41]  - logical processor count: 4
+[15:14:41] hb_scan: path=/dev/sr0, title_index=1
+index_parse.c:190: indx_parse(): error opening /dev/sr0/BDMV/index.bdmv
+index_parse.c:190: indx_parse(): error opening /dev/sr0/BDMV/BACKUP/index.bdmv
+bluray.c:2365: nav_get_title_list(/dev/sr0) failed
+[15:14:41] bd: not a bd - trying as a stream/file instead
+[15:14:41] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: Gondoliers
+libdvdnav: DVD Serial Number: c707b059        
+libdvdnav: DVD Title (Alternative): Gondoliers
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000132
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x000001b7
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000374
+libdvdread: Elapsed time 0
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 0
+[15:14:44] scan: DVD has 5 title(s)
+[15:14:44] scan: scanning title 1
+[15:14:44] scan: opening IFO for VTS 1
+[15:14:44] scan: duration is 01:24:50 (5090400 ms)
+[15:14:44] pgc_id: 1, pgn: 1: pgc: 0x7f9d4400c4c0
+[15:14:44] scan: vts=1, ttn=1, cells=0->17, blocks=0->1883817, 1883818 blocks
+[15:14:44] scan: checking audio 1
+[15:14:44] scan: id=0x80bd, lang=Unknown (AC3), 3cc=und ext=0
+[15:14:44] scan: title 1 has 18 chapters
+[15:14:44] scan: chap 1 c=0->0, b=0->155725 (155726), 459360 ms
+[15:14:44] scan: chap 2 c=1->1, b=155726->265069 (109344), 275520 ms
+[15:14:44] scan: chap 3 c=2->2, b=265070->317972 (52903), 130080 ms
+[15:14:44] scan: chap 4 c=3->3, b=317973->391770 (73798), 179520 ms
+[15:14:44] scan: chap 5 c=4->4, b=391771->525331 (133561), 313920 ms
+[15:14:44] scan: chap 6 c=5->5, b=525332->588876 (63545), 155040 ms
+[15:14:44] scan: chap 7 c=6->6, b=588877->802337 (213461), 547680 ms
+[15:14:44] scan: chap 8 c=7->7, b=802338->847345 (45008), 113280 ms
+[15:14:44] scan: chap 9 c=8->8, b=847346->963411 (116066), 339840 ms
+[15:14:44] scan: chap 10 c=9->9, b=963412->1073866 (110455), 336960 ms
+[15:14:44] scan: chap 11 c=10->10, b=1073867->1145441 (71575), 201120 ms
+[15:14:44] scan: chap 12 c=11->11, b=1145442->1238774 (93333), 266880 ms
+[15:14:44] scan: chap 13 c=12->12, b=1238775->1443858 (205084), 552960 ms
+[15:14:44] scan: chap 14 c=13->13, b=1443859->1522694 (78836), 225120 ms
+[15:14:44] scan: chap 15 c=14->14, b=1522695->1655258 (132564), 348960 ms
+[15:14:44] scan: chap 16 c=15->15, b=1655259->1733029 (77771), 203040 ms
+[15:14:44] scan: chap 17 c=16->16, b=1733030->1804952 (71923), 218880 ms
+[15:14:44] scan: chap 18 c=17->17, b=1804953->1883817 (78865), 222240 ms
+[15:14:44] scan: aspect = 1.33333
+[15:14:44] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[15:14:44] scan: title angle(s) 1
+[ac3 @ 0x7f9d44125bc0] frame sync error
+[ac3 @ 0x7f9d44125300] frame sync error
+[15:14:45] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=384000 Unknown (AC3) (2.0 ch)
+[15:14:48] scan: 10 previews, 720x576, 25.000 fps, autocrop = 0/0/14/12, aspect 4:3, PAR 16:15
+[15:14:48] libhb: scan thread found 1 valid title(s)
+[15:14:50] gtkgui: Preset: Regular->Normal
+[15:14:50] 1 job(s) to process
+[15:14:50] starting job
+[15:14:50] sync: expecting 127260 video frames
+[15:14:50] job configuration:
+[15:14:50]  * source
+[15:14:50]    + /dev/sr0
+[15:14:50]    + title 1, chapter(s) 1 to 18
+[15:14:50]  * destination
+[15:14:50]    + /media/mythfs/videos/Gondoliers.m4v
+[15:14:50]    + container: MPEG-4 (libavformat)
+[15:14:50]      + chapter markers
+[15:14:50]  * video track
+[15:14:50]    + decoder: mpeg2video
+[15:14:50]      + bitrate 8500 kbps
+[15:14:50]    + filters
+[15:14:50]      + Framerate Shaper (0:27000000:1080000)
+[15:14:50]        + frame rate: same as source (around 25.000 fps)
+[15:14:50]      + Crop and Scale (694:576:0:0:14:12)
+[15:14:50]        + source: 720 * 576, crop (0/0/14/12): 694 * 576, scale: 694 * 576
+[15:14:50]    + loose anamorphic
+[15:14:50]      + storage dimensions: 694 * 576, mod 2
+[15:14:50]      + pixel aspect ratio: 16 / 15
+[15:14:50]      + display dimensions: 740 * 576
+[15:14:50]    + encoder: H.264 (libx264)
+[15:14:50]      + preset:  veryfast
+[15:14:50]      + profile: main
+[15:14:50]      + level:   4.0
+[15:14:50]      + quality: 20.00 (RF)
+[15:14:50]  * audio track 1
+[15:14:50]    + decoder: Unknown (AC3) (2.0 ch) (track 1, id 0x80bd)
+[15:14:50]      + bitrate: 384 kbps, samplerate: 48000 Hz
+[15:14:50]    + mixdown: Stereo
+[15:14:50]    + encoder: AAC (libavcodec)
+[15:14:50]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[15:14:50] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: Gondoliers
+libdvdnav: DVD Serial Number: c707b059        
+libdvdnav: DVD Title (Alternative): Gondoliers
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000132
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x000001b7
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000374
+libdvdread: Elapsed time 0
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 0
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[15:14:50] encx264: encoding at constant RF 20.000000
+[15:14:50] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=16/15
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+x264 [info]: profile Main, level 4.0
+[15:14:50] reader: first SCR 1030 id 0xe0 DTS 1800
+[15:14:51] mpeg2video: "Chapter 1" (1) at frame 0 time 3600
+[15:14:51] sync: first pts is 3600
+[15:16:56] mpeg2video: "Chapter 2" (2) at frame 11486 time 41353200
+[15:18:14] mpeg2video: "Chapter 3" (3) at frame 18374 time 66150000
+[15:18:49] mpeg2video: "Chapter 4" (4) at frame 21626 time 77857200
+[15:19:37] mpeg2video: "Chapter 5" (5) at frame 26114 time 94014000
+[15:20:59] mpeg2video: "Chapter 6" (6) at frame 33962 time 122266800
+[15:21:36] mpeg2video: "Chapter 7" (7) at frame 37838 time 136220400
+[15:23:34] mpeg2video: "Chapter 8" (8) at frame 51530 time 185511600
+[15:23:58] mpeg2video: "Chapter 9" (9) at frame 54362 time 195706800
+[15:24:59] mpeg2video: "Chapter 10" (10) at frame 62858 time 226292400
+[15:25:59] mpeg2video: "Chapter 11" (11) at frame 71282 time 256618800
+[15:26:36] mpeg2video: "Chapter 12" (12) at frame 76310 time 274719600
+[15:27:24] mpeg2video: "Chapter 13" (13) at frame 82982 time 298738800
+[15:29:04] mpeg2video: "Chapter 14" (14) at frame 96806 time 348505200
+[15:29:45] mpeg2video: "Chapter 15" (15) at frame 102434 time 368766000
+[15:30:51] mpeg2video: "Chapter 16" (16) at frame 111158 time 400172400
+[15:31:28] mpeg2video: "Chapter 17" (17) at frame 116234 time 418446000
+[15:32:06] mpeg2video: "Chapter 18" (18) at frame 121706 time 438145200
+[15:32:45] reader: done. 1 scr changes
+[15:32:46] work: average encoding speed for job is 118.373085 fps
+[15:32:46] sync: got 127250 frames, 127260 expected
+[15:32:46] render: lost time: 0 (0 frames)
+[15:32:46] render: gained time: 0 (0 frames) (0 not accounted for)
+[15:32:46] mpeg2video-decoder done: 127250 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:765   Avg QP:19.67  size: 55844
+x264 [info]: frame P:72053 Avg QP:22.40  size: 18532
+x264 [info]: frame B:54432 Avg QP:24.18  size:  7055
+x264 [info]: consecutive B-frames: 17.9% 72.0% 10.0%  0.2%
+x264 [info]: mb I  I16..4: 36.7%  0.0% 63.3%
+x264 [info]: mb P  I16..4: 29.2%  0.0%  1.4%  P16..4: 38.6% 15.5% 11.8%  0.0%  0.0%    skip: 3.6%
+x264 [info]: mb B  I16..4: 11.1%  0.0%  0.1%  B16..8: 23.0%  6.4%  1.0%  direct:32.3%  skip:26.2%  L0:25.6% L1:39.9% BI:34.6%
+x264 [info]: coded y,uvDC,uvAC intra: 75.8% 71.8% 23.9% inter: 38.9% 52.5% 1.8%
+x264 [info]: i16 v,h,dc,p: 25% 21% 47%  7%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 39% 16%  4%  4%  4%  6%  4%  7%
+x264 [info]: i8c dc,h,v,p: 51% 22% 23%  3%
+x264 [info]: Weighted P-Frames: Y:2.4% UV:1.1%
+x264 [info]: kb/s:2769.38
+[15:32:46] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[15:32:46] mux: track 0, 127250 frames, 1761986125 bytes, 2769.33 kbps, fifo 2048
+[15:32:46] mux: track 1, 238593 frames, 101912421 bytes, 160.18 kbps, fifo 4096
+[15:32:46] libhb: work result = 0

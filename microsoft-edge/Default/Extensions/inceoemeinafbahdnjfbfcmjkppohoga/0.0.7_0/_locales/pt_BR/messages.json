@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Assista a vídeos usando o modo Picture-in-Picture (Floating Video Player). Suporte a todos os tipos de sites de vídeo."
+   },
+   "name": {
+      "message": "Vídeo Imagem sobre Imagem"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "author": "sbussetti",
+   "background": {
+      "scripts": [ "background.min.js" ]
+   },
+   "browser_action": {
+      "defaultTitle": "delugesiphon",
+      "default_icon": {
+         "19": "images/icon-19.png",
+         "38": "images/icon-38.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "content.min.css" ],
+      "js": [ "content.min.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "Send torrent links to your Deluge server.",
+   "homepage_url": "http://sbussetti.github.io/deluge-siphon/",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDuRqm1ladYS+NcXXVWcjahwrap80bv2xKy+TiL5B7fOXAY7pKBBDgE8mZzzkhZLu+LwccbBFWi38hfL6uyo6D4xYE1Yd8GEwO2nrLgkl2amrrSmT84lIoYTOySnrp0Phea1ylIzHjcS5Yo4KvPTtTIXz9EPAnS5/a+E0wdOJjsYwIDAQAB",
+   "manifest_version": 2,
+   "name": "delugesiphon",
+   "options_page": "options.html",
+   "permissions": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*/*", "cookies", "contextMenus", "notifications" ],
+   "short_name": "delugesiphon",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.72.6",
+   "web_accessible_resources": [ "images/*.png", "images/*.gif", "lib/images/*.png" ]
+}

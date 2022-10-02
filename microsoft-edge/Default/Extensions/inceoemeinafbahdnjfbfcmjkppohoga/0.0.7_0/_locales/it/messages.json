@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Guarda i video utilizzando la modalità Picture-in-Picture (Floating Video Player). Supporta tutti i tipi di siti Web di video."
+   },
+   "name": {
+      "message": "Picture in Picture Video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

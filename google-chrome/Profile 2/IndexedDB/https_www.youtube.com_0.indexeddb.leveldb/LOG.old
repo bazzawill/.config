@@ -1,0 +1,7 @@
+2022/06/10-16:16:45.664 161a12 Reusing MANIFEST /home/bazza/.config/google-chrome/Profile 2/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/10-16:16:45.664 161a12 Recovering log #3
+2022/06/10-16:16:45.664 161a12 Reusing old log /home/bazza/.config/google-chrome/Profile 2/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2022/06/10-16:16:46.007 15f666 Level-0 table #5: started
+2022/06/10-16:16:46.013 15f666 Level-0 table #5: 7476 bytes OK
+2022/06/10-16:16:46.023 15f666 Delete type=0 #3
+2022/06/10-16:16:46.023 15f666 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

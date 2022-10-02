@@ -1,0 +1,187 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:29151): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[11:38:21] CPU: 
+[11:38:21]  - logical processor count: 4
+[11:38:21] hb_scan: path=/dev/sr0, title_index=13
+index_parse.c:191: indx_parse(): error opening /run/media/bazza/NINE_2009/BDMV/index.bdmv
+index_parse.c:191: indx_parse(): error opening /run/media/bazza/NINE_2009/BDMV/BACKUP/index.bdmv
+bluray.c:2356: nav_get_title_list(/run/media/bazza/NINE_2009) failed
+[11:38:21] bd: not a bd - trying as a stream/file instead
+[11:38:21] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: Imaginaerum
+libdvdnav: DVD Serial Number: 451d2714
+libdvdnav: DVD Title (Alternative): 
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000140
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00001183
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00005edb
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x0000603e
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x00006906
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x0001164c
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_1.VOB at 0x0001aa55
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_06_1.VOB at 0x00028c7a
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_07_1.VOB at 0x00032f2e
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_08_1.VOB at 0x0003c1ed
+libdvdread: Elapsed time 0
+libdvdread: Found 8 VTS's
+libdvdread: Elapsed time 0
+[11:38:21] scan: DVD has 13 title(s)
+[11:38:21] scan: scanning title 13
+[11:38:21] scan: opening IFO for VTS 8
+[11:38:21] scan: duration is 01:22:14 (4934400 ms)
+[11:38:21] pgc_id: 1, pgn: 1: pgc: 0x7fb528010ac0
+[11:38:21] scan: vts=8, ttn=1, cells=0->13, blocks=0->2512177, 2512178 blocks
+[11:38:21] scan: checking audio 1
+[11:38:21] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[11:38:21] scan: checking audio 2
+[11:38:21] scan: id=0x89bd, lang=English (DTS), 3cc=eng ext=0
+[11:38:21] scan: title 13 has 13 chapters
+[11:38:21] scan: chap 1 c=0->1, b=0->184387 (184388), 370120 ms
+[11:38:21] scan: chap 2 c=2->2, b=184388->391206 (206819), 432400 ms
+[11:38:21] scan: chap 3 c=3->3, b=391207->582410 (191204), 347040 ms
+[11:38:21] scan: chap 4 c=4->4, b=582411->765740 (183330), 335600 ms
+[11:38:21] scan: chap 5 c=5->5, b=765741->977827 (212087), 378480 ms
+[11:38:21] scan: chap 6 c=6->6, b=977828->1188341 (210514), 381360 ms
+[11:38:21] scan: chap 7 c=7->7, b=1188342->1457666 (269325), 498120 ms
+[11:38:21] scan: chap 8 c=8->8, b=1457667->1761359 (303693), 552360 ms
+[11:38:21] scan: chap 9 c=9->9, b=1761360->1992612 (231253), 424720 ms
+[11:38:21] scan: chap 10 c=10->10, b=1992613->2223023 (230411), 418800 ms
+[11:38:21] scan: chap 11 c=11->11, b=2223024->2418237 (195214), 400520 ms
+[11:38:21] scan: chap 12 c=12->12, b=2418238->2512065 (93828), 393920 ms
+[11:38:21] scan: chap 13 c=13->13, b=2512066->2512177 (112), 960 ms
+[11:38:21] scan: aspect = 1.77778
+[11:38:21] scan: decoding previews for title 13
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+[11:38:21] scan: title angle(s) 1
+[ac3 @ 0x7fb528137c00] frame sync error
+[11:38:21] scan: audio 0x89bd: dca, rate=48000Hz, bitrate=768000 English (DTS) (5.1 ch)
+[ac3 @ 0x7fb528135a00] frame sync error
+[11:38:21] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[11:38:22] scan: 10 previews, 720x576, 25.000 fps, autocrop = 72/70/0/0, aspect 16:9, PAR 64:45
+[11:38:22] libhb: scan thread found 1 valid title(s)
+[11:38:24] gtkgui: Preset: Regular->Normal
+[11:38:24] 1 job(s) to process
+[11:38:24] starting job
+[11:38:24] sync: expecting 123360 video frames
+[11:38:24] job configuration:
+[11:38:24]  * source
+[11:38:24]    + /dev/sr0
+[11:38:24]    + title 13, chapter(s) 1 to 13
+[11:38:24]  * destination
+[11:38:24]    + /media/mythfs/videos/Imaginaerum.m4v
+[11:38:24]    + container: MPEG-4 (libavformat)
+[11:38:24]      + chapter markers
+[11:38:24]  * video track
+[11:38:24]    + decoder: mpeg2video
+[11:38:24]      + bitrate 9800 kbps
+[11:38:24]    + filters
+[11:38:24]      + Framerate Shaper (0:27000000:1080000)
+[11:38:24]        + frame rate: same as source (around 25.000 fps)
+[11:38:24]      + Crop and Scale (720:434:72:70:0:0)
+[11:38:24]        + source: 720 * 576, crop (72/70/0/0): 720 * 434, scale: 720 * 434
+[11:38:24]    + loose anamorphic
+[11:38:24]      + storage dimensions: 720 * 434, mod 2
+[11:38:24]      + pixel aspect ratio: 64 / 45
+[11:38:24]      + display dimensions: 1024 * 434
+[11:38:24]    + encoder: H.264 (libx264)
+[11:38:24]      + preset:  veryfast
+[11:38:24]      + profile: main
+[11:38:24]      + level:   4.0
+[11:38:24]      + quality: 20.00 (RF)
+[11:38:24]  * audio track 1
+[11:38:24]    + decoder: English (AC3) (5.1 ch) (track 1, id 0x80bd)
+[11:38:24]      + bitrate: 448 kbps, samplerate: 48000 Hz
+[11:38:24]    + mixdown: Dolby Pro Logic II
+[11:38:24]    + encoder: AAC (libavcodec)
+[11:38:24]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[11:38:24] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: Imaginaerum
+libdvdnav: DVD Serial Number: 451d2714
+libdvdnav: DVD Title (Alternative): 
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000140
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00001183
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00005edb
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x0000603e
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x00006906
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x0001164c
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_1.VOB at 0x0001aa55
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_06_1.VOB at 0x00028c7a
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_07_1.VOB at 0x00032f2e
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_08_1.VOB at 0x0003c1ed
+libdvdread: Elapsed time 0
+libdvdread: Found 8 VTS's
+libdvdread: Elapsed time 0
+[11:38:24] encx264: encoding at constant RF 20.000000
+[11:38:24] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=64/45
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+libdvdnav: DVD disk reports itself with Region mask 0x00f70000. Regions: 4
+[11:38:24] reader: first SCR 146 id 0xe0 DTS 22254
+x264 [info]: profile Main, level 4.0
+[11:38:24] mpeg2video: "Chapter 1" (1) at frame 0 time 3600
+[11:38:24] sync: first pts is 3600
+[11:40:25] mpeg2video: "Chapter 2" (2) at frame 9253 time 33314400
+[11:42:27] mpeg2video: "Chapter 3" (3) at frame 20063 time 72230400
+[11:44:10] mpeg2video: "Chapter 4" (4) at frame 28739 time 103464000
+[11:45:41] mpeg2video: "Chapter 5" (5) at frame 37129 time 133668000
+[11:47:22] mpeg2video: "Chapter 6" (6) at frame 46591 time 167731200
+[11:48:55] mpeg2video: "Chapter 7" (7) at frame 56125 time 202053600
+[11:51:15] mpeg2video: "Chapter 8" (8) at frame 68578 time 246884400
+[11:53:33] mpeg2video: "Chapter 9" (9) at frame 82387 time 296596800
+[11:55:15] mpeg2video: "Chapter 10" (10) at frame 93005 time 334821600
+[11:57:08] mpeg2video: "Chapter 11" (11) at frame 103475 time 372513600
+[11:58:50] mpeg2video: "Chapter 12" (12) at frame 113488 time 408560400
+[11:59:45] reader: done. 1 scr changes
+[11:59:45] mpeg2video: "Chapter 13" (13) at frame 123336 time 444013200
+[11:59:45] work: average encoding speed for job is 96.236320 fps
+[11:59:45] sync: got 123360 frames, 123360 expected
+[11:59:45] render: lost time: 0 (0 frames)
+[11:59:45] render: gained time: 0 (0 frames) (0 not accounted for)
+[11:59:45] mpeg2video-decoder done: 123360 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:1584  Avg QP:14.80  size: 16654
+x264 [info]: frame P:55000 Avg QP:18.72  size:  4228
+x264 [info]: frame B:66776 Avg QP:19.71  size:   942
+x264 [info]: consecutive B-frames: 18.8% 23.5% 10.7% 47.0%
+x264 [info]: mb I  I16..4: 51.4%  0.0% 48.6%
+x264 [info]: mb P  I16..4: 17.9%  0.0%  1.6%  P16..4: 28.5% 11.8%  5.1%  0.0%  0.0%    skip:35.1%
+x264 [info]: mb B  I16..4:  1.1%  0.0%  0.1%  B16..8: 12.0%  3.4%  0.3%  direct: 7.5%  skip:75.7%  L0:35.3% L1:50.7% BI:14.0%
+x264 [info]: coded y,uvDC,uvAC intra: 18.8% 50.3% 11.5% inter: 7.3% 12.4% 0.3%
+x264 [info]: i16 v,h,dc,p: 54% 21% 17%  8%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 36% 15% 22%  5%  5%  5%  4%  5%  3%
+x264 [info]: i8c dc,h,v,p: 56% 16% 24%  4%
+x264 [info]: Weighted P-Frames: Y:4.8% UV:1.5%
+x264 [info]: kb/s:521.74
+[11:59:45] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[11:59:45] mux: track 0, 123360 frames, 321752210 bytes, 521.65 kbps, fifo 8192
+[11:59:45] mux: track 1, 231297 frames, 98804999 bytes, 160.19 kbps, fifo 16384
+[11:59:46] libhb: work result = 0

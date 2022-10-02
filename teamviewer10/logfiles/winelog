@@ -1,0 +1,50 @@
+fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
+fixme:ole:CoInitializeSecurity ((nil),-1,(nil),(nil),0,3,(nil),0,(nil)) - stub!
+fixme:heap:HeapSetInformation (nil) 1 (nil) 0
+fixme:process:SetProcessDEPPolicy (3): stub
+fixme:ver:GetCurrentPackageId (0x32f8b4 (nil)): stub
+/opt/teamviewer/tv_bin/TVGuiDelegate: error while loading shared libraries: libjpeg.so.62: cannot open shared object file: No such file or directory
+fixme:process:SetProcessShutdownParameters (00000100, 00000000): partial stub.
+fixme:win:EnumDisplayDevicesW ((null),0,0x32d500,0x00000000), stub!
+fixme:win:EnumDisplayDevicesW (L"\\\\.\\DISPLAY1",0,0x32d848,0x00000000), stub!
+fixme:win:EnumDisplayDevicesW ((null),1,0x32d500,0x00000000), stub!
+fixme:module:load_library unsupported flag(s) used (flags: 0x00000060)
+fixme:module:load_library unsupported flag(s) used (flags: 0x00000060)
+fixme:module:load_library unsupported flag(s) used (flags: 0x00000060)
+fixme:module:load_library unsupported flag(s) used (flags: 0x00000060)
+fixme:resource:GetGuiResources (0xffffffff,0): stub
+fixme:ntdll:NtQueryInformationToken QueryInformationToken( ..., TokenElevation, ...) semi-stub
+fixme:winhttp:WinHttpDetectAutoProxyConfigUrl discovery via DHCP not supported
+fixme:bitmap:CreateBitmapIndirect planes = 0
+fixme:bitmap:CreateBitmapIndirect planes = 0
+fixme:msg:ChangeWindowMessageFilter 233 00000001
+fixme:msg:ChangeWindowMessageFilter 4a 00000001
+fixme:msg:ChangeWindowMessageFilter 407 00000001
+fixme:msg:ChangeWindowMessageFilter 49 00000001
+fixme:msg:pack_message msg 14 (WM_ERASEBKGND) not supported yet
+fixme:wtsapi:WTSRegisterSessionNotification Stub 0x2006a 0x00000000
+err:ole:marshal_object couldn't get IPSFactory buffer for interface {00000131-0000-0000-c000-000000000046}
+err:ole:marshal_object couldn't get IPSFactory buffer for interface {00000122-0000-0000-c000-000000000046}
+err:ole:StdMarshalImpl_MarshalInterface Failed to create ifstub, hres=0x80040155
+err:ole:CoMarshalInterface Failed to marshal the interface {00000122-0000-0000-c000-000000000046}, 80040155
+fixme:msg:ChangeWindowMessageFilter c057 00000001
+fixme:bitmap:CreateBitmapIndirect planes = 0
+err:secur32:SECUR32_initSchannelSP TLS library not found, SSL connections will fail
+fixme:nls:GetGeoInfoW -1 4 0x32fc34 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19dddfc 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19dde34 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19dde34 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19dde34 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19dde34 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19dde34 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19dde34 3 0
+fixme:nls:GetGeoInfoW -1 4 0x1ade2f4 3 0
+fixme:nls:GetGeoInfoW -1 4 0x1ade2f4 3 0
+fixme:nls:GetGeoInfoW -1 4 0x1ade2f4 3 0
+fixme:nls:GetGeoInfoW -1 4 0x1ade2f4 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19de2f4 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19de2f4 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19de2f4 3 0
+fixme:nls:GetGeoInfoW -1 4 0x19de2f4 3 0
+fixme:keyboard:X11DRV_GetKeyboardLayout couldn't return keyboard layout for thread 0020
+fixme:wtsapi:WTSUnRegisterSessionNotification Stub 0x2006a

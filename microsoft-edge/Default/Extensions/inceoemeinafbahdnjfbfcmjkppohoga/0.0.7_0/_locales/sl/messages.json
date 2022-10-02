@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Oglejte si videoposnetke v načinu Slika v sliki (plavajoči video predvajalnik). Podpirajte vse vrste video spletnih mest."
+   },
+   "name": {
+      "message": "Slika v sliki Video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

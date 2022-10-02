@@ -1,0 +1,4 @@
+#@lxpanel --profile LXDE
+@xscreensaver -no-splash
+xfce4-panel
+picom

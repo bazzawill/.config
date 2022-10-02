@@ -1,0 +1,18 @@
+2022/09/27-22:48:25.038 3181a Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_smallbusiness.chron.com_0.indexeddb.leveldb since it was missing.
+2022/09/27-22:48:25.062 3181a Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_smallbusiness.chron.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/27-23:09:03.439 3e579 Level-0 table #5: started
+2022/09/27-23:09:03.447 3e579 Level-0 table #5: 46476 bytes OK
+2022/09/27-23:09:03.462 3e579 Delete type=0 #3
+2022/09/27-23:09:03.462 3e579 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/09/27-23:09:05.464 3e579 Level-0 table #7: started
+2022/09/27-23:09:05.472 3e579 Level-0 table #7: 256 bytes OK
+2022/09/27-23:09:05.487 3e579 Delete type=0 #4
+2022/09/27-23:09:05.487 3e579 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/09/27-23:09:05.487 3e579 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x0f\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 207 : 0
+2022/09/27-23:09:05.487 3e579 Compacting 1@1 + 1@2 files
+2022/09/27-23:09:05.495 3e579 Generated table #8@1: 6 keys, 254 bytes
+2022/09/27-23:09:05.495 3e579 Compacted 1@1 + 1@2 files => 254 bytes
+2022/09/27-23:09:05.510 3e579 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/27-23:09:05.510 3e579 Delete type=2 #5
+2022/09/27-23:09:05.510 3e579 Delete type=2 #7
+2022/09/27-23:09:05.510 3e579 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x0f\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 207 : 0 .. (end); will stop at (end)

@@ -1,0 +1,1097 @@
+// Copyright 2022 The ChromiumOS Authors
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+/**
+ * @fileoverview Sockets emulation layers.
+ * @suppress {moduleLoad}
+ */
+
+import * as WASI from '../../wasi-js-bindings/js/wasi.js';
+import * as VFS from './vfs.js';
+
+const SOL_SOCKET = 0x7fffffff;
+// const SO_RCVBUF sets bufferSize.
+const SO_REUSEADDR = 2;
+const SO_ERROR = 4;
+const SO_KEEPALIVE = 9;
+const IPPROTO_IP = 0;
+const IP_TOS = 1;
+const IPPROTO_TCP = 6;
+const TCP_NODELAY = 1;
+
+/**
+ * Base class for all socket types.
+ *
+ * This should support TCP/UDP/UNIX/etc... fundamentals without having any
+ * family or protocol specific logic in it.
+ */
+export class Socket extends VFS.PathHandle {
+  /**
+   * @param {number} domain
+   * @param {number} type
+   * @param {number} protocol
+   */
+  constructor(domain, type, protocol) {
+    super('socket', type);
+    /** @const {number} */
+    this.domain = domain;
+    /** @const {number} */
+    this.protocol = protocol;
+    /** @type {?string} */
+    this.address = null;
+    /** @type {?number} */
+    this.port = null;
+    /** @type {?function()} */
+    this.receiveListener_ = null;
+
+    // TODO(vapier): Make this into a stream.
+    this.data = new Uint8Array(0);
+
+    // Callback when the read is blocking.
+    this.reader_ = null;
+  }
+
+  /** @override */
+  toString() {
+    return `${this.constructor.name}(${this.address}:${this.port}, ` +
+        `domain=${this.domain}, protocol=${this.protocol})`;
+  }
+
+  debug(...args) {
+    console.debug('socket', ...args);
+  }
+
+  /**
+   * @param {string} address
+   * @param {number} port
+   * @return {!Promise<!WASI_t.errno>}
+   */
+  async connect(address, port) {
+    throw new Error('connect(): unimplemented');
+  }
+
+  /**
+   * @param {!ArrayBuffer} data
+   */
+  onRecv(data) {
+    const u8 = new Uint8Array(data);
+    const newData = new Uint8Array(this.data.length + u8.length);
+    newData.set(this.data);
+    newData.set(u8, this.data.length);
+    this.data = newData;
+
+    // If there are any readers waiting, wake them up.
+    if (this.reader_) {
+      this.reader_();
+      this.reader_ = null;
+    }
+
+    if (this.receiveListener_) {
+      this.receiveListener_();
+    }
+  }
+
+  /** @override */
+  async read(length) {
+    // TODO(vapier): Support O_NONBLOCK.
+    if (this.data.length === 0) {
+      await new Promise((resolve) => this.reader_ = resolve);
+    }
+
+    const buf = this.data.slice(0, length);
+    this.data = this.data.subarray(length);
+    return {buf};
+  }
+
+  /** @override */
+  async stat() {
+    return /** @type {!WASI_t.fdstat} */ ({
+      fs_filetype: this.filetype,
+      fs_rights_base:
+          WASI.rights.FD_READ |
+          WASI.rights.FD_WRITE |
+          WASI.rights.POLL_FD_READWRITE |
+          WASI.rights.SOCK_SHUTDOWN,
+    });
+  }
+
+  /**
+   * Registers a listener that will be called when data is recieved on the
+   * socket.
+   *
+   * @param {?function()} listener
+   */
+  setReceiveListener(listener) {
+    this.receiveListener_ = listener;
+  }
+
+  /**
+   * @return {!Promise<!WASI_t.errno|!Socket>}
+   */
+  async accept() {
+    return WASI.errno.EINVAL;
+  }
+
+  /**
+   * @param {string} address
+   * @param {number} port
+   * @return {!Promise<!WASI_t.errno|!Socket>}
+   */
+  async bind(address, port) {
+    return WASI.errno.EINVAL;
+  }
+
+  /**
+   * @param {number} backlog
+   * @return {!Promise<!WASI_t.errno>}
+   */
+  async listen(backlog) {
+    return WASI.errno.EINVAL;
+  }
+
+  /**
+   * @param {number} level
+   * @param {number} name
+   * @return {!Promise<{option: number}>}
+   */
+  async getSocketOption(level, name) {
+    return WASI.errno.ENOPROTOOPT;
+  }
+
+  /**
+   * @param {number} level
+   * @param {number} name
+   * @param {number} value
+   * @return {!Promise<!WASI_t.errno>}
+   */
+  async setSocketOption(level, name, value) {
+    return WASI.errno.ENOPROTOOPT;
+  }
+
+  /**
+   * Checks if the API is available to use.
+   *
+   * @return {boolean}
+   */
+  static isSupported() {
+    return true;
+  }
+}
+
+/**
+ * A TCP/IP based socket backed by the chrome.sockets.tcp API.
+ */
+export class ChromeTcpSocket extends Socket {
+  /**
+   * @param {number} domain
+   * @param {number} type
+   * @param {number} protocol
+   */
+  constructor(domain, type, protocol) {
+    super(domain, type, protocol);
+
+    /** @type {number} */
+    this.socketId_ = -1;
+
+    this.tcpKeepAlive_ = false;
+    this.tcpNoDelay_ = false;
+  }
+
+  /** @override */
+  async init(socketId = undefined) {
+    if (socketId === undefined) {
+      const info = await new Promise((resolve) => {
+        chrome.sockets.tcp.create(resolve);
+      });
+
+      this.socketId_ = info.socketId;
+    } else {
+      this.socketId_ = socketId;
+    }
+
+    if (ChromeTcpSocket.eventRouter_ === null) {
+      ChromeTcpSocket.eventRouter_ = new ChromeTcpSocketEventRouter();
+    }
+
+    ChromeTcpSocket.eventRouter_.register(this.socketId_, this);
+  }
+
+  /** @override */
+  async connect(address, port) {
+    this.debug(`connect(${address}, ${port})`);
+
+    if (this.address !== null) {
+      return WASI.errno.EISCONN;
+    }
+
+    const result = await new Promise((resolve) => {
+      chrome.sockets.tcp.connect(this.socketId_, address, port, resolve);
+    });
+
+    switch (result) {
+      case 0:
+        this.address = address;
+        this.port = port;
+        return WASI.errno.ESUCCESS;
+      case -102:
+        return WASI.errno.ECONNREFUSED;
+      default:
+        // NB: Should try to translate these error codes.
+        return WASI.errno.ENETUNREACH;
+    }
+  }
+
+  /** @override */
+  async close() {
+    // In the *NIX world, close must never fail.  That's why we don't return
+    // any errors here.
+
+    if (this.socketId_ === -1) {
+      return;
+    }
+
+    // If a socket was created but not connected, we can't disconnect it, but we
+    // need to stiil close it.
+    if (this.address) {
+      // We wait for the disconnect only so that we can reset the internal
+      // state below, but we could probably wait for the close too if needed.
+      await new Promise((resolve) => {
+        chrome.sockets.tcp.disconnect(this.socketId_, resolve);
+      });
+    }
+
+    chrome.sockets.tcp.close(this.socketId_);
+    ChromeTcpSocket.eventRouter_.unregister(this.socketId_);
+
+    this.socketId_ = -1;
+    this.address = null;
+    this.port = null;
+  }
+
+  /** @override */
+  async write(buf) {
+    const {result, bytesSent} = await new Promise((resolve) => {
+      // TODO(vapier): Double check whether send accepts TypedArrays directly.
+      // Or if we have to respect buf.byteOffset & buf.byteLength ourself.
+      chrome.sockets.tcp.send(this.socketId_, buf.buffer, resolve);
+    });
+
+    if (result < 0) {
+      // NB: Should try to translate these error codes.
+      return WASI.errno.EINVAL;
+    }
+
+    return {nwritten: bytesSent};
+  }
+
+  /**
+   * @return {!Promise<!chrome.socket.SocketInfo>}
+   */
+  async getSocketInfo() {
+    return new Promise((resolve) => {
+      chrome.sockets.tcp.getInfo(this.socketId_, resolve);
+    });
+  }
+
+  /** @override */
+  async bind(address, port) {
+    const handle = new ChromeTcpListenSocket(
+        this.domain, this.filetype, this.protocol);
+    await handle.init();
+    const result = await handle.bind(address, port);
+    if (result !== 0) {
+      handle.close();
+      return result;
+    }
+    return handle;
+  }
+
+  /** @override */
+  async getSocketOption(level, name) {
+    switch (level) {
+      case SOL_SOCKET: {
+        switch (name) {
+          case SO_ERROR: {
+            // TODO(vapier): This should return current connection state.
+            return {option: 0};
+          }
+
+          case SO_KEEPALIVE:
+            return {option: this.tcpKeepAlive_ ? 1 : 0};
+        }
+        break;
+      }
+
+      case IPPROTO_TCP: {
+        switch (name) {
+          case TCP_NODELAY:
+            return {option: this.tcpNoDelay_ ? 1 : 0};
+        }
+        break;
+      }
+    }
+
+    return WASI.errno.ENOPROTOOPT;
+  }
+
+  /** @override */
+  async setSocketOption(level, name, value) {
+    switch (level) {
+      case SOL_SOCKET: {
+        switch (name) {
+          case SO_KEEPALIVE: {
+            const result = await new Promise((resolve) => {
+              chrome.sockets.tcp.setKeepAlive(this.socketId_, !!value, resolve);
+            });
+            if (result < 0) {
+              console.warn(`setKeepAlive(${value}) failed with ${result})`);
+              return WASI.errno.EINVAL;
+            }
+            this.tcpKeepAlive_ = value;
+            return WASI.errno.ESUCCESS;
+          }
+
+          case SO_REUSEADDR: {
+            // TODO(vapier): Try and extend Chrome sockets API to support this.
+            console.warn(`Ignoring SO_REUSEADDR=${value}`);
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+
+      case IPPROTO_IP: {
+        switch (name) {
+          case IP_TOS: {
+            // TODO(vapier): Try and extend Chrome sockets API to support this.
+            console.warn(`Ignoring IP_TOS=${value}`);
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+
+      case IPPROTO_TCP: {
+        switch (name) {
+          case TCP_NODELAY: {
+            const result = await new Promise((resolve) => {
+              chrome.sockets.tcp.setNoDelay(this.socketId_, !!value, resolve);
+            });
+            if (result < 0) {
+              console.warn(`setNoDelay(${value}) failed with ${result})`);
+              return WASI.errno.EINVAL;
+            }
+            this.tcpNoDelay_ = value;
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+    }
+
+    return WASI.errno.ENOPROTOOPT;
+  }
+
+  /** @override */
+  static isSupported() {
+    return window?.chrome?.sockets?.tcp !== undefined;
+  }
+}
+
+/**
+ * Used to route receive events to all ChromeTcpSockets.
+ *
+ * @type {?ChromeTcpSocketEventRouter}
+ */
+ChromeTcpSocket.eventRouter_ = null;
+
+/**
+ * A TCP/IP based listening socket backed by the chrome.sockets.tcpServer API.
+ */
+export class ChromeTcpListenSocket extends Socket {
+  /**
+   * @param {number} domain
+   * @param {number} type
+   * @param {number} protocol
+   */
+  constructor(domain, type, protocol) {
+    super(domain, type, protocol);
+
+    /** @type {number} */
+    this.socketId_ = -1;
+
+    /** @type {!Array<!ChromeTcpSocket>} */
+    this.clients_ = [];
+    this.callback_ = null;
+  }
+
+  /** @override */
+  async init() {
+    const info = await new Promise((resolve) => {
+      chrome.sockets.tcpServer.create(resolve);
+    });
+
+    this.socketId_ = info.socketId;
+
+    if (ChromeTcpListenSocket.eventRouter_ === null) {
+      ChromeTcpListenSocket.eventRouter_ =
+          new ChromeTcpListenSocketEventRouter();
+    }
+
+    ChromeTcpListenSocket.eventRouter_.register(this.socketId_, this);
+  }
+
+  /** @override */
+  async close() {
+    // In the *NIX world, close must never fail.  That's why we don't return
+    // any errors here.
+
+    if (this.socketId_ === -1) {
+      return;
+    }
+
+    // If a socket was created but not connected, we can't disconnect it, but we
+    // need to stiil close it.
+    if (this.address) {
+      // We wait for the disconnect only so that we can reset the internal
+      // state below, but we could probably wait for the close too if needed.
+      await new Promise((resolve) => {
+        chrome.sockets.tcpServer.disconnect(this.socketId_, resolve);
+      });
+    }
+
+    chrome.sockets.tcpServer.close(this.socketId_);
+    ChromeTcpListenSocket.eventRouter_.unregister(this.socketId_);
+
+    this.socketId_ = -1;
+    this.address = null;
+    this.port = null;
+  }
+
+  /**
+   * @return {!Promise<!chrome.socket.SocketInfo>}
+   */
+  async getSocketInfo() {
+    return new Promise((resolve) => {
+      chrome.sockets.tcpServer.getInfo(this.socketId_, resolve);
+    });
+  }
+
+  /** @override */
+  async accept() {
+    const result = this.clients_.shift();
+    if (result !== undefined) {
+      return result;
+    }
+
+    return new Promise((resolve) => {
+      this.callback_ = () => {
+        resolve(this.clients_.shift());
+        this.callback_ = null;
+      };
+    });
+  }
+
+  /**
+   * @param {number} socketId
+   */
+  async onAccept(socketId) {
+    const handle = new ChromeTcpSocket(
+        this.domain, this.filetype, this.protocol);
+    await handle.init(socketId);
+    this.clients_.push(handle);
+    if (this.callback_) {
+      this.callback_();
+    }
+
+    // The Chrome API pauses new sockets by default, so unpause them.
+    await new Promise((resolve) => {
+      chrome.sockets.tcp.setPaused(socketId, false, resolve);
+    });
+
+    if (this.receiveListener_) {
+      this.receiveListener_();
+    }
+  }
+
+  /** @override */
+  async bind(address, port) {
+    if (this.address !== null) {
+      return WASI.errno.EADDRINUSE;
+    }
+
+    this.address = address;
+    this.port = port;
+    return WASI.errno.ESUCCESS;
+  }
+
+  /** @override */
+  async listen(backlog) {
+    const result = await new Promise((resolve) => {
+      // If the caller hasn't called bind(), then POSIX tries to bind a random
+      // address with a random port.  If those fail, it returns EADDRINUSE.  We
+      // don't bother and immediately return EADDRINUSE.  This isn't exactly
+      // correct, but it's also not exactly incorrect.
+      if (this.address === null || this.port === null) {
+        resolve(-147);
+        return;
+      }
+
+      chrome.sockets.tcpServer.listen(
+          this.socketId_, this.address, this.port, backlog, resolve);
+    });
+
+    switch (result) {
+      case 0:
+        return WASI.errno.ESUCCESS;
+      case -4:
+        return WASI.errno.EINVAL;
+      case -147:
+        return WASI.errno.EADDRINUSE;
+      default:
+        // NB: Should try to translate these error codes.
+        return WASI.errno.ENETUNREACH;
+    }
+  }
+
+  /** @override */
+  static isSupported() {
+    return window?.chrome?.sockets?.tcpServer !== undefined;
+  }
+}
+
+/**
+ * Used to route receive events to all ChromeTcpListenSockets.
+ *
+ * @type {?ChromeTcpListenSocketEventRouter}
+ */
+ChromeTcpListenSocket.eventRouter_ = null;
+
+/**
+ * A TCP/IP based socket backed by a Stream. Used to connect to a relay server.
+ */
+export class RelaySocket extends Socket {
+  /**
+   * @param {number} domain
+   * @param {number} type
+   * @param {number} protocol
+   * @param {function(string, number)} open
+   */
+  constructor(domain, type, protocol, open) {
+    super(domain, type, protocol);
+
+    this.open_ = open;
+
+    this.callback_ = null;
+
+    this.tcpKeepAlive_ = false;
+    this.tcpNoDelay_ = false;
+  }
+
+  /** @override */
+  async connect(address, port) {
+    this.debug(`connect(${address}, ${port})`);
+
+    if (this.address !== null) {
+      return WASI.errno.EISCONN;
+    }
+
+    this.callback_ = await this.open_(address, port);
+
+    if (!this.callback_) {
+      console.error('Unable to connect to relay server.');
+      return WASI.errno.EIO;
+    }
+
+    this.callback_.onDataAvailable = (data) => this.onRecv(data);
+    this.address = address;
+    this.port = port;
+    return WASI.errno.ESUCCESS;
+  }
+
+  /** @override */
+  async close() {
+    // In the *NIX world, close must never fail.  That's why we don't return
+    // any errors here.
+
+    if (this.callback_) {
+      this.callback_.close();
+      this.callback_ = null;
+    }
+
+    this.address = null;
+    this.port = null;
+  }
+
+  /** @override */
+  async write(buf) {
+    await this.callback_.asyncWrite(buf);
+    return {nwritten: buf.length};
+  }
+
+  /**
+   * @return {!Promise<!chrome.socket.SocketInfo>}
+   */
+  async getSocketInfo() {
+    // Return a stub socketInfo since we can't extract the required info
+    // out of a WebSocket.
+    return /** @type {!chrome.socket.SocketInfo} **/ ({
+      connected: (this.address !== null),
+      paused: false,
+      persistent: false,
+      localAddress: '0.0.0.0',
+      localPort: 0,
+      peerAddress: '0.0.0.0',
+      peerPort: this.port,
+      socketId: -1,
+    });
+  }
+
+  /** @override */
+  async getSocketOption(level, name) {
+    switch (level) {
+      case SOL_SOCKET: {
+        switch (name) {
+          case SO_ERROR: {
+            // TODO(vapier): This should return current connection state.
+            return {option: 0};
+          }
+
+          case SO_KEEPALIVE:
+            return {option: this.tcpKeepAlive_ ? 1 : 0};
+        }
+        break;
+      }
+
+      case IPPROTO_TCP: {
+        switch (name) {
+          case TCP_NODELAY:
+            return {option: this.tcpNoDelay_ ? 1 : 0};
+        }
+        break;
+      }
+    }
+
+    return WASI.errno.ENOPROTOOPT;
+  }
+
+  /** @override */
+  async setSocketOption(level, name, value) {
+    switch (level) {
+      case SOL_SOCKET: {
+        switch (name) {
+          case SO_KEEPALIVE: {
+            this.tcpKeepAlive_ = value;
+            return WASI.errno.ESUCCESS;
+          }
+
+          case SO_REUSEADDR: {
+            console.warn(`Ignoring SO_REUSEADDR=${value}`);
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+
+      case IPPROTO_IP: {
+        switch (name) {
+          case IP_TOS: {
+            console.warn(`Ignoring IP_TOS=${value}`);
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+
+      case IPPROTO_TCP: {
+        switch (name) {
+          case TCP_NODELAY: {
+            this.tcpNoDelay_ = value;
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+    }
+
+    return WASI.errno.ENOPROTOOPT;
+  }
+}
+
+/**
+ * A TCP/IP based socket backed by the Direct Sockets API.
+ *
+ * @see https://wicg.github.io/direct-sockets/
+ */
+ export class WebTcpSocket extends Socket {
+  /**
+   * @param {number} domain
+   * @param {number} type
+   * @param {number} protocol
+   */
+  constructor(domain, type, protocol) {
+    super(domain, type, protocol);
+
+    this.socket_ = null;
+    this.directSocketsReader_ = null;
+    this.directSocketsWriter_ = null;
+
+    this.tcpKeepAlive_ = false;
+    this.tcpNoDelay_ = false;
+  }
+
+  /** @override */
+  async connect(address, port) {
+    this.debug(`connect(${address}, ${port})`);
+
+    if (this.address !== null) {
+      return WASI.errno.EISCONN;
+    }
+
+    const options = {
+      noDelay: this.tcpNoDelay_,
+    };
+    // Keep alive is disabled by default, so don't specify it if it's disabled.
+    if (this.tcpKeepAlive_) {
+      // Default to 75 seconds to match default Linux TCP_KEEPINTVL.
+      options.keepAliveDelay = 75000;
+    }
+
+    this.socket_ = new TCPSocket(address, port, options);
+
+    try {
+      const {readable, writable} = await this.socket_.opened;
+      this.directSocketsReader_ = readable.getReader();
+      this.directSocketsWriter_ = writable.getWriter();
+    } catch (e) {
+      this.socket_ = null;
+      console.warn('Connecting failed.', e);
+      return WASI.errno.ENETUNREACH;
+    }
+
+    this.address = address;
+    this.port = port;
+
+    this.pollData_();
+
+    return WASI.errno.ESUCCESS;
+  }
+
+  /**
+   * Wait for data from the reader, then notify the socket upon receiving data.
+   */
+  async pollData_() {
+    while (true) {
+      const {value, done} = await this.directSocketsReader_.read();
+      if (done) {
+        break;
+      }
+      this.onRecv(value);
+    }
+  }
+
+  /** @override */
+  async close() {
+    if (this.socket_ === null) {
+      return;
+    }
+
+    this.directSocketsReader_.releaseLock();
+    this.directSocketsWriter_.releaseLock();
+
+    this.directSocketsReader_ = null;
+    this.directSocketsWriter_ = null;
+
+    try {
+      await this.socket_.close();
+      this.socket_ = null;
+    } catch (e) {
+      console.warn('Error with closing socket.', e);
+    }
+
+    this.address = null;
+    this.port = null;
+  }
+
+  /** @override */
+  async write(buf) {
+    try {
+      await this.directSocketsWriter_.ready;
+      await this.directSocketsWriter_.write(buf.buffer);
+      return {nwritten: buf.buffer.byteLength};
+    } catch (e) {
+      console.warn('Chunk error:', e);
+      return WASI.errno.EIO;
+    }
+  }
+
+  /**
+   * @return {!Promise<!chrome.socket.SocketInfo>}
+   */
+  async getSocketInfo() {
+    // Return a stub socketInfo.
+    if (this.socket_ === null) {
+      return /** @type {!chrome.socket.SocketInfo} */ ({
+        connected: false,
+        socketType: 'tcp',
+      });
+    }
+
+    const info = await this.socket_.opened;
+
+    return /** @type {!chrome.socket.SocketInfo} **/ ({
+      connected: true,
+      localAddress: info.localAddress,
+      localPort: info.localPort,
+      peerAddress: info.remoteAddress,
+      peerPort: info.remotePort,
+      socketType: 'tcp',
+    });
+  }
+
+  /** @override */
+  async getSocketOption(level, name) {
+    switch (level) {
+      case SOL_SOCKET: {
+        switch (name) {
+          case SO_ERROR: {
+            // TODO(vapier): This should return current connection state.
+            return {option: 0};
+          }
+
+          case SO_KEEPALIVE:
+            return {option: this.tcpKeepAlive_ ? 1 : 0};
+        }
+        break;
+      }
+
+      case IPPROTO_TCP: {
+        switch (name) {
+          case TCP_NODELAY:
+            return {option: this.tcpNoDelay_ ? 1 : 0};
+        }
+        break;
+      }
+    }
+
+    return WASI.errno.ENOPROTOOPT;
+  }
+
+  /** @override */
+  async setSocketOption(level, name, value) {
+    switch (level) {
+      case SOL_SOCKET: {
+        switch (name) {
+          case SO_KEEPALIVE: {
+            this.tcpKeepAlive_ = value;
+            return WASI.errno.ESUCCESS;
+          }
+
+          case SO_REUSEADDR: {
+            console.warn(`Ignoring SO_REUSEADDR=${value}`);
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+
+      case IPPROTO_IP: {
+        switch (name) {
+          case IP_TOS: {
+            console.warn(`Ignoring IP_TOS=${value}`);
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+
+      case IPPROTO_TCP: {
+        switch (name) {
+          case TCP_NODELAY: {
+            this.tcpNoDelay_ = value;
+            return WASI.errno.ESUCCESS;
+          }
+        }
+        break;
+      }
+    }
+
+    return WASI.errno.ENOPROTOOPT;
+  }
+
+  /** @override */
+  static isSupported() {
+    return window?.TCPSocket !== undefined;
+  }
+}
+
+/**
+ * A local/UNIX socket.
+ */
+export class UnixSocket extends Socket {
+  /**
+   * @param {number} domain
+   * @param {number} type
+   * @param {number} protocol
+   * @param {function(string, number)} open
+   */
+  constructor(domain, type, protocol, open) {
+    super(domain, type, protocol);
+    this.open_ = open;
+    /**
+     * @type {?{
+     *   asyncWrite: function(!TypedArray),
+     *   close: function(),
+     * }}
+     */
+    this.callback_ = null;
+  }
+
+  /** @override */
+  async connect(address, port) {
+    this.debug(`connect(${address}, ${port})`);
+
+    if (this.address !== null) {
+      return WASI.errno.EISCONN;
+    }
+
+    this.callback_ = await this.open_(address, port);
+    if (!this.callback_) {
+      return WASI.errno.ECONNREFUSED;
+    }
+
+    this.address = address;
+    this.port = port;
+    this.callback_.onDataAvailable = (data) => this.onRecv(data);
+    return WASI.errno.ESUCCESS;
+  }
+
+  /** @override */
+  async close() {
+    // In the *NIX world, close must never fail.  That's why we don't return
+    // any errors here.
+    if (this.address === null) {
+      return;
+    }
+
+    this.callback_.close();
+    this.address = null;
+    this.port = null;
+    this.callback_ = null;
+  }
+
+  /** @override */
+  async write(buf) {
+    await this.callback_.asyncWrite(buf);
+    return {nwritten: buf.length};
+  }
+}
+
+/**
+ * Maps socketIds to sockets and forwards data received to the sockets.
+ */
+class ChromeTcpSocketEventRouter {
+  constructor() {
+    this.socketMap_ = new Map();
+
+    const socketTcpRecv = this.onSocketTcpRecv_.bind(this);
+    chrome.sockets.tcp.onReceive.addListener(socketTcpRecv);
+  }
+
+  /**
+   * Registers the given ChromeTcpSocket with the router.
+   *
+   * Sockets must be registered in order to be notified when they receive
+   * data.
+   *
+   * @param {number} socketId
+   * @param {!ChromeTcpSocket} socket
+   */
+  register(socketId, socket) {
+    this.socketMap_.set(socketId, socket);
+  }
+
+  /**
+   * Unregisters the ChromeTcpSocket with the given ID from the router.
+   *
+   * @param {number} socketId
+   */
+  unregister(socketId) {
+    this.socketMap_.delete(socketId);
+  }
+
+  /**
+   * The onReceive listener for the chrome.sockets API which forwards data to
+   * the associated ChromeTcpSocket.
+   *
+   * @param {{socketId: number, data: !ArrayBuffer}} options
+   */
+  onSocketTcpRecv_({socketId, data}) {
+    const handle = this.socketMap_.get(socketId);
+    if (handle === undefined) {
+      // We don't do anything about this because Chrome broadcasts events to all
+      // instances of Secure Shell.  The sockets are not bound to the specific
+      // runtime.
+      // console.warn(`Data received for unknown socket ${socketId}`);
+      // chrome.sockets.tcp.close(socketId);
+      return;
+    }
+
+    handle.onRecv(data);
+  }
+}
+
+/**
+ * Maps socketIds to sockets and forwards data received to the sockets.
+ */
+class ChromeTcpListenSocketEventRouter {
+  constructor() {
+    this.socketMap_ = new Map();
+
+    const listener = this.onSocketTcpAccept_.bind(this);
+    chrome.sockets.tcpServer.onAccept.addListener(listener);
+  }
+
+  /**
+   * Registers the given ChromeTcpListenSocket with the router.
+   *
+   * Sockets must be registered in order to be notified when they receive
+   * data.
+   *
+   * @param {number} socketId
+   * @param {!ChromeTcpListenSocket} socket
+   */
+  register(socketId, socket) {
+    this.socketMap_.set(socketId, socket);
+  }
+
+  /**
+   * Unregisters the ChromeTcpListenSocket with the given ID from the router.
+   *
+   * @param {number} socketId
+   */
+  unregister(socketId) {
+    this.socketMap_.delete(socketId);
+  }
+
+  /**
+   * The onReceive listener for the chrome.sockets API which forwards data to
+   * the associated ChromeTcpListenSocket.
+   *
+   * @param {!chrome.sockets.tcpServer.AcceptEventData} options
+   */
+  onSocketTcpAccept_({socketId, clientSocketId}) {
+    const handle = this.socketMap_.get(socketId);
+    if (handle === undefined) {
+      // We don't do anything about this because Chrome broadcasts events to all
+      // instances of Secure Shell.  The sockets are not bound to the specific
+      // runtime.
+      // console.warn(`Connection received for unknown socket ${socketId}`);
+      // chrome.sockets.tcpServer.close(socketId);
+      return;
+    }
+
+    handle.onAccept(clientSocketId);
+  }
+}

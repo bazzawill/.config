@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "iconDisable.png"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtCO7vDPJBEPTxt5OyJ2uNMKMHmvlWdhgIRY4BGqA6l2PaReb1+KQGJfo22VlYXuQ69I+YDGwdcCTkeZIS6ITWml02M5371lPoyBS0xhAvcKMmBIG/c40I71ldtPw2UxNkowYnQxjtnznv4SX41tiBlRs50yp5D3XxEkhRQm6hr9sXl0UUoIsO6/+gZVInnHw0PSE43r688yEzCTpFtd50SEfBhH5DEwd/fkX5/0WMMivAl0y2QgB+7irZGhI/+1W9qJM9yTHxfiyU/B924PkiPxfQaBvhrObNUddd/AW9tyfevGodOuLghn9B7D8W+tWeXzYtEg/ts2Yv/E1x6QOHQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "http://*/*", "https://*/*", "tabs", "webRequest", "webRequestBlocking" ],
+   "short_name": "__MSG_short_name__",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "0.0.7"
+}

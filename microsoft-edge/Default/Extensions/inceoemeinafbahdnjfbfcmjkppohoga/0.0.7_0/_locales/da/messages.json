@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Se videoer ved hjælp af Picture-in-Picture-tilstand (Flydende videoafspiller). Støt alle former for videowebsteder."
+   },
+   "name": {
+      "message": "Billede i billede video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

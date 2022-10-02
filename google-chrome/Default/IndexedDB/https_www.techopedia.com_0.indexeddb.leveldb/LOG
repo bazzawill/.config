@@ -1,0 +1,7 @@
+2022/09/05-21:23:32.648 3504b2 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.techopedia.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/05-21:23:32.648 3504b2 Recovering log #3
+2022/09/05-21:23:32.648 3504b2 Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.techopedia.com_0.indexeddb.leveldb/000003.log 
+2022/09/05-21:24:04.672 348c84 Level-0 table #5: started
+2022/09/05-21:24:04.680 348c84 Level-0 table #5: 864 bytes OK
+2022/09/05-21:24:04.696 348c84 Delete type=0 #3
+2022/09/05-21:24:04.696 348c84 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

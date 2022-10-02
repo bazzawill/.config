@@ -1,0 +1,1 @@
+Okta.window.$okta=jQuery,jQuery.noConflict(!0);

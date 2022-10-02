@@ -1,0 +1,157 @@
+2022-09-16 23:58:38 INFO run.py:219 GNS3 server version 2.2.34
+2022-09-16 23:58:38 INFO run.py:221 Copyright (c) 2007-2022 GNS3 Technologies Inc.
+2022-09-16 23:58:38 INFO run.py:224 Config file /home/bazza/.config/GNS3/2.2/gns3_server.conf loaded
+2022-09-16 23:58:38 WARNING run.py:230 Local mode is enabled. Beware, clients will have full control on your filesystem
+2022-09-16 23:58:38 INFO run.py:237 HTTP authentication is enabled with username 'admin'
+2022-09-16 23:58:38 INFO run.py:243 Running with Python 3.10.7 and has PID 207651
+2022-09-16 23:58:38 INFO run.py:79 Current locale is en_AU.UTF-8
+2022-09-16 23:58:38 INFO web_server.py:318 Starting server on 192.168.10.1:3078
+2022-09-16 23:58:38 INFO __init__.py:63 Load controller configuration file /home/bazza/.config/GNS3/2.2/gns3_controller.conf
+2022-09-16 23:58:38 INFO __init__.py:67 Controller is starting
+2022-09-16 23:58:38 INFO compute.py:64 Create compute local
+2022-09-16 23:58:38 INFO compute.py:364 Connecting to compute 'local'
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/compute/capabilities HTTP/1.1" 200 553 "-" "Python/3.10 aiohttp/3.8.1"
+2022-09-16 23:58:38 INFO __init__.py:314 Start the GNS3 VM
+2022-09-16 23:58:38 INFO compute.py:64 Create compute vm
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/version HTTP/1.1" 200 228 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO notification_handler.py:50 New client has connected to compute WebSocket
+2022-09-16 23:58:38 INFO compute.py:431 Connected to compute 'local' WebSocket 'http://192.168.10.1:3078/v2/compute/notifications/ws'
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/version HTTP/1.1" 200 228 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO notification_handler.py:73 New client has connected to controller WebSocket
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/version HTTP/1.1" 200 228 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO notification_handler.py:82 Client has disconnected from controller WebSocket
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/version HTTP/1.1" 200 228 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/templates HTTP/1.1" 200 7571 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/computes HTTP/1.1" 200 1434 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/appliances?symbol_theme=Classic HTTP/1.1" 200 822486 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/gns3vm HTTP/1.1" 200 382 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/iou_license HTTP/1.1" 200 240 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/projects HTTP/1.1" 200 184 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:38 INFO notification_handler.py:73 New client has connected to controller WebSocket
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/templates HTTP/1.1" 200 7571 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/computes HTTP/1.1" 200 1434 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/appliances?symbol_theme=Classic HTTP/1.1" 200 822486 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/gns3vm HTTP/1.1" 200 382 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/iou_license HTTP/1.1" 200 240 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/projects HTTP/1.1" 200 184 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO __init__.py:63 Load controller configuration file /home/bazza/.config/GNS3/2.2/gns3_controller.conf
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/gns3vm/engines HTTP/1.1" 200 1317 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO __init__.py:63 Load controller configuration file /home/bazza/.config/GNS3/2.2/gns3_controller.conf
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/gns3vm/engines HTTP/1.1" 200 1317 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO __init__.py:608 Searching for VMware VMs in inventory file "/home/bazza/.vmware/inventory.vmls"
+2022-09-16 23:58:39 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws checkToolsState '/home/bazza/vmware/GNS3 VM/GNS3 VM.vmx'
+2022-09-16 23:58:39 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-09-16 23:58:39 INFO __init__.py:608 Searching for VMware VMs in inventory file "/home/bazza/.vmware/inventory.vmls"
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/gns3vm/engines/vmware/vms HTTP/1.1" 200 627 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:39 INFO vmware_gns3_vm.py:153 Update GNS3 VM vCPUs and RAM settings
+2022-09-16 23:58:39 INFO vmware_gns3_vm.py:87 GNS3 VM vCPU count set to 2 and RAM amount set to 2048
+2022-09-16 23:58:39 INFO vmware_gns3_vm.py:156 Update GNS3 VM Hardware Virtualization setting
+2022-09-16 23:58:39 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws start '/home/bazza/vmware/GNS3 VM/GNS3 VM.vmx'
+2022-09-16 23:58:39 INFO __init__.py:608 Searching for VMware VMs in inventory file "/home/bazza/.vmware/inventory.vmls"
+2022-09-16 23:58:39 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:39 +0000] "GET /v2/gns3vm/engines/vmware/vms HTTP/1.1" 200 627 "-" "GNS3 QT Client v2.2.34"
+2022-09-16 23:58:40 INFO vmware_gns3_vm.py:164 GNS3 VM has been started
+2022-09-16 23:58:40 INFO vmware_gns3_vm.py:169 Waiting for GNS3 VM IP
+2022-09-16 23:58:48 INFO vmware_gns3_vm.py:188 GNS3 VM IP address set to 192.168.10.128
+2022-09-16 23:58:58 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-16 23:58:58 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:58 +0000] "GET /v2/compute/network/interfaces HTTP/1.1" 200 3430 "-" "Python/3.10 aiohttp/3.8.1"
+2022-09-16 23:58:58 INFO compute.py:431 Connected to compute 'vm' WebSocket 'http://192.168.10.128:80/v2/compute/notifications/ws'
+2022-09-16 23:59:33 INFO compute.py:457 Connection closed to compute 'local' WebSocket 'http://192.168.10.1:3078/v2/compute/notifications/ws'
+2022-09-16 23:59:33 INFO compute.py:457 Connection closed to compute 'vm' WebSocket 'http://192.168.10.128:80/v2/compute/notifications/ws'
+2022-09-16 23:59:34 INFO compute.py:364 Connecting to compute 'local'
+2022-09-16 23:59:34 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-16 23:59:55 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-16 23:59:55 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:00:00 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:00:00 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:00:21 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:00:21 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:00:26 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:00:26 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:00:47 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:00:47 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:00:52 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:00:52 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:01:13 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:01:13 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:01:18 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:01:18 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:01:39 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:01:39 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:01:44 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:01:44 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:02:05 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:02:05 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:02:10 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:02:10 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:02:31 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:02:31 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:02:36 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:02:36 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:02:57 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:02:57 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:03:02 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:03:02 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:03:23 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:03:23 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:03:28 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:03:28 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:03:49 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:03:49 ERROR compute.py:373 Could not connect to compute 'local' after multiple attempts: Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:03:49 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:03:49 ERROR compute.py:373 Could not connect to compute 'vm' after multiple attempts: Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:03:54 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:03:54 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:04:15 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:04:15 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:04:20 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:04:20 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:04:41 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:04:41 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:04:46 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:04:46 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:05:07 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:05:07 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:05:12 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:05:12 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:05:33 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:05:33 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:05:38 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:05:38 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:05:59 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:05:59 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:06:04 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:06:04 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:06:25 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:06:25 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:06:30 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:06:30 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:06:51 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:06:51 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:06:56 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:06:56 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:07:17 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:07:17 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:07:22 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:07:22 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:07:43 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:07:43 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:07:48 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:07:48 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:08:09 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:08:09 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:08:14 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:08:14 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:08:35 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.128:80/v2/compute/capabilities after 20s
+2022-09-17 00:08:35 WARNING compute.py:367 Cannot connect to compute 'local': Timeout error for GET call to http://192.168.10.1:3078/v2/compute/capabilities after 20s
+2022-09-17 00:08:40 INFO compute.py:364 Connecting to compute 'vm'
+2022-09-17 00:08:40 INFO compute.py:364 Connecting to compute 'local'
+2022-09-17 00:08:55 WARNING web_server.py:170 Server has got signal SIGINT, exiting...
+2022-09-17 00:08:55 INFO web_server.py:113 Closing 2 websocket connections...
+2022-09-17 00:08:56 INFO notification_handler.py:59 Client has disconnected from compute WebSocket
+2022-09-17 00:08:56 INFO web_log.py:206 192.168.10.1 [16/Sep/2022:14:28:38 +0000] "GET /v2/compute/notifications/ws HTTP/1.1" 200 447 "-" "Python/3.10 aiohttp/3.8.1"
+2022-09-17 00:08:57 INFO notification_handler.py:82 Client has disconnected from controller WebSocket
+2022-09-17 00:08:57 INFO __init__.py:138 Controller is stopping
+2022-09-17 00:08:57 INFO __init__.py:405 Stop the GNS3 VM
+2022-09-17 00:08:57 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws stop '/home/bazza/vmware/GNS3 VM/GNS3 VM.vmx' soft
+2022-09-17 00:08:58 INFO vmware_gns3_vm.py:216 GNS3 VM has been stopped
+2022-09-17 00:08:58 INFO run.py:272 Remove PID file /home/bazza/.config/GNS3/2.2/gns3_server.pid

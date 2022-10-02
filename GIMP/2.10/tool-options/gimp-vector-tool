@@ -1,0 +1,9 @@
+# GIMP gimp-vector-tool options
+
+(brush "2. Hardness 025")
+(dynamics "Pencil Generic")
+(pattern "Blue Squares")
+(gradient "Pastel Rainbow")
+(palette "Color History")
+
+# end of gimp-vector-tool options

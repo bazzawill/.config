@@ -1,0 +1,36 @@
+[Default Applications]
+inode/directory=pcmanfm.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop
+image/jpeg=gpicview.desktop
+text/plain=sublime_text_3.desktop
+application/x-ole-storage=libreoffice-writer.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/mailto=google-chrome.desktop
+x-scheme-handler/webcal=google-chrome.desktop
+
+[Added Associations]
+application/zip=org.gnome.FileRoller.desktop;libreoffice-impress.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/pdf=firefox.desktop;google-chrome.desktop;
+image/jpeg=gpicview.desktop;
+text/plain=sublime_text_3.desktop;
+application/x-ole-storage=libreoffice-writer.desktop;
+video/x-ms-wmv=mplayer.desktop;vlc.desktop;
+video/x-msvideo=vlc.desktop;
+video/x-matroska=vlc.desktop;
+application/x-cd-image=vlc.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
+video/mp4=vlc.desktop;
+application/x-subrip=sublime_text_3.desktop;
+application/xml=vlc.desktop;
+video/quicktime=vlc.desktop;
+text/x-microdvd=sublime_text_3.desktop;
+image/png=feh.desktop;
+

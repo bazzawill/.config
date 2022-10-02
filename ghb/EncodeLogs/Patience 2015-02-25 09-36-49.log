@@ -1,0 +1,149 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:13465): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[09:36:49] CPU: 
+[09:36:49]  - logical processor count: 4
+[09:36:49] hb_scan: path=/run/media/bazza/PATIENCE, title_index=1
+index_parse.c:190: indx_parse(): error opening /run/media/bazza/PATIENCE/BDMV/index.bdmv
+index_parse.c:190: indx_parse(): error opening /run/media/bazza/PATIENCE/BDMV/BACKUP/index.bdmv
+bluray.c:2365: nav_get_title_list(/run/media/bazza/PATIENCE) failed
+[09:36:49] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/PATIENCE for CSS authentication
+libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+libdvdnav: vm: dvd_read_name failed
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/PATIENCE for CSS authentication
+[09:36:49] scan: DVD has 5 title(s)
+[09:36:49] scan: scanning title 1
+[09:36:49] scan: opening IFO for VTS 1
+[09:36:49] scan: duration is 01:15:02 (4502520 ms)
+[09:36:49] pgc_id: 1, pgn: 1: pgc: 0x7f804400ddf0
+[09:36:49] scan: vts=1, ttn=1, cells=0->11, blocks=12124->12123, 1737922 blocks
+[09:36:49] scan: checking audio 1
+[09:36:49] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[09:36:49] scan: title 1 has 12 chapters
+[09:36:49] scan: chap 1 c=0->0, b=12124->162866 (150743), 408720 ms
+[09:36:49] scan: chap 2 c=1->1, b=162867->303724 (140858), 370320 ms
+[09:36:49] scan: chap 3 c=2->2, b=303725->456427 (152703), 396480 ms
+[09:36:49] scan: chap 4 c=3->3, b=456428->563508 (107081), 273720 ms
+[09:36:49] scan: chap 5 c=4->4, b=563509->806292 (242784), 627240 ms
+[09:36:49] scan: chap 6 c=5->5, b=806293->844670 (38378), 98520 ms
+[09:36:49] scan: chap 7 c=6->6, b=844671->1092922 (248252), 640320 ms
+[09:36:49] scan: chap 8 c=7->7, b=1092923->1158581 (65659), 168960 ms
+[09:36:49] scan: chap 9 c=8->8, b=1158582->1335702 (177121), 455880 ms
+[09:36:49] scan: chap 10 c=9->9, b=1335703->1573794 (238092), 610080 ms
+[09:36:49] scan: chap 11 c=10->10, b=1573795->1749851 (176057), 451760 ms
+[09:36:49] scan: chap 12 c=11->11, b=11930->12123 (194), 520 ms
+[09:36:49] scan: aspect = 1.33333
+[09:36:49] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[09:36:49] scan: title angle(s) 1
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000165
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000254
+libdvdread: Elapsed time 0
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 0
+[ac3 @ 0x7f8044131ee0] frame sync error
+[ac3 @ 0x7f804421a880] frame sync error
+[09:36:49] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=384000 English (AC3) (2.0 ch)
+[09:36:49] scan: 10 previews, 720x576, 25.000 fps, autocrop = 0/2/8/10, aspect 4:3, PAR 16:15
+[09:36:49] libhb: scan thread found 1 valid title(s)
+[09:36:51] gtkgui: Preset: Regular->Normal
+[09:36:51] 1 job(s) to process
+[09:36:51] starting job
+[09:36:51] sync: expecting 112563 video frames
+[09:36:51] job configuration:
+[09:36:51]  * source
+[09:36:51]    + /run/media/bazza/PATIENCE
+[09:36:51]    + title 1, chapter(s) 1 to 12
+[09:36:51]  * destination
+[09:36:51]    + /media/mythfs/videos/Patience.m4v
+[09:36:51]    + container: MPEG-4 (libavformat)
+[09:36:51]      + chapter markers
+[09:36:51]  * video track
+[09:36:51]    + decoder: mpeg2video
+[09:36:51]      + bitrate 8000 kbps
+[09:36:51]    + filters
+[09:36:51]      + Framerate Shaper (0:27000000:1080000)
+[09:36:51]        + frame rate: same as source (around 25.000 fps)
+[09:36:51]      + Crop and Scale (702:574:0:2:8:10)
+[09:36:51]        + source: 720 * 576, crop (0/2/8/10): 702 * 574, scale: 702 * 574
+[09:36:51]    + loose anamorphic
+[09:36:51]      + storage dimensions: 702 * 574, mod 2
+[09:36:51]      + pixel aspect ratio: 16 / 15
+[09:36:51]      + display dimensions: 748 * 574
+[09:36:51]    + encoder: H.264 (libx264)
+[09:36:51]      + preset:  veryfast
+[09:36:51]      + profile: main
+[09:36:51]      + level:   4.0
+[09:36:51]      + quality: 20.00 (RF)
+[09:36:51]  * audio track 1
+[09:36:51]    + decoder: English (AC3) (2.0 ch) (track 1, id 0x80bd)
+[09:36:51]      + bitrate: 384 kbps, samplerate: 48000 Hz
+[09:36:51]    + mixdown: Stereo
+[09:36:51]    + encoder: AAC (libavcodec)
+[09:36:51]      + bitrate: 160 kbps, samplerate: 48000 Hz
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/PATIENCE for CSS authentication
+libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+libdvdnav: vm: dvd_read_name failed
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/PATIENCE for CSS authentication
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[09:36:52] encx264: encoding at constant RF 20.000000
+[09:36:52] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=16/15
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000165
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000254
+libdvdread: Elapsed time 0
+libdvdread: Found 1 VTS's
+libdvdread: Elapsed time 0
+[09:36:52] reader: first SCR 146 id 0xe0 DTS 22254
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+[09:36:52] mpeg2video: "Chapter 1" (1) at frame 0 time 0
+x264 [info]: profile Main, level 4.0
+[09:38:53] mpeg2video: "Chapter 2" (2) at frame 10220 time 36795600
+[09:40:32] mpeg2video: "Chapter 3" (3) at frame 19478 time 70124400
+[09:42:11] mpeg2video: "Chapter 4" (4) at frame 29390 time 105807600
+[09:43:14] mpeg2video: "Chapter 5" (5) at frame 36233 time 130442400
+[09:45:27] mpeg2video: "Chapter 6" (6) at frame 51914 time 186894000
+[09:45:46] mpeg2video: "Chapter 7" (7) at frame 54377 time 195760800
+[09:47:48] mpeg2video: "Chapter 8" (8) at frame 70385 time 253389600
+[09:48:19] mpeg2video: "Chapter 9" (9) at frame 74609 time 268596000
+[09:49:38] mpeg2video: "Chapter 10" (10) at frame 86006 time 309625200
+[09:51:21] mpeg2video: "Chapter 11" (11) at frame 101258 time 364532400
+[09:52:37] mpeg2video: "Chapter 12" (12) at frame 112549 time 405180000
+[09:52:37] reader: done. 2 scr changes
+[09:52:37] work: average encoding speed for job is 119.209641 fps
+[09:52:37] sync: got 112563 frames, 112563 expected
+[09:52:37] render: lost time: 0 (0 frames)
+[09:52:37] render: gained time: 0 (0 frames) (0 not accounted for)
+[09:52:37] mpeg2video-decoder done: 112563 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:733   Avg QP:18.89  size: 78870
+x264 [info]: frame P:51319 Avg QP:21.64  size: 24606
+x264 [info]: frame B:60511 Avg QP:24.73  size:  5727
+x264 [info]: consecutive B-frames:  4.3% 65.5% 19.9% 10.3%
+x264 [info]: mb I  I16..4: 20.4%  0.0% 79.6%
+x264 [info]: mb P  I16..4:  7.6%  0.0%  1.2%  P16..4: 46.4% 20.6% 17.0%  0.0%  0.0%    skip: 7.2%
+x264 [info]: mb B  I16..4:  0.8%  0.0%  0.0%  B16..8: 14.7%  6.9%  1.7%  direct:22.0%  skip:53.9%  L0:21.4% L1:38.8% BI:39.7%
+x264 [info]: coded y,uvDC,uvAC intra: 44.3% 87.9% 55.6% inter: 28.8% 41.0% 10.7%
+x264 [info]: i16 v,h,dc,p: 52% 22% 21%  4%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 26% 16%  4%  5%  5%  6%  5%  7%
+x264 [info]: i8c dc,h,v,p: 47% 19% 28%  5%
+x264 [info]: Weighted P-Frames: Y:1.2% UV:0.5%
+x264 [info]: kb/s:2962.09
+[09:52:37] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[09:52:37] mux: track 0, 112563 frames, 1667090333 bytes, 2962.03 kbps, fifo 2048
+[09:52:37] mux: track 1, 211029 frames, 90145077 bytes, 160.17 kbps, fifo 4096
+[09:52:37] libhb: work result = 0

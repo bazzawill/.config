@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Videote vaatamine režiimis Pilt pildis (hõljuv videopleier). Toetage igasuguseid videosaite."
+   },
+   "name": {
+      "message": "Pilt pildis Video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

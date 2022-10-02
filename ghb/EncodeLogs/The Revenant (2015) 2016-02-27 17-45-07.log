@@ -1,0 +1,122 @@
+Handbrake Version: 0.10.5 (2016021200)
+
+** (ghb:17484): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[17:45:07] CPU: 
+[17:45:07]  - logical processor count: 4
+[17:45:07] hb_scan: path=/run/media/bazza/Seagate Expansion Drive/New/The Revenant (2015).mkv, title_index=1
+disc.c:350: error opening file BDMV/index.bdmv
+disc.c:350: error opening file BDMV/BACKUP/index.bdmv
+[17:45:07] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 5.0.3
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[17:45:07] dvd: not a dvd - trying as a stream/file instead
+Input #0, matroska,webm, from '/run/media/bazza/Seagate Expansion Drive/New/The Revenant (2015).mkv':
+  Duration: 02:36:21.34, start: 0.000000, bitrate: N/A
+    Stream #0.0: Video: h264 (High), yuv420p, 720x356 [PAR 32:27 DAR 640:267], PAR 186:157 DAR 33480:13973, 19.98 fps, 1k tbn, 180k tbc (default)
+    Stream #0.1(eng): Audio: ac3, 48000 Hz, 5.1, fltp, 448 kb/s (default)
+[17:45:07] scan: decoding previews for title 1
+[17:45:07] scan: audio 0x1: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[17:45:07] scan: 10 previews, 720x356, 19.982 fps, autocrop = 0/0/0/0, aspect 2.40:1, PAR 32:27
+[17:45:07] libhb: scan thread found 1 valid title(s)
+[17:45:09] gtkgui: Preset: Regular->High Profile
+[17:45:09] 1 job(s) to process
+[17:45:09] starting job
+[17:45:09] yadif thread started for segment 1
+[17:45:09] yadif thread started for segment 2
+[17:45:09] yadif thread started for segment 3
+[17:45:09] decomb filter thread started for segment 0
+[17:45:09] decomb filter thread started for segment 1
+[17:45:09] yadif thread started for segment 0
+[17:45:09] decomb filter thread started for segment 2
+[17:45:09] decomb filter thread started for segment 3
+[17:45:09] decomb check thread started for segment 1
+[17:45:09] decomb check thread started for segment 2
+[17:45:09] decomb check thread started for segment 3
+[17:45:09] mask filter thread started for segment 0
+[17:45:09] mask filter thread started for segment 2
+[17:45:09] mask filter thread started for segment 3
+[17:45:09] mask erode thread started for segment 0
+[17:45:09] mask filter thread started for segment 1
+[17:45:09] mask erode thread started for segment 3
+[17:45:09] mask dilate thread started for segment 2
+[17:45:09] mask dilate thread started for segment 3
+[17:45:09] sync: expecting 187460 video frames
+[17:45:09] job configuration:
+[17:45:09]  * source
+[17:45:09]    + /run/media/bazza/Seagate Expansion Drive/New/The Revenant (2015).mkv
+[17:45:09]    + title 1, chapter(s) 1 to 1
+[17:45:09]    + container: matroska,webm
+[17:45:09]  * destination
+[17:45:09]    + /run/media/bazza/Seagate Expansion Drive/New/The Revenant (2015).m4v
+[17:45:09]    + container: MPEG-4 (libavformat)
+[17:45:09]  * video track
+[17:45:09]    + decoder: h264
+[17:45:09]    + filters
+[17:45:09]      + Decomb (default settings)
+[17:45:09]      + Framerate Shaper (0:27000000:1351200)
+[17:45:09]        + frame rate: same as source (around 19.982 fps)
+[17:45:09]      + Crop and Scale (720:356:0:0:0:0)
+[17:45:09]        + source: 720 * 356, crop (0/0/0/0): 720 * 356, scale: 720 * 356
+[17:45:09]    + loose anamorphic
+[17:45:09]      + storage dimensions: 720 * 356, mod 2
+[17:45:09]      + pixel aspect ratio: 32 / 27
+[17:45:09]      + display dimensions: 853 * 356
+[17:45:09]    + encoder: H.264 (libx264)
+[17:45:09]      + preset:  medium
+[17:45:09]      + profile: high
+[17:45:09]      + level:   4.1
+[17:45:09]      + quality: 20.00 (RF)
+[17:45:09]  * audio track 1
+[17:45:09]    + decoder: English (AC3) (5.1 ch) (track 1, id 0x1)
+[17:45:09]      + bitrate: 448 kbps, samplerate: 48000 Hz
+[17:45:09]    + mixdown: Dolby Pro Logic II
+[17:45:09]    + encoder: AAC (libavcodec)
+[17:45:09]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[17:45:09]  * audio track 2
+[17:45:09]    + decoder: English (AC3) (5.1 ch) (track 1, id 0x1)
+[17:45:09]      + bitrate: 448 kbps, samplerate: 48000 Hz
+[17:45:09]    + AC3 Passthru
+[17:45:09] mask erode thread started for segment 2
+[17:45:09] decomb check thread started for segment 0
+[17:45:09] mask dilate thread started for segment 1
+[17:45:09] mask erode thread started for segment 1
+[17:45:09] mask dilate thread started for segment 0
+[17:45:09] reader: first SCR 0 id 0x0 DTS 0
+[17:45:09] encx264: min-keyint: 20, keyint: 200
+[17:45:09] encx264: encoding at constant RF 20.000000
+[17:45:09] encx264: unparsed options: level=4.1:vbv-bufsize=78125:vbv-maxrate=62500
+x264 [info]: using SAR=32/27
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+x264 [info]: profile High, level 4.1
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[18:30:21] reader: done. 1 scr changes
+[18:30:21] work: average encoding speed for job is 82.931877 fps
+[18:30:22] sync: got 224927 frames, 187460 expected
+[18:30:22] decomb: deinterlaced 10 | blended 593 | unfiltered 224323 | total 224926
+[18:30:22] render: lost time: 0 (0 frames)
+[18:30:22] render: gained time: 0 (0 frames) (0 not accounted for)
+[18:30:22] h264-decoder done: 224927 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:1560  Avg QP:16.12  size: 35436
+x264 [info]: frame P:89703 Avg QP:19.82  size:  9903
+x264 [info]: frame B:133663 Avg QP:22.78  size:  2216
+x264 [info]: consecutive B-frames:  8.2% 31.7% 18.4% 41.8%
+x264 [info]: mb I  I16..4:  8.3% 68.2% 23.5%
+x264 [info]: mb P  I16..4:  1.2%  9.7%  2.6%  P16..4: 38.3% 22.2% 13.3%  0.0%  0.0%    skip:12.6%
+x264 [info]: mb B  I16..4:  0.1%  0.8%  0.4%  B16..8: 43.9%  5.5%  1.2%  direct: 2.5%  skip:45.6%  L0:39.3% L1:50.7% BI:10.0%
+x264 [info]: 8x8 transform intra:70.0% inter:68.2%
+x264 [info]: coded y,uvDC,uvAC intra: 73.3% 69.3% 21.7% inter: 23.9% 25.3% 0.7%
+x264 [info]: i16 v,h,dc,p: 36% 16% 12% 35%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19% 13% 20%  6%  8%  8%  9%  8%  9%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 41% 10% 10%  5%  8%  7%  8%  5%  6%
+x264 [info]: i8c dc,h,v,p: 56% 20% 20%  4%
+x264 [info]: Weighted P-Frames: Y:6.5% UV:3.1%
+x264 [info]: ref P L0: 61.0% 18.6% 13.3%  6.4%  0.7%
+x264 [info]: ref B L0: 89.2%  9.2%  1.6%
+x264 [info]: ref B L1: 94.7%  5.3%
+x264 [info]: kb/s:1057.24
+[18:30:22] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[18:30:22] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[18:30:22] libhb: work result = 0

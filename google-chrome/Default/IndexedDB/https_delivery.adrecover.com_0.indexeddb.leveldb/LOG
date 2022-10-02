@@ -1,0 +1,7 @@
+2022/06/28-22:06:32.476 29905 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_delivery.adrecover.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/28-22:06:32.476 29905 Recovering log #3
+2022/06/28-22:06:32.476 29905 Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_delivery.adrecover.com_0.indexeddb.leveldb/000003.log 
+2022/06/28-22:06:53.032 2b4a3 Level-0 table #5: started
+2022/06/28-22:06:53.037 2b4a3 Level-0 table #5: 413 bytes OK
+2022/06/28-22:06:53.048 2b4a3 Delete type=0 #3
+2022/06/28-22:06:53.048 2b4a3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

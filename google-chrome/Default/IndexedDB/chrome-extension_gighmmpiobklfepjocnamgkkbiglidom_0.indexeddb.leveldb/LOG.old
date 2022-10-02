@@ -1,0 +1,6 @@
+2022/09/30-15:31:45.385 e53 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/chrome-extension_gighmmpiobklfepjocnamgkkbiglidom_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/30-15:31:45.386 e53 Recovering log #7
+2022/09/30-15:31:45.453 e53 Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/chrome-extension_gighmmpiobklfepjocnamgkkbiglidom_0.indexeddb.leveldb/000007.log 
+2022/09/30-15:32:48.692 e51 Level-0 table #12: started
+2022/09/30-15:32:48.713 e51 Level-0 table #12: 873080 bytes OK
+2022/09/30-15:32:48.734 e51 Delete type=0 #7

@@ -1,0 +1,14 @@
+# GIMP gimp-pencil-tool options
+
+(brush "2. Hardness 025")
+(dynamics "Pencil Generic")
+(gradient "Pastel Rainbow")
+(palette "Color History")
+(brush-size 1)
+(brush-spacing 0.01)
+(brush-hardness 0.25)
+(dynamics-expanded yes)
+(fade-length 1033)
+(fade-repeat sawtooth)
+
+# end of gimp-pencil-tool options

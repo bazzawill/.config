@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Budík"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "Zrušiť"
+   },
+   "Countdown": {
+      "message": "odpočítavanie"
+   },
+   "Pause": {
+      "message": "Pauza"
+   },
+   "Resume": {
+      "message": "Pokračovať"
+   },
+   "Stop": {
+      "message": "prestať"
+   },
+   "Stopwatch": {
+      "message": "stopky"
+   }
+}

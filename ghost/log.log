@@ -1,0 +1,13 @@
+[2018-03-16 13:53:11.520] [info] 
+ ⚡️  Welcome to Ghost 1.5.2  👻
+
+[2018-03-16 13:53:11.584] [info] Logging to: /home/bazza/.config/ghost/log.log
+[2018-03-16 13:53:16.565] [info] Updater: Checking for update
+[2018-03-16 13:53:16.568] [info] Updater: Running version 1.5.2
+[2018-03-16 13:53:16.569] [info] Updater: Using http://desktop-updates.ghost.org/update/win32/1.5.2
+[2018-03-16 13:53:16.569] [info] Trying to reach http://desktop-updates.ghost.org/update/win32/1.5.2
+[2018-03-16 13:53:16.633] [info] Main window ready: true
+[2018-03-16 13:53:16.992] [info] Saving configuration to /home/bazza/.config/ghost-desktop/ghost.json
+[2018-03-16 13:53:17.651] [info] Reached http://desktop-updates.ghost.org/update/win32/1.5.2
+[2018-03-16 13:53:17.651] [info] Updater: Not supported, because Linux or MAS
+[2018-03-16 13:53:17.651] [info] Updater: Environment not supported, bailing

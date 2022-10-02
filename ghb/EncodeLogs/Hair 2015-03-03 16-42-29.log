@@ -1,0 +1,226 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:32168): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[16:42:29] CPU: 
+[16:42:29]  - logical processor count: 4
+[16:42:29] hb_scan: path=/run/media/bazza/HAIR, title_index=1
+index_parse.c:190: indx_parse(): error opening /run/media/bazza/HAIR/BDMV/index.bdmv
+index_parse.c:190: indx_parse(): error opening /run/media/bazza/HAIR/BDMV/BACKUP/index.bdmv
+bluray.c:2365: nav_get_title_list(/run/media/bazza/HAIR) failed
+[16:42:29] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/HAIR for CSS authentication
+libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+libdvdnav: vm: dvd_read_name failed
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x0000012d
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000ad5
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000fa1
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x00312f73
+libdvdread: Elapsed time 0
+libdvdread: Found 2 VTS's
+libdvdread: Elapsed time 0
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/HAIR for CSS authentication
+[16:42:29] scan: DVD has 2 title(s)
+[16:42:29] scan: scanning title 1
+[16:42:29] scan: opening IFO for VTS 1
+[16:42:29] scan: duration is 01:55:53 (6953480 ms)
+[16:42:29] pgc_id: 1, pgn: 1: pgc: 0x7fc88c012660
+[16:42:29] scan: vts=1, ttn=1, cells=0->24, blocks=0->3219358, 3219359 blocks
+[16:42:29] scan: checking audio 1
+[16:42:29] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=1
+[16:42:29] scan: checking audio 2
+[16:42:29] scan: id=0x81bd, lang=Deutsch (AC3), 3cc=deu ext=1
+[16:42:29] scan: checking audio 3
+[16:42:29] scan: id=0x82bd, lang=Francais (AC3), 3cc=fra ext=1
+[16:42:29] scan: checking audio 4
+[16:42:29] scan: id=0x83bd, lang=Italiano (AC3), 3cc=ita ext=1
+[16:42:29] scan: checking audio 5
+[16:42:29] scan: id=0x84bd, lang=Espanol (AC3), 3cc=spa ext=1
+[16:42:29] scan: checking subtitle 1
+[16:42:29] scan: id=0x20bd, lang=English, 3cc=eng ext=1
+[16:42:29] scan: checking subtitle 2
+[16:42:29] scan: id=0x21bd, lang=English (Closed Caption), 3cc=eng ext=5
+[16:42:29] scan: checking subtitle 3
+[16:42:29] scan: id=0x22bd, lang=Deutsch, 3cc=deu ext=1
+[16:42:29] scan: checking subtitle 4
+[16:42:29] scan: id=0x23bd, lang=Deutsch (Closed Caption), 3cc=deu ext=5
+[16:42:29] scan: checking subtitle 5
+[16:42:29] scan: id=0x24bd, lang=Francais, 3cc=fra ext=1
+[16:42:29] scan: checking subtitle 6
+[16:42:29] scan: id=0x25bd, lang=Italiano, 3cc=ita ext=1
+[16:42:29] scan: checking subtitle 7
+[16:42:29] scan: id=0x26bd, lang=Espanol, 3cc=spa ext=1
+[16:42:29] scan: checking subtitle 8
+[16:42:29] scan: id=0x27bd, lang=Nederlands, 3cc=nld ext=1
+[16:42:29] scan: checking subtitle 9
+[16:42:29] scan: id=0x28bd, lang=Svenska, 3cc=swe ext=1
+[16:42:29] scan: checking subtitle 10
+[16:42:29] scan: id=0x29bd, lang=Suomi, 3cc=fin ext=1
+[16:42:29] scan: checking subtitle 11
+[16:42:29] scan: id=0x2abd, lang=Norsk, 3cc=nor ext=1
+[16:42:29] scan: checking subtitle 12
+[16:42:29] scan: id=0x2bbd, lang=Dansk, 3cc=dan ext=1
+[16:42:29] scan: checking subtitle 13
+[16:42:29] scan: id=0x2cbd, lang=Portugues, 3cc=por ext=1
+[16:42:29] scan: checking subtitle 14
+[16:42:29] scan: id=0x2dbd, lang=Polish, 3cc=pol ext=1
+[16:42:29] scan: title 1 has 24 chapters
+[16:42:29] scan: chap 1 c=0->0, b=0->95422 (95423), 209760 ms
+[16:42:29] scan: chap 2 c=1->1, b=95423->294770 (199348), 396440 ms
+[16:42:29] scan: chap 3 c=2->2, b=294771->356305 (61535), 122640 ms
+[16:42:29] scan: chap 4 c=3->3, b=356306->438946 (82641), 164280 ms
+[16:42:29] scan: chap 5 c=4->4, b=438947->480410 (41464), 101880 ms
+[16:42:29] scan: chap 6 c=5->5, b=480411->521731 (41321), 90440 ms
+[16:42:29] scan: chap 7 c=6->6, b=521732->570202 (48471), 110200 ms
+[16:42:29] scan: chap 8 c=7->7, b=570203->579231 (9029), 21080 ms
+[16:42:29] scan: chap 9 c=8->8, b=579232->790990 (211759), 464280 ms
+[16:42:29] scan: chap 10 c=9->9, b=790991->1109461 (318471), 694960 ms
+[16:42:29] scan: chap 11 c=10->10, b=1109462->1257776 (148315), 306440 ms
+[16:42:29] scan: chap 12 c=11->11, b=1257777->1304287 (46511), 88080 ms
+[16:42:29] scan: chap 13 c=12->12, b=1304288->1347748 (43461), 85720 ms
+[16:42:29] scan: chap 14 c=13->13, b=1347749->1397684 (49936), 105120 ms
+[16:42:29] scan: chap 15 c=14->14, b=1397685->1430691 (33007), 77920 ms
+[16:42:29] scan: chap 16 c=15->16, b=1430692->1733140 (302449), 706240 ms
+[16:42:29] scan: chap 17 c=17->17, b=1733141->1816593 (83453), 182120 ms
+[16:42:29] scan: chap 18 c=18->18, b=1816594->1849103 (32510), 68080 ms
+[16:42:29] scan: chap 19 c=19->19, b=1849104->1914456 (65353), 137040 ms
+[16:42:29] scan: chap 20 c=20->20, b=1914457->2144018 (229562), 500240 ms
+[16:42:29] scan: chap 21 c=21->21, b=2144019->2462782 (318764), 686800 ms
+[16:42:29] scan: chap 22 c=22->22, b=2462783->3060010 (597228), 1314720 ms
+[16:42:29] scan: chap 23 c=23->23, b=3060011->3114228 (54218), 103400 ms
+[16:42:29] scan: chap 24 c=24->24, b=3114229->3219358 (105130), 215600 ms
+[16:42:29] scan: aspect = 1.33333
+[16:42:29] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+[16:42:29] scan: title angle(s) 1
+[ac3 @ 0x7fc88c16ae40] frame sync error
+[ac3 @ 0x7fc88c16a5e0] frame sync error
+[16:42:29] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch)
+[ac3 @ 0x7fc88c16a5e0] frame sync error
+[16:42:29] scan: audio 0x81bd: ac3, rate=48000Hz, bitrate=224000 Deutsch (AC3) (2.0 ch)
+[ac3 @ 0x7fc88c16a5e0] frame sync error
+[16:42:29] scan: audio 0x82bd: ac3, rate=48000Hz, bitrate=224000 Francais (AC3) (2.0 ch)
+[ac3 @ 0x7fc88c16a5e0] frame sync error
+[16:42:29] scan: audio 0x83bd: ac3, rate=48000Hz, bitrate=224000 Italiano (AC3) (2.0 ch)
+[ac3 @ 0x7fc88c16a5e0] frame sync error
+[16:42:29] scan: audio 0x84bd: ac3, rate=48000Hz, bitrate=224000 Espanol (AC3) (2.0 ch)
+[16:42:30] scan: 10 previews, 720x576, 25.000 fps, autocrop = 84/84/4/4, aspect 4:3, PAR 16:15
+[16:42:30] libhb: scan thread found 1 valid title(s)
+[16:42:32] gtkgui: Preset: Regular->Normal
+[16:42:32] 1 job(s) to process
+[16:42:32] starting job
+[16:42:32] sync: expecting 173837 video frames
+[16:42:32] job configuration:
+[16:42:32]  * source
+[16:42:32]    + /run/media/bazza/HAIR
+[16:42:32]    + title 1, chapter(s) 1 to 24
+[16:42:32]  * destination
+[16:42:32]    + /media/mythfs/videos/Hair.m4v
+[16:42:32]    + container: MPEG-4 (libavformat)
+[16:42:32]      + chapter markers
+[16:42:32]  * video track
+[16:42:32]    + decoder: mpeg2video
+[16:42:32]      + bitrate 9800 kbps
+[16:42:32]    + filters
+[16:42:32]      + Framerate Shaper (0:27000000:1080000)
+[16:42:32]        + frame rate: same as source (around 25.000 fps)
+[16:42:32]      + Crop and Scale (712:408:84:84:4:4)
+[16:42:32]        + source: 720 * 576, crop (84/84/4/4): 712 * 408, scale: 712 * 408
+[16:42:32]    + loose anamorphic
+[16:42:32]      + storage dimensions: 712 * 408, mod 2
+[16:42:32]      + pixel aspect ratio: 16 / 15
+[16:42:32]      + display dimensions: 759 * 408
+[16:42:32]    + encoder: H.264 (libx264)
+[16:42:32]      + preset:  veryfast
+[16:42:32]      + profile: main
+[16:42:32]      + level:   4.0
+[16:42:32]      + quality: 20.00 (RF)
+[16:42:32]  * audio track 1
+[16:42:32]    + decoder: English (AC3) (5.1 ch) (track 1, id 0x80bd)
+[16:42:32]      + bitrate: 448 kbps, samplerate: 48000 Hz
+[16:42:32]    + mixdown: Dolby Pro Logic II
+[16:42:32]    + encoder: AAC (libavcodec)
+[16:42:32]      + bitrate: 160 kbps, samplerate: 48000 Hz
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/HAIR for CSS authentication
+libdvdnav: Can't read name block. Probably not a DVD-ROM device.
+libdvdnav: vm: dvd_read_name failed
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x0000012d
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000ad5
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00000fa1
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x00312f73
+libdvdread: Elapsed time 0
+libdvdread: Found 2 VTS's
+libdvdread: Elapsed time 0
+libdvdread: Attempting to use device /dev/sr0 mounted on /run/media/bazza/HAIR for CSS authentication
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+[16:42:32] reader: first SCR 146 id 0xe0 DTS 22254
+[16:42:32] encx264: encoding at constant RF 20.000000
+[16:42:32] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=16/15
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+[16:42:32] mpeg2video: "Chapter 1" (1) at frame 0 time 3600
+x264 [info]: profile Main, level 4.0
+[16:42:32] sync: first pts is 3600
+[16:43:50] mpeg2video: "Chapter 2" (2) at frame 5244 time 18882000
+[16:46:14] mpeg2video: "Chapter 3" (3) at frame 15155 time 54561600
+[16:46:54] mpeg2video: "Chapter 4" (4) at frame 18221 time 65599200
+[16:47:46] mpeg2video: "Chapter 5" (5) at frame 22328 time 80384400
+[16:48:11] mpeg2video: "Chapter 6" (6) at frame 24875 time 89553600
+[16:48:36] mpeg2video: "Chapter 7" (7) at frame 27136 time 97693200
+[16:49:04] mpeg2video: "Chapter 8" (8) at frame 29891 time 107611200
+[16:49:09] mpeg2video: "Chapter 9" (9) at frame 30418 time 109508400
+[16:51:04] mpeg2video: "Chapter 10" (10) at frame 42025 time 151293600
+[16:53:39] mpeg2video: "Chapter 11" (11) at frame 59399 time 213840000
+[16:54:45] mpeg2video: "Chapter 12" (12) at frame 67060 time 241419600
+[16:55:06] mpeg2video: "Chapter 13" (13) at frame 69262 time 249346800
+[16:55:25] mpeg2video: "Chapter 14" (14) at frame 71405 time 257061600
+[16:55:46] mpeg2video: "Chapter 15" (15) at frame 74033 time 266522400
+[16:56:00] mpeg2video: "Chapter 16" (16) at frame 75981 time 273535200
+[16:58:02] mpeg2video: "Chapter 17" (17) at frame 93637 time 337096800
+[16:58:35] mpeg2video: "Chapter 18" (18) at frame 98190 time 353487600
+[16:58:47] mpeg2video: "Chapter 19" (19) at frame 99892 time 359614800
+[16:59:14] mpeg2video: "Chapter 20" (20) at frame 103318 time 371948400
+[17:00:50] mpeg2video: "Chapter 21" (21) at frame 115824 time 416970000
+[17:03:15] mpeg2video: "Chapter 22" (22) at frame 132994 time 478782000
+[17:08:37] mpeg2video: "Chapter 23" (23) at frame 165862 time 597106800
+[17:09:11] mpeg2video: "Chapter 24" (24) at frame 168447 time 606412800
+[17:10:21] reader: done. 1 scr changes
+[17:10:21] work: average encoding speed for job is 104.123466 fps
+[17:10:21] sync: got 173837 frames, 173837 expected
+[17:10:21] render: lost time: 0 (0 frames)
+[17:10:21] render: gained time: 0 (0 frames) (0 not accounted for)
+[17:10:21] mpeg2video-decoder done: 173837 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:2068  Avg QP:18.77  size: 34645
+x264 [info]: frame P:80105 Avg QP:21.72  size:  9695
+x264 [info]: frame B:91664 Avg QP:23.82  size:  2113
+x264 [info]: consecutive B-frames: 13.4% 42.3% 19.8% 24.6%
+x264 [info]: mb I  I16..4: 27.9%  0.0% 72.1%
+x264 [info]: mb P  I16..4: 10.7%  0.0%  3.6%  P16..4: 39.0% 19.1% 12.9%  0.0%  0.0%    skip:14.8%
+x264 [info]: mb B  I16..4:  0.7%  0.0%  0.1%  B16..8: 16.0%  6.3%  1.3%  direct:10.5%  skip:65.0%  L0:25.7% L1:48.0% BI:26.3%
+x264 [info]: coded y,uvDC,uvAC intra: 57.9% 63.7% 28.5% inter: 22.2% 20.2% 1.1%
+x264 [info]: i16 v,h,dc,p: 37% 25% 27% 11%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 20% 19%  6%  6%  6%  7%  6%  6%
+x264 [info]: i8c dc,h,v,p: 53% 19% 22%  6%
+x264 [info]: Weighted P-Frames: Y:5.8% UV:2.1%
+x264 [info]: kb/s:1198.77
+[17:10:21] ac3-decoder done: 0 frames, 0 decoder errors, 0 drops
+[17:10:21] mux: track 0, 173837 frames, 1041872959 bytes, 1198.68 kbps, fifo 4096
+[17:10:21] mux: track 1, 325943 frames, 139209476 bytes, 160.16 kbps, fifo 8192
+[17:10:21] libhb: work result = 0

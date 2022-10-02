@@ -1,0 +1,6 @@
+2022/05/29-13:52:49.353 13838d Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.justwatch.com_0.indexeddb.leveldb since it was missing.
+2022/05/29-13:52:49.369 13838d Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.justwatch.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/29-20:42:50.668 26f249 Level-0 table #5: started
+2022/05/29-20:42:50.674 26f249 Level-0 table #5: 1155 bytes OK
+2022/05/29-20:42:50.685 26f249 Delete type=0 #3
+2022/05/29-20:42:50.685 26f249 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

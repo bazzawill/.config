@@ -1,0 +1,6 @@
+2022/08/14-15:41:00.391 13674c Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.education.com_0.indexeddb.leveldb since it was missing.
+2022/08/14-15:41:00.415 13674c Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.education.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/14-15:41:59.427 1397ee Level-0 table #5: started
+2022/08/14-15:41:59.436 1397ee Level-0 table #5: 30066 bytes OK
+2022/08/14-15:41:59.451 1397ee Delete type=0 #3
+2022/08/14-15:41:59.451 1397ee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

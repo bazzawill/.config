@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://webcamera.io/"
+      },
+      "urls": [ "http://webcamera.io/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiW4TSeEKtzGqCi0ZrAn6LXC1FmOqEq4t4EmHLch8bzd8P8xpsWLGFpzVMNEI411OF+jlbT1GBMeGMCbprSJ0HGAvGb4uovIQf9xxfVbAS0o3xlVR0Xw7QKpyWYBU8WRdK5JplzBk/v2uANlYygdiFjZ9mPIj8RPMyBqsnAe8884ILHumyunv11cM01izWkL0wFkjh4muvo9n+A1YVUoTWgXHnRP6YlZ1ditCbyFDCTXS5vFJtqZNOTOxYs+D+lRh6oDpA/MSQzbpq5kqUdlf2TjD10s+2toZazQKDiYbGbOprJRQICc75uJAww8DjTD8mAJV2Z9Wzw3q/8ETn8OPGQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4"
+}

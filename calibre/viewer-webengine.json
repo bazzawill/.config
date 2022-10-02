@@ -1,0 +1,38 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAAAAAABLQAAAjMAAAP/AAAAAgAAAUIAAAIxAAAD/QAAAAAAAAAABpAAAAACAAABQgAAAjEAAAP9"
+  }, 
+  "main_window_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAHwA////AAAAAQAAAAAAAAAA/AIAAAAD+wAAABwAYgBvAG8AawBtAGEAcgBrAHMALQBkAG8AYwBrAAAAAAD/////AAAAtwD////7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAABYAP////sAAAAcAGkAbgBzAHAAZQBjAHQAbwByAC0AZABvAGMAawAAAAAA/////wAAABEA////AAACMAAAArwAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  }, 
+  "old_prefs_migrated": true, 
+  "session_data": {
+    "controls_help_shown_count": 2, 
+    "standalone_font_settings": {}, 
+    "standalone_misc_settings": {
+      "remember_last_read": true, 
+      "remember_window_geometry": false, 
+      "save_annotations_in_ebook": true, 
+      "singleinstance": false
+    }, 
+    "standalone_recently_opened": [
+      {
+        "key": "/media/mythfs/downloads/complete/comics/Alan Moore Collection- Watchmen/Watchmen Absolute/Watchmen #001.cbr", 
+        "pathtoebook": "/media/mythfs/downloads/complete/comics/Alan Moore Collection- Watchmen/Watchmen Absolute/Watchmen #001.cbr", 
+        "timestamp": "2020-02-04T11:24:52.406Z", 
+        "title": "Watchmen #001"
+      }, 
+      {
+        "authors": [
+          "Viani, Rinantonio.,Illy, Andrea."
+        ], 
+        "key": "/media/mythfs/Books/Viani, Rinantonio.,Illy, Andrea_/Espresso Coffee (45)/Espresso Coffee - Viani, Rinantonio.,Illy, Andrea_.azw3", 
+        "pathtoebook": "/media/mythfs/Books/Viani, Rinantonio.,Illy, Andrea_/Espresso Coffee (45)/Espresso Coffee - Viani, Rinantonio.,Illy, Andrea_.azw3", 
+        "timestamp": "2019-11-12T08:46:14.235Z", 
+        "title": "Espresso Coffee"
+      }
+    ]
+  }
+}

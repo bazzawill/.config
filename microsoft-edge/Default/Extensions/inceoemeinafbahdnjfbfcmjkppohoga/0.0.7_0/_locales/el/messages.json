@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Παρακολουθήστε βίντεο χρησιμοποιώντας τη λειτουργία Picture-in-Picture (Floating Video Player). Υποστηρίξτε κάθε είδους ιστότοπους βίντεο."
+   },
+   "name": {
+      "message": "Εικόνα σε εικόνα βίντεο"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

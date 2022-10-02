@@ -1,0 +1,1 @@
+jQuery.fn.selectText=function(){var e,t,n=document,o=this[0];n.body.createTextRange?(e=document.body.createTextRange(),e.moveToElementText(o),e.select()):window.getSelection&&(t=window.getSelection(),e=document.createRange(),e.selectNodeContents(o),t.removeAllRanges(),t.addRange(e))};

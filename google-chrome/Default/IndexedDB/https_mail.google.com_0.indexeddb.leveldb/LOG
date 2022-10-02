@@ -1,0 +1,6 @@
+2022/09/30-15:31:46.295 e7c Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/30-15:31:46.295 e7c Recovering log #50
+2022/09/30-15:31:46.302 e7c Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000050.log 
+2022/09/30-15:31:54.678 e81 Level-0 table #56: started
+2022/09/30-15:31:54.695 e81 Level-0 table #56: 2268360 bytes OK
+2022/09/30-15:31:54.707 e81 Delete type=0 #50

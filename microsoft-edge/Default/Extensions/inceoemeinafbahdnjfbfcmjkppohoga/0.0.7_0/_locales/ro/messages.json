@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Urmăriți videoclipuri utilizând modul Picture-in-Picture (Floare Video Player). Suportă tot felul de site-uri video."
+   },
+   "name": {
+      "message": "Imagine în imagine Video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

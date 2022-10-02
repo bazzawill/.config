@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Alarm saati"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "İptal etmek"
+   },
+   "Countdown": {
+      "message": "geri sayım"
+   },
+   "Pause": {
+      "message": "Duraklat"
+   },
+   "Resume": {
+      "message": "Devam et"
+   },
+   "Stop": {
+      "message": "Dur"
+   },
+   "Stopwatch": {
+      "message": "Kronometre"
+   }
+}

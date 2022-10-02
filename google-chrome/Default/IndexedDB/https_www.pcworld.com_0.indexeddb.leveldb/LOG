@@ -1,0 +1,6 @@
+2022/06/30-21:28:18.352 2386aa Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.pcworld.com_0.indexeddb.leveldb since it was missing.
+2022/06/30-21:28:18.373 2386aa Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.pcworld.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/30-21:28:19.297 2386aa Level-0 table #5: started
+2022/06/30-21:28:19.304 2386aa Level-0 table #5: 1817 bytes OK
+2022/06/30-21:28:19.333 2386aa Delete type=0 #3
+2022/06/30-21:28:19.333 2386aa Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

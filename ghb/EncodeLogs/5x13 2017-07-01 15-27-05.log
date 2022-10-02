@@ -1,0 +1,404 @@
+Handbrake Version: 1.0.7 (2017041000)
+
+** (ghb:3870): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[15:27:05] gtkgui: Modified Preset: /General/Very Fast 576p25
+[15:27:05] 1 job(s) to process
+[15:27:05] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "dpl1",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": "auto",
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "ChapterList": [
+            {
+                "Name": "Chapter 1"
+            },
+            {
+                "Name": "Chapter 2"
+            },
+            {
+                "Name": "Chapter 3"
+            },
+            {
+                "Name": "Chapter 4"
+            },
+            {
+                "Name": "Chapter 5"
+            },
+            {
+                "Name": "Chapter 6"
+            },
+            {
+                "Name": "Chapter 7"
+            },
+            {
+                "Name": "Chapter 8"
+            },
+            {
+                "Name": "Chapter 9"
+            },
+            {
+                "Name": "Chapter 10"
+            },
+            {
+                "Name": "Chapter 11"
+            },
+            {
+                "Name": "Chapter 12"
+            },
+            {
+                "Name": "Chapter 13"
+            },
+            {
+                "Name": "Chapter 14"
+            },
+            {
+                "Name": "Chapter 15"
+            },
+            {
+                "Name": "Chapter 16"
+            }
+        ],
+        "ChapterMarkers": true,
+        "File": "/media/mythfs/tv/Angel/5x13.mkv",
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "mkv"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "80",
+                    "block-width": "16",
+                    "filter-mode": "1",
+                    "mode": "0",
+                    "motion-thresh": "2",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "3"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/1080000"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 2,
+                    "crop-right": 2,
+                    "crop-top": 0,
+                    "height": 576,
+                    "width": 716
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "ANGEL_S5_DISC4"
+    },
+    "PAR": {
+        "Den": 45,
+        "Num": 64
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/dev/sr0",
+        "Range": {
+            "End": 16,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 2
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": [
+            {
+                "Burn": true,
+                "Default": false,
+                "Forced": false,
+                "Track": 2
+            },
+            {
+                "Burn": false,
+                "Default": false,
+                "Forced": false,
+                "Track": 9
+            }
+        ]
+    },
+    "Video": {
+        "ColorMatrixCode": 0,
+        "Encoder": "x264",
+        "Level": "3.1",
+        "OpenCL": false,
+        "Options": "",
+        "Preset": "veryfast",
+        "Profile": "main",
+        "QSV": {
+            "AsyncDepth": 4,
+            "Decode": false
+        },
+        "Quality": 22.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[15:27:05] CPU: 
+[15:27:05]  - logical processor count: 4
+[15:27:05] hb_scan: path=/dev/sr0, title_index=2
+disc.c:352: error opening file BDMV/index.bdmv
+disc.c:352: error opening file BDMV/BACKUP/index.bdmv
+[15:27:06] bd: not a bd - trying as a stream/file instead
+[15:27:06] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.1
+libdvdnav: DVD Title: ANGEL_S5_DISC4
+libdvdnav: DVD Serial Number: 316C8102
+libdvdnav: DVD Title (Alternative): ANGEL_S5_DISC4
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x0002e590
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x0002e917
+libdvdread: Elapsed time 1
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00033117
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x003bfbb9
+libdvdread: Elapsed time 5
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x003c2228
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x003d2ad5
+libdvdread: Elapsed time 0
+libdvdread: Found 4 VTS's
+libdvdread: Elapsed time 6
+[15:27:12] scan: DVD has 10 title(s)
+[15:27:12] scan: scanning title 2
+[15:27:12] scan: opening IFO for VTS 1
+[15:27:12] scan: duration is 00:40:47 (2447800 ms)
+[15:27:12] pgc_id: 2, pgn: 1: pgc: 0x7f3fd000eac0
+[15:27:12] scan: vts=1, ttn=2, cells=0->15, blocks=957916->3721825, 896513 blocks
+[15:27:12] scan: checking audio 1
+[15:27:12] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[15:27:12] scan: checking audio 2
+[15:27:12] scan: id=0x81bd, lang=Francais (AC3), 3cc=fra ext=0
+[15:27:12] scan: checking audio 3
+[15:27:12] scan: audio channel is not active
+[15:27:12] scan: checking subtitle 1
+[15:27:12] scan: id=0x20bd, lang=dansk, 3cc=dan ext=0
+[15:27:12] scan: checking subtitle 2
+[15:27:12] scan: id=0x21bd, lang=Nederlands, 3cc=nld ext=0
+[15:27:12] scan: checking subtitle 3
+[15:27:12] scan: id=0x22bd, lang=English, 3cc=eng ext=0
+[15:27:12] scan: checking subtitle 4
+[15:27:12] scan: id=0x23bd, lang=suomi, 3cc=fin ext=0
+[15:27:12] scan: checking subtitle 5
+[15:27:12] scan: id=0x24bd, lang=Francais, 3cc=fra ext=0
+[15:27:12] scan: checking subtitle 6
+[15:27:12] scan: id=0x25bd, lang=norsk, 3cc=nor ext=0
+[15:27:12] scan: checking subtitle 7
+[15:27:12] scan: id=0x26bd, lang=svenska, 3cc=swe ext=0
+[15:27:12] scan: checking subtitle 8
+[15:27:12] scan: id=0x27bd, lang=Francais, 3cc=fra ext=1
+[15:27:12] scan: checking subtitle 9
+[15:27:12] scan: id=0x28bd, lang=Nederlands, 3cc=nld ext=0
+[15:27:12] scan: checking subtitle 10
+[15:27:12] scan: id=0x29bd, lang=English, 3cc=eng ext=0
+[15:27:12] scan: checking subtitle 11
+[15:27:12] scan: id=0x2abd, lang=Francais, 3cc=fra ext=0
+[15:27:12] scan: title 2 has 16 chapters
+[15:27:12] scan: chap 1 c=0->0, b=957916->1046036 (88121), 215320 ms
+[15:27:12] scan: chap 2 c=1->1, b=1046037->1075735 (29699), 77240 ms
+[15:27:12] scan: chap 3 c=2->2, b=1075736->1144618 (68883), 191960 ms
+[15:27:12] scan: chap 4 c=3->3, b=1144619->1203882 (59264), 164840 ms
+[15:27:12] scan: chap 5 c=4->4, b=1203883->1245059 (41177), 124000 ms
+[15:27:12] scan: chap 6 c=5->5, b=1245060->1311340 (66281), 181240 ms
+[15:27:12] scan: chap 7 c=6->6, b=1311341->1381477 (70137), 187720 ms
+[15:27:12] scan: chap 8 c=7->7, b=1381478->1449891 (68414), 195480 ms
+[15:27:12] scan: chap 9 c=8->8, b=1449892->1539794 (89903), 233400 ms
+[15:27:12] scan: chap 10 c=9->9, b=1539795->1602548 (62754), 170360 ms
+[15:27:12] scan: chap 11 c=10->10, b=1602549->1646586 (44038), 118280 ms
+[15:27:12] scan: chap 12 c=11->11, b=1646587->1691442 (44856), 125640 ms
+[15:27:12] scan: chap 13 c=12->12, b=1691443->1754976 (63534), 185240 ms
+[15:27:12] scan: chap 14 c=13->13, b=1754977->1824889 (69913), 179240 ms
+[15:27:12] scan: chap 15 c=14->14, b=1824890->1854376 (29487), 97360 ms
+[15:27:12] scan: chap 16 c=15->15, b=3721774->3721825 (52), 480 ms
+[15:27:12] scan: aspect = 16:9
+[15:27:12] scan: decoding previews for title 2
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+[15:27:12] scan: title angle(s) 1
+[ac3 @ 0x7f3fd00279a0] frame sync error
+[15:27:13] scan: audio 0x81bd: ac3, rate=48000Hz, bitrate=192000 Francais (AC3) (2.0 ch) (Dolby Surround)
+[ac3 @ 0x7f3fd00279a0] frame sync error
+[15:27:13] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=192000 English (AC3) (2.0 ch) (Dolby Surround)
+[15:27:15] scan: 10 previews, 720x576, 25.000 fps, autocrop = 0/0/2/2, aspect 16:9, PAR 64:45
+[15:27:15] libhb: scan thread found 1 valid title(s)
+[15:27:15] starting job
+[15:27:15] decomb filter thread started for segment 1
+[15:27:15] decomb filter thread started for segment 0
+[15:27:15] decomb filter thread started for segment 2
+[15:27:15] decomb filter thread started for segment 3
+[15:27:15] decomb check thread started for segment 1
+[15:27:15] decomb check thread started for segment 2
+[15:27:15] decomb check thread started for segment 0
+[15:27:15] decomb check thread started for segment 3
+[15:27:15] yadif thread started for segment 0
+[15:27:15] yadif thread started for segment 1
+[15:27:15] yadif thread started for segment 2
+[15:27:15] yadif thread started for segment 3
+[15:27:15] job configuration:
+[15:27:15]  * source
+[15:27:15]    + /dev/sr0
+[15:27:15]    + title 2, chapter(s) 1 to 16
+[15:27:15]  * destination
+[15:27:15]    + /media/mythfs/tv/Angel/5x13.mkv
+[15:27:15]    + container: Matroska (libavformat)
+[15:27:15]      + chapter markers
+[15:27:15]  * video track
+[15:27:15]    + decoder: mpeg2video
+[15:27:15]      + bitrate 7500 kbps
+[15:27:15]    + filters
+[15:27:15]      + Comb Detect (mode=0:spatial-metric=2:motion-thresh=2:spatial-thresh=3:filter-mode=1:block-thresh=80:block-width=16:block-height=16)
+[15:27:15]      + Decomb (mode=39)
+[15:27:15]      + Framerate Shaper (mode=2:rate=27000000/1080000)
+[15:27:15]        + frame rate: 25.000 fps -> peak rate limited to 25.000 fps
+[15:27:15]      + Subtitle renderer ()
+[15:27:15]      + Crop and Scale (width=716:height=576:crop-top=0:crop-bottom=0:crop-left=2:crop-right=2)
+[15:27:15]        + source: 720 * 576, crop (0/0/2/2): 716 * 576, scale: 716 * 576
+[15:27:15]    + Output geometry
+[15:27:15]      + storage dimensions: 716 x 576
+[15:27:15]      + pixel aspect ratio: 64 : 45
+[15:27:15]      + display dimensions: 1018 x 576
+[15:27:15]    + encoder: H.264 (libx264)
+[15:27:15]      + preset:  veryfast
+[15:27:15]      + profile: main
+[15:27:15]      + level:   3.1
+[15:27:15]      + quality: 22.00 (RF)
+[15:27:15]  * subtitle track 1, English (track 2, id 0x22bd) Picture [VOBSUB] -> Render/Burn-in
+[15:27:15]  * subtitle track 2, English (track 9, id 0x29bd) Picture [VOBSUB] -> Passthrough
+[15:27:15]  * audio track 1
+[15:27:15]    + decoder: English (AC3) (2.0 ch) (Dolby Surround) (track 1, id 0x80bd)
+[15:27:15]      + bitrate: 192 kbps, samplerate: 48000 Hz
+[15:27:15]    + mixdown: Dolby Surround
+[15:27:15]    + encoder: AAC (libavcodec)
+[15:27:15]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[15:27:15] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.1
+libdvdnav: DVD Title: ANGEL_S5_DISC4
+libdvdnav: DVD Serial Number: 316C8102
+libdvdnav: DVD Title (Alternative): ANGEL_S5_DISC4
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x0002e590
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x0002e917
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x00033117
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x003bfbb9
+libdvdread: Elapsed time 5
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x003c2228
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x003d2ad5
+libdvdread: Elapsed time 0
+libdvdread: Found 4 VTS's
+libdvdread: Elapsed time 5
+libdvdnav: DVD disk reports itself with Region mask 0x00f50000. Regions: 2 4
+[15:27:22] sync: expecting 61195 video frames
+[15:27:22] encx264: encoding at constant RF 22.000000
+[15:27:22] encx264: unparsed options: level=3.1:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=14000:vbv-maxrate=14000:rc-lookahead=10
+x264 [info]: using SAR=64/45
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+x264 [info]: profile Main, level 3.1
+[15:27:22] sync: first pts audio 0x80bd is 0
+[15:27:22] sync: first pts video is 7200
+[15:27:22] sync: "Chapter 1" (1) at frame 1 time 7200
+[15:27:24] sync: first pts subtitle 0x22bd is 774000
+[15:28:10] sync: "Chapter 2" (2) at frame 5382 time 19378800
+[15:28:24] sync: "Chapter 3" (3) at frame 7313 time 26330400
+[15:28:58] sync: "Chapter 4" (4) at frame 12112 time 43606800
+[15:29:30] sync: "Chapter 5" (5) at frame 16233 time 58442400
+[15:29:54] sync: "Chapter 6" (6) at frame 19333 time 69602400
+[15:30:28] sync: "Chapter 7" (7) at frame 23864 time 85914000
+[15:31:03] sync: "Chapter 8" (8) at frame 28557 time 102808800
+[15:31:40] sync: "Chapter 9" (9) at frame 33444 time 120402000
+[15:32:24] sync: "Chapter 10" (10) at frame 39279 time 141408000
+[15:32:56] sync: "Chapter 11" (11) at frame 43538 time 156740400
+[15:33:21] sync: "Chapter 12" (12) at frame 46495 time 167385600
+[15:33:46] sync: "Chapter 13" (13) at frame 49636 time 178693200
+[15:34:21] sync: "Chapter 14" (14) at frame 54267 time 195364800
+[15:34:55] sync: "Chapter 15" (15) at frame 58748 time 211496400
+[15:35:09] reader: done. 2 scr changes
+[15:35:10] work: average encoding speed for job is 130.751755 fps
+[15:35:10] comb detect: heavy 62 | light 858 | uncombed 60262 | total 61182
+[15:35:10] decomb: deinterlaced 62 | blended 858 | unfiltered 60262 | total 61182
+[15:35:10] vfr: 61182 frames output, 0 dropped and 0 duped for CFR/PFR
+[15:35:10] vfr: lost time: 0 (0 frames)
+[15:35:10] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[15:35:10] ac3-decoder done: 76478 frames, 0 decoder errors
+[15:35:10] mpeg2video-decoder done: 61184 frames, 0 decoder errors
+[15:35:10] sync: got 61182 frames, 61195 expected
+[15:35:10] sync: framerate min 25.000 fps, max 25.000 fps, avg 25.000 fps
+x264 [info]: frame I:807   Avg QP:17.95  size: 14518
+x264 [info]: frame P:16779 Avg QP:21.35  size:  3566
+x264 [info]: frame B:43596 Avg QP:21.89  size:  1025
+x264 [info]: consecutive B-frames:  4.3%  1.1%  2.9% 91.7%
+x264 [info]: mb I  I16..4: 66.5%  0.0% 33.5%
+x264 [info]: mb P  I16..4: 17.8%  0.0%  1.6%  P16..4: 21.6%  7.7%  2.8%  0.0%  0.0%    skip:48.6%
+x264 [info]: mb B  I16..4:  2.0%  0.0%  0.1%  B16..8: 12.4%  2.7%  0.1%  direct: 6.2%  skip:76.6%  L0:41.1% L1:51.5% BI: 7.4%
+x264 [info]: coded y,uvDC,uvAC intra: 20.7% 34.9% 4.7% inter: 3.2% 7.2% 0.1%
+x264 [info]: i16 v,h,dc,p: 56% 20% 16%  9%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 31% 15% 23%  5%  5%  7%  4%  6%  3%
+x264 [info]: i8c dc,h,v,p: 60% 14% 23%  2%
+x264 [info]: Weighted P-Frames: Y:2.1% UV:1.1%
+x264 [info]: kb/s:380.02
+[15:35:10] mux: track 0, 61182 frames, 116225600 bytes, 379.92 kbps, fifo 8192
+[15:35:10] mux: track 1, 114717 frames, 49003809 bytes, 160.18 kbps, fifo 16384
+[15:35:10] mux: track 2, 0 frames, 0 bytes, 0.00 kbps, fifo 8
+[15:35:10] libhb: work result = 0

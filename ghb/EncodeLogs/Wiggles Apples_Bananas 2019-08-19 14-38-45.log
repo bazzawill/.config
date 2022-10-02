@@ -1,0 +1,624 @@
+Handbrake Version: 1.2.2 (2019032800)
+[14:38:45] gtkgui: Preset: /General/Very Fast 576p25
+[14:38:45] 1 job(s) to process
+[14:38:45] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Name": "Chapter 1"
+            },
+            {
+                "Name": "Chapter 2"
+            },
+            {
+                "Name": "Chapter 3"
+            },
+            {
+                "Name": "Chapter 4"
+            },
+            {
+                "Name": "Chapter 5"
+            },
+            {
+                "Name": "Chapter 6"
+            },
+            {
+                "Name": "Chapter 7"
+            },
+            {
+                "Name": "Chapter 8"
+            },
+            {
+                "Name": "Chapter 9"
+            },
+            {
+                "Name": "Chapter 10"
+            },
+            {
+                "Name": "Chapter 11"
+            },
+            {
+                "Name": "Chapter 12"
+            },
+            {
+                "Name": "Chapter 13"
+            },
+            {
+                "Name": "Chapter 14"
+            },
+            {
+                "Name": "Chapter 15"
+            },
+            {
+                "Name": "Chapter 16"
+            },
+            {
+                "Name": "Chapter 17"
+            },
+            {
+                "Name": "Chapter 18"
+            },
+            {
+                "Name": "Chapter 19"
+            },
+            {
+                "Name": "Chapter 20"
+            },
+            {
+                "Name": "Chapter 21"
+            },
+            {
+                "Name": "Chapter 22"
+            },
+            {
+                "Name": "Chapter 23"
+            },
+            {
+                "Name": "Chapter 24"
+            },
+            {
+                "Name": "Chapter 25"
+            },
+            {
+                "Name": "Chapter 26"
+            },
+            {
+                "Name": "Chapter 27"
+            },
+            {
+                "Name": "Chapter 28"
+            },
+            {
+                "Name": "Chapter 29"
+            },
+            {
+                "Name": "Chapter 30"
+            },
+            {
+                "Name": "Chapter 31"
+            },
+            {
+                "Name": "Chapter 32"
+            },
+            {
+                "Name": "Chapter 33"
+            },
+            {
+                "Name": "Chapter 34"
+            },
+            {
+                "Name": "Chapter 35"
+            },
+            {
+                "Name": "Chapter 36"
+            },
+            {
+                "Name": "Chapter 37"
+            },
+            {
+                "Name": "Chapter 38"
+            },
+            {
+                "Name": "Chapter 39"
+            },
+            {
+                "Name": "Chapter 40"
+            },
+            {
+                "Name": "Chapter 41"
+            },
+            {
+                "Name": "Chapter 42"
+            },
+            {
+                "Name": "Chapter 43"
+            },
+            {
+                "Name": "Chapter 44"
+            },
+            {
+                "Name": "Chapter 45"
+            },
+            {
+                "Name": "Chapter 46"
+            },
+            {
+                "Name": "Chapter 47"
+            }
+        ],
+        "ChapterMarkers": true,
+        "File": "/media/mythfs/wiggles/Wiggles Apples_Bananas.m4v",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "m4v"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "80",
+                    "block-width": "16",
+                    "filter-mode": "1",
+                    "mode": "0",
+                    "motion-thresh": "2",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "3"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/1080000"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 576,
+                    "width": 720
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "Wiggles Apples_Bananas"
+    },
+    "PAR": {
+        "Den": 45,
+        "Num": 64
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/dev/sr0",
+        "Range": {
+            "End": 47,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 2
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": true,
+            "Forced": true
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ColorMatrix": 6,
+        "ColorPrimaries": 5,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "Level": "3.1",
+        "Options": "",
+        "Preset": "veryfast",
+        "Profile": "main",
+        "QSV": {
+            "AsyncDepth": 4,
+            "Decode": false
+        },
+        "Quality": 22.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[14:38:45] CPU: 
+[14:38:45]  - logical processor count: 4
+[14:38:45] hb_scan: path=/dev/sr0, title_index=2
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[14:38:48] bd: not a bd - trying as a stream/file instead
+[14:38:48] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 6.0.0
+libdvdnav: DVD Title: Wiggles Apples_Bananas
+libdvdnav: DVD Serial Number: 44318506
+libdvdnav: DVD Title (Alternative): Wiggles Apples_Bananas
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000132
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000198
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x0000c983
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_0.VOB at 0x0000fb91
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x0000fbde
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_0.VOB at 0x00161b5f
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x00161bac
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_0.VOB at 0x00163af4
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x00163b41
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_0.VOB at 0x00181fd1
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_1.VOB at 0x0018201e
+libdvdread: Elapsed time 0
+libdvdread: Found 5 VTS's
+libdvdread: Elapsed time 0
+[14:38:48] scan: DVD has 27 title(s)
+[14:38:48] scan: scanning title 2
+[14:38:48] scan: opening IFO for VTS 2
+[14:38:48] scan: duration is 00:45:13 (2713480 ms)
+[14:38:48] pgc_id: 1, pgn: 1: pgc: 0x7f64f802b6c0
+[14:38:48] scan: vts=2, ttn=1, cells=0->46, blocks=0->1384280, 1384281 blocks
+[14:38:48] scan: checking audio 1
+[14:38:48] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=0
+[14:38:48] scan: checking subtitle 1
+[14:38:48] scan: id=0x20bd, lang=English (Wide Screen) [VOBSUB], 3cc=eng ext=0
+[14:38:48] scan: title 2 has 47 chapters
+[14:38:48] scan: chap 1 c=0->0, b=0->42790 (42791), 91760 ms
+[14:38:48] scan: chap 2 c=1->1, b=42791->87088 (44298), 98040 ms
+[14:38:48] scan: chap 3 c=2->2, b=87089->104089 (17001), 33600 ms
+[14:38:48] scan: chap 4 c=3->3, b=104090->153370 (49281), 81760 ms
+[14:38:48] scan: chap 5 c=4->4, b=153371->162558 (9188), 19680 ms
+[14:38:48] scan: chap 6 c=5->5, b=162559->206459 (43901), 81680 ms
+[14:38:48] scan: chap 7 c=6->6, b=206460->215550 (9091), 20280 ms
+[14:38:48] scan: chap 8 c=7->7, b=215551->260845 (45295), 91720 ms
+[14:38:48] scan: chap 9 c=8->8, b=260846->261817 (972), 1920 ms
+[14:38:48] scan: chap 10 c=9->9, b=261818->361249 (99432), 170960 ms
+[14:38:48] scan: chap 11 c=10->10, b=361250->388771 (27522), 58080 ms
+[14:38:48] scan: chap 12 c=11->11, b=388772->451880 (63109), 115520 ms
+[14:38:48] scan: chap 13 c=12->12, b=451881->465138 (13258), 26880 ms
+[14:38:48] scan: chap 14 c=13->13, b=465139->547004 (81866), 147560 ms
+[14:38:48] scan: chap 15 c=14->14, b=547005->553890 (6886), 14880 ms
+[14:38:48] scan: chap 16 c=15->15, b=553891->582032 (28142), 63360 ms
+[14:38:48] scan: chap 17 c=16->16, b=582033->582995 (963), 1920 ms
+[14:38:48] scan: chap 18 c=17->17, b=582996->659734 (76739), 162200 ms
+[14:38:48] scan: chap 19 c=18->18, b=659735->668453 (8719), 19680 ms
+[14:38:48] scan: chap 20 c=19->19, b=668454->709763 (41310), 75600 ms
+[14:38:48] scan: chap 21 c=20->20, b=709764->710262 (499), 960 ms
+[14:38:48] scan: chap 22 c=21->21, b=710263->749671 (39409), 77320 ms
+[14:38:48] scan: chap 23 c=22->22, b=749672->757182 (7511), 16800 ms
+[14:38:48] scan: chap 24 c=23->23, b=757183->809038 (51856), 87360 ms
+[14:38:48] scan: chap 25 c=24->24, b=809039->809582 (544), 960 ms
+[14:38:48] scan: chap 26 c=25->25, b=809583->851378 (41796), 78640 ms
+[14:38:48] scan: chap 27 c=26->26, b=851379->861208 (9830), 22080 ms
+[14:38:48] scan: chap 28 c=27->27, b=861209->887319 (26111), 61200 ms
+[14:38:48] scan: chap 29 c=28->28, b=887320->901893 (14574), 32640 ms
+[14:38:48] scan: chap 30 c=29->29, b=901894->936881 (34988), 67360 ms
+[14:38:48] scan: chap 31 c=30->30, b=936882->946940 (10059), 22080 ms
+[14:38:48] scan: chap 32 c=31->31, b=946941->983483 (36543), 61240 ms
+[14:38:48] scan: chap 33 c=32->32, b=983484->996447 (12964), 29280 ms
+[14:38:48] scan: chap 34 c=33->33, b=996448->1037600 (41153), 75040 ms
+[14:38:48] scan: chap 35 c=34->34, b=1037601->1048560 (10960), 23040 ms
+[14:38:48] scan: chap 36 c=35->35, b=1048561->1079510 (30950), 56320 ms
+[14:38:48] scan: chap 37 c=36->36, b=1079511->1088907 (9397), 21600 ms
+[14:38:48] scan: chap 38 c=37->37, b=1088908->1144293 (55386), 104840 ms
+[14:38:48] scan: chap 39 c=38->38, b=1144294->1152602 (8309), 19200 ms
+[14:38:48] scan: chap 40 c=39->39, b=1152603->1189174 (36572), 68920 ms
+[14:38:48] scan: chap 41 c=40->40, b=1189175->1189842 (668), 1440 ms
+[14:38:48] scan: chap 42 c=41->41, b=1189843->1226890 (37048), 77280 ms
+[14:38:48] scan: chap 43 c=42->42, b=1226891->1241816 (14926), 33600 ms
+[14:38:48] scan: chap 44 c=43->43, b=1241817->1265029 (23213), 52080 ms
+[14:38:48] scan: chap 45 c=44->44, b=1265030->1279433 (14404), 27840 ms
+[14:38:48] scan: chap 46 c=45->45, b=1279434->1384097 (104664), 216800 ms
+[14:38:48] scan: chap 47 c=46->46, b=1384098->1384280 (183), 480 ms
+[14:38:48] scan: aspect = 16:9
+[14:38:48] scan: decoding previews for title 2
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+[14:38:48] scan: title angle(s) 1
+[ac3 @ 0x7f64f8169480] frame sync error
+[14:38:49] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=224000 English (AC3) (2.0 ch)
+[14:38:52] scan: 10 previews, 720x576, 25.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 64:45
+[14:38:52] libhb: scan thread found 1 valid title(s)
+[14:38:52] starting job
+[14:38:52] decomb filter thread started for segment 0
+[14:38:52] decomb filter thread started for segment 1
+[14:38:52] decomb filter thread started for segment 2
+[14:38:52] decomb check thread started for segment 1
+[14:38:52] decomb filter thread started for segment 3
+[14:38:52] decomb check thread started for segment 3
+[14:38:52] decomb check thread started for segment 2
+[14:38:52] yadif thread started for segment 1
+[14:38:52] yadif thread started for segment 2
+[14:38:52] yadif thread started for segment 3
+[14:38:52] job configuration:
+[14:38:52]  * source
+[14:38:52]    + /dev/sr0
+[14:38:52]    + title 2, chapter(s) 1 to 47
+[14:38:52]  * destination
+[14:38:52]    + /media/mythfs/wiggles/Wiggles Apples_Bananas.m4v
+[14:38:52]    + container: MPEG-4 (libavformat)
+[14:38:52]      + align initial A/V stream timestamps
+[14:38:52]      + chapter markers
+[14:38:52]  * video track
+[14:38:52]    + decoder: mpeg2video
+[14:38:52]      + bitrate 200 kbps
+[14:38:52]    + filters
+[14:38:52]      + Comb Detect (mode=0:spatial-metric=2:motion-thresh=2:spatial-thresh=3:filter-mode=1:block-thresh=80:block-width=16:block-height=16)
+[14:38:52]      + Decomb (mode=39)
+[14:38:52]      + Framerate Shaper (mode=2:rate=27000000/1080000)
+[14:38:52]        + frame rate: 25.000 fps -> peak rate limited to 25.000 fps
+[14:38:52]      + Crop and Scale (width=720:height=576:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[14:38:52]        + source: 720 * 576, crop (0/0/0/0): 720 * 576, scale: 720 * 576
+[14:38:52]    + Output geometry
+[14:38:52]      + storage dimensions: 720 x 576
+[14:38:52]      + pixel aspect ratio: 64 : 45
+[14:38:52]      + display dimensions: 1024 x 576
+[14:38:52]  * Foreign Audio Search: Render/Burn-in, Forced Only
+[14:38:52]    + subtitle, English (Wide Screen) [VOBSUB] (track 0, id 0x20bd, Picture)
+[14:38:52] yadif thread started for segment 0
+[14:38:52] decomb check thread started for segment 0
+[14:38:52] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 6.0.0
+libdvdnav: DVD Title: Wiggles Apples_Bananas
+libdvdnav: DVD Serial Number: 44318506
+libdvdnav: DVD Title (Alternative): Wiggles Apples_Bananas
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000132
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000198
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x0000c983
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_0.VOB at 0x0000fb91
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x0000fbde
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_0.VOB at 0x00161b5f
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x00161bac
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_0.VOB at 0x00163af4
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x00163b41
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_0.VOB at 0x00181fd1
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_1.VOB at 0x0018201e
+libdvdread: Elapsed time 0
+libdvdread: Found 5 VTS's
+libdvdread: Elapsed time 0
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+[14:38:53] sync: expecting 67837 video frames
+[14:51:54] reader: done. 1 scr changes
+[14:51:54] work: average encoding speed for job is 0.000000 fps
+[14:51:54] comb detect: heavy 0 | light 0 | uncombed 0 | total 0
+[14:51:54] decomb: deinterlaced 0 | blended 0 | unfiltered 0 | total 0
+[14:51:54] vfr: 0 frames output, 0 dropped and 0 duped for CFR/PFR
+[14:51:54] vfr: lost time: 0 (0 frames)
+[14:51:54] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[14:51:55] mpeg2video-decoder done: 0 frames, 1 decoder errors
+[14:51:55] sync: got 0 frames, 67837 expected
+[14:51:55] Subtitle track 0 (id 0x20bd) 'English (Wide Screen) [VOBSUB]': 761 hits (0 forced)
+[14:51:55] No candidate detected during subtitle scan
+[14:51:55] starting job
+[14:51:55] decomb filter thread started for segment 0
+[14:51:55] decomb filter thread started for segment 1
+[14:51:55] decomb filter thread started for segment 2
+[14:51:55] decomb filter thread started for segment 3
+[14:51:55] decomb check thread started for segment 0
+[14:51:55] decomb check thread started for segment 1
+[14:51:55] decomb check thread started for segment 2
+[14:51:55] decomb check thread started for segment 3
+[14:51:55] yadif thread started for segment 0
+[14:51:55] yadif thread started for segment 1
+[14:51:55] yadif thread started for segment 2
+[14:51:55] yadif thread started for segment 3
+[14:51:55] job configuration:
+[14:51:55]  * source
+[14:51:55]    + /dev/sr0
+[14:51:55]    + title 2, chapter(s) 1 to 47
+[14:51:55]  * destination
+[14:51:55]    + /media/mythfs/wiggles/Wiggles Apples_Bananas.m4v
+[14:51:55]    + container: MPEG-4 (libavformat)
+[14:51:55]      + align initial A/V stream timestamps
+[14:51:55]      + chapter markers
+[14:51:55]  * video track
+[14:51:55]    + decoder: mpeg2video
+[14:51:55]      + bitrate 200 kbps
+[14:51:55]    + filters
+[14:51:55]      + Comb Detect (mode=0:spatial-metric=2:motion-thresh=2:spatial-thresh=3:filter-mode=1:block-thresh=80:block-width=16:block-height=16)
+[14:51:55]      + Decomb (mode=39)
+[14:51:55]      + Framerate Shaper (mode=2:rate=27000000/1080000)
+[14:51:55]        + frame rate: 25.000 fps -> peak rate limited to 25.000 fps
+[14:51:55]      + Crop and Scale (width=720:height=576:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[14:51:55]        + source: 720 * 576, crop (0/0/0/0): 720 * 576, scale: 720 * 576
+[14:51:55]    + Output geometry
+[14:51:55]      + storage dimensions: 720 x 576
+[14:51:55]      + pixel aspect ratio: 64 : 45
+[14:51:55]      + display dimensions: 1024 x 576
+[14:51:55]    + encoder: H.264 (libx264)
+[14:51:55]      + preset:  veryfast
+[14:51:55]      + profile: main
+[14:51:55]      + level:   3.1
+[14:51:55]      + quality: 22.00 (RF)
+[14:51:55]      + color profile: 5-1-6
+[14:51:55]  * audio track 1
+[14:51:55]    + decoder: English (AC3) (2.0 ch) (track 1, id 0x80bd)
+[14:51:55]      + bitrate: 224 kbps, samplerate: 48000 Hz
+[14:51:55]    + mixdown: Stereo
+[14:51:55]    + dither: triangular
+[14:51:55]    + encoder: AAC (libavcodec)
+[14:51:55]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[14:51:55] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 6.0.0
+libdvdnav: DVD Title: Wiggles Apples_Bananas
+libdvdnav: DVD Serial Number: 44318506
+libdvdnav: DVD Title (Alternative): Wiggles Apples_Bananas
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000132
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_0.VOB at 0x00000198
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x0000c983
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_0.VOB at 0x0000fb91
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x0000fbde
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_0.VOB at 0x00161b5f
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x00161bac
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_0.VOB at 0x00163af4
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x00163b41
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_0.VOB at 0x00181fd1
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_1.VOB at 0x0018201e
+libdvdread: Elapsed time 0
+libdvdread: Found 5 VTS's
+libdvdread: Elapsed time 0
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+[14:51:56] sync: expecting 67837 video frames
+[14:51:56] encx264: encoding at constant RF 22.000000
+[14:51:56] encx264: unparsed options: level=3.1:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=14000:vbv-maxrate=14000:rc-lookahead=10
+x264 [info]: using SAR=64/45
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX XOP FMA4
+x264 [info]: profile Main, level 3.1, 4:2:0, 8-bit
+[14:51:56] sync: first pts video is 0
+[14:51:56] sync: "Chapter 1" (1) at frame 1 time 0
+[14:51:56] sync: first pts audio 0x80bd is 0
+[14:52:31] sync: "Chapter 2" (2) at frame 2297 time 8265600
+[14:53:05] sync: "Chapter 3" (3) at frame 4746 time 17082000
+[14:53:18] sync: "Chapter 4" (4) at frame 5588 time 20113200
+[14:53:54] sync: "Chapter 5" (5) at frame 7632 time 27471600
+[14:54:00] sync: "Chapter 6" (6) at frame 8124 time 29242800
+[14:54:31] sync: "Chapter 7" (7) at frame 10166 time 36594000
+[14:54:37] sync: "Chapter 8" (8) at frame 10673 time 38419200
+[14:55:08] sync: "Chapter 9" (9) at frame 12966 time 46674000
+[14:55:09] sync: "Chapter 10" (10) at frame 13013 time 46843200
+[14:56:13] sync: "Chapter 11" (11) at frame 17288 time 62233200
+[14:56:31] sync: "Chapter 12" (12) at frame 18740 time 67460400
+[14:57:09] sync: "Chapter 13" (13) at frame 21628 time 77857200
+[14:57:17] sync: "Chapter 14" (14) at frame 22299 time 80272800
+[14:58:05] sync: "Chapter 15" (15) at frame 25989 time 93556800
+[14:58:09] sync: "Chapter 16" (16) at frame 26361 time 94896000
+[14:58:25] sync: "Chapter 17" (17) at frame 27945 time 100598400
+[14:58:26] sync: "Chapter 18" (18) at frame 27993 time 100771200
+[14:59:08] sync: "Chapter 19" (19) at frame 32048 time 115369200
+[14:59:13] sync: "Chapter 20" (20) at frame 32540 time 117140400
+[14:59:35] sync: "Chapter 21" (21) at frame 34430 time 123944400
+[14:59:36] sync: "Chapter 22" (22) at frame 34454 time 124030800
+[14:59:56] sync: "Chapter 23" (23) at frame 36387 time 130989600
+[15:00:01] sync: "Chapter 24" (24) at frame 36807 time 132501600
+[15:00:28] sync: "Chapter 25" (25) at frame 38990 time 140360400
+[15:00:28] sync: "Chapter 26" (26) at frame 39014 time 140446800
+[15:00:49] sync: "Chapter 27" (27) at frame 40980 time 147524400
+[15:00:54] sync: "Chapter 28" (28) at frame 41532 time 149511600
+[15:01:07] sync: "Chapter 29" (29) at frame 43061 time 155016000
+[15:01:15] sync: "Chapter 30" (30) at frame 43879 time 157960800
+[15:01:32] sync: "Chapter 31" (31) at frame 45563 time 164023200
+[15:01:37] sync: "Chapter 32" (32) at frame 46115 time 166010400
+[15:01:55] sync: "Chapter 33" (33) at frame 47646 time 171522000
+[15:02:01] sync: "Chapter 34" (34) at frame 48377 time 174153600
+[15:02:21] sync: "Chapter 35" (35) at frame 50254 time 180910800
+[15:02:26] sync: "Chapter 36" (36) at frame 50830 time 182984400
+[15:02:40] sync: "Chapter 37" (37) at frame 52238 time 188053200
+[15:02:45] sync: "Chapter 38" (38) at frame 52778 time 189997200
+[15:03:11] sync: "Chapter 39" (39) at frame 55398 time 199429200
+[15:03:14] sync: "Chapter 40" (40) at frame 55879 time 201160800
+[15:03:31] sync: "Chapter 41" (41) at frame 57602 time 207363600
+[15:03:31] sync: "Chapter 42" (42) at frame 57638 time 207493200
+[15:03:48] sync: "Chapter 43" (43) at frame 59570 time 214448400
+[15:03:55] sync: "Chapter 44" (44) at frame 60410 time 217472400
+[15:04:05] sync: "Chapter 45" (45) at frame 61712 time 222159600
+[15:04:12] sync: "Chapter 46" (46) at frame 62407 time 224661600
+[15:04:57] reader: done. 1 scr changes
+[15:04:58] work: average encoding speed for job is 86.774445 fps
+[15:04:58] comb detect: heavy 6 | light 252 | uncombed 67579 | total 67837
+[15:04:58] decomb: deinterlaced 6 | blended 252 | unfiltered 67579 | total 67837
+[15:04:58] vfr: 67837 frames output, 0 dropped and 0 duped for CFR/PFR
+[15:04:58] vfr: lost time: 0 (0 frames)
+[15:04:58] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[15:04:58] ac3-decoder done: 84782 frames, 0 decoder errors
+[15:04:58] mpeg2video-decoder done: 67837 frames, 0 decoder errors
+[15:04:58] sync: got 67837 frames, 67837 expected
+[15:04:58] sync: framerate min 25.000 fps, max 25.000 fps, avg 25.000 fps
+x264 [info]: frame I:623   Avg QP:19.56  size: 53822
+x264 [info]: frame P:22425 Avg QP:23.31  size: 10017
+x264 [info]: frame B:44789 Avg QP:26.09  size:  2565
+x264 [info]: consecutive B-frames:  7.5% 10.0% 10.5% 72.0%
+x264 [info]: mb I  I16..4: 22.9%  0.0% 77.1%
+x264 [info]: mb P  I16..4:  5.6%  0.0%  7.9%  P16..4: 30.0% 11.0%  8.4%  0.0%  0.0%    skip:37.1%
+x264 [info]: mb B  I16..4:  0.8%  0.0%  0.9%  B16..8: 11.7%  6.1%  1.3%  direct: 6.0%  skip:73.2%  L0:33.8% L1:40.2% BI:26.0%
+x264 [info]: coded y,uvDC,uvAC intra: 59.9% 74.7% 47.5% inter: 10.4% 12.0% 1.8%
+x264 [info]: i16 v,h,dc,p: 41% 27% 16% 16%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 28% 14% 14%  7%  7% 10%  6%  9%  5%
+x264 [info]: i8c dc,h,v,p: 42% 20% 29%  9%
+x264 [info]: Weighted P-Frames: Y:1.1% UV:0.8%
+x264 [info]: kb/s:1099.80
+[15:04:58] mux: track 0, 67837 frames, 373010103 bytes, 1099.71 kbps, fifo 4096
+[15:04:58] mux: track 1, 127174 frames, 54577072 bytes, 160.90 kbps, fifo 8192
+[15:04:58] libhb: work result = 0

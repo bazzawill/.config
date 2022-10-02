@@ -1,0 +1,149 @@
+Handbrake Version: rev5474 (2014072799)
+
+** (ghb:11166): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[18:38:49] hb_scan: path=/dev/sr0, title_index=1
+index_parse.c:191: indx_parse(): error opening /dev/sr0/BDMV/index.bdmv
+index_parse.c:191: indx_parse(): error opening /dev/sr0/BDMV/BACKUP/index.bdmv
+bluray.c:2341: nav_get_title_list(/dev/sr0) failed
+[18:38:49] bd: not a bd - trying as a stream/file instead
+[18:38:49] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 4.1.3
+libdvdread: Encrypted DVD support unavailable.
+libdvdnav: DVD Title: DVDVolume
+libdvdnav: DVD Serial Number: bf4b55ef        
+libdvdnav: DVD Title (Alternative): DVDVolume
+libdvdnav: Unable to find map file '/home/bazza/.dvdnav/DVDVolume.map'
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+libdvdread: Encrypted DVD support unavailable.
+[18:38:51] scan: DVD has 3 title(s)
+[18:38:51] scan: scanning title 1
+[18:38:51] scan: opening IFO for VTS 1
+[18:38:51] scan: duration is 01:13:04 (4384120 ms)
+[18:38:51] pgc_id: 1, pgn: 1: pgc: 0x7f9f8000abd0
+[18:38:51] scan: vts=1, ttn=1, cells=0->18, blocks=0->1832543, 1832544 blocks
+[18:38:51] scan: checking audio 1
+[18:38:51] scan: id=0x80bd, lang=Unknown (AC3), 3cc=und ext=0
+[18:38:51] scan: title 1 has 19 chapters
+[18:38:51] scan: chap 1 c=0->0, b=0->80127 (80128), 202217 ms
+[18:38:51] scan: chap 2 c=1->1, b=80128->140913 (60786), 142229 ms
+[18:38:51] scan: chap 3 c=2->2, b=140914->264002 (123089), 297340 ms
+[18:38:51] scan: chap 4 c=3->3, b=264003->299759 (35757), 84452 ms
+[18:38:51] scan: chap 5 c=4->4, b=299760->342381 (42622), 110478 ms
+[18:38:51] scan: chap 6 c=5->5, b=342382->530355 (187974), 465465 ms
+[18:38:51] scan: chap 7 c=6->6, b=530356->616511 (86156), 222257 ms
+[18:38:51] scan: chap 8 c=7->7, b=616512->771657 (155146), 339372 ms
+[18:38:51] scan: chap 9 c=8->8, b=771658->848977 (77320), 191547 ms
+[18:38:51] scan: chap 10 c=9->9, b=848978->985283 (136306), 328571 ms
+[18:38:51] scan: chap 11 c=10->10, b=985284->1045135 (59852), 143140 ms
+[18:38:51] scan: chap 12 c=11->11, b=1045136->1201894 (156759), 316469 ms
+[18:38:51] scan: chap 13 c=12->12, b=1201895->1257737 (55843), 143140 ms
+[18:38:51] scan: chap 14 c=13->13, b=1257738->1366783 (109046), 258302 ms
+[18:38:51] scan: chap 15 c=14->14, b=1366784->1438055 (71272), 198314 ms
+[18:38:51] scan: chap 16 c=15->15, b=1438056->1622722 (184667), 411722 ms
+[18:38:51] scan: chap 17 c=16->16, b=1622723->1665821 (43099), 108265 ms
+[18:38:51] scan: chap 18 c=17->17, b=1665822->1770351 (104530), 268582 ms
+[18:38:51] scan: chap 19 c=18->18, b=1770352->1832543 (62192), 152248 ms
+[18:38:51] scan: aspect = 1.33333
+[18:38:51] scan: decoding previews for title 1
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[18:38:52] scan: title angle(s) 1
+[18:38:52] scan: audio 0x80bd: AC-3, rate=48000Hz, bitrate=224000 Unknown (AC3) (2.0 ch)
+[18:38:55] scan: 10 previews, 720x576, 25.000 fps, autocrop = 2/0/8/10, aspect 4:3, PAR 16:15
+[18:38:55] libhb: scan thread found 1 valid title(s)
+[18:38:57] gtkgui: Preset: Regular->Normal
+[18:38:57] 1 job(s) to process
+[18:38:57] starting job
+[18:38:57] sync: expecting 109603 video frames
+[18:38:57] job configuration:
+[18:38:57]  * source
+[18:38:57]    + /dev/sr0
+[18:38:57]    + title 1, chapter(s) 1 to 19
+[18:38:57]  * destination
+[18:38:57]    + /media/mythfs/videos/Adam Sandler SNL
+[18:38:57]    + container: MPEG-4 (.mp4 and .m4v)
+[18:38:57]      + chapter markers
+[18:38:57]  * video track
+[18:38:57]    + decoder: mpeg2
+[18:38:57]      + bitrate 8500 kbps
+[18:38:57]    + frame rate: same as source (around 25.000 fps)
+[18:38:57]    + filters
+[18:38:57]      + Framerate Shaper (0:27000000:1080000)
+[18:38:57]        + frame rate: same as source (around 25.000 fps)
+[18:38:57]      + Crop and Scale (702:574:2:0:8:10)
+[18:38:57]        + source: 720 * 576, crop (2/0/8/10): 702 * 574, scale: 702 * 574
+[18:38:57]    + loose anamorphic
+[18:38:57]      + storage dimensions: 702 * 574, mod 2
+[18:38:57]      + pixel aspect ratio: 16 / 15
+[18:38:57]      + display dimensions: 748 * 574
+[18:38:57]    + encoder: H.264 (x264)
+[18:38:57]      + x264 preset: veryfast
+[18:38:57]      + h264 profile: main
+[18:38:57]      + h264 level: 4.0
+[18:38:57]      + quality: 20.00 (RF)
+[18:38:57]  * audio track 1
+[18:38:57]    + decoder: Unknown (AC3) (2.0 ch) (track 1, id 0x80bd)
+[18:38:57]      + bitrate: 224 kbps, samplerate: 48000 Hz
+[18:38:57]    + mixdown: Stereo
+[18:38:57]    + encoder: AAC (faac)
+[18:38:57]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[18:38:57] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 4.1.3
+libdvdread: Encrypted DVD support unavailable.
+libdvdnav: DVD Title: DVDVolume
+libdvdnav: DVD Serial Number: bf4b55ef        
+libdvdnav: DVD Title (Alternative): DVDVolume
+libdvdnav: Unable to find map file '/home/bazza/.dvdnav/DVDVolume.map'
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+libdvdread: Encrypted DVD support unavailable.
+libdvdnav: DVD disk reports itself with Region mask 0x00c00000. Regions: 1 2 3 4 5 6
+[18:38:57] encx264: encoding with stored aspect 16/15
+[18:38:57] encx264: Encoding at constant RF 20.000000
+x264 [warning]: --psnr used with psy on: results will be invalid!
+x264 [warning]: --tune psnr should be used if attempting to benchmark psnr!
+x264 [info]: using SAR=16/15
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+x264 [info]: profile Main, level 4.0
+[18:38:58] reader: first SCR 146 id 0xe0 DTS 2539
+[18:38:58] mpeg2: "Chapter 1" (1) at frame 0 time 3600
+[18:38:58] sync: first pts is 3600
+[18:40:02] mpeg2: "Chapter 2" (2) at frame 5070 time 18255600
+[18:40:47] mpeg2: "Chapter 3" (3) at frame 8632 time 31078800
+[18:42:15] mpeg2: "Chapter 4" (4) at frame 16068 time 57848400
+[18:42:38] mpeg2: "Chapter 5" (5) at frame 18187 time 65476800
+[18:43:06] mpeg2: "Chapter 6" (6) at frame 20956 time 75445200
+[18:45:01] mpeg2: "Chapter 7" (7) at frame 32591 time 117331200
+[18:45:51] mpeg2: "Chapter 8" (8) at frame 38142 time 137314800
+[18:47:15] mpeg2: "Chapter 9" (9) at frame 46618 time 167828400
+[18:47:55] mpeg2: "Chapter 10" (10) at frame 51402 time 185050800
+[18:49:05] mpeg2: "Chapter 11" (11) at frame 59618 time 214628400
+[18:49:34] mpeg2: "Chapter 12" (12) at frame 63193 time 227498400
+[18:50:48] mpeg2: "Chapter 13" (13) at frame 71097 time 255952800
+[18:51:14] mpeg2: "Chapter 14" (14) at frame 74672 time 268822800
+[18:52:03] mpeg2: "Chapter 15" (15) at frame 81133 time 292082400
+[18:52:35] mpeg2: "Chapter 16" (16) at frame 86086 time 309913200
+[18:53:52] mpeg2: "Chapter 17" (17) at frame 96369 time 346932000
+[18:54:11] mpeg2: "Chapter 18" (18) at frame 99073 time 356666400
+[18:54:56] mpeg2: "Chapter 19" (19) at frame 105781 time 380815200
+[18:55:22] reader: done. 1 scr changes
+[18:55:23] work: average encoding speed for job is 111.351501 fps
+[18:55:23] sync: got 109601 frames, 109603 expected
+[18:55:23] render: lost time: 0 (0 frames)
+[18:55:23] render: gained time: 0 (0 frames) (0 not accounted for)
+[18:55:23] mpeg2 done: 109601 frames
+x264 [info]: frame I:621   Avg QP:19.53  size: 52065  PSNR Mean Y:43.59 U:48.29 V:48.65 Avg:44.67 Global:44.41
+x264 [info]: frame P:50059 Avg QP:22.37  size: 18090  PSNR Mean Y:39.99 U:46.34 V:46.80 Avg:41.28 Global:41.10
+x264 [info]: frame B:58921 Avg QP:25.04  size:  4100  PSNR Mean Y:38.94 U:46.31 V:46.87 Avg:40.33 Global:40.15
+x264 [info]: consecutive B-frames:  3.7% 65.3% 25.6%  5.4%
+x264 [info]: mb I  I16..4: 21.7%  0.0% 78.3%
+x264 [info]: mb P  I16..4:  6.5%  0.0%  2.4%  P16..4: 42.7% 20.8% 16.1%  0.0%  0.0%    skip:11.5%
+x264 [info]: mb B  I16..4:  0.9%  0.0%  0.2%  B16..8: 15.1%  6.2%  1.3%  direct:14.8%  skip:61.5%  L0:21.3% L1:39.4% BI:39.2%
+x264 [info]: coded y,uvDC,uvAC intra: 58.9% 45.0% 16.5% inter: 30.2% 10.3% 0.6%
+x264 [info]: i16 v,h,dc,p: 37% 29% 25%  8%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 42% 14%  4%  4%  4%  5%  4%  5%
+x264 [info]: i8c dc,h,v,p: 59% 20% 18%  4%
+x264 [info]: Weighted P-Frames: Y:3.5% UV:2.0%
+x264 [info]: SSIM Mean Y:0.9675653 (14.890db)
+x264 [info]: PSNR Mean Y:39.447 U:46.333 V:46.847 Avg:40.787 Global:40.572 kb/s:2152.33
+[18:55:23] mux: track 0, 109601 frames, 1179463894 bytes, 2152.25 kbps, fifo 2048
+[18:55:23] mux: track 1, 205505 frames, 87672063 bytes, 159.98 kbps, fifo 4096
+[18:55:23] libhb: work result = 0

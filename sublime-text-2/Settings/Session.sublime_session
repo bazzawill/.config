@@ -1,0 +1,228 @@
+{
+	"folder_history":
+	[
+	],
+	"last_window_id": 1,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "#Activity 1.2\n**As you're reading the article, think about whether you'd like to modify any of the comments you made in Activity 1.1, or even to alter your position.**\n\nI still hold with the positions I took in activity 1.1 however of the orientations put forth in this article I would align more with the socially-critical orientation. I do see a need to take parts of the other two orientations however as we need to ensure we are teaching students useful skills to take to the work force and for life. I do see it as a moral imperative to use schooling to improve society as a whole and teach students about social issues.\n\n**Why do you think that Kemmis et al. say that most schools will harbor all three of the orientations? What does your own experience suggest?**\n\nSchools may harbor all three orientations to appease different stake holders. This could lead to a disjointed curriculum not fulfilling any one orientation successful.\n\n\n**How realistic is the notion of a socially-critical orientation to curriculum? What might be some of the inhibitors to this?**\n\nThe socially-critical orientation may be somewhat idealised to enact fully. Some inhibitors may be stake holders that are focused on other orientations. For instance governments will want their investments in schools to go toward ensuring students are productive members of the work force (vocational/neo-classical orientation) and be less inclined to focus on social change. In fact governments may be more inclined to stick with the status quo as social change may challenge them.\n\n**At your level of schooling (and/or within your subject specialisation), what would a socially critical curriculum look like?**\n\nAs a outdoor education teacher there are many ways I can develop a socially critical curriculum. Firstly by fostering a connection with nature and showing students directly the environmental impact we have I would hope to develop students awareness of environmental issues.\nSecondly I would take students to Aboriginal communities / learning centres and show students the deep connection the Aboriginal people have to the land, the ingenuity they have to do with what the land provides, and the culture and spirituality the Aboriginal people celebrate.",
+					"settings":
+					{
+						"buffer_size": 2237,
+						"line_ending": "Unix",
+						"name": "#Activity 1.2"
+					}
+				},
+				{
+					"contents": "What is literacy and how does it matter for students middle school in a low socioeconomic area; more importantly how can I their teacher explain and motivate them to develop their literacy skills.\nLiteracy takes many characteristics known as multiliteracy. At one time there was only thought to be one literacy you where taught how to read and right \"proper\" English as decided by teachers and school administration. The concept of multiliteracy is relatively new. It has been divided in to two areas in which literacy takes on multiple meanings. \nThe first is the context in which literacy is used. We speak and write differently with friends than the way we might in the work force or in school. There are many context in which literacy may be used differently\nThe second area of literacy is the mode in which literacy is being used. Literacy modes include written, visual, spacial, tactile, gestural, audio and oral. Students need to have be literate across these modes of communication. Literacy is more than just reading and writing. Today we need to be able to communicate in through a variety of methods and this will only increase as technology develops new methods of communication.\nIt is important students realise how literacy plays a part in all aspects of their lives and how developing correct or best practice literacy skills in a variety of contexts will help the students to negotiate and engage with the many and varied experiences of life. This includes the education, employment, social and community domains just to name a few.\nOne example of matching literacy context to skill I have personally witnessed is in my previous job I worked in a call centre. One valued skill a call centre operator should develop is the ability to build rapport with a customer. This is the ability to break down the wall between customer and agent and have the customer trust you. Matching the customers manner / expectation is a great way to do this. The centre I worked at we would speak to a variety of customers. On one call you could be speaking to a young person where a more social language is going to put the customer at ease and see you as a person. However the next call might be a business person with a large account who expects a more professional attitude. The agents who where able to quickly and easily switch between these contexts of oral communication where able to succeed and give their customers confidence in the agents ability.\n\n",
+					"settings":
+					{
+						"buffer_size": 2456,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 52.0,
+				"selected_items":
+				[
+					[
+						"packa",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 575.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"settings":
+							{
+								"buffer_size": 2237,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_name": "#Activity 1.2",
+									"spell_check": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"settings":
+							{
+								"buffer_size": 2456,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2456,
+										2456
+									]
+								],
+								"settings":
+								{
+									"spell_check": true,
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,640,480,3600,1200",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+   "AlarmClock": {
+      "message": "Modinātājs"
+   },
+   "AppDesc": {
+      "message": "Useful timers for all your needs"
+   },
+   "AppName": {
+      "message": "Timer for Google Chrome™"
+   },
+   "Cancel": {
+      "message": "atcelt"
+   },
+   "Countdown": {
+      "message": "Atpakaļskaitīšana"
+   },
+   "Pause": {
+      "message": "Pauze"
+   },
+   "Resume": {
+      "message": "Turpināt"
+   },
+   "Stop": {
+      "message": "Pietura"
+   },
+   "Stopwatch": {
+      "message": "hronometrs"
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Picture-in-Picture 모드 (Floating Video Player)를 사용하여 동영상을 시청하세요. 모든 종류의 비디오 웹 사이트를 지원합니다."
+   },
+   "name": {
+      "message": "PIP 비디오"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

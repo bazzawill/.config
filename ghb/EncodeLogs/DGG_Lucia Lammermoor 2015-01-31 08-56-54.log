@@ -1,0 +1,252 @@
+Handbrake Version: 0.10.0 (2014121000)
+
+** (ghb:27375): WARNING **: Inhibit failed: The name org.freedesktop.PowerManagement was not provided by any .service files
+[08:56:54] CPU: 
+[08:56:54]  - logical processor count: 4
+[08:56:54] hb_scan: path=/dev/sr0, title_index=2
+index_parse.c:191: indx_parse(): error opening /run/media/bazza/OPERA_AUSTRALIA_CHORUS/BDMV/index.bdmv
+index_parse.c:191: indx_parse(): error opening /run/media/bazza/OPERA_AUSTRALIA_CHORUS/BDMV/BACKUP/index.bdmv
+bluray.c:2356: nav_get_title_list(/run/media/bazza/OPERA_AUSTRALIA_CHORUS) failed
+[08:56:54] bd: not a bd - trying as a stream/file instead
+[08:56:54] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: DGG_Lucia Lammermoor
+libdvdnav: DVD Serial Number: 335b7f3c
+libdvdnav: DVD Title (Alternative): 
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000152
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x0000071d
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_0.VOB at 0x00001d02
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x00001f39
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_0.VOB at 0x003895b1
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_03_0.VOB (0x003895b1)
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x003895b5
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_03_1.VOB (0x003895b5)!!
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_0.VOB at 0x0038974d
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_04_0.VOB (0x0038974d)
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x00389751
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_04_1.VOB (0x00389751)!!
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_0.VOB at 0x0039810e
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_05_0.VOB (0x0039810e)
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_1.VOB at 0x00398aee
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_05_1.VOB (0x00398aee)!!
+libdvdread: Elapsed time 0
+libdvdread: Found 5 VTS's
+libdvdread: Elapsed time 0
+[08:56:55] scan: DVD has 5 title(s)
+[08:56:55] scan: scanning title 2
+[08:56:55] scan: opening IFO for VTS 2
+[08:56:55] scan: duration is 02:16:37 (8197433 ms)
+[08:56:55] pgc_id: 1, pgn: 1: pgc: 0x7f7770010350
+[08:56:55] scan: vts=2, ttn=1, cells=0->38, blocks=0->3700274, 3700275 blocks
+[08:56:55] scan: checking audio 1
+[08:56:55] scan: id=0xa0bd, lang=Italiano (LPCM), 3cc=ita ext=0
+[08:56:55] scan: checking audio 2
+[08:56:55] scan: id=0x81bd, lang=Italiano (AC3), 3cc=ita ext=0
+[08:56:55] scan: checking audio 3
+[08:56:55] scan: id=0x8abd, lang=Italiano (DTS), 3cc=ita ext=0
+[08:56:55] scan: checking subtitle 1
+[08:56:55] scan: id=0x20bd, lang=Italiano, 3cc=ita ext=0
+[08:56:55] scan: checking subtitle 2
+[08:56:55] scan: id=0x21bd, lang=English, 3cc=eng ext=0
+[08:56:55] scan: checking subtitle 3
+[08:56:55] scan: id=0x22bd, lang=Deutsch, 3cc=deu ext=0
+[08:56:55] scan: checking subtitle 4
+[08:56:55] scan: id=0x23bd, lang=Francais, 3cc=fra ext=0
+[08:56:55] scan: checking subtitle 5
+[08:56:55] scan: id=0x24bd, lang=Espanol, 3cc=spa ext=0
+[08:56:55] scan: checking subtitle 6
+[08:56:55] scan: id=0x25bd, lang=Chinese, 3cc=zho ext=0
+[08:56:55] scan: title 2 has 38 chapters
+[08:56:55] scan: chap 1 c=0->0, b=0->46410 (46411), 100934 ms
+[08:56:55] scan: chap 2 c=1->1, b=46411->134278 (87868), 203734 ms
+[08:56:55] scan: chap 3 c=2->2, b=134279->204110 (69832), 165533 ms
+[08:56:55] scan: chap 4 c=3->3, b=204111->265665 (61555), 142533 ms
+[08:56:55] scan: chap 5 c=4->4, b=265666->319500 (53835), 119033 ms
+[08:56:55] scan: chap 6 c=5->5, b=319501->399943 (80443), 179967 ms
+[08:56:55] scan: chap 7 c=6->6, b=399944->509662 (109719), 260400 ms
+[08:56:55] scan: chap 8 c=7->7, b=509663->613594 (103932), 236967 ms
+[08:56:55] scan: chap 9 c=8->8, b=613595->735306 (121712), 283500 ms
+[08:56:55] scan: chap 10 c=9->9, b=735307->805796 (70490), 156967 ms
+[08:56:55] scan: chap 11 c=10->10, b=805797->881551 (75755), 172900 ms
+[08:56:55] scan: chap 12 c=11->11, b=881552->950613 (69062), 151266 ms
+[08:56:55] scan: chap 13 c=12->12, b=950614->1109690 (159077), 356000 ms
+[08:56:55] scan: chap 14 c=13->13, b=1109691->1190438 (80748), 183934 ms
+[08:56:55] scan: chap 15 c=14->14, b=1190439->1230584 (40146), 89700 ms
+[08:56:55] scan: chap 16 c=15->15, b=1230585->1347445 (116861), 247800 ms
+[08:56:55] scan: chap 17 c=16->16, b=1347446->1478560 (131115), 280033 ms
+[08:56:55] scan: chap 18 c=17->17, b=1478561->1543201 (64641), 141333 ms
+[08:56:55] scan: chap 19 c=18->18, b=1543202->1608138 (64937), 146100 ms
+[08:56:55] scan: chap 20 c=19->19, b=1608139->1673637 (65499), 141333 ms
+[08:56:55] scan: chap 21 c=20->20, b=1673638->1730944 (57307), 124166 ms
+[08:56:55] scan: chap 22 c=21->21, b=1730945->1768363 (37419), 76867 ms
+[08:56:55] scan: chap 23 c=22->22, b=1768364->1828159 (59796), 117600 ms
+[08:56:55] scan: chap 24 c=23->23, b=1828160->1884795 (56636), 107000 ms
+[08:56:55] scan: chap 25 c=24->25, b=1884796->1953729 (68934), 137900 ms
+[08:56:55] scan: chap 26 c=26->26, b=1953730->2076474 (122745), 277266 ms
+[08:56:55] scan: chap 27 c=27->27, b=2076475->2170602 (94128), 206033 ms
+[08:56:55] scan: chap 28 c=28->28, b=2170603->2247890 (77288), 171300 ms
+[08:56:55] scan: chap 29 c=29->29, b=2247891->2311343 (63453), 119033 ms
+[08:56:55] scan: chap 30 c=30->30, b=2311344->2462313 (150970), 305834 ms
+[08:56:55] scan: chap 31 c=31->31, b=2462314->2647441 (185128), 400000 ms
+[08:56:55] scan: chap 32 c=32->32, b=2647442->2846942 (199501), 456266 ms
+[08:56:55] scan: chap 33 c=33->33, b=2846943->2931751 (84809), 175900 ms
+[08:56:55] scan: chap 34 c=34->34, b=2931752->3160184 (228433), 520033 ms
+[08:56:55] scan: chap 35 c=35->35, b=3160185->3255796 (95612), 232567 ms
+[08:56:55] scan: chap 36 c=36->36, b=3255797->3359528 (103732), 243400 ms
+[08:56:55] scan: chap 37 c=37->37, b=3359529->3469747 (110219), 249233 ms
+[08:56:55] scan: chap 38 c=38->38, b=3469748->3700274 (230527), 517066 ms
+[08:56:55] scan: aspect = 1.33333
+[08:56:55] scan: decoding previews for title 2
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+[08:56:55] scan: title angle(s) 1
+[08:56:55] scan: audio 0xa0bd: LPCM, rate=48000Hz, bitrate=1536000 Italiano (LPCM) (2.0 ch)
+[08:56:55] scan: audio 0x8abd: dca, rate=48000Hz, bitrate=768000 Italiano (DTS) (5.1 ch)
+[ac3 @ 0x7f777014f380] frame sync error
+[ac3 @ 0x7f777014b880] frame sync error
+[08:56:55] scan: audio 0x81bd: ac3, rate=48000Hz, bitrate=448000 Italiano (AC3) (5.1 ch)
+libdvdread: Can't seek to block 1689787
+[08:56:55] dvdnav: Read Error, Error reading NAV packet.
+[08:56:55] dvdnav: Read Error, Error reading NAV packet.
+[08:56:55] Warning: Could not read data for preview 5, skipped
+[08:56:55] scan: 4 previews, 720x480, 29.970 fps, autocrop = 0/0/8/4, aspect 4:3, PAR 8:9
+[08:56:55] libhb: scan thread found 1 valid title(s)
+[08:56:57] gtkgui: Preset: Regular->Normal
+[08:56:57] 1 job(s) to process
+[08:56:57] starting job
+[08:56:57] sync: expecting 245677 video frames
+[08:56:57] job configuration:
+[08:56:57]  * source
+[08:56:57]    + /dev/sr0
+[08:56:57]    + title 2, chapter(s) 1 to 38
+[08:56:57]  * destination
+[08:56:57]    + /media/mythfs/videos/DGG_Lucia Lammermoor.m4v
+[08:56:57]    + container: MPEG-4 (libavformat)
+[08:56:57]      + chapter markers
+[08:56:57]  * video track
+[08:56:57]    + decoder: mpeg2video
+[08:56:57]      + bitrate 6809 kbps
+[08:56:57]    + filters
+[08:56:57]      + Framerate Shaper (0:27000000:900900)
+[08:56:57]        + frame rate: same as source (around 29.970 fps)
+[08:56:57]      + Crop and Scale (708:480:0:0:8:4)
+[08:56:57]        + source: 720 * 480, crop (0/0/8/4): 708 * 480, scale: 708 * 480
+[08:56:57]    + loose anamorphic
+[08:56:57]      + storage dimensions: 708 * 480, mod 2
+[08:56:57]      + pixel aspect ratio: 8 / 9
+[08:56:57]      + display dimensions: 629 * 480
+[08:56:57]    + encoder: H.264 (libx264)
+[08:56:57]      + preset:  veryfast
+[08:56:57]      + profile: main
+[08:56:57]      + level:   4.0
+[08:56:57]      + quality: 20.00 (RF)
+[08:56:57]  * audio track 1
+[08:56:57]    + decoder: Italiano (LPCM) (2.0 ch) (track 1, id 0xa0bd)
+[08:56:57]      + bitrate: 1536 kbps, samplerate: 48000 Hz
+[08:56:57]    + mixdown: Stereo
+[08:56:57]    + encoder: AAC (libavcodec)
+[08:56:57]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[08:56:57] dvd: Region mask 0xfe
+libdvdnav: Using dvdnav version 5.0.2
+libdvdnav: DVD Title: DGG_Lucia Lammermoor
+libdvdnav: DVD Serial Number: 335b7f3c
+libdvdnav: DVD Title (Alternative): 
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+
+libdvdread: Attempting to retrieve all CSS keys
+libdvdread: This can take a _long_ time, please be patient
+
+libdvdread: Get key for /VIDEO_TS/VIDEO_TS.VOB at 0x00000152
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_01_1.VOB at 0x0000071d
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_0.VOB at 0x00001d02
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_02_1.VOB at 0x00001f39
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_0.VOB at 0x003895b1
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_03_0.VOB (0x003895b1)
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_03_1.VOB at 0x003895b5
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_03_1.VOB (0x003895b5)!!
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_0.VOB at 0x0038974d
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_04_0.VOB (0x0038974d)
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_04_1.VOB at 0x00389751
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_04_1.VOB (0x00389751)!!
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_0.VOB at 0x0039810e
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_05_0.VOB (0x0039810e)
+libdvdread: Elapsed time 0
+libdvdread: Get key for /VIDEO_TS/VTS_05_1.VOB at 0x00398aee
+libdvdread: Error cracking CSS key for /VIDEO_TS/VTS_05_1.VOB (0x00398aee)!!
+libdvdread: Elapsed time 0
+libdvdread: Found 5 VTS's
+libdvdread: Elapsed time 0
+libdvdnav: DVD disk reports itself with Region mask 0x00000000. Regions: 1 2 3 4 5 6 7 8
+[08:56:57] encx264: min-keyint: 30, keyint: 300
+[08:56:57] encx264: encoding at constant RF 20.000000
+[08:56:57] encx264: unparsed options: level=4.0:ref=1:8x8dct=0:weightp=1:subme=2:mixed-refs=0:trellis=0:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=10
+x264 [info]: using SAR=8/9
+[08:56:57] reader: first SCR 146 id 0xe0 DTS 22254
+[08:56:57] mpeg2video: "Chapter 1" (1) at frame 0 time 3003
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 LZCNT
+x264 [info]: profile Main, level 4.0
+[08:56:57] sync: first pts is 3003
+[08:57:35] mpeg2video: "Chapter 2" (2) at frame 3028 time 9096087
+[08:58:45] mpeg2video: "Chapter 3" (3) at frame 9140 time 27450423
+[08:59:37] mpeg2video: "Chapter 4" (4) at frame 14106 time 42363321
+[09:00:20] mpeg2video: "Chapter 5" (5) at frame 18382 time 55204149
+[09:00:56] mpeg2video: "Chapter 6" (6) at frame 21953 time 65927862
+[09:01:48] mpeg2video: "Chapter 7" (7) at frame 27352 time 82141059
+[09:02:56] mpeg2video: "Chapter 8" (8) at frame 35164 time 105600495
+[09:03:56] mpeg2video: "Chapter 9" (9) at frame 42273 time 126948822
+[09:05:02] mpeg2video: "Chapter 10" (10) at frame 50778 time 152489337
+[09:05:39] mpeg2video: "Chapter 11" (11) at frame 55487 time 166630464
+[09:06:18] mpeg2video: "Chapter 12" (12) at frame 60674 time 182207025
+[09:06:53] mpeg2video: "Chapter 13" (13) at frame 65212 time 195834639
+[09:08:09] mpeg2video: "Chapter 14" (14) at frame 75892 time 227906679
+[09:08:46] mpeg2video: "Chapter 15" (15) at frame 81410 time 244477233
+[09:09:05] mpeg2video: "Chapter 16" (16) at frame 84101 time 252558306
+[09:09:56] mpeg2video: "Chapter 17" (17) at frame 91535 time 274882608
+[09:10:52] mpeg2video: "Chapter 18" (18) at frame 99936 time 300110811
+[09:11:19] mpeg2video: "Chapter 19" (19) at frame 104176 time 312843531
+[09:11:46] mpeg2video: "Chapter 20" (20) at frame 108559 time 326005680
+libdvdread: Can't seek to block 1640881
+[09:11:56] dvdnav: Read Error, Error reading from DVD.
+[09:11:56] reader: done. 2 scr changes
+[09:11:56] work: average encoding speed for job is 122.456795 fps
+[09:11:56] sync: got 110180 frames, 245677 expected
+[09:11:56] render: lost time: 0 (0 frames)
+[09:11:56] render: gained time: 0 (0 frames) (0 not accounted for)
+[09:11:56] mpeg2video-decoder done: 110180 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:466   Avg QP:18.51  size: 36472
+x264 [info]: frame P:49661 Avg QP:21.33  size:  8847
+x264 [info]: frame B:60053 Avg QP:23.00  size:  2214
+x264 [info]: consecutive B-frames: 12.6% 30.3% 41.7% 15.3%
+x264 [info]: mb I  I16..4: 42.5%  0.0% 57.5%
+x264 [info]: mb P  I16..4: 17.3%  0.0%  0.5%  P16..4: 41.7% 14.4%  8.2%  0.0%  0.0%    skip:17.7%
+x264 [info]: mb B  I16..4:  1.6%  0.0%  0.0%  B16..8: 15.2%  3.8%  0.4%  direct:23.1%  skip:56.0%  L0:28.6% L1:47.7% BI:23.7%
+x264 [info]: coded y,uvDC,uvAC intra: 23.6% 73.9% 26.9% inter: 16.7% 29.0% 0.8%
+x264 [info]: i16 v,h,dc,p: 60% 21% 14%  5%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 31% 19%  5%  4%  5%  5%  5%  6%
+x264 [info]: i8c dc,h,v,p: 57% 21% 19%  3%
+x264 [info]: Weighted P-Frames: Y:1.8% UV:0.4%
+x264 [info]: kb/s:1282.34
+[09:11:57] mux: track 0, 110180 frames, 589290822 bytes, 1282.32 kbps, fifo 4096
+[09:11:57] mux: track 1, 172315 frames, 73564567 bytes, 160.08 kbps, fifo 4096
+[09:11:57] libhb: work result = 0

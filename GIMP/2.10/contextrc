@@ -1,0 +1,14 @@
+# GIMP user context
+
+(tool "gimp-rect-select-tool")
+(paint-info "gimp-paintbrush")
+(brush "2. Hardness 025")
+(dynamics "Pencil Generic")
+(mybrush "100% Opaque")
+(pattern "Blue Squares")
+(gradient "Pastel Rainbow")
+(palette "Color History")
+(font "Standard")
+(tool-preset "Core Pointer")
+
+# end of user context

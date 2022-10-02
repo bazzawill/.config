@@ -1,0 +1,17 @@
+2022-09-17 00:09:04 INFO logger.py:126 Log level: INFO
+2022-09-17 00:09:04 INFO main.py:259 GNS3 GUI version 2.2.34
+2022-09-17 00:09:04 INFO main.py:260 Copyright (c) 2007-2022 GNS3 Technologies Inc.
+2022-09-17 00:09:04 INFO main.py:261 Application started with /usr/bin/gns3
+2022-09-17 00:09:09 WARNING http_client.py:639 Timeout after 5 seconds for request http://admin@192.168.10.1:3078/v2/version. Please check the connection is not blocked by a firewall or an anti-virus.
+2022-09-17 00:09:14 WARNING http_client.py:639 Timeout after 5 seconds for request http://admin@192.168.10.1:3078/v2/version. Please check the connection is not blocked by a firewall or an anti-virus.
+2022-09-17 00:09:19 WARNING http_client.py:639 Timeout after 5 seconds for request http://admin@192.168.10.1:3078/v2/version. Please check the connection is not blocked by a firewall or an anti-virus.
+2022-09-17 00:09:19 CRITICAL __init__.py:404 Could not bind with 192.168.10.1: [Errno 99] Cannot assign requested address (please check your host binding setting in the preferences)
+2022-09-17 00:09:25 CRITICAL __init__.py:348 Could not start the local server process: /usr/bin/gns3server
+2022-09-17 00:22:25 ERROR gns3_vm_preferences_page.py:98 Cannot load the GNS3 VM settings in the preferences dialog: not connected to the controller
+2022-09-17 00:22:25 ERROR iou_preferences_page.py:115 Cannot load the IOU license in the preferences dialog: not connected to the controller
+2022-09-17 00:22:55 ERROR gns3_vm_preferences_page.py:98 Cannot load the GNS3 VM settings in the preferences dialog: not connected to the controller
+2022-09-17 00:22:55 ERROR iou_preferences_page.py:115 Cannot load the IOU license in the preferences dialog: not connected to the controller
+2022-09-17 00:23:13 CRITICAL __init__.py:158 No available server support this type of node. You probably need to setup the GNS3 VM
+2022-09-19 20:47:09 WARNING __init__.py:223 You have unsaved preferences in Docker containers.
+
+Continue without saving?

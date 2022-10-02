@@ -1,0 +1,40 @@
+2022/08/04-06:08:49.240 65288 Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_to-do.office.com_0.indexeddb.leveldb since it was missing.
+2022/08/04-06:08:49.264 65288 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_to-do.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/04-06:08:49.288 65288 Level-0 table #5: started
+2022/08/04-06:08:49.295 65288 Level-0 table #5: 525 bytes OK
+2022/08/04-06:08:49.326 65288 Delete type=0 #3
+2022/08/04-06:08:49.326 65288 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/08/04-06:08:49.334 65288 Level-0 table #7: started
+2022/08/04-06:08:49.342 65288 Level-0 table #7: 552 bytes OK
+2022/08/04-06:08:49.374 65288 Delete type=0 #4
+2022/08/04-06:08:49.374 65288 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/08/04-06:08:49.382 65288 Level-0 table #9: started
+2022/08/04-06:08:49.389 65288 Level-0 table #9: 3722 bytes OK
+2022/08/04-06:08:49.405 65288 Delete type=0 #6
+2022/08/04-06:08:49.405 65288 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\xc8\x05\x00t\x00a\x00s\x00k\x00s' @ 86 : 1
+2022/08/04-06:08:49.405 65288 Compacting 1@0 + 1@1 files
+2022/08/04-06:08:49.413 65288 Generated table #10@0: 247 keys, 3484 bytes
+2022/08/04-06:08:49.413 65288 Compacted 1@0 + 1@1 files => 3484 bytes
+2022/08/04-06:08:49.428 65288 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/04-06:08:49.428 65288 Delete type=2 #9
+2022/08/04-06:08:49.428 65288 Manual compaction at level-0 from '\x00\x04\x00\x00\xc8\x05\x00t\x00a\x00s\x00k\x00s' @ 86 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/08/04-06:46:33.288 7382a Level-0 table #12: started
+2022/08/04-06:46:33.300 7382a Level-0 table #12: 554945 bytes OK
+2022/08/04-06:46:33.316 7382a Delete type=2 #7
+2022/08/04-06:46:33.316 7382a Delete type=0 #8
+2022/08/04-06:46:33.316 7382a Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x04\x0c\x02\x01$\x00b\x007\x00f\x004\x009\x006\x00c\x004\x00-\x00b\x001\x004\x009\x00-\x004\x00a\x00b\x006\x00-\x00a\x00e\x002\x002\x00-\x00c\x002\x003\x00e\x004\x00d\x00f\x00b\x00f\x003\x00d\x008' @ 529 : 1
+2022/08/04-06:46:33.316 7382a Compacting 1@0 + 1@1 files
+2022/08/04-06:46:33.326 7382a Generated table #13@0: 1889 keys, 31577 bytes
+2022/08/04-06:46:33.326 7382a Compacted 1@0 + 1@1 files => 31577 bytes
+2022/08/04-06:46:33.342 7382a compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/04-06:46:33.342 7382a Delete type=2 #10
+2022/08/04-06:46:33.342 7382a Delete type=2 #12
+2022/08/04-06:46:33.342 7382a Manual compaction at level-0 from '\x00\x04\x0c\x02\x01$\x00b\x007\x00f\x004\x009\x006\x00c\x004\x00-\x00b\x001\x004\x009\x00-\x004\x00a\x00b\x006\x00-\x00a\x00e\x002\x002\x00-\x00c\x002\x003\x00e\x004\x00d\x00f\x00b\x00f\x003\x00d\x008' @ 529 : 1 .. (end); will stop at (end)
+2022/08/04-06:46:33.342 7382a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x0c\x02\x01$\x00b\x007\x00f\x004\x009\x006\x00c\x004\x00-\x00b\x001\x004\x009\x00-\x004\x00a\x00b\x006\x00-\x00a\x00e\x002\x002\x00-\x00c\x002\x003\x00e\x004\x00d\x00f\x00b\x00f\x003\x00d\x008' @ 529 : 1
+2022/08/04-06:46:33.342 7382a Compacting 1@1 + 1@2 files
+2022/08/04-06:46:33.350 7382a Generated table #14@1: 178 keys, 15459 bytes
+2022/08/04-06:46:33.350 7382a Compacted 1@1 + 1@2 files => 15459 bytes
+2022/08/04-06:46:33.366 7382a compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/08/04-06:46:33.366 7382a Delete type=2 #5
+2022/08/04-06:46:33.366 7382a Delete type=2 #13
+2022/08/04-06:46:33.366 7382a Manual compaction at level-1 from '\x00\x04\x0c\x02\x01$\x00b\x007\x00f\x004\x009\x006\x00c\x004\x00-\x00b\x001\x004\x009\x00-\x004\x00a\x00b\x006\x00-\x00a\x00e\x002\x002\x00-\x00c\x002\x003\x00e\x004\x00d\x00f\x00b\x00f\x003\x00d\x008' @ 529 : 1 .. (end); will stop at (end)

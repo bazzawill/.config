@@ -1,0 +1,24 @@
+2022/10/01-06:33:43.842 5c69 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/10/01-06:33:43.845 5c69 Recovering log #1758
+2022/10/01-06:33:43.847 5c69 Reusing old log /home/bazza/.config/google-chrome/Default/Sync Data/LevelDB/001758.log 
+2022/10/01-06:33:45.605 5c85 Level-0 table #1762: started
+2022/10/01-06:33:45.614 5c85 Level-0 table #1762: 98275 bytes OK
+2022/10/01-06:33:45.631 5c85 Delete type=0 #1758
+2022/10/01-08:17:37.120 29b43 Level-0 table #1764: started
+2022/10/01-08:17:37.143 29b43 Level-0 table #1764: 121520 bytes OK
+2022/10/01-08:17:37.174 29b43 Delete type=0 #1761
+2022/10/01-08:17:37.175 29b43 Compacting 4@0 + 1@1 files
+2022/10/01-08:17:37.190 29b43 Generated table #1765@0: 2240 keys, 339835 bytes
+2022/10/01-08:17:37.190 29b43 Compacted 4@0 + 1@1 files => 339835 bytes
+2022/10/01-08:17:37.220 29b43 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/01-08:17:37.220 29b43 Delete type=2 #1754
+2022/10/01-08:17:37.220 29b43 Delete type=2 #1756
+2022/10/01-08:17:37.220 29b43 Delete type=2 #1759
+2022/10/01-08:17:37.220 29b43 Delete type=2 #1762
+2022/10/01-08:17:37.220 29b43 Delete type=2 #1764
+2022/10/01-11:09:50.908 6616a Level-0 table #1767: started
+2022/10/01-11:09:50.931 6616a Level-0 table #1767: 126415 bytes OK
+2022/10/01-11:09:50.961 6616a Delete type=0 #1763
+2022/10/01-18:51:15.172 106a71 Level-0 table #1769: started
+2022/10/01-18:51:15.195 106a71 Level-0 table #1769: 121045 bytes OK
+2022/10/01-18:51:15.226 106a71 Delete type=0 #1766

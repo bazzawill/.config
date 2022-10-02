@@ -1,0 +1,6 @@
+2022/09/20-21:54:09.341 3e8709 Reusing MANIFEST /home/bazza/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2022/09/20-21:54:09.342 3e8709 Recovering log #12
+2022/09/20-21:54:09.343 3e8709 Reusing old log /home/bazza/.config/google-chrome/Profile 1/Sync Data/LevelDB/000012.log 
+2022/09/20-21:54:26.111 3e90a8 Level-0 table #16: started
+2022/09/20-21:54:26.122 3e90a8 Level-0 table #16: 226637 bytes OK
+2022/09/20-21:54:26.138 3e90a8 Delete type=0 #12

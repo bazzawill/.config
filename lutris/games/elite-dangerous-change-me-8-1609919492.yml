@@ -1,0 +1,8 @@
+game:
+  appid: '359320'
+  arch: win64
+  prefix: /media/mythfs/games/EDSteam
+system: {}
+winesteam:
+  dxvk: true
+  version: lutris-6.0-rc1-x86_64

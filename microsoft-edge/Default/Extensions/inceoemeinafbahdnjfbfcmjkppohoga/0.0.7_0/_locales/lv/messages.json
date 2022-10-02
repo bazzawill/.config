@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Skatieties videoklipus, izmantojot režīmu Picture-in-Picture (Peldošais video atskaņotājs). Atbalsta visu veidu video vietnes."
+   },
+   "name": {
+      "message": "Attēls attēlā Video"
+   },
+   "short_name": {
+      "message": "Picture-in-Picture"
+   }
+}

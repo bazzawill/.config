@@ -1,0 +1,6 @@
+2022/09/08-15:23:38.644 380cfd Reusing MANIFEST /home/bazza/.config/chrome-remote-desktop/chrome-config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/09/08-15:23:38.644 380cfd Recovering log #4
+2022/09/08-15:23:38.646 380cfd Reusing old log /home/bazza/.config/chrome-remote-desktop/chrome-config/google-chrome/Default/Sync Data/LevelDB/000004.log 
+2022/09/08-15:32:24.490 38a9f9 Level-0 table #8: started
+2022/09/08-15:32:24.505 38a9f9 Level-0 table #8: 148239 bytes OK
+2022/09/08-15:32:24.538 38a9f9 Delete type=0 #4

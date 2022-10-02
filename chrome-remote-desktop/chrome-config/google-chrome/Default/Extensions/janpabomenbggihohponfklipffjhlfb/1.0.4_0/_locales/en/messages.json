@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Record video online with your webcam"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Video Recorder"
+   }
+}

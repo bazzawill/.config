@@ -1,0 +1,6 @@
+2022/07/12-20:58:45.294 2fd666 Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.ndis.gov.au_0.indexeddb.leveldb since it was missing.
+2022/07/12-20:58:45.317 2fd666 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.ndis.gov.au_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/12-20:58:52.356 2fd667 Level-0 table #5: started
+2022/07/12-20:58:52.365 2fd667 Level-0 table #5: 24050 bytes OK
+2022/07/12-20:58:52.380 2fd667 Delete type=0 #3
+2022/07/12-20:58:52.380 2fd667 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

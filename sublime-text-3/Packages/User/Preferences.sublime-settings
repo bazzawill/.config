@@ -1,0 +1,9 @@
+{
+	"dictionary": "Packages/User/Dictionaries/English (Australian).dic",
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"spell_check": true,
+}

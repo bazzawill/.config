@@ -1,0 +1,763 @@
+{
+	"folder_history":
+	[
+		"/home/bazza/jsgame/plat"
+	],
+	"last_version": 3211,
+	"last_window_id": 11,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 359.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 373.0
+			},
+			"console":
+			{
+				"height": 78.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"WordCount",
+					"wordcount"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/bazza/Barry Williams Curriculum Vitae",
+				"/home/bazza/traceroute",
+				"/home/bazza/chrome.log",
+				"/home/bazza/chrome.gdb",
+				"/home/bazza/untitled.py",
+				"/home/bazza/lotto.py",
+				"/home/bazza/Documents/Adelaide Uni",
+				"/home/bazza/python/PasswordChecker1_Program_BarryWilliams/PasswordChecker4_Program_BarryWilliams.py",
+				"/tmp/mozilla_bazza0/step01.js",
+				"/tmp/mozilla_bazza0/step03.js",
+				"/home/bazza/python/PasswordChecker1_Program_BarryWilliams/ITWorks_password_log.txt",
+				"/home/bazza/lotto1.py",
+				"/home/bazza/wine/fix_49782_v2.patch",
+				"/media/mythfs/downloads/Aquaman.2018.1080p.BluRay.x264.DTS-CiNEFiLE/Readme.txt",
+				"/home/bazza/TomandCharlie",
+				"/home/bazza/Hi my name is Barry Williams father to Tom Phoenix",
+				"/home/bazza/Hommus.txt",
+				"/media/mythfs/downloads/complete/videos/I.Feel.Pretty.2018.720p.BluRay.x264-GECKOS[EtHD]/i.feel.pretty.2018.720p.bluray.x264-geckos.sfv",
+				"/home/bazza/IRC/SearchOok_results_for_ alan weisman the world without us.txt",
+				"/media/mythfs/videos/Indiana Jones and the Crystal Skull (2008)/Indiana Jones And The Kingdom Of The Crystal Skull (2008).sub",
+				"/media/mythfs/videos/Indiana Jones and the Crystal Skull (2008)/indiana jones and the kingdom of the crystal skull (2008).sfv",
+				"/run/media/bazza/Kindle/documents/Seasons of love.txt",
+				"/home/bazza/paul.letter",
+				"/media/mythfs/Pictures/Sarah's iPhone/105APPLE/IMG_5700.AAE",
+				"/home/bazza/.config/sublime-text-3/Packages/AutoSpell/README.md",
+				"/home/bazza/.config/sublime-text-3/Packages/AutoSpell/AutoSpell.sublime-settings",
+				"/home/bazza/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/bazza/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/bazza/Phoenix.story",
+				"/media/mythfs/downloads/complete/videos/The Bourne Supremacy (2004) [1080p]/The.Bourne.Supremacy.2004.1080p.BrRip.x264.YIFY.srt",
+				"/home/bazza/bv",
+				"/media/mythfs/downloads/complete/Jack Reacher Never Go Back 2016 720p BrRip x264 - EVO/WIndows10 ReadMe.txt",
+				"/media/mythfs/downloads/complete/Jack Reacher Never Go Back 2016 720p BrRip x264 - EVO/MacOSX ReadThis.txt",
+				"/home/bazza/.linux/.linux/Sarah",
+				"/media/mythfs/videos/Logans Run_734259200.info",
+				"/media/mythfs/downloads/complete/videos/Doctor.Strange.2016.720p.BRRip.HQ.AC3.DD5.1/Doctor.Strange.2016.720p.BRRip.HQ.AC3.DD5.1/Read me if the movie don't start.txt",
+				"/home/bazza/Fonts/fonts.dir",
+				"/media/mythfs/Downloads/complete/Bad Moms 2016 720p BrRip x264 - DIAMOND/ReadMe.txt",
+				"/media/mythfs/downloads/complete/Ghostbusters 2016 720p BrRip x264 - SpaceHD/ReadMe.txt",
+				"/run/media/bazza/GARMIN/Garmin/startup.txt",
+				"/home/bazza/bin/cpu_gettemp.sh",
+				"/run/media/bazza/5EE2FBB2586ABF7B/buffy/2e093d092b31415c8cd029ccc7658e92/manifest.json",
+				"/media/mythfs/downloads/complete/Dungeons.And.Dragons.2000.iNTERNAL.DVDRip.XViD-MULTiPLY/multiply-dad-en.sfv",
+				"/home/bazza/adelaide uni",
+				"/media/mythfs/downloads/complete/videos/trainwreck.2015.theatrical.internal.1080p.bluray.x264-ghouls.cp(tt3152624)/trainwreck.2015.theatrical.internal.1080p.bluray.x264-ghouls.subs.sfv",
+				"/run/media/bazza/3A32D35D32D31D27/Documents and Settings/Bazza/Downloads/Star Wars Battlefront Steam Cracked CYGiSO/CYGiSO.nfo",
+				"/home/bazza/bin/getflixiptables.sh",
+				"/home/bazza/IRC/getting files from ps2.txt",
+				"/home/bazza/.config/nitrogen/random.sh",
+				"/home/bazza/URLLink.acsm",
+				"/home/bazza/.config/sublime-text-3/Packages/WordCount/WordCount.sublime-settings",
+				"/home/bazza/ETL411",
+				"/media/mythfs/uni/ETP425/ETP425 Assignment 1"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"spell",
+					"3 days",
+					"background-color: rgb(0, 0, 0);"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 40.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 210.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 76.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 459.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 348.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 138.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"coi",
+						"coins"
+					],
+					[
+						"co",
+						"coins"
+					],
+					[
+						"_spawn",
+						"_spawnCoin"
+					],
+					[
+						"pla",
+						"platforms"
+					],
+					[
+						"_",
+						"_handleCollisions"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"pro",
+						"prototype"
+					],
+					[
+						"proto",
+						"prototype"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/bazza/jsgame/plat/js/main.js",
+					"settings":
+					{
+						"buffer_size": 4893,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "{\"count\":1,\"next\":null,\"previous\":null,\"results\":[{\"id\":9190,\"game_id\":4275,\"game_slug\":\"elite-dangerous\",\"name\":\"Elite: Dangerous\",\"year\":2014,\"user\":\"VortexAcherontic\",\"runner\":\"winesteam\",\"slug\":\"elite-dangerous-steam-w-dxvk\",\"version\":\"Steam w/ DXVK\",\"description\":\"Elite Dangerous, Arena and Training work flawlessly\\r\\nElite Dangerous HORIZON with AMD gpu does not work yet. System freeze during Planet Shader generation (+-19%) (Update: Now working on AMD as of Linux 5.0.x, tested on Arch)\",\"notes\":\"If you are having CRC error please copy the value of the following key from your registry\\r\\n[HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft\\\\Cryptography]\\r\\n\\\"MachineGuid\\\"=\\\"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\\"\\r\\n\\r\\nand replace the value of \\r\\n[HKEY_LOCAL_MACHINE\\\\Software\\\\Wow6432Node\\\\Microsoft\\\\Cryptography]\\r\\n\\\"MachineGuid\\\"=\\\"yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy\\\" with de value previously copied.\\r\\nIn the end, both keys must have the same value.\",\"created_at\":\"2018-07-12T20:07:26.240000Z\",\"updated_at\":\"2020-01-31T02:38:35.809666Z\",\"draft\":false,\"published\":true,\"published_by\":19464,\"rating\":\"\",\"steamid\":359320,\"gogid\":null,\"gogslug\":\"\",\"humbleid\":\"\",\"humblestoreid\":\"\",\"humblestoreid_real\":\"\",\"script\":{\"game\":{\"appid\":359320,\"arch\":\"win64\",\"prefix\":\"$GAMEDIR/prefix\"},\"installer\":[{\"task\":{\"arch\":\"win64\",\"description\":\"Creating Wine Prefix\",\"name\":\"create_prefix\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"ie8\",\"arch\":\"win64\",\"description\":\"Installing Internet Explorer 8 (necessary!))\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"dotnet472\",\"arch\":\"win64\",\"description\":\"Installing Dot.NET 4.7.2\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"vcrun2010 vcrun2012 vcrun2015\",\"arch\":\"win64\",\"description\":\"Installing vcrun2010 vcrun2012 vcrun2015\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"msls31\",\"description\":\"Installing MS Line Services\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"quartz\",\"arch\":\"win64\",\"description\":\"Installing Quartz\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"arial\",\"arch\":\"win64\",\"description\":\"Installing Arial\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"win7\",\"arch\":\"win64\",\"description\":\"Set Windows version to Windows 7\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},\"winesteam\":{\"dxvk\":true}},\"content\":\"game:\\n  appid: 359320\\n  arch: win64\\n  prefix: $GAMEDIR/prefix\\ninstaller:\\n- task:\\n    arch: win64\\n    description: Creating Wine Prefix\\n    name: create_prefix\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: ie8\\n    arch: win64\\n    description: Installing Internet Explorer 8 (necessary!))\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: dotnet472\\n    arch: win64\\n    description: Installing Dot.NET 4.7.2\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: vcrun2010 vcrun2012 vcrun2015\\n    arch: win64\\n    description: Installing vcrun2010 vcrun2012 vcrun2015\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: msls31\\n    description: Installing MS Line Services\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: quartz\\n    arch: win64\\n    description: Installing Quartz\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: arial\\n    arch: win64\\n    description: Installing Arial\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: win7\\n    arch: win64\\n    description: Set Windows version to Windows 7\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- execute:\\n  dxvk: true\\n\"}]}\n",
+					"file": "/home/bazza/elite-dangerous-steam-w-dxvk.json",
+					"file_size": 3619,
+					"file_write_time": 132543859147790516,
+					"settings":
+					{
+						"buffer_size": 3619,
+						"line_ending": "CR"
+					}
+				},
+				{
+					"contents": "{\"count\":1,\"next\":null,\"previous\":null,\"results\":[{\"id\":9190,\"game_id\":4275,\"game_slug\":\"elite-dangerous\",\"name\":\"Elite: Dangerous\",\"year\":2014,\"user\":\"VortexAcherontic\",\"runner\":\"winesteam\",\"slug\":\"elite-dangerous-steam-w-dxvk\",\"version\":\"Steam w/ DXVK\",\"description\":\"Elite Dangerous, Arena and Training work flawlessly\\r\\nElite Dangerous HORIZON with AMD gpu does not work yet. System freeze during Planet Shader generation (+-19%) (Update: Now working on AMD as of Linux 5.0.x, tested on Arch)\",\"notes\":\"If you are having CRC error please copy the value of the following key from your registry\\r\\n[HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft\\\\Cryptography]\\r\\n\\\"MachineGuid\\\"=\\\"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\\"\\r\\n\\r\\nand replace the value of \\r\\n[HKEY_LOCAL_MACHINE\\\\Software\\\\Wow6432Node\\\\Microsoft\\\\Cryptography]\\r\\n\\\"MachineGuid\\\"=\\\"yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy\\\" with de value previously copied.\\r\\nIn the end, both keys must have the same value.\",\"created_at\":\"2018-07-12T20:07:26.240000Z\",\"updated_at\":\"2020-01-31T02:38:35.809666Z\",\"draft\":false,\"published\":true,\"published_by\":19464,\"rating\":\"\",\"steamid\":359320,\"gogid\":null,\"gogslug\":\"\",\"humbleid\":\"\",\"humblestoreid\":\"\",\"humblestoreid_real\":\"\",\"script\":{\"game\":{\"appid\":359320,\"arch\":\"win64\",\"prefix\":\"$GAMEDIR/prefix\"},\"installer\":[{\"task\":{\"arch\":\"win64\",\"description\":\"Creating Wine Prefix\",\"name\":\"create_prefix\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"ie8\",\"arch\":\"win64\",\"description\":\"Installing Internet Explorer 8 (necessary!))\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"dotnet472\",\"arch\":\"win64\",\"description\":\"Installing Dot.NET 4.7.2\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"vcrun2010 vcrun2012 vcrun2015\",\"arch\":\"win64\",\"description\":\"Installing vcrun2010 vcrun2012 vcrun2015\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"msls31\",\"description\":\"Installing MS Line Services\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"quartz\",\"arch\":\"win64\",\"description\":\"Installing Quartz\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"arial\",\"arch\":\"win64\",\"description\":\"Installing Arial\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"task\":{\"app\":\"win7\",\"arch\":\"win64\",\"description\":\"Set Windows version to Windows 7\",\"name\":\"winetricks\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"execute\":{\"command\":\"printf 'Windows Registry Editor Version 5.00\\\\n\\\\n[HKEY_LOCAL_MACHINE\\\\Software\\\\Wow6432Node\\\\Microsoft\\\\Cryptography]\\\\n' > \\\"$GAMEDIR/prefix/fix.reg\\\"; grep 'MachineGuid' \\\"$GAMEDIR/prefix/fix.reg\\\" | head -n1 >> \\\"$GAMEDIR/prefix/fix.reg\\\"\",\"description\":\"Generating registry patch\"}},{\"task\":{\"arch\":\"win64\",\"description\":\"Patching registry to prevent cryptography errors\",\"filename\":\"$GAMEDIR/prefix/fix.reg\",\"name\":\"set_regedit_file\",\"prefix\":\"$GAMEDIR/prefix\"}},{\"move\":{\"dst\":\"$CACHE\",\"src\":\"$GAMEDIR/prefix/fix.reg\"}}],\"winesteam\":{\"dxvk\":true}},\"content\":\"game:\\n  appid: 359320\\n  arch: win64\\n  prefix: $GAMEDIR/prefix\\ninstaller:\\n- task:\\n    arch: win64\\n    description: Creating Wine Prefix\\n    name: create_prefix\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: ie8\\n    arch: win64\\n    description: Installing Internet Explorer 8 (necessary!))\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: dotnet472\\n    arch: win64\\n    description: Installing Dot.NET 4.7.2\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: vcrun2010 vcrun2012 vcrun2015\\n    arch: win64\\n    description: Installing vcrun2010 vcrun2012 vcrun2015\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: msls31\\n    description: Installing MS Line Services\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: quartz\\n    arch: win64\\n    description: Installing Quartz\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: arial\\n    arch: win64\\n    description: Installing Arial\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- task:\\n    app: win7\\n    arch: win64\\n    description: Set Windows version to Windows 7\\n    name: winetricks\\n    prefix: $GAMEDIR/prefix\\n- execute:\\n dxvk: true\\n\"}]}",
+					"file": "/home/bazza/elite-dangerous-steam-w-dxvk (1).json",
+					"file_size": 4745,
+					"file_write_time": 132543862613114289,
+					"settings":
+					{
+						"buffer_size": 4168,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "execute:\n    command: printf 'Windows Registry Editor Version 5.00\\n\\n[HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Microsoft\\Cryptography]\\n'\n      > \"$GAMEDIR/prefix/fix.reg\"; grep 'MachineGuid' \"$GAMEDIR/prefix/fix.reg\" |\n      head -n1 >> \"$GAMEDIR/prefix/fix.reg\"\n    description: Generating registry patch\n- task:\n    arch: win64\n    description: Patching registry to prevent cryptography errors\n    filename: $GAMEDIR/prefix/fix.reg\n    name: set_regedit_file\n    prefix: $GAMEDIR/prefix\n- move:\n    dst: $CACHE\n    src: $GAMEDIR/prefix/fix.reg",
+					"settings":
+					{
+						"buffer_size": 546,
+						"line_ending": "Unix",
+						"name": "execute:"
+					}
+				},
+				{
+					"file": "/run/media/bazza/LAKKA/config.txt",
+					"settings":
+					{
+						"buffer_size": 2694,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/Python/Python.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 359.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 373.0
+			},
+			"console":
+			{
+				"height": 78.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"WordCount",
+					"wordcount"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/bazza/jsgame/plat"
+			],
+			"file_history":
+			[
+				"/tmp/mozilla_bazza0/step08.js",
+				"/tmp/mozilla_bazza0/step09.js",
+				"/tmp/mozilla_bazza0/step07.js",
+				"/tmp/mozilla_bazza0/step04.js",
+				"/tmp/mozilla_bazza0/step05.js",
+				"/home/bazza/Barry Williams Curriculum Vitae",
+				"/home/bazza/traceroute",
+				"/home/bazza/chrome.log",
+				"/home/bazza/chrome.gdb",
+				"/home/bazza/untitled.py",
+				"/home/bazza/lotto.py",
+				"/home/bazza/Documents/Adelaide Uni",
+				"/home/bazza/python/PasswordChecker1_Program_BarryWilliams/PasswordChecker4_Program_BarryWilliams.py",
+				"/tmp/mozilla_bazza0/step01.js",
+				"/tmp/mozilla_bazza0/step03.js",
+				"/home/bazza/python/PasswordChecker1_Program_BarryWilliams/ITWorks_password_log.txt",
+				"/home/bazza/lotto1.py",
+				"/home/bazza/wine/fix_49782_v2.patch",
+				"/media/mythfs/downloads/Aquaman.2018.1080p.BluRay.x264.DTS-CiNEFiLE/Readme.txt",
+				"/home/bazza/TomandCharlie",
+				"/home/bazza/Hi my name is Barry Williams father to Tom Phoenix",
+				"/home/bazza/Hommus.txt",
+				"/media/mythfs/downloads/complete/videos/I.Feel.Pretty.2018.720p.BluRay.x264-GECKOS[EtHD]/i.feel.pretty.2018.720p.bluray.x264-geckos.sfv",
+				"/home/bazza/IRC/SearchOok_results_for_ alan weisman the world without us.txt",
+				"/media/mythfs/videos/Indiana Jones and the Crystal Skull (2008)/Indiana Jones And The Kingdom Of The Crystal Skull (2008).sub",
+				"/media/mythfs/videos/Indiana Jones and the Crystal Skull (2008)/indiana jones and the kingdom of the crystal skull (2008).sfv",
+				"/run/media/bazza/Kindle/documents/Seasons of love.txt",
+				"/home/bazza/paul.letter",
+				"/media/mythfs/Pictures/Sarah's iPhone/105APPLE/IMG_5700.AAE",
+				"/home/bazza/.config/sublime-text-3/Packages/AutoSpell/README.md",
+				"/home/bazza/.config/sublime-text-3/Packages/AutoSpell/AutoSpell.sublime-settings",
+				"/home/bazza/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/bazza/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/bazza/Phoenix.story",
+				"/media/mythfs/downloads/complete/videos/The Bourne Supremacy (2004) [1080p]/The.Bourne.Supremacy.2004.1080p.BrRip.x264.YIFY.srt",
+				"/home/bazza/bv",
+				"/media/mythfs/downloads/complete/Jack Reacher Never Go Back 2016 720p BrRip x264 - EVO/WIndows10 ReadMe.txt",
+				"/media/mythfs/downloads/complete/Jack Reacher Never Go Back 2016 720p BrRip x264 - EVO/MacOSX ReadThis.txt",
+				"/home/bazza/.linux/.linux/Sarah",
+				"/media/mythfs/videos/Logans Run_734259200.info",
+				"/media/mythfs/downloads/complete/videos/Doctor.Strange.2016.720p.BRRip.HQ.AC3.DD5.1/Doctor.Strange.2016.720p.BRRip.HQ.AC3.DD5.1/Read me if the movie don't start.txt",
+				"/home/bazza/Fonts/fonts.dir",
+				"/media/mythfs/Downloads/complete/Bad Moms 2016 720p BrRip x264 - DIAMOND/ReadMe.txt",
+				"/media/mythfs/downloads/complete/Ghostbusters 2016 720p BrRip x264 - SpaceHD/ReadMe.txt",
+				"/run/media/bazza/GARMIN/Garmin/startup.txt",
+				"/home/bazza/bin/cpu_gettemp.sh",
+				"/run/media/bazza/5EE2FBB2586ABF7B/buffy/2e093d092b31415c8cd029ccc7658e92/manifest.json",
+				"/media/mythfs/downloads/complete/Dungeons.And.Dragons.2000.iNTERNAL.DVDRip.XViD-MULTiPLY/multiply-dad-en.sfv",
+				"/home/bazza/adelaide uni",
+				"/media/mythfs/downloads/complete/videos/trainwreck.2015.theatrical.internal.1080p.bluray.x264-ghouls.cp(tt3152624)/trainwreck.2015.theatrical.internal.1080p.bluray.x264-ghouls.subs.sfv",
+				"/run/media/bazza/3A32D35D32D31D27/Documents and Settings/Bazza/Downloads/Star Wars Battlefront Steam Cracked CYGiSO/CYGiSO.nfo",
+				"/home/bazza/bin/getflixiptables.sh",
+				"/home/bazza/IRC/getting files from ps2.txt",
+				"/home/bazza/.config/nitrogen/random.sh",
+				"/home/bazza/URLLink.acsm",
+				"/home/bazza/.config/sublime-text-3/Packages/WordCount/WordCount.sublime-settings",
+				"/home/bazza/ETL411",
+				"/media/mythfs/uni/ETP425/ETP425 Assignment 1"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"reg",
+					"this.sfx",
+					"platforms",
+					"spell",
+					"3 days",
+					"background-color: rgb(0, 0, 0);"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/bazza/jsgame/plat"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/bazza/jsgame/plat/js/main.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4893,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1414,
+										1414
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1531.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/bazza/elite-dangerous-steam-w-dxvk.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3619,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3619,
+										3619
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 11919.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/bazza/elite-dangerous-steam-w-dxvk (1).json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4168,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4151,
+										4151
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 55668.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 546,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										546,
+										546
+									]
+								],
+								"settings":
+								{
+									"auto_name": "execute:",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/run/media/bazza/LAKKA/config.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2694,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1181,
+										1181
+									]
+								],
+								"settings":
+								{
+									"WordCount":
+									{
+										"changes": 2,
+										"count": 189,
+										"modified": false,
+										"selection": false,
+										"status": -1,
+										"syntax": "plain text"
+									},
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 372.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 40.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 210.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,1680,1050",
+			"project": "",
+			"replace":
+			{
+				"height": 76.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 459.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 348.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 138.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 6,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
