@@ -1,1 +1,0 @@
-!function FnLocIIFE(){var l=Okta.fn.loc={},e=Okta._okta,u=e.reduce,i=e.keys,r=e.escape;l.localize=function(e,n,a){var c=n.en,o=(n[a]||c)[e]||c[e];return o?decodeURIComponent(o):"L10N_ERROR["+r(e)+"]"},l.localizeTemplate=function(e,c,o,r,t){var n=c.en,a=i(n);return u(a,function(e,n){var a=l.localize(n,c,o);return e.replace(new RegExp(r+n+t,"g"),a)},e)}}();

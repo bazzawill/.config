@@ -1,6 +1,0 @@
-2022/09/02-23:20:13.582 29cf5 Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_pixlr.com_0.indexeddb.leveldb since it was missing.
-2022/09/02-23:20:13.606 29cf5 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_pixlr.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/02-23:20:17.780 29d96 Level-0 table #5: started
-2022/09/02-23:20:17.788 29d96 Level-0 table #5: 3422 bytes OK
-2022/09/02-23:20:17.804 29d96 Delete type=0 #3
-2022/09/02-23:20:17.804 29d96 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

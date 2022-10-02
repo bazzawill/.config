@@ -1,6 +1,0 @@
-2022/09/30-15:31:45.145 3 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2022/09/30-15:31:45.146 3 Recovering log #3305
-2022/09/30-15:31:45.147 3 Reusing old log /home/bazza/.config/google-chrome/Default/Local Storage/leveldb/003305.log 
-2022/09/30-16:23:34.059 3 Level-0 table #3309: started
-2022/09/30-16:23:34.073 3 Level-0 table #3309: 91360 bytes OK
-2022/09/30-16:23:34.085 3 Delete type=0 #3305

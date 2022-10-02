@@ -1,6 +1,0 @@
-2022/08/17-22:23:30.881 24f00c Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_book.hacktricks.xyz_0.indexeddb.leveldb since it was missing.
-2022/08/17-22:23:30.905 24f00c Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_book.hacktricks.xyz_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/17-22:53:05.819 25c902 Level-0 table #5: started
-2022/08/17-22:53:05.827 25c902 Level-0 table #5: 1745 bytes OK
-2022/08/17-22:53:05.849 25c902 Delete type=0 #3
-2022/08/17-22:53:05.849 25c902 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

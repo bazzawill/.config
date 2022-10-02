@@ -1,1 +1,0 @@
-Okta.Config={enabledLogging:!1,allowOktaHttp:!0,buildType:"prodBuild",startrecordingLogs:!1,onboardingLaunchNewTab:!1,allowLocalHostOrServer:!1};

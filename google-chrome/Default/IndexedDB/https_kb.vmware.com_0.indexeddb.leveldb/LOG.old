@@ -1,3 +1,0 @@
-2022/05/31-23:19:07.587 4c8e6 Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_kb.vmware.com_0.indexeddb.leveldb since it was missing.
-2022/05/31-23:19:07.603 4c8e6 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_kb.vmware.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/05/31-23:19:09.782 6b7f4 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

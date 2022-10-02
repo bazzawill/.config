@@ -1,6 +1,0 @@
-2022/06/10-16:31:39.442 1656e7 Creating DB /home/bazza/.config/google-chrome/Profile 2/IndexedDB/https_auc-excel.officeapps.live.com_0.indexeddb.leveldb since it was missing.
-2022/06/10-16:31:39.458 1656e7 Reusing MANIFEST /home/bazza/.config/google-chrome/Profile 2/IndexedDB/https_auc-excel.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/06/11-18:37:01.958 3cdb06 Level-0 table #5: started
-2022/06/11-18:37:01.965 3cdb06 Level-0 table #5: 52157 bytes OK
-2022/06/11-18:37:01.976 3cdb06 Delete type=0 #3
-2022/06/11-18:37:01.976 3cdb06 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

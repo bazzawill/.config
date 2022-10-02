@@ -1,6 +1,0 @@
-2022/06/15-22:34:10.792 2cea0b Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb since it was missing.
-2022/06/15-22:34:10.815 2cea0b Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/06/15-22:38:34.911 2d8fba Level-0 table #5: started
-2022/06/15-22:38:34.919 2d8fba Level-0 table #5: 3222 bytes OK
-2022/06/15-22:38:34.936 2d8fba Delete type=0 #3
-2022/06/15-22:38:34.936 2d8fba Manual compaction at level-0 from (begin) .. (end); will stop at (end)

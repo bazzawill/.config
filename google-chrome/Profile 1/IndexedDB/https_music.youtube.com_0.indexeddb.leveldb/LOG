@@ -1,6 +1,0 @@
-2022/08/28-20:44:17.152 5c383 Creating DB /home/bazza/.config/google-chrome/Profile 1/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb since it was missing.
-2022/08/28-20:44:17.176 5c383 Reusing MANIFEST /home/bazza/.config/google-chrome/Profile 1/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/28-20:47:36.382 fc89a Level-0 table #5: started
-2022/08/28-20:47:36.390 fc89a Level-0 table #5: 116663 bytes OK
-2022/08/28-20:47:36.404 fc89a Delete type=0 #3
-2022/08/28-20:47:36.404 fc89a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

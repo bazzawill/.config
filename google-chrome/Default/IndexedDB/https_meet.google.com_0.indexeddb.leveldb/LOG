@@ -1,7 +1,0 @@
-2022/09/14-19:23:06.013 97f3a Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/14-19:23:06.013 97f3a Recovering log #3
-2022/09/14-19:23:06.013 97f3a Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000003.log 
-2022/09/15-21:10:35.660 2bb8d8 Level-0 table #5: started
-2022/09/15-21:10:35.668 2bb8d8 Level-0 table #5: 10201 bytes OK
-2022/09/15-21:10:35.684 2bb8d8 Delete type=0 #3
-2022/09/15-21:10:35.684 2bb8d8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

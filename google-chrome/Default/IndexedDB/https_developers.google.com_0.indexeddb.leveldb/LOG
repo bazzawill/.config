@@ -1,6 +1,0 @@
-2022/08/21-22:17:43.989 17bb3 Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb since it was missing.
-2022/08/21-22:17:44.005 17bb3 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/22-21:01:03.866 1e13ed Level-0 table #5: started
-2022/08/22-21:01:03.874 1e13ed Level-0 table #5: 1870 bytes OK
-2022/08/22-21:01:03.890 1e13ed Delete type=0 #3
-2022/08/22-21:01:03.890 1e13ed Manual compaction at level-0 from (begin) .. (end); will stop at (end)

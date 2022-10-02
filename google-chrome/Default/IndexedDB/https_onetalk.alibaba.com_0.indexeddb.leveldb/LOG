@@ -1,6 +1,0 @@
-2022/09/28-23:06:12.283 11f83 Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_onetalk.alibaba.com_0.indexeddb.leveldb since it was missing.
-2022/09/28-23:06:12.308 11f83 Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_onetalk.alibaba.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/28-23:06:23.777 11f83 Level-0 table #5: started
-2022/09/28-23:06:23.785 11f83 Level-0 table #5: 871 bytes OK
-2022/09/28-23:06:23.801 11f83 Delete type=0 #3
-2022/09/28-23:06:23.801 11f83 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,6 +1,0 @@
-2022/06/15-20:49:56.796 288dca Creating DB /home/bazza/.config/google-chrome/Default/IndexedDB/https_linuxize.assistpub.com_0.indexeddb.leveldb since it was missing.
-2022/06/15-20:49:56.820 288dca Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_linuxize.assistpub.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/06/15-20:50:16.724 28a773 Level-0 table #5: started
-2022/06/15-20:50:16.732 28a773 Level-0 table #5: 395 bytes OK
-2022/06/15-20:50:16.748 28a773 Delete type=0 #3
-2022/06/15-20:50:16.748 28a773 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
