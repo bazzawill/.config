@@ -1,9 +1,6 @@
-2022/09/20-08:44:44.074 2dac7f Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/20-08:44:44.075 2dac7f Recovering log #50
-2022/09/20-08:44:44.077 2dac7f Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000050.log 
-2022/09/20-08:44:47.449 2db39f Compacting 1@1 + 1@2 files
-2022/09/20-08:44:47.461 2db39f Generated table #53@1: 152 keys, 281925 bytes
-2022/09/20-08:44:47.461 2db39f Compacted 1@1 + 1@2 files => 281925 bytes
-2022/09/20-08:44:47.477 2db39f compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/20-08:44:47.478 2db39f Delete type=2 #48
-2022/09/20-08:44:47.478 2db39f Delete type=2 #51
+2022/09/30-15:31:46.295 e7c Reusing MANIFEST /home/bazza/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/30-15:31:46.295 e7c Recovering log #50
+2022/09/30-15:31:46.302 e7c Reusing old log /home/bazza/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000050.log 
+2022/09/30-15:31:54.678 e81 Level-0 table #56: started
+2022/09/30-15:31:54.695 e81 Level-0 table #56: 2268360 bytes OK
+2022/09/30-15:31:54.707 e81 Delete type=0 #50

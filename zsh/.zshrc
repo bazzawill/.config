@@ -1,1 +1,1 @@
-/home/bazza/.zprezto/runcoms/zshrc
+.zprezto/runcoms/zshrc
