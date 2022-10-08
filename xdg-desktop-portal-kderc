@@ -1,8 +1,10 @@
 [FileDialogSize]
+XWAYLAND0 XWAYLAND1 Height 1680x1050=480
+XWAYLAND0 XWAYLAND1 Width 1680x1050=640
 screen Height 1280x720=480
 screen Width 1280x720=838
 
 [KFileDialog Settings]
-Recent Files[$e]=macOS 11.0 Big Sur Beta by Sysprobs.7z.torrent,file:$HOME/TAFE/4CYCSF/Assessment 3 - Part 2.docx,file:$HOME/Downloads/oneDriveOOo.oxt,file:$HOME/Downloads/jdbcDriverOOo.oxt,file:$HOME/Downloads/OAuth2OOo.oxt,file:$HOME/Desktop/4CYCSF/rockyou.txt,file:$HOME/Desktop/4CYCSF/_$$hn the Ripper Commands.docx,file:$HOME/Desktop/4CYCSF/Job Ad - IT Client Relations Consultant_short.pdf,file:$HOME/Desktop/4CYCSF/Job Ad - Service Desk Analyst_short.pdf,file:$HOME/Desktop/4CYCSF/6.2.4.4 Packet Tracer - Router and Switch Resilience.pka,file:$HOME/Desktop/4CYCSF/6.2.3.8 Packet Tracer - Router and Switch Redundancy.pka,file:$HOME/TAFE/4CYCSF/studyschedule_ext_220811 - Tagged.pdf,file:$HOME/TAFE/4CYCSF/student_template.docx,file:$HOME/TAFE/CSE_LABVM.ova,file:$HOME/TAFE/webInterface.crt,file:$HOME/TAFE/webInterface.key
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/TAFE/4CYCSF/,file:$HOME/TAFE/4CYWEB/,file:$HOME/,file:$HOME/TAFE/,file:$HOME/Desktop/4CYCSF/,file:$HOME/Documents/
+Recent Files[$e]=macOS 11.0 Big Sur Beta by Sysprobs.7z.torrent,file:$HOME/Photos-001.zip,file:$HOME/Downloads/kali-linux-2022.3-vmware-amd64.7z,file:$HOME/TAFE/4CYCSF/Assessment 3 - Part 2.docx,file:$HOME/Downloads/oneDriveOOo.oxt,file:$HOME/Downloads/jdbcDriverOOo.oxt,file:$HOME/Downloads/OAuth2OOo.oxt,file:$HOME/Desktop/4CYCSF/rockyou.txt,file:$HOME/Desktop/4CYCSF/_$$hn the Ripper Commands.docx,file:$HOME/Desktop/4CYCSF/Job Ad - IT Client Relations Consultant_short.pdf,file:$HOME/Desktop/4CYCSF/Job Ad - Service Desk Analyst_short.pdf,file:$HOME/Desktop/4CYCSF/6.2.4.4 Packet Tracer - Router and Switch Resilience.pka,file:$HOME/Desktop/4CYCSF/6.2.3.8 Packet Tracer - Router and Switch Redundancy.pka,file:$HOME/TAFE/4CYCSF/studyschedule_ext_220811 - Tagged.pdf,file:$HOME/TAFE/4CYCSF/student_template.docx,file:$HOME/TAFE/CSE_LABVM.ova
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/TAFE/4CYCSF/,file:$HOME/TAFE/4CYWEB/,file:$HOME/,file:$HOME/TAFE/,file:$HOME/Desktop/4CYCSF/,file:$HOME/Documents/,file:$HOME/tomandcharlie/
 detailViewIconSize=16

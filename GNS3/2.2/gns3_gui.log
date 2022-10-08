@@ -1,17 +1,53 @@
-2022-09-17 00:09:04 INFO logger.py:126 Log level: INFO
-2022-09-17 00:09:04 INFO main.py:259 GNS3 GUI version 2.2.34
-2022-09-17 00:09:04 INFO main.py:260 Copyright (c) 2007-2022 GNS3 Technologies Inc.
-2022-09-17 00:09:04 INFO main.py:261 Application started with /usr/bin/gns3
-2022-09-17 00:09:09 WARNING http_client.py:639 Timeout after 5 seconds for request http://admin@192.168.10.1:3078/v2/version. Please check the connection is not blocked by a firewall or an anti-virus.
-2022-09-17 00:09:14 WARNING http_client.py:639 Timeout after 5 seconds for request http://admin@192.168.10.1:3078/v2/version. Please check the connection is not blocked by a firewall or an anti-virus.
-2022-09-17 00:09:19 WARNING http_client.py:639 Timeout after 5 seconds for request http://admin@192.168.10.1:3078/v2/version. Please check the connection is not blocked by a firewall or an anti-virus.
-2022-09-17 00:09:19 CRITICAL __init__.py:404 Could not bind with 192.168.10.1: [Errno 99] Cannot assign requested address (please check your host binding setting in the preferences)
-2022-09-17 00:09:25 CRITICAL __init__.py:348 Could not start the local server process: /usr/bin/gns3server
-2022-09-17 00:22:25 ERROR gns3_vm_preferences_page.py:98 Cannot load the GNS3 VM settings in the preferences dialog: not connected to the controller
-2022-09-17 00:22:25 ERROR iou_preferences_page.py:115 Cannot load the IOU license in the preferences dialog: not connected to the controller
-2022-09-17 00:22:55 ERROR gns3_vm_preferences_page.py:98 Cannot load the GNS3 VM settings in the preferences dialog: not connected to the controller
-2022-09-17 00:22:55 ERROR iou_preferences_page.py:115 Cannot load the IOU license in the preferences dialog: not connected to the controller
-2022-09-17 00:23:13 CRITICAL __init__.py:158 No available server support this type of node. You probably need to setup the GNS3 VM
-2022-09-19 20:47:09 WARNING __init__.py:223 You have unsaved preferences in Docker containers.
+2022-10-06 21:24:19 INFO logger.py:126 Log level: INFO
+2022-10-06 21:24:19 INFO main.py:259 GNS3 GUI version 2.2.34
+2022-10-06 21:24:19 INFO main.py:260 Copyright (c) 2007-2022 GNS3 Technologies Inc.
+2022-10-06 21:24:19 INFO main.py:261 Application started with /usr/bin/gns3
+2022-10-06 21:25:01 ERROR template_manager.py:226 Error while creating node from template: VMware VM "KaliLinux-1" [167b63e2-ae10-41dc-83f4-44ed70f03219]: could not find VMX file "/home/bazza/GNS3/Kali/Kali Linux/Kali Linux.vmx"
+2022-10-06 21:25:15 ERROR template_manager.py:226 Error while creating node from template: Sorry a node without the linked clone setting enabled can only be used once on your server.
+/home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx is already used by CloneofKaliLinux-1 in this project
+2022-10-06 21:25:17 ERROR template_manager.py:226 Error while creating node from template: Sorry a node without the linked clone setting enabled can only be used once on your server.
+/home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx is already used by CloneofKaliLinux-1 in this project
+2022-10-06 21:38:39 ERROR node.py:258 error while starting CloneofKaliLinux-1: vmrun has returned an error: Error: Cannot connect to the virtual machine
+
+Try to run /usr/bin/vmrun -T ws start '/home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx' in a terminal to see more details.
+And make sure GNS3 and VMware run under the same user.
+2022-10-06 21:38:39 CRITICAL __init__.py:1636 vmrun has returned an error: Error: Cannot connect to the virtual machine
+
+Try to run /usr/bin/vmrun -T ws start '/home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx' in a terminal to see more details.
+And make sure GNS3 and VMware run under the same user.
+2022-10-06 21:40:10 ERROR node.py:258 error while starting CloneofKaliLinux-1: vmrun has returned an error: Error: Cannot open VM: /home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx, The virtual machine cannot be found
+
+Try to run /usr/bin/vmrun -T ws start '/home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx' in a terminal to see more details.
+And make sure GNS3 and VMware run under the same user.
+2022-10-06 21:40:10 CRITICAL __init__.py:1636 vmrun has returned an error: Error: Cannot open VM: /home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx, The virtual machine cannot be found
+
+Try to run /usr/bin/vmrun -T ws start '/home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx' in a terminal to see more details.
+And make sure GNS3 and VMware run under the same user.
+2022-10-06 21:40:47 CRITICAL __init__.py:1561 Cannot delete node 'CloneofKaliLinux-1' because it is locked
+2022-10-06 21:41:08 CRITICAL __init__.py:1561 Cannot delete node 'CloneofKaliLinux-1' because it is locked
+2022-10-06 21:41:22 ERROR node.py:336 error while reloading CloneofKaliLinux-1: vmrun has returned an error: Error: Cannot open VM: /home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx, The virtual machine cannot be found
+
+Try to run /usr/bin/vmrun -T ws reset '/home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx' in a terminal to see more details.
+And make sure GNS3 and VMware run under the same user.
+2022-10-06 21:41:22 CRITICAL __init__.py:1636 vmrun has returned an error: Error: Cannot open VM: /home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx, The virtual machine cannot be found
+
+Try to run /usr/bin/vmrun -T ws reset '/home/bazza/vmware/Clone of Kali Linux/Clone of Kali Linux.vmx' in a terminal to see more details.
+And make sure GNS3 and VMware run under the same user.
+2022-10-06 21:42:07 WARNING project.py:724 "Admin1_PC-1" requires 4096MB of RAM to run but there is only 3216MB - 21.0% of RAM left on "mythbox"
+2022-10-06 22:21:18 CRITICAL __init__.py:1561 Cannot delete node 'CloneofKaliLinux-1' because it is locked
+2022-10-06 22:30:55 WARNING __init__.py:111 Wifi interfaces may not work properly. It is recommended to use wired Ethernet or Loopback interfaces only.
+2022-10-06 22:32:03 WARNING project.py:724 "Windows10CyberInstall-1" requires 2048MB of RAM to run but there is only 1270MB - 8.299999999999997% of RAM left on "mythbox"
+2022-10-06 22:32:05 ERROR node.py:258 error while starting Windows10CyberInstall-1: Error while sending command 'bridge add_nio_linux_raw ethernet0.vnet "VMnet0"': unable to create NIO Linux raw for bridge 'ethernet0.vnet': uBridge version 0.9.18 running with libpcap version 1.10.1 (with TPACKET_V3)
+Hypervisor TCP control server started (IP 192.168.10.1 port 39847).
+nio_linux_raw_dev_id: SIOCGIFINDEX: No such device
+nio_linux_raw_open_socket: bind: No such device
+nio_linux_raw_dev_id: SIOCGIFINDEX: No such device
+
+2022-10-06 22:32:05 CRITICAL __init__.py:1636 Error while sending command 'bridge add_nio_linux_raw ethernet0.vnet "VMnet0"': unable to create NIO Linux raw for bridge 'ethernet0.vnet': uBridge version 0.9.18 running with libpcap version 1.10.1 (with TPACKET_V3)
+Hypervisor TCP control server started (IP 192.168.10.1 port 39847).
+nio_linux_raw_dev_id: SIOCGIFINDEX: No such device
+nio_linux_raw_open_socket: bind: No such device
+nio_linux_raw_dev_id: SIOCGIFINDEX: No such device
+2022-10-06 23:51:53 WARNING __init__.py:223 You have unsaved preferences in Docker containers.
 
 Continue without saving?
