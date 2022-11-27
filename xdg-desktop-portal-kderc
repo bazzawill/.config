@@ -1,10 +1,16 @@
 [FileDialogSize]
+XWAYLAND0 XWAYLAND1 Height 1080x1920 XWAYLAND0=480
 XWAYLAND0 XWAYLAND1 Height 1680x1050=480
+XWAYLAND0 XWAYLAND1 Height 1680x1050 XWAYLAND1=480
+XWAYLAND0 XWAYLAND1 Width 1080x1920 XWAYLAND0=650
 XWAYLAND0 XWAYLAND1 Width 1680x1050=640
+XWAYLAND0 XWAYLAND1 Width 1680x1050 XWAYLAND1=650
+XWAYLAND1 XWAYLAND2 Height 1080x1920 XWAYLAND2=480
+XWAYLAND1 XWAYLAND2 Width 1080x1920 XWAYLAND2=640
 screen Height 1280x720=480
 screen Width 1280x720=838
 
 [KFileDialog Settings]
-Recent Files[$e]=macOS 11.0 Big Sur Beta by Sysprobs.7z.torrent,file:$HOME/Photos-001.zip,file:$HOME/Downloads/kali-linux-2022.3-vmware-amd64.7z,file:$HOME/TAFE/4CYCSF/Assessment 3 - Part 2.docx,file:$HOME/Downloads/oneDriveOOo.oxt,file:$HOME/Downloads/jdbcDriverOOo.oxt,file:$HOME/Downloads/OAuth2OOo.oxt,file:$HOME/Desktop/4CYCSF/rockyou.txt,file:$HOME/Desktop/4CYCSF/_$$hn the Ripper Commands.docx,file:$HOME/Desktop/4CYCSF/Job Ad - IT Client Relations Consultant_short.pdf,file:$HOME/Desktop/4CYCSF/Job Ad - Service Desk Analyst_short.pdf,file:$HOME/Desktop/4CYCSF/6.2.4.4 Packet Tracer - Router and Switch Resilience.pka,file:$HOME/Desktop/4CYCSF/6.2.3.8 Packet Tracer - Router and Switch Redundancy.pka,file:$HOME/TAFE/4CYCSF/studyschedule_ext_220811 - Tagged.pdf,file:$HOME/TAFE/4CYCSF/student_template.docx,file:$HOME/TAFE/CSE_LABVM.ova
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/TAFE/4CYCSF/,file:$HOME/TAFE/4CYWEB/,file:$HOME/,file:$HOME/TAFE/,file:$HOME/Desktop/4CYCSF/,file:$HOME/Documents/,file:$HOME/tomandcharlie/
+Recent Files[$e]=macOS 11.0 Big Sur Beta by Sysprobs.7z.torrent,file:///mythz/downloads/Arch-Linux-x86_64-basic-20221127.105841.qcow2,file:$HOME/security-key.txt,file:$HOME/Images/BarryHead.png,file:$HOME/PXL_20220105_051824625.jpg,file:///mythz/VMs/shared/email.zip,file:///mythz/VMs/shared/You have new voicemail.eml,file:///mythz/VMs/shared/NEW VOICEMAIL _MP3_11242022 74443 a.m..html,file:///mythz/VMs/shared/cm-ssh.tgz,file:///mythz/blackarch-linux-netinst-2021.09.01-x86_64.iso,file:///mythz/VMs/Lab6 - EthicalHacking_Part1 - Tagged.pdf,file:///mythz/VMs/software_protection_160824 - Tagged.pdf,file:///mythz/VMs/Activity_Firewall_v1_200709 - Tagged.pdf
+Recent URLs[$e]=file:$HOME/Documents/,file:$HOME/tomandcharlie/,file:///mnt/,file:$HOME/oneDrive/,file:$HOME/,file:///mythz/VMs/,file:///mythz/,file:///mythz/VMs/shared/,file:$HOME/Images/,file:///mythz/downloads/
 detailViewIconSize=16

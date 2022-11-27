@@ -4,8 +4,11 @@
 #
 # Read `man 5 sway` for a complete reference.
 # Clipman
-exec wl-paste -t text --watch clipman store --no-persist
+# exec wl-paste -t text --watch clipman store --no-persist
+exec wl-paste -n -t text --watch clipman store --histpath="~/.cache/clipman.json" >> /tmp/clipman-log.txt 2>&1 &
+exec wl-paste -n -p -t text --watch clipman store -P --histpath="~/.cache/clipman-primary.json" >> /tmp/clipman-log.txt 2>&1 &
 ### Variables
+set $SWAY_INTERACTIVE_SCREENSHOT_SAVEDIR ~/screenshot/
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
@@ -37,10 +40,8 @@ output DP-1 resolution 1920x1080 position 1680,0 transform 270 bg ~/pictures/PXL
 #
 # Example configuration:
 #
- exec swayidle -w \
-          timeout 300 'swaylock -f -c 000000' \
-          timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
-          before-sleep 'swaylock -f -c 000000'
+ exec swayidle  \
+          timeout 100 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' 
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -62,6 +63,8 @@ output DP-1 resolution 1920x1080 position 1680,0 transform 270 bg ~/pictures/PXL
 
 ### Key bindings
 #
+    # clipboard manager
+    bindsym $mod+x exec 'clipman pick -t wofi --histpath="~/.cache/clipman.json"'
 # Basics:
 #
     # Start a terminal
@@ -87,6 +90,8 @@ output DP-1 resolution 1920x1080 position 1680,0 transform 270 bg ~/pictures/PXL
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
+    bindsym $mod+p exec waybar
+    bindsym $mod+Shift+p exec killall waybar
 #
     # Move your focus around
     bindsym $mod+$left focus left

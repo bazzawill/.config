@@ -1,16 +1,14 @@
 [Unit]
 Description=Deluge Bittorrent Client Web Interface
 Documentation=man:deluge-web
-After=network-online.target delugedu.service
-Wants=deluged.service
+After=network.target 
+#delugedu.service
 
 [Service]
 Type=simple
-UMask=027
-
+UMask=007
 ExecStart=/usr/bin/deluge-web -d
-
 Restart=on-failure
-
+RestartSec=5s
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target

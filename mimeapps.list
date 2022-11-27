@@ -11,11 +11,12 @@ x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
 x-scheme-handler/mailto=google-chrome.desktop
 x-scheme-handler/webcal=google-chrome.desktop
+application/pdf=google-chrome.desktop
 
 [Added Associations]
 application/zip=org.gnome.FileRoller.desktop;libreoffice-impress.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
-application/pdf=firefox.desktop;google-chrome.desktop;
+application/pdf=google-chrome.desktop;firefox.desktop;
 image/jpeg=gpicview.desktop;
 text/plain=sublime_text_3.desktop;
 application/x-ole-storage=libreoffice-writer.desktop;
@@ -33,4 +34,3 @@ application/xml=vlc.desktop;
 video/quicktime=vlc.desktop;
 text/x-microdvd=sublime_text_3.desktop;
 image/png=feh.desktop;
-

@@ -6,5 +6,7 @@
     "coc-prettier": ">=1.1.20",
     "coc-snippets": ">=2.4.0",
     "coc-tsserver": ">=1.6.8"
-  }
+  },
+  "disabled": [],
+  "locked": []
 }
