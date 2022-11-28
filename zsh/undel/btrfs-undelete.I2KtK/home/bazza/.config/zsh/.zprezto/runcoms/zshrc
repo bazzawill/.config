@@ -1,0 +1,55 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+export DISPLAY=:0
+export EDITOR=nvim
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+alias ls=exa #'ls --color=auto'
+alias pikaur='pikaur --noedit --nodiff'
+alias vi=nvim
+alias start='sudo systemctl start'
+alias stop='sudo systemctl stop'
+alias sysenable='sudo systemctl enable'
+alias sysdisable='sudo systemctl disable'
+alias sysreload='sudo systemctl daemon-reload'
+alias makepkgi='makepkg --syncdeps --install --noconfirm'
+alias mp="sudo -v && makepkg --noconfirm -i"
+alias skytest="skytest.sh |& tee /home/bazza/log/$(date "+%y%m%d%T").log"  
+alias subdl="subliminal download -l en"
+mythfs=/media/mythfs
+vids=/media/mythfs/videos
+tv=/media/mythfs/tv
+plex=/media/mythfs/plex
+dl=/media/mythfs/downloads
+rom=/media/mythfs/Romz
+PATH=$PATH:/home/bazza/bin
+# Disable hostname completion
+zstyle ':completion:*' hosts off
+zstyle ':completion:*' accept-exact '*(N)'
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.config/zsh/cache
+CASE_SENSITIVE="true"
+alias reload="sudo systemctl daemon-reload"
+alias subdla="subliminal download -l en *.(avi|mkv|mp4)"
+alias ed="WINEPREFIX=/media/mythfs/games/ED_pfx wine64 /media/mythfs/games/ED_pfx/drive_c/Program\ Files\ \(x86\)/Frontier/EDLaunch/EDLaunch.exe /novr"
+alias monoff="xset dpms force off"
+alias monon="xset dpms force on"
+alias screenshot="import -window root ~/screenshot/$(date '+%Y%m%d-%H%M%S').png"
+alias startu="systemctl --user start"
+alias stopu="systemctl --user stop"
+alias cat=bat
+
+function pretty_csv {
+    column -t -s, "$@" | less -F -S -X -K
+}
