@@ -4,13 +4,13 @@ XWAYLAND0 XWAYLAND1 Height 1680x1050=480
 XWAYLAND0 XWAYLAND1 Height 1680x1050 XWAYLAND1=480
 XWAYLAND0 XWAYLAND1 Width 1080x1920 XWAYLAND0=650
 XWAYLAND0 XWAYLAND1 Width 1680x1050=640
-XWAYLAND0 XWAYLAND1 Width 1680x1050 XWAYLAND1=650
+XWAYLAND0 XWAYLAND1 Width 1680x1050 XWAYLAND1=837
 XWAYLAND1 XWAYLAND2 Height 1080x1920 XWAYLAND2=480
 XWAYLAND1 XWAYLAND2 Width 1080x1920 XWAYLAND2=640
 screen Height 1280x720=480
 screen Width 1280x720=838
 
 [KFileDialog Settings]
-Recent Files[$e]=macOS 11.0 Big Sur Beta by Sysprobs.7z.torrent,file:///mythz/downloads/Arch-Linux-x86_64-basic-20221127.105841.qcow2,file:$HOME/security-key.txt,file:$HOME/Images/BarryHead.png,file:$HOME/PXL_20220105_051824625.jpg,file:///mythz/VMs/shared/email.zip,file:///mythz/VMs/shared/You have new voicemail.eml,file:///mythz/VMs/shared/NEW VOICEMAIL _MP3_11242022 74443 a.m..html,file:///mythz/VMs/shared/cm-ssh.tgz,file:///mythz/blackarch-linux-netinst-2021.09.01-x86_64.iso,file:///mythz/VMs/Lab6 - EthicalHacking_Part1 - Tagged.pdf,file:///mythz/VMs/software_protection_160824 - Tagged.pdf,file:///mythz/VMs/Activity_Firewall_v1_200709 - Tagged.pdf
-Recent URLs[$e]=file:$HOME/Documents/,file:$HOME/tomandcharlie/,file:///mnt/,file:$HOME/oneDrive/,file:$HOME/,file:///mythz/VMs/,file:///mythz/,file:///mythz/VMs/shared/,file:$HOME/Images/,file:///mythz/downloads/
+Recent Files[$e]=macOS 11.0 Big Sur Beta by Sysprobs.7z.torrent,file:$HOME/thm/Cetus_v1.03.1.zip,file:$HOME/thm/EtherStore.sol,file:$HOME/thm/Attack.sol,file:$HOME/thm/AoCSmartContracts.zip,file:$HOME/FM Change of details or change of situation form DOCX_0.docx,file:$HOME/FM Change of details or change of situation form.pdf,file:$HOME/oneDrive/Brain/Report - Care2 OT Assessment Report - Functional Tier 2Barry Williams.pdf,file:$HOME/thm/Day8/AoCSmartContracts.zip,file:$HOME/Barry Williams c2f referral.pdf,file:$HOME/FM Change of details or change of situation form PDF_0 (1).pdf,file:$HOME/FM Change of details or change of situation form PDF_0.pdf,file:$HOME/thm/bazzawill.ovpn,file:///mythz/VMs/shared/metasploit/nmap-default,file:///mythz/VMs/shared/metasploit/nmap-vuln,file:///mythz/downloads/Arch-Linux-x86_64-basic-20221127.105841.qcow2
+Recent URLs[$e]=file:$HOME/Images/,file:///mythz/downloads/,file:$HOME/Documents/,file:$HOME/oneDrive/,file:///mythz/VMs/shared/metasploit/,file:$HOME/,file:$HOME/thm/Day8/,file:$HOME/oneDrive/Brain/,file:$HOME/oneDrive/TAFE/,file:$HOME/thm/
 detailViewIconSize=16

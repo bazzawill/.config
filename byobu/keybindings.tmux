@@ -10,3 +10,5 @@ bind -n C-l select-pane -R
 unbind-key -
 bind - split-window -h
 unbind-key F2
+bind P split-window "tmux select-pane -P bg='#012456' ; pwsh; read"
+bind R split-window "tmux select-pane -P bg='#880000' ; sudo -i; read"

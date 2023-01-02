@@ -1,187 +1,278 @@
-2022-11-27 12:29:00 INFO run.py:219 GNS3 server version 2.2.34
-2022-11-27 12:29:00 INFO run.py:221 Copyright (c) 2007-2022 GNS3 Technologies Inc.
-2022-11-27 12:29:00 INFO run.py:224 Config file /home/bazza/.config/GNS3/2.2/gns3_server.conf loaded
-2022-11-27 12:29:00 WARNING run.py:230 Local mode is enabled. Beware, clients will have full control on your filesystem
-2022-11-27 12:29:00 INFO run.py:237 HTTP authentication is enabled with username 'admin'
-2022-11-27 12:29:00 INFO run.py:243 Running with Python 3.10.8 and has PID 1251715
-2022-11-27 12:29:00 INFO run.py:79 Current locale is en_AU.UTF-8
-2022-11-27 12:29:00 INFO web_server.py:318 Starting server on 192.168.10.1:3078
-2022-11-27 12:29:00 INFO __init__.py:63 Load controller configuration file /home/bazza/.config/GNS3/2.2/gns3_controller.conf
-2022-11-27 12:29:00 INFO __init__.py:67 Controller is starting
-2022-11-27 12:29:00 INFO compute.py:64 Create compute local
-2022-11-27 12:29:00 INFO compute.py:364 Connecting to compute 'local'
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/compute/capabilities HTTP/1.1" 200 553 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:29:00 INFO __init__.py:314 Start the GNS3 VM
-2022-11-27 12:29:00 INFO compute.py:64 Create compute vm
-2022-11-27 12:29:00 INFO notification_handler.py:50 New client has connected to compute WebSocket
-2022-11-27 12:29:00 INFO compute.py:431 Connected to compute 'local' WebSocket 'http://192.168.10.1:3078/v2/compute/notifications/ws'
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/version HTTP/1.1" 200 228 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/version HTTP/1.1" 200 228 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:00 INFO notification_handler.py:73 New client has connected to controller WebSocket
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/templates HTTP/1.1" 200 10834 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/computes HTTP/1.1" 200 1433 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/appliances?symbol_theme=Classic HTTP/1.1" 200 822486 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/projects HTTP/1.1" 200 184 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/projects HTTP/1.1" 200 184 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/symbols/%3A/symbols/router.svg/raw HTTP/1.1" 200 11038 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:00 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/symbols/%3A/symbols/vmware_guest.svg/raw HTTP/1.1" 200 20017 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:01 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/symbols/%3A/symbols/ethernet_switch.svg/raw HTTP/1.1" 200 9274 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:01 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/symbols/%3A/symbols/vpcs_guest.svg/raw HTTP/1.1" 200 19496 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:01 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/symbols/%3A/symbols/cloud.svg/raw HTTP/1.1" 200 27983 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:01 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/symbols/%3A/symbols/docker_guest.svg/raw HTTP/1.1" 200 26605 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:01 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/symbols/%3A/symbols/hub.svg/raw HTTP/1.1" 200 7637 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:01 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:01 +0000] "GET /v2/symbols/%3A/symbols/frame_relay_switch.svg/raw HTTP/1.1" 200 10028 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:01 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:01 +0000] "GET /v2/symbols/%3A/symbols/atm_switch.svg/raw HTTP/1.1" 200 9960 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:01 INFO __init__.py:608 Searching for VMware VMs in inventory file "/home/bazza/.vmware/inventory.vmls"
-2022-11-27 12:29:01 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws checkToolsState '/mythz/VMs/GNS3 VM/GNS3 VM.vmx'
-2022-11-27 12:29:01 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
-2022-11-27 12:29:01 INFO vmware_gns3_vm.py:153 Update GNS3 VM vCPUs and RAM settings
-2022-11-27 12:29:01 INFO vmware_gns3_vm.py:87 GNS3 VM vCPU count set to 2 and RAM amount set to 2048
-2022-11-27 12:29:01 INFO vmware_gns3_vm.py:156 Update GNS3 VM Hardware Virtualization setting
-2022-11-27 12:29:01 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws start '/mythz/VMs/GNS3 VM/GNS3 VM.vmx' nogui
-2022-11-27 12:29:03 INFO vmware_gns3_vm.py:164 GNS3 VM has been started
-2022-11-27 12:29:03 INFO vmware_gns3_vm.py:169 Waiting for GNS3 VM IP
-2022-11-27 12:29:04 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:04 +0000] "POST /v2/projects HTTP/1.1" 403 288 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:21 INFO vmware_gns3_vm.py:188 GNS3 VM IP address set to 192.168.10.129
-2022-11-27 12:29:21 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 12:29:21 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 12:29:21 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:16 +0000] "POST /v2/projects/load HTTP/1.1" 409 308 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:29:26 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 12:29:26 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 12:29:31 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 12:29:31 INFO compute.py:431 Connected to compute 'vm' WebSocket 'http://192.168.10.129:80/v2/compute/notifications/ws'
-2022-11-27 12:29:31 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:31 +0000] "GET /v2/compute/network/interfaces HTTP/1.1" 200 3648 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:35:47 INFO compute.py:457 Connection closed to compute 'local' WebSocket 'http://192.168.10.1:3078/v2/compute/notifications/ws'
-2022-11-27 12:35:47 INFO compute.py:457 Connection closed to compute 'vm' WebSocket 'http://192.168.10.129:80/v2/compute/notifications/ws'
-2022-11-27 12:35:48 INFO compute.py:364 Connecting to compute 'local'
-2022-11-27 12:35:48 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 12:35:51 INFO notification_handler.py:59 Client has disconnected from compute WebSocket
-2022-11-27 12:35:51 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:01:59:00 +0000] "GET /v2/compute/notifications/ws HTTP/1.1" 200 0 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:35:52 INFO web_log.py:206 192.168.1.100 [27/Nov/2022:02:05:52 +0000] "GET /v2/compute/capabilities HTTP/1.1" 200 553 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:35:52 INFO notification_handler.py:50 New client has connected to compute WebSocket
-2022-11-27 12:35:52 INFO compute.py:431 Connected to compute 'local' WebSocket 'http://192.168.10.1:3078/v2/compute/notifications/ws'
-2022-11-27 12:36:09 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.129:80/v2/compute/capabilities after 20s
-2022-11-27 12:36:09 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 12:36:09 INFO compute.py:431 Connected to compute 'vm' WebSocket 'http://192.168.10.129:80/v2/compute/notifications/ws'
-2022-11-27 12:36:10 INFO project.py:78 Project 246cb1d4-5afc-4cb2-8c94-c8c4cdc16986 with path '/home/bazza/GNS3/projects/4CYNET1' created
-2022-11-27 12:36:10 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:10 +0000] "POST /v2/compute/projects HTTP/1.1" 201 303 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:10 INFO docker_vm.py:1078 Docker container "Kali-Docker-1" [7d87689c-e72f-4b20-bc99-ef7210868024]: number of Ethernet adapters changed to 1
-2022-11-27 12:36:10 INFO docker_vm.py:416 Docker container 'Kali-Docker-1' [7d87689c-e72f-4b20-bc99-ef7210868024] created
-2022-11-27 12:36:10 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:10 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/docker/nodes HTTP/1.1" 201 938 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:10 INFO __init__.py:303 Creating new hypervisor 192.168.10.1:58613 with working directory /home/bazza/GNS3/projects/4CYNET1/project-files/dynamips
-2022-11-27 12:36:10 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', '192.168.10.1:58613']
-2022-11-27 12:36:10 INFO hypervisor.py:129 Dynamips process logging to /home/bazza/GNS3/projects/4CYNET1/project-files/dynamips/dynamips_i1_stdout.txt
-2022-11-27 12:36:10 INFO hypervisor.py:136 Dynamips process started PID=1300934
-2022-11-27 12:36:10 INFO __init__.py:305 Hypervisor 192.168.10.1:58613 has successfully started
-2022-11-27 12:36:10 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on 192.168.10.1:58613 after 0.1785 seconds
-2022-11-27 12:36:10 INFO ethernet_switch.py:187 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209] has been created
-2022-11-27 12:36:10 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:10 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes HTTP/1.1" 201 1562 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:10 INFO base_node.py:663 Starting new uBridge hypervisor 192.168.10.1:42101
-2022-11-27 12:36:10 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', '192.168.10.1:42101']
-2022-11-27 12:36:10 INFO hypervisor.py:171 logging to /home/bazza/GNS3/projects/4CYNET1/project-files/builtin/fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e/ubridge.log
-2022-11-27 12:36:10 INFO hypervisor.py:179 ubridge started PID=1300970
-2022-11-27 12:36:10 INFO base_node.py:666 Hypervisor 192.168.10.1:42101 has successfully started
-2022-11-27 12:36:11 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on 192.168.10.1:42101 after 0.1005 seconds
-2022-11-27 12:36:11 INFO cloud.py:215 Cloud "Cloud1" [fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e] has been created
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:10 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/cloud/nodes HTTP/1.1" 201 2652 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO vmware_vm.py:676 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c] has changed the number of Ethernet adapters to 1
-2022-11-27 12:36:11 INFO vmware_vm.py:625 VMware VM "Windows10x64-1-1" [7a37506d-5288-4fcb-b283-27a6eeb2e00c] set the close action to "shutdown_signal"
-2022-11-27 12:36:11 INFO vmware_vm.py:722 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c] is allowed to use any adapter
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes HTTP/1.1" 201 864 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO vmware_vm.py:676 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] has changed the number of Ethernet adapters to 1
-2022-11-27 12:36:11 INFO vmware_vm.py:625 VMware VM "WindowsServer2016-1-1" [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] set the close action to "shutdown_signal"
-2022-11-27 12:36:11 INFO vmware_vm.py:722 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] is allowed to use any adapter
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes HTTP/1.1" 201 874 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO vmware_vm.py:676 VMware VM 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3] has changed the number of Ethernet adapters to 1
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes HTTP/1.1" 201 856 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO vmware_vm.py:676 VMware VM 'blackarch-linux-2021.09.01-1' [0e77cc96-a185-4f39-97a2-31aa59fd1ab5] has changed the number of Ethernet adapters to 1
-2022-11-27 12:36:11 INFO vmware_vm.py:625 VMware VM "blackarch-linux-2021.09.01-1" [0e77cc96-a185-4f39-97a2-31aa59fd1ab5] set the close action to "shutdown_signal"
-2022-11-27 12:36:11 INFO vmware_vm.py:722 VMware VM 'blackarch-linux-2021.09.01-1' [0e77cc96-a185-4f39-97a2-31aa59fd1ab5] is allowed to use any adapter
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes HTTP/1.1" 201 840 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-5cafb761-e141-4665-be84-c20e4318591e bound to port 0
-2022-11-27 12:36:11 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 0 set as an access port in VLAN 1
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/0/nio HTTP/1.1" 201 395 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-695ad066-0c32-4155-9d47-daf82af54af3 bound to port 7
-2022-11-27 12:36:11 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 7 set as an access port in VLAN 1
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/7/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO docker_vm.py:980 Docker container 'Kali-Docker-1' [7d87689c-e72f-4b20-bc99-ef7210868024]: NIO UDP added to adapter 0
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/docker/nodes/7d87689c-e72f-4b20-bc99-ef7210868024/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO cloud.py:396 Cloud "Cloud1" [fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e]: NIO NIO UDP bound to port 0
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/cloud/nodes/fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO vmware_vm.py:763 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2]: NIO UDP added to adapter 0
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/0d4a7e1c-bd16-442b-9b83-de00ae2026d2/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:11 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-0f68c847-3a6a-4a6f-88ed-354d043ee8e2 bound to port 1
-2022-11-27 12:36:11 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 1 set as an access port in VLAN 1
-2022-11-27 12:36:11 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:11 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/1/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO vmware_vm.py:763 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c]: NIO UDP added to adapter 0
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/7a37506d-5288-4fcb-b283-27a6eeb2e00c/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-9a2f8b7b-5f24-4425-9b0a-48ce39d70c37 bound to port 2
-2022-11-27 12:36:12 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 2 set as an access port in VLAN 1
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/2/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO vmware_vm.py:763 VMware VM 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3]: NIO UDP added to adapter 0
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/b364f2e1-c56c-41d4-8473-ba9c94b37cb3/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-c803751e-ec1d-4156-a18d-c9525f7a11f9 bound to port 3
-2022-11-27 12:36:12 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 3 set as an access port in VLAN 1
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/3/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-a8174139-b1dc-4b19-aa5f-40b3f3e8c743 bound to port 4
-2022-11-27 12:36:12 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 4 set as an access port in VLAN 1
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/4/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO vmware_vm.py:763 VMware VM 'blackarch-linux-2021.09.01-1' [0e77cc96-a185-4f39-97a2-31aa59fd1ab5]: NIO UDP added to adapter 0
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/0e77cc96-a185-4f39-97a2-31aa59fd1ab5/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:04 +0000] "POST /v2/projects/load HTTP/1.1" 201 731 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "GET /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes HTTP/1.1" 200 37372 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:36:12 INFO project_handler.py:272 New client has connected to the notification stream for project ID '246cb1d4-5afc-4cb2-8c94-c8c4cdc16986' (WebSocket method)
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "GET /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/links HTTP/1.1" 200 10828 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "GET /v2/symbols/%3A/symbols/classic/multilayer_switch.svg/raw HTTP/1.1" 200 21518 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:36:12 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:06:12 +0000] "GET /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/drawings HTTP/1.1" 200 206 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:39:28 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:09:27 +0000] "POST /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes/5895421c-109d-40a4-b374-d169edac23e7/start HTTP/1.1" 200 4383 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:39:29 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:09:29 +0000] "POST /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes/daa1abac-13c8-43a4-8a0e-92b2eb8d008d/start HTTP/1.1" 200 4383 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 12:39:32 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
-2022-11-27 12:39:32 INFO base_node.py:663 Starting new uBridge hypervisor 192.168.10.1:35441
-2022-11-27 12:39:32 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', '192.168.10.1:35441']
-2022-11-27 12:39:32 INFO hypervisor.py:171 logging to /home/bazza/GNS3/projects/4CYNET1/project-files/vmware/0e77cc96-a185-4f39-97a2-31aa59fd1ab5/ubridge.log
-2022-11-27 12:39:32 INFO hypervisor.py:179 ubridge started PID=1325744
-2022-11-27 12:39:32 INFO base_node.py:666 Hypervisor 192.168.10.1:35441 has successfully started
-2022-11-27 12:39:32 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on 192.168.10.1:35441 after 0.1007 seconds
-2022-11-27 12:39:32 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws start /mythz/VMs/blackarch-linux-2021.09.01/blackarch-linux-2021.09.01.vmx
-2022-11-27 12:39:36 INFO vmware_vm.py:483 VMware VM 'blackarch-linux-2021.09.01-1' [0e77cc96-a185-4f39-97a2-31aa59fd1ab5] started
-2022-11-27 12:39:36 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:09:31 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/0e77cc96-a185-4f39-97a2-31aa59fd1ab5/start HTTP/1.1" 204 189 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 12:39:36 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:02:09:31 +0000] "POST /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes/0e77cc96-a185-4f39-97a2-31aa59fd1ab5/start HTTP/1.1" 200 1937 "-" "GNS3 QT Client v2.2.34"
-2022-11-27 20:48:54 INFO compute.py:457 Connection closed to compute 'vm' WebSocket 'http://192.168.10.129:80/v2/compute/notifications/ws'
-2022-11-27 20:48:55 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:49:16 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.129:80/v2/compute/capabilities after 20s
-2022-11-27 20:49:21 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:49:23 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 20:49:28 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:49:48 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.129:80/v2/compute/capabilities after 20s
-2022-11-27 20:49:53 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:49:57 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 20:50:02 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:50:19 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 20:50:24 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:50:28 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 20:50:33 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:50:53 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.129:80/v2/compute/capabilities after 20s
-2022-11-27 20:50:58 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:51:02 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 20:51:07 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:51:27 WARNING compute.py:367 Cannot connect to compute 'vm': Timeout error for GET call to http://192.168.10.129:80/v2/compute/capabilities after 20s
-2022-11-27 20:51:32 INFO compute.py:364 Connecting to compute 'vm'
-2022-11-27 20:51:36 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 20:51:36 ERROR compute.py:373 Could not connect to compute 'vm' after multiple attempts: Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
-2022-11-27 20:51:36 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:10:21:36 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/docker/nodes/7d87689c-e72f-4b20-bc99-ef7210868024/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 20:51:36 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:10:21:36 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/stop HTTP/1.1" 204 197 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 20:51:36 INFO web_log.py:206 192.168.10.1 [27/Nov/2022:10:21:36 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/cloud/nodes/fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e/stop HTTP/1.1" 204 187 "-" "Python/3.10 aiohttp/3.8.3"
-2022-11-27 20:51:36 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 21:53:47 INFO run.py:219 GNS3 server version 2.2.34
+2022-12-15 21:53:47 INFO run.py:221 Copyright (c) 2007-2022 GNS3 Technologies Inc.
+2022-12-15 21:53:47 INFO run.py:224 Config file /home/bazza/.config/GNS3/2.2/gns3_server.conf loaded
+2022-12-15 21:53:47 WARNING run.py:230 Local mode is enabled. Beware, clients will have full control on your filesystem
+2022-12-15 21:53:47 INFO run.py:237 HTTP authentication is enabled with username 'admin'
+2022-12-15 21:53:47 INFO run.py:243 Running with Python 3.10.8 and has PID 3283986
+2022-12-15 21:53:47 INFO run.py:79 Current locale is en_AU.UTF-8
+2022-12-15 21:53:47 INFO web_server.py:318 Starting server on 192.168.10.1:3078
+2022-12-15 21:53:47 INFO __init__.py:63 Load controller configuration file /home/bazza/.config/GNS3/2.2/gns3_controller.conf
+2022-12-15 21:53:47 INFO __init__.py:67 Controller is starting
+2022-12-15 21:53:47 INFO compute.py:64 Create compute local
+2022-12-15 21:53:47 INFO compute.py:364 Connecting to compute 'local'
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/compute/capabilities HTTP/1.1" 200 553 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:53:47 INFO __init__.py:314 Start the GNS3 VM
+2022-12-15 21:53:47 INFO compute.py:64 Create compute vm
+2022-12-15 21:53:47 INFO notification_handler.py:50 New client has connected to compute WebSocket
+2022-12-15 21:53:47 INFO compute.py:431 Connected to compute 'local' WebSocket 'http://192.168.10.1:3078/v2/compute/notifications/ws'
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/version HTTP/1.1" 200 228 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/version HTTP/1.1" 200 228 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO notification_handler.py:73 New client has connected to controller WebSocket
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/templates HTTP/1.1" 200 11623 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/computes HTTP/1.1" 200 1434 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/appliances?symbol_theme=Classic HTTP/1.1" 200 822486 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/projects HTTP/1.1" 200 184 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/projects HTTP/1.1" 200 184 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/router.svg/raw HTTP/1.1" 200 11038 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/vmware_guest.svg/raw HTTP/1.1" 200 20017 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/ethernet_switch.svg/raw HTTP/1.1" 200 9274 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/cloud.svg/raw HTTP/1.1" 200 27983 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/vpcs_guest.svg/raw HTTP/1.1" 200 19496 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/docker_guest.svg/raw HTTP/1.1" 200 26605 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/hub.svg/raw HTTP/1.1" 200 7637 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/frame_relay_switch.svg/raw HTTP/1.1" 200 10028 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/symbols/%3A/symbols/atm_switch.svg/raw HTTP/1.1" 200 9960 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:47 INFO __init__.py:608 Searching for VMware VMs in inventory file "/home/bazza/.vmware/inventory.vmls"
+2022-12-15 21:53:48 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws checkToolsState '/mythz/VMs/GNS3 VM/GNS3 VM.vmx'
+2022-12-15 21:53:48 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 21:53:48 INFO vmware_gns3_vm.py:153 Update GNS3 VM vCPUs and RAM settings
+2022-12-15 21:53:48 INFO vmware_gns3_vm.py:87 GNS3 VM vCPU count set to 2 and RAM amount set to 2048
+2022-12-15 21:53:48 INFO vmware_gns3_vm.py:156 Update GNS3 VM Hardware Virtualization setting
+2022-12-15 21:53:48 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws start '/mythz/VMs/GNS3 VM/GNS3 VM.vmx' nogui
+2022-12-15 21:53:53 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:53 +0000] "GET /v2/computes HTTP/1.1" 200 1434 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:53:55 INFO vmware_gns3_vm.py:164 GNS3 VM has been started
+2022-12-15 21:53:55 INFO vmware_gns3_vm.py:169 Waiting for GNS3 VM IP
+2022-12-15 21:54:52 INFO vmware_gns3_vm.py:188 GNS3 VM IP address set to 192.168.10.129
+2022-12-15 21:54:53 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 21:54:53 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 21:54:53 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:53 +0000] "POST /v2/projects/load HTTP/1.1" 409 308 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:54:58 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 21:54:58 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 21:55:02 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 21:55:02 INFO compute.py:431 Connected to compute 'vm' WebSocket 'http://192.168.10.129:80/v2/compute/notifications/ws'
+2022-12-15 21:55:02 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:02 +0000] "GET /v2/compute/network/interfaces HTTP/1.1" 200 3648 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:17 INFO web_log.py:206 192.168.1.100 [15/Dec/2022:11:25:17 +0000] "GET /v2/computes HTTP/1.1" 200 1869 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:55:21 INFO project.py:78 Project 246cb1d4-5afc-4cb2-8c94-c8c4cdc16986 with path '/home/bazza/GNS3/projects/4CYNET1' created
+2022-12-15 21:55:21 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:21 +0000] "POST /v2/compute/projects HTTP/1.1" 201 303 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:21 INFO docker_vm.py:1078 Docker container "Kali-Docker-1" [7d87689c-e72f-4b20-bc99-ef7210868024]: number of Ethernet adapters changed to 1
+2022-12-15 21:55:22 INFO docker_vm.py:416 Docker container 'Kali-Docker-1' [7d87689c-e72f-4b20-bc99-ef7210868024] created
+2022-12-15 21:55:22 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:21 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/docker/nodes HTTP/1.1" 201 938 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:22 INFO __init__.py:303 Creating new hypervisor 192.168.10.1:49937 with working directory /home/bazza/GNS3/projects/4CYNET1/project-files/dynamips
+2022-12-15 21:55:22 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', '192.168.10.1:49937']
+2022-12-15 21:55:22 INFO hypervisor.py:129 Dynamips process logging to /home/bazza/GNS3/projects/4CYNET1/project-files/dynamips/dynamips_i1_stdout.txt
+2022-12-15 21:55:22 INFO hypervisor.py:136 Dynamips process started PID=3332707
+2022-12-15 21:55:22 INFO __init__.py:305 Hypervisor 192.168.10.1:49937 has successfully started
+2022-12-15 21:55:22 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on 192.168.10.1:49937 after 0.3332 seconds
+2022-12-15 21:55:22 INFO ethernet_switch.py:187 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209] has been created
+2022-12-15 21:55:22 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:22 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes HTTP/1.1" 201 1562 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:22 INFO base_node.py:663 Starting new uBridge hypervisor 192.168.10.1:42541
+2022-12-15 21:55:22 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', '192.168.10.1:42541']
+2022-12-15 21:55:22 INFO hypervisor.py:171 logging to /home/bazza/GNS3/projects/4CYNET1/project-files/builtin/fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e/ubridge.log
+2022-12-15 21:55:22 INFO hypervisor.py:179 ubridge started PID=3332761
+2022-12-15 21:55:22 INFO base_node.py:666 Hypervisor 192.168.10.1:42541 has successfully started
+2022-12-15 21:55:22 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on 192.168.10.1:42541 after 0.1008 seconds
+2022-12-15 21:55:22 INFO cloud.py:215 Cloud "Cloud1" [fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e] has been created
+2022-12-15 21:55:22 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:22 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/cloud/nodes HTTP/1.1" 201 2652 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:22 INFO vmware_vm.py:676 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c] has changed the number of Ethernet adapters to 1
+2022-12-15 21:55:22 INFO vmware_vm.py:625 VMware VM "Windows10x64-1-1" [7a37506d-5288-4fcb-b283-27a6eeb2e00c] set the close action to "shutdown_signal"
+2022-12-15 21:55:22 INFO vmware_vm.py:722 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c] is allowed to use any adapter
+2022-12-15 21:55:22 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:22 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes HTTP/1.1" 201 864 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:22 INFO vmware_vm.py:676 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] has changed the number of Ethernet adapters to 1
+2022-12-15 21:55:22 INFO vmware_vm.py:625 VMware VM "WindowsServer2016-1-1" [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] set the close action to "shutdown_signal"
+2022-12-15 21:55:22 INFO vmware_vm.py:722 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] is allowed to use any adapter
+2022-12-15 21:55:22 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:22 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes HTTP/1.1" 201 874 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:22 INFO vmware_vm.py:676 VMware VM 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3] has changed the number of Ethernet adapters to 1
+2022-12-15 21:55:22 INFO vmware_vm.py:722 VMware VM 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3] is allowed to use any adapter
+2022-12-15 21:55:22 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:22 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes HTTP/1.1" 201 855 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:22 INFO vmware_vm.py:676 VMware VM 'blackArch-1' [2a7801b2-f544-4359-a3d2-68959665f49d] has changed the number of Ethernet adapters to 1
+2022-12-15 21:55:22 INFO vmware_vm.py:625 VMware VM "blackArch-1" [2a7801b2-f544-4359-a3d2-68959665f49d] set the close action to "shutdown_signal"
+2022-12-15 21:55:22 INFO vmware_vm.py:722 VMware VM 'blackArch-1' [2a7801b2-f544-4359-a3d2-68959665f49d] is allowed to use any adapter
+2022-12-15 21:55:22 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:22 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes HTTP/1.1" 201 789 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:22 INFO docker_vm.py:1078 Docker container "metasploitable2-1" [ee4029c5-8edd-4341-9276-f1edeff82d17]: number of Ethernet adapters changed to 1
+2022-12-15 21:55:23 INFO docker_vm.py:416 Docker container 'metasploitable2-1' [ee4029c5-8edd-4341-9276-f1edeff82d17] created
+2022-12-15 21:55:23 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:22 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/docker/nodes HTTP/1.1" 201 952 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:23 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:23 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:23 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-d3d947d1-6e81-46a7-949b-ae99e8d544a2 bound to port 0
+2022-12-15 21:55:23 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 0 set as an access port in VLAN 1
+2022-12-15 21:55:23 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:23 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/0/nio HTTP/1.1" 201 395 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:23 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:23 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:23 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:23 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:23 INFO vmware_vm.py:763 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2]: NIO UDP added to adapter 0
+2022-12-15 21:55:23 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:23 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/0d4a7e1c-bd16-442b-9b83-de00ae2026d2/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:23 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-e4c37319-2c93-4ef0-bed1-021e9f73e436 bound to port 2
+2022-12-15 21:55:23 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 2 set as an access port in VLAN 1
+2022-12-15 21:55:23 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:23 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/2/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO vmware_vm.py:763 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c]: NIO UDP added to adapter 0
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/7a37506d-5288-4fcb-b283-27a6eeb2e00c/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-f0b29039-3e57-46b5-afd2-73214e16f7ea bound to port 3
+2022-12-15 21:55:24 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 3 set as an access port in VLAN 1
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/3/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO vmware_vm.py:763 VMware VM 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3]: NIO UDP added to adapter 0
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/b364f2e1-c56c-41d4-8473-ba9c94b37cb3/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-452403f8-d22d-4df2-bd5f-e166aa9b4cc9 bound to port 4
+2022-12-15 21:55:24 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 4 set as an access port in VLAN 1
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/4/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO cloud.py:396 Cloud "Cloud1" [fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e]: NIO NIO UDP bound to port 0
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/cloud/nodes/fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ports/udp HTTP/1.1" 201 244 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: NIO udp-aaa9ff0a-17ef-4e30-a53a-c5c7f6d174bf bound to port 5
+2022-12-15 21:55:24 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209]: port 5 set as an access port in VLAN 1
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/adapters/0/ports/5/nio HTTP/1.1" 201 393 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO docker_vm.py:980 Docker container 'metasploitable2-1' [ee4029c5-8edd-4341-9276-f1edeff82d17]: NIO UDP added to adapter 0
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/docker/nodes/ee4029c5-8edd-4341-9276-f1edeff82d17/adapters/0/ports/0/nio HTTP/1.1" 201 384 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:21 +0000] "POST /v2/projects/load HTTP/1.1" 201 731 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "GET /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes HTTP/1.1" 200 39334 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:55:24 INFO project_handler.py:272 New client has connected to the notification stream for project ID '246cb1d4-5afc-4cb2-8c94-c8c4cdc16986' (WebSocket method)
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "GET /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/links HTTP/1.1" 200 9500 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "GET /v2/symbols/%3A/symbols/classic/multilayer_switch.svg/raw HTTP/1.1" 200 21518 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:55:24 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "GET /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/drawings HTTP/1.1" 200 2380 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:55:30 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:29 +0000] "POST /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes/5895421c-109d-40a4-b374-d169edac23e7/start HTTP/1.1" 200 4383 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:55:31 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:31 +0000] "POST /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes/daa1abac-13c8-43a4-8a0e-92b2eb8d008d/start HTTP/1.1" 200 4383 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:55:35 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 21:55:35 INFO base_node.py:663 Starting new uBridge hypervisor 192.168.10.1:37485
+2022-12-15 21:55:35 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', '192.168.10.1:37485']
+2022-12-15 21:55:35 INFO hypervisor.py:171 logging to /home/bazza/GNS3/projects/4CYNET1/project-files/vmware/0d4a7e1c-bd16-442b-9b83-de00ae2026d2/ubridge.log
+2022-12-15 21:55:35 INFO hypervisor.py:179 ubridge started PID=3335146
+2022-12-15 21:55:35 INFO base_node.py:666 Hypervisor 192.168.10.1:37485 has successfully started
+2022-12-15 21:55:35 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on 192.168.10.1:37485 after 0.1007 seconds
+2022-12-15 21:55:35 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws start /mythz/GNS3/projects/4CYPEN/project-files/vmware/75aa5052-8eaa-4a21-9b9d-9c1127ddb794/WindowsServer2016-1.vmx
+2022-12-15 21:55:37 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 21:55:37 INFO base_node.py:663 Starting new uBridge hypervisor 192.168.10.1:44989
+2022-12-15 21:55:37 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', '192.168.10.1:44989']
+2022-12-15 21:55:37 INFO hypervisor.py:171 logging to /home/bazza/GNS3/projects/4CYNET1/project-files/vmware/7a37506d-5288-4fcb-b283-27a6eeb2e00c/ubridge.log
+2022-12-15 21:55:37 INFO hypervisor.py:179 ubridge started PID=3335647
+2022-12-15 21:55:37 INFO base_node.py:666 Hypervisor 192.168.10.1:44989 has successfully started
+2022-12-15 21:55:37 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on 192.168.10.1:44989 after 0.1008 seconds
+2022-12-15 21:55:37 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws start /mythz/GNS3/projects/4CYPEN/project-files/vmware/cf5cf00c-2336-4b9e-947e-538b3ff2f9b3/Windows10x64-1.vmx
+2022-12-15 21:55:48 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 21:55:48 INFO base_node.py:663 Starting new uBridge hypervisor 192.168.10.1:42583
+2022-12-15 21:55:48 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', '192.168.10.1:42583']
+2022-12-15 21:55:48 INFO hypervisor.py:171 logging to /home/bazza/GNS3/projects/4CYNET1/project-files/vmware/b364f2e1-c56c-41d4-8473-ba9c94b37cb3/ubridge.log
+2022-12-15 21:55:48 INFO hypervisor.py:179 ubridge started PID=3337783
+2022-12-15 21:55:48 INFO base_node.py:666 Hypervisor 192.168.10.1:42583 has successfully started
+2022-12-15 21:55:48 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on 192.168.10.1:42583 after 0.1006 seconds
+2022-12-15 21:55:48 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws start /mythz/VMs/kali-linux-2022.3-vmware-amd64.vmwarevm/kali-linux-2022.3-vmware-amd64.vmx
+2022-12-15 21:55:52 INFO vmware_vm.py:483 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] started
+2022-12-15 21:55:52 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:35 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/0d4a7e1c-bd16-442b-9b83-de00ae2026d2/start HTTP/1.1" 204 189 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:55:52 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:35 +0000] "POST /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes/0d4a7e1c-bd16-442b-9b83-de00ae2026d2/start HTTP/1.1" 200 1962 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:56:02 INFO vmware_vm.py:483 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c] started
+2022-12-15 21:56:02 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:37 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/7a37506d-5288-4fcb-b283-27a6eeb2e00c/start HTTP/1.1" 204 189 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:56:02 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:37 +0000] "POST /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes/7a37506d-5288-4fcb-b283-27a6eeb2e00c/start HTTP/1.1" 200 1948 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 21:56:08 INFO vmware_vm.py:483 VMware VM 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3] started
+2022-12-15 21:56:08 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:48 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/b364f2e1-c56c-41d4-8473-ba9c94b37cb3/start HTTP/1.1" 204 189 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 21:56:08 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:48 +0000] "POST /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/nodes/b364f2e1-c56c-41d4-8473-ba9c94b37cb3/start HTTP/1.1" 200 1956 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:12:07 INFO compute.py:457 Connection closed to compute 'vm' WebSocket 'http://192.168.10.129:80/v2/compute/notifications/ws'
+2022-12-15 22:12:08 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:12:18 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:12:23 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:12:31 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:12:36 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:12:41 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:12:46 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:12:50 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:12:55 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:13:03 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:13:08 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:13:09 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:13:14 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:13:21 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:13:26 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:13:28 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:13:33 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:13:34 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:13:39 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:13:41 WARNING compute.py:367 Cannot connect to compute 'vm': Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:13:41 ERROR compute.py:373 Could not connect to compute 'vm' after multiple attempts: Cannot connect to host 192.168.10.129:80 ssl:default [Connect call failed ('192.168.10.129', 80)]
+2022-12-15 22:13:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:43:41 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/docker/nodes/7d87689c-e72f-4b20-bc99-ef7210868024/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:13:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:43:41 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/ethernet_switch/nodes/a0b1deaa-d0f6-4a6f-99bb-f501e0e42209/stop HTTP/1.1" 204 197 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:13:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:43:41 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/cloud/nodes/fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e/stop HTTP/1.1" 204 187 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:13:41 INFO base_node.py:677 Stopping uBridge hypervisor 192.168.10.1:44989
+2022-12-15 22:13:41 INFO hypervisor.py:208 Stopping uBridge process PID=3335647
+2022-12-15 22:13:44 WARNING hypervisor.py:214 uBridge process 3335647 is still running... killing it
+2022-12-15 22:16:41 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 22:16:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:41 +0000] "GET /v2/computes HTTP/1.1" 200 0 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:16:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:41 +0000] "GET /v2/computes HTTP/1.1" 200 0 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:16:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:41 +0000] "GET /v2/computes HTTP/1.1" 200 0 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:16:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:41 +0000] "GET /v2/computes HTTP/1.1" 200 0 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:16:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:41 +0000] "GET /v2/computes HTTP/1.1" 200 0 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:16:41 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:41 +0000] "GET /v2/computes HTTP/1.1" 200 1871 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:16:41 INFO base_node.py:677 Stopping uBridge hypervisor 192.168.10.1:42583
+2022-12-15 22:16:41 INFO hypervisor.py:208 Stopping uBridge process PID=3337783
+2022-12-15 22:16:41 INFO base_node.py:677 Stopping uBridge hypervisor 192.168.10.1:37485
+2022-12-15 22:16:41 INFO hypervisor.py:208 Stopping uBridge process PID=3335146
+2022-12-15 22:16:41 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws stop /mythz/GNS3/projects/4CYPEN/project-files/vmware/cf5cf00c-2336-4b9e-947e-538b3ff2f9b3/Windows10x64-1.vmx soft
+2022-12-15 22:16:43 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 22:16:44 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 22:16:44 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:44 +0000] "GET /v2/computes HTTP/1.1" 200 1872 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:16:44 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws stop /mythz/GNS3/projects/4CYPEN/project-files/vmware/75aa5052-8eaa-4a21-9b9d-9c1127ddb794/WindowsServer2016-1.vmx soft
+2022-12-15 22:16:44 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws stop /mythz/VMs/kali-linux-2022.3-vmware-amd64.vmwarevm/kali-linux-2022.3-vmware-amd64.vmx
+2022-12-15 22:17:21 INFO vmware_vm.py:529 VMware VM 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3] stopped
+2022-12-15 22:17:21 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:41 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/b364f2e1-c56c-41d4-8473-ba9c94b37cb3/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:17:21 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 22:17:21 INFO vmware_vm.py:529 VMware VM 'blackArch-1' [2a7801b2-f544-4359-a3d2-68959665f49d] stopped
+2022-12-15 22:17:21 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:47:21 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/2a7801b2-f544-4359-a3d2-68959665f49d/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:17:21 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:47:21 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/docker/nodes/ee4029c5-8edd-4341-9276-f1edeff82d17/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:17:22 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:47:22 +0000] "GET /v2/computes HTTP/1.1" 200 1872 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:17:44 INFO vmware_vm.py:529 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c] stopped
+2022-12-15 22:17:44 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:43:41 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/7a37506d-5288-4fcb-b283-27a6eeb2e00c/stop HTTP/1.1" 204 0 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:17:45 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:47:45 +0000] "GET /v2/computes HTTP/1.1" 200 1872 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:18:07 INFO vmware_vm.py:529 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] stopped
+2022-12-15 22:18:07 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:46:41 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/vmware/nodes/0d4a7e1c-bd16-442b-9b83-de00ae2026d2/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:18:07 INFO base_node.py:331 VMware: 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3]: is closing
+2022-12-15 22:18:07 INFO vmware_vm.py:625 VMware VM "kali-linux-2022.3-vmware-amd64-1" [b364f2e1-c56c-41d4-8473-ba9c94b37cb3] set the close action to "power_off"
+2022-12-15 22:18:07 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 22:18:07 INFO base_node.py:331 Builtin: 'Cloud1' [fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e]: is closing
+2022-12-15 22:18:07 INFO base_node.py:677 Stopping uBridge hypervisor 192.168.10.1:42541
+2022-12-15 22:18:07 INFO hypervisor.py:208 Stopping uBridge process PID=3332761
+2022-12-15 22:18:07 INFO base_node.py:331 Docker: 'metasploitable2-1' [ee4029c5-8edd-4341-9276-f1edeff82d17]: is closing
+2022-12-15 22:18:07 INFO base_node.py:331 VMware: 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c]: is closing
+2022-12-15 22:18:07 INFO vmware_vm.py:625 VMware VM "Windows10x64-1-1" [7a37506d-5288-4fcb-b283-27a6eeb2e00c] set the close action to "power_off"
+2022-12-15 22:18:07 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 22:18:07 INFO base_node.py:331 VMware: 'blackArch-1' [2a7801b2-f544-4359-a3d2-68959665f49d]: is closing
+2022-12-15 22:18:07 INFO vmware_vm.py:625 VMware VM "blackArch-1" [2a7801b2-f544-4359-a3d2-68959665f49d] set the close action to "power_off"
+2022-12-15 22:18:07 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 22:18:07 INFO base_node.py:331 Docker: 'Kali-Docker-1' [7d87689c-e72f-4b20-bc99-ef7210868024]: is closing
+2022-12-15 22:18:07 INFO base_node.py:331 VMware: 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2]: is closing
+2022-12-15 22:18:07 INFO vmware_vm.py:625 VMware VM "WindowsServer2016-1-1" [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] set the close action to "power_off"
+2022-12-15 22:18:07 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws list
+2022-12-15 22:18:07 INFO cloud.py:248 Cloud "Cloud1" [fba6ae55-2ecf-4d4c-a2d0-7f49ca51758e] has been closed
+2022-12-15 22:18:07 INFO ethernet_switch.py:252 Ethernet switch "Switch1" [a0b1deaa-d0f6-4a6f-99bb-f501e0e42209] has been deleted
+2022-12-15 22:18:07 INFO hypervisor.py:148 Stopping Dynamips process PID=3332707
+2022-12-15 22:18:07 INFO vmware_vm.py:529 VMware VM 'blackArch-1' [2a7801b2-f544-4359-a3d2-68959665f49d] stopped
+2022-12-15 22:18:07 INFO vmware_vm.py:529 VMware VM 'Windows10x64-1-1' [7a37506d-5288-4fcb-b283-27a6eeb2e00c] stopped
+2022-12-15 22:18:07 INFO vmware_vm.py:529 VMware VM 'kali-linux-2022.3-vmware-amd64-1' [b364f2e1-c56c-41d4-8473-ba9c94b37cb3] stopped
+2022-12-15 22:18:07 INFO vmware_vm.py:529 VMware VM 'WindowsServer2016-1-1' [0d4a7e1c-bd16-442b-9b83-de00ae2026d2] stopped
+2022-12-15 22:18:08 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:48:08 +0000] "GET /v2/computes HTTP/1.1" 200 1872 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:18:08 INFO docker_vm.py:892 Docker container 'metasploitable2-1' [tleemcjr/metasploitable2:latest] removed
+2022-12-15 22:18:18 INFO docker_vm.py:892 Docker container 'Kali-Docker-1' [kali-bazza-fix:latest] removed
+2022-12-15 22:18:18 INFO project.py:361 Project 246cb1d4-5afc-4cb2-8c94-c8c4cdc16986 with path '/home/bazza/GNS3/projects/4CYNET1' closed
+2022-12-15 22:18:18 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:48:07 +0000] "POST /v2/compute/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/close HTTP/1.1" 204 166 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:18:25 INFO compute.py:364 Connecting to compute 'vm'
+2022-12-15 22:18:25 INFO project_handler.py:281 Client has disconnected from notification stream for project ID '246cb1d4-5afc-4cb2-8c94-c8c4cdc16986' (WebSocket method)
+2022-12-15 22:18:25 INFO compute.py:431 Connected to compute 'vm' WebSocket 'http://192.168.10.129:80/v2/compute/notifications/ws'
+2022-12-15 22:18:30 INFO project_handler.py:290 Project '246cb1d4-5afc-4cb2-8c94-c8c4cdc16986' is automatically closing due to no client listening
+2022-12-15 22:18:30 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:25:24 +0000] "GET /v2/projects/246cb1d4-5afc-4cb2-8c94-c8c4cdc16986/notifications/ws HTTP/1.1" 200 0 "-" "-"
+2022-12-15 22:24:45 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:54:45 +0000] "GET /v2/templates HTTP/1.1" 200 11623 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:24:46 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:54:45 +0000] "GET /v2/appliances?symbol_theme=Classic HTTP/1.1" 200 822486 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:24:46 INFO server_handler.py:53 Start shutting down the server
+2022-12-15 22:24:46 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:54:46 +0000] "POST /v2/shutdown HTTP/1.1" 201 195 "-" "GNS3 QT Client v2.2.34"
+2022-12-15 22:24:46 INFO web_server.py:113 Closing 2 websocket connections...
+2022-12-15 22:24:46 INFO compute.py:457 Connection closed to compute 'local' WebSocket 'http://192.168.10.1:3078/v2/compute/notifications/ws'
+2022-12-15 22:24:46 INFO notification_handler.py:82 Client has disconnected from controller WebSocket
+2022-12-15 22:24:46 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/notifications/ws HTTP/1.1" 200 0 "-" "-"
+2022-12-15 22:24:46 INFO notification_handler.py:59 Client has disconnected from compute WebSocket
+2022-12-15 22:24:46 INFO web_log.py:206 192.168.10.1 [15/Dec/2022:11:23:47 +0000] "GET /v2/compute/notifications/ws HTTP/1.1" 200 0 "-" "Python/3.10 aiohttp/3.8.3"
+2022-12-15 22:24:46 INFO __init__.py:138 Controller is stopping
+2022-12-15 22:24:46 INFO compute.py:457 Connection closed to compute 'vm' WebSocket 'http://192.168.10.129:80/v2/compute/notifications/ws'
+2022-12-15 22:24:46 INFO __init__.py:405 Stop the GNS3 VM
+2022-12-15 22:24:46 INFO __init__.py:426 Executing vmrun with command: /usr/bin/vmrun -T ws stop '/mythz/VMs/GNS3 VM/GNS3 VM.vmx' soft
+2022-12-15 22:24:56 WARNING web_server.py:170 Server has got signal SIGINT, exiting...
+2022-12-15 22:24:56 WARNING web_server.py:107 Close is already in progress
+2022-12-15 22:24:58 INFO vmware_gns3_vm.py:216 GNS3 VM has been stopped
+2022-12-15 22:24:58 INFO run.py:272 Remove PID file /home/bazza/.config/GNS3/2.2/gns3_server.pid

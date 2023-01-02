@@ -1,7 +1,8 @@
 [Emojier]
-recent=°
-recentDescriptions=degree
+recent=🤞,°
+recentDescriptions=crossed fingers,degree
 
 [Window]
 HDMI-A-0 Height 1680x1050=472
 HDMI-A-0 Width 1680x1050=590
+XWAYLAND0 XWAYLAND1 Window-Maximized 1680x1050 XWAYLAND1=true
