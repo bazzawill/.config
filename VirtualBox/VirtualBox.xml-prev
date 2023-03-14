@@ -5,30 +5,33 @@
 ** is running, your changes will be overwritten later, without taking effect.
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
-<VirtualBox xmlns="http://www.innotek.de/VirtualBox-settings" version="1.12-linux">
+<VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,preview,system,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=Maui"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="455,237,770,550"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=98bafaf0-8a00-45c4-94f6-a04539fbf398"/>
+      <ExtraDataItem name="GUI/GuestControl/FileManagerDialogGeometry" value="842,487,836,991,max"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=829df299-166e-4862-a741-17d80eff39e3"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="2,487,1676,991,max"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/media/mythfs/ISO"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/media/mythfs/ISO/maui-0.5.1-x86_64.iso;"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="163,603"/>
+      <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture,remindAboutMouseIntegration"/>
+      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{98bafaf0-8a00-45c4-94f6-a04539fbf398}" src="/home/bazza/VirtualBox VMs/Maui/Maui.vbox"/>
+      <MachineEntry uuid="{829df299-166e-4862-a741-17d80eff39e3}" src="/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"/>
     </MachineRegistry>
-    <MediaRegistry>
-      <HardDisks/>
-      <DVDImages/>
-      <FloppyImages/>
-    </MediaRegistry>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>
       </DHCPServers>
     </NetserviceRegistry>
-    <SystemProperties defaultMachineFolder="/home/bazza/VirtualBox VMs" defaultHardDiskFormat="VDI" VRDEAuthLibrary="VBoxAuth" webServiceAuthLibrary="VBoxAuth" LogHistoryCount="3" exclusiveHwVirt="true"/>
+    <Updates enabled="false">
+      <Host enabled="false" channel="1" checkFreqSec="86400" repoUrl="https://update.virtualbox.org" checkCount="0"/>
+    </Updates>
+    <SystemProperties defaultMachineFolder="/home/bazza/VirtualBox VMs" defaultHardDiskFormat="VDI" VRDEAuthLibrary="VBoxAuth" webServiceAuthLibrary="VBoxAuth" LogHistoryCount="3" proxyMode="0" exclusiveHwVirt="true"/>
     <USBDeviceFilters/>
   </Global>
 </VirtualBox>

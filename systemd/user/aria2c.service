@@ -1,0 +1,11 @@
+[Unit]
+Description=Aria2c download manager
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/aria2c --console-log-level=warn --enable-rpc --rpc-listen-all 
+TimeoutStopSec=20
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

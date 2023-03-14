@@ -9,6 +9,7 @@
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
+source /home/bazza/.config/zsh/timer.zsh
 
 # Customize to your needs...
 export DISPLAY=:0
@@ -34,6 +35,7 @@ plex=/media/mythfs/plex
 dl=/media/mythfs/downloads
 rom=/media/mythfs/Romz
 PATH=$PATH:/home/bazza/bin
+VMs=/mythz/VMs
 # Disable hostname completion
 zstyle ':completion:*' hosts off
 zstyle ':completion:*' accept-exact '*(N)'
@@ -49,7 +51,7 @@ alias screenshot="import -window root ~/screenshot/$(date '+%Y%m%d-%H%M%S').png"
 alias startu="systemctl --user start"
 alias stopu="systemctl --user stop"
 alias cat=bat
-
+alias ip="ip --color"
 function pretty_csv {
     column -t -s, "$@" | less -F -S -X -K
 }

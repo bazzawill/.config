@@ -41,7 +41,7 @@ output DP-1 resolution 1920x1080 position 1680,0 transform 270 bg ~/pictures/PXL
 # Example configuration:
 #
  exec swayidle  \
-          timeout 100 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' 
+          timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' 
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -63,6 +63,8 @@ output DP-1 resolution 1920x1080 position 1680,0 transform 270 bg ~/pictures/PXL
 
 ### Key bindings
 #
+    # turn monitor off
+    bindsym $mod+m exec swaymsg "output * dpms off"
     # clipboard manager
     bindsym $mod+x exec 'clipman pick -t wofi --histpath="~/.cache/clipman.json"'
 # Basics:
@@ -237,4 +239,5 @@ bar {
     }
 }
 
+include ~/.config/sway/config.d/*
 include /etc/sway/config.d/*

@@ -1,0 +1,2 @@
+2023-01-22 21:57:33.188 [info] [perf] Render performance baseline is 115ms
+2023-01-22 21:57:40.200 [error] Error while registering log channel file:///home/bazza/.config/Code%20-%20OSS/logs/20230122T215728/userDataSync.log Timed out while waiting for file to be created

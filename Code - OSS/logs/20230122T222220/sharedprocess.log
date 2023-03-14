@@ -1,0 +1,7 @@
+2023-01-22 22:22:21.900 [info] Starting worker process with pid 717581 (type: fileWatcher, window: 1).
+2023-01-22 22:32:17.539 [info] Getting Manifest... panekj.powershell
+2023-01-22 22:32:17.827 [info] Installing extension: panekj.powershell
+2023-01-22 22:32:29.204 [info] Extracted extension to /home/bazza/.vscode-oss/extensions/.55c02981-87a1-4372-84e0-4d44ba3a4027: panekj.powershell
+2023-01-22 22:32:29.219 [info] Renamed to /home/bazza/.vscode-oss/extensions/panekj.powershell-2021.10.0-universal
+2023-01-22 22:32:29.221 [info] Extracting completed. panekj.powershell
+2023-01-22 22:32:29.231 [info] Extension installed successfully: panekj.powershell
