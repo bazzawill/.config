@@ -1,0 +1,70 @@
+{
+    "additional-repositories": [],
+    "audio": "pipewire",
+    "config_version": "2.5.3",
+    "debug": false,
+    "desktop-environment": "xfce4",
+    "gfx_driver": "VMware / VirtualBox (open-source)",
+    "harddrives": [
+        "/dev/sda"
+    ],
+    "hostname": "archlinuxVM",
+    "kernels": [
+        "linux"
+    ],
+    "mirror-region": {
+        "Australia": {
+            "http://arch.lucassymons.net/$repo/os/$arch": true,
+            "http://archlinux.mirror.digitalpacific.com.au/$repo/os/$arch": true,
+            "http://ftp.iinet.net.au/pub/archlinux/$repo/os/$arch": true,
+            "http://ftp.swin.edu.au/archlinux/$repo/os/$arch": true,
+            "http://gsl-syd.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "http://mirror.internode.on.net/pub/archlinux/$repo/os/$arch": true,
+            "http://mirrors.wale.id.au/archlinux/$repo/os/$arch": true,
+            "http://syd.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "https://arch.lucassymons.net/$repo/os/$arch": true,
+            "https://archlinux.mirror.digitalpacific.com.au/$repo/os/$arch": true,
+            "https://gsl-syd.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "https://mirror.aarnet.edu.au/pub/archlinux/$repo/os/$arch": true,
+            "https://mirrors.wale.id.au/archlinux/$repo/os/$arch": true,
+            "https://syd.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "https://sydney.mirror.pkgbuild.com/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "iso"
+    },
+    "no_pkg_lookups": false,
+    "offline": false,
+    "packages": [
+        "neovim",
+        "git",
+        "chromium",
+        "zsh",
+        "tmux",
+        "docker",
+        "docker-compose",
+        "exa",
+        "bat",
+        "htop",
+        "python",
+        "tldr",
+	"xfce4-appfinder",
+	"ncdu",
+	"duf",
+        "open-vm-tools"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "swap": true,
+    "timezone": "Australia/Adelaide",
+    "version": "2.5.3"
+}
