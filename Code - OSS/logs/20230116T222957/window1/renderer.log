@@ -1,5 +1,0 @@
-2023-01-16 22:29:58.616 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/bazza/test/test_js.py","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2023-01-16 22:29:59.054 [info] Started initializing default profile extensions in extensions installation folder. file:///home/bazza/.vscode-oss/extensions
-2023-01-16 22:29:59.093 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/bazza/.vscode-oss/extensions
-2023-01-16 22:30:02.059 [info] [perf] Render performance baseline is 122ms
-2023-01-16 22:30:09.074 [error] Error while registering log channel file:///home/bazza/.config/Code%20-%20OSS/logs/20230116T222957/userDataSync.log Timed out while waiting for file to be created
