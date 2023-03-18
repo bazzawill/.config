@@ -1,312 +1,113 @@
-00:00:00.004762 main     VirtualBox XPCOM Server 7.0.6 r155176 linux.amd64 (Jan 17 2023 21:23:05) release log
-00:00:00.004765 main     Log opened 2023-02-23T07:54:49.285610000Z
-00:00:00.004765 main     Build Type: release
-00:00:00.004768 main     OS Product: Linux
-00:00:00.004768 main     OS Release: 6.1.9-arch1-2
-00:00:00.004769 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 03 Feb 2023 18:49:53 +0000
-00:00:00.004796 main     DMI Product Name: System Product Name
-00:00:00.004806 main     DMI Product Version: System Version
-00:00:00.004811 main     Firmware type: UEFI
-00:00:00.004912 main     Secure Boot: Disabled
-00:00:00.004952 main     Host RAM: 23316MB (22.7GB) total, 16546MB (16.1GB) available
-00:00:00.004955 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.004955 main     Process ID: 744284
-00:00:00.004956 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.007034 main     IPC socket path: /tmp/.vbox-bazza-ipc/ipcd
-00:00:00.137437 nspr-2   VirtualBox: object creation starts
-00:00:00.137537 nspr-2   Home directory: '/home/bazza/.config/VirtualBox'
-00:00:00.137895 nspr-2   Loading settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.145131 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
-00:00:00.147220 nspr-2   Successfully initialised host USB using sysfs
-00:00:00.208492 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.221182 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.236943 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.250236 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.267522 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.280093 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.291143 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.303186 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.304365 nspr-2   HostDnsMonitor: initializing
-00:00:00.312473 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
-00:00:00.312504 nspr-2   NAT: resolv.conf: nameserver 2401:d002:6102:300:2e2:69ff:fe52:f9cc
-00:00:00.312517 nspr-2   HostDnsMonitor: updating information
-00:00:00.312544 nspr-2   HostDnsMonitor: old information
-00:00:00.312548 nspr-2     no server entries
-00:00:00.312551 nspr-2     no domain set
-00:00:00.312553 nspr-2     no search string entries
-00:00:00.312556 nspr-2   HostDnsMonitor: new information
-00:00:00.312559 nspr-2     server 1: 192.168.1.1
-00:00:00.312562 nspr-2     server 2: 2401:d002:6102:300:2e2:69ff:fe52:f9cc
-00:00:00.312565 nspr-2     domain: home.phoenix
-00:00:00.312568 nspr-2     search string 1: home.phoenix
-00:00:00.315789 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.317133 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:00:00.317140 nspr-2   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:00:01.360159 nspr-2   Loading settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:00:01.366976 nspr-2   VirtualBox: object created
-00:00:02.080950 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:00:02.080956 nspr-3   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:00:02.081432 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:00:02.081438 nspr-2   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:00:02.082211 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:00:02.082215 nspr-2   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:00:02.298786 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:06.829208 nspr-2   Launched VM: 1343115824 pid: 745836 (0xb616c) frontend: GUI/Qt name: WinDev2212Eval
-00:00:06.862919 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:07.411703 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:07.796149 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:00:07.905368 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:00:07.972209 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:07.984016 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:07.995944 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:08.008853 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:08.021381 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:08.036213 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:08.054761 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:08.072470 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:08.365791 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
-00:00:08.954815 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-00:00:09.143526 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:00:09.193121 nspr-3   Saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:09.224150 nspr-3   Finished saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml"
-00:00:17.984427 nspr-4   Saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:18.008638 nspr-4   Finished saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml"
-00:14:16.534555 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
-00:14:17.975606 nspr-5   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:14:18.057619 nspr-5   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:14:18.065230 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:14:18.987885 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:17:20.366902 nspr-5   Launched VM: 872474352 pid: 922104 (0xe11f8) frontend: GUI/Qt name: WinDev2212Eval
-00:17:20.376211 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:17:20.488227 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:17:20.818429 nspr-9   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:17:20.859671 nspr-9   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:17:20.881867 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:17:20.889406 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:17:20.896769 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:17:20.903575 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:17:20.911149 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:17:20.918155 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:17:20.925457 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:17:20.932153 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:17:21.035088 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
-00:17:21.245423 nspr-9   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-00:17:21.260982 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:17:21.584996 nspr-3   Saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:17:21.616233 nspr-3   Finished saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml"
-00:17:26.710606 nspr-9   Saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:17:26.743048 nspr-9   Finished saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml"
-00:18:16.485128 nspr-4   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:18:16.587838 nspr-4   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:18:16.593620 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:31:14.313583 nspr-5   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:31:14.542023 nspr-5   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:31:14.545776 nspr-2   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:31:14.682889 nspr-2   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:31:14.689976 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:32:07.370344 nspr-7   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:32:07.525393 nspr-7   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:32:07.530313 nspr-4   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:32:07.642568 nspr-4   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:32:07.646289 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:32:07.654492 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:55:47.112389 nspr-9   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:55:48.503738 nspr-9   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:55:48.506508 nspr-6   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:55:48.536779 nspr-6   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:55:48.544970 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:55:55.868485 nspr-9   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:55:55.898754 nspr-9   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:55:55.901857 nspr-6   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:55:55.934960 nspr-6   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:55:55.942500 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:56:57.105609 nspr-6   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:56:57.164913 nspr-6   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:56:57.167765 nspr-9   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:56:57.193762 nspr-9   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:56:57.199069 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:57:11.655452 nspr-7   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:57:12.849238 nspr-7   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:57:12.852760 nspr-5   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:57:12.884181 nspr-5   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:57:12.893130 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:57:47.445193 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:57:47.450868 nspr-6   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:57:47.486269 nspr-6   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:57:47.493809 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:58:29.128260 nspr-3   Saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:58:29.151739 nspr-3   Finished saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml"
-00:58:29.162594 nspr-7   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-00:58:29.171599 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.171604 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:29.173044 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.173047 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:29.173368 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.173370 nspr-3   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:29.173460 nspr-7   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-00:58:29.173973 nspr-5   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-00:58:29.175098 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.175100 nspr-3   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:29.175758 nspr-7   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.175759 nspr-7   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:29.176064 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.176066 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:29.176538 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.176541 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:29.177050 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.177051 nspr-3   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:29.177310 nspr-7   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:58:29.177312 nspr-7   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:58:51.488377 nspr-4   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:58:51.501162 nspr-2   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:58:52.045107 nspr-2   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:58:52.060794 nspr-8   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:58:52.087078 nspr-8   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:58:52.094301 nspr-8   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:58:52.120515 nspr-8   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:58:52.372288 nspr-9   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:58:52.412275 nspr-9   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:59:17.656662 nspr-9   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:59:20.257902 nspr-9   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:59:26.878332 nspr-9   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:59:28.970665 nspr-9   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:59:40.947407 nspr-2   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:59:42.160209 nspr-2   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-00:59:47.473471 nspr-2   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-00:59:48.736804 nspr-2   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-01:04:58.114146 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-01:04:58.145460 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.156921 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.166288 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.175108 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.182104 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.188890 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.195199 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.201327 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.203962 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-01:04:58.217214 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.222851 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.229126 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.235383 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.241408 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.247646 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.253826 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.260131 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:04:58.261573 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-01:04:58.452137 nspr-9   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-01:05:00.346685 nspr-9   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-01:05:00.351163 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-01:05:00.372240 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.380439 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.388416 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.397222 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.406029 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.413582 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.421582 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.429582 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.432652 nspr-6   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-01:05:00.449580 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.456710 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.464121 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.472821 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.480759 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.488581 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.497732 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.505639 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:00.507652 nspr-6   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-01:05:03.444777 nspr-4   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-01:05:05.024972 nspr-4   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-01:05:05.339962 nspr-2   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-01:05:05.704505 nspr-2   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-01:05:12.561843 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-01:05:12.587941 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.597465 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.607123 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.615747 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.623129 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.630714 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.638509 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.646064 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.648651 nspr-7   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-01:05:12.663448 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.671125 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.678308 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.685513 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.692187 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.698816 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.704852 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.711951 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:12.713255 nspr-8   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-01:05:12.899856 nspr-9   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-01:05:13.253650 nspr-9   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-01:05:13.258508 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-01:05:13.281740 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.291506 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.300452 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.308395 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.316631 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.325181 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.333383 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.342716 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.346709 nspr-8   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-01:05:13.366004 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.373217 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.381732 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.390534 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.399534 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.407559 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.414993 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.422705 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
-01:05:13.424524 nspr-8   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-01:05:26.680732 nspr-7   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-01:05:28.269325 nspr-7   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-03:15:26.566552 nspr-9   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-03:15:26.568956 nspr-8   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.568967 nspr-8   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.569647 nspr-7   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.569651 nspr-7   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.570020 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.570023 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.570177 nspr-9   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-03:15:26.570650 nspr-8   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-03:15:26.571234 nspr-7   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.571236 nspr-7   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.571437 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.571440 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.571639 nspr-9   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.571641 nspr-9   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.571811 nspr-8   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.571813 nspr-8   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.571978 nspr-7   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.571980 nspr-7   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.572134 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.572136 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.858366 nspr-4   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
-03:15:26.984683 nspr-4   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
-03:15:26.989135 nspr-9   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-03:15:26.989979 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.989983 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.990280 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.990283 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.990506 nspr-7   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.990509 nspr-7   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.990608 nspr-9   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-03:15:26.991000 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-03:15:26.991399 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.991401 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.991574 nspr-7   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.991577 nspr-7   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.991751 nspr-9   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.991753 nspr-9   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.991923 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.991925 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.992073 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.992075 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:15:26.992238 nspr-7   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-03:15:26.992240 nspr-7   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-03:24:18.712460 main     VirtualBox: object deletion starts
-03:24:18.712577 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-03:24:18.713083 main     HostDnsMonitor: shutting down ...
-03:24:18.713456 main     HostDnsMonitor: shut down
-03:24:18.736871 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-03:24:18.736957 main     VirtualBox: object deleted
+00:00:00.000726 main     VirtualBox XPCOM Server 7.0.6 r155176 linux.amd64 (Jan 17 2023 21:23:05) release log
+00:00:00.000729 main     Log opened 2023-03-15T11:39:45.452160000Z
+00:00:00.000730 main     Build Type: release
+00:00:00.000732 main     OS Product: Linux
+00:00:00.000734 main     OS Release: 6.2.1-arch1-1
+00:00:00.000735 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sun, 26 Feb 2023 03:39:23 +0000
+00:00:00.000754 main     DMI Product Name: System Product Name
+00:00:00.000759 main     DMI Product Version: System Version
+00:00:00.000763 main     Firmware type: UEFI
+00:00:00.000861 main     Secure Boot: Disabled
+00:00:00.000889 main     Host RAM: 23313MB (22.7GB) total, 12114MB (11.8GB) available
+00:00:00.000891 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000892 main     Process ID: 3495275
+00:00:00.000894 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001853 main     IPC socket path: /tmp/.vbox-bazza-ipc/ipcd
+00:00:00.105610 nspr-2   VirtualBox: object creation starts
+00:00:00.105731 nspr-2   Home directory: '/home/bazza/.config/VirtualBox'
+00:00:00.114330 nspr-2   Loading settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.116176 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.116283 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.130893 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.136541 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.142398 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.148150 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.154149 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.159794 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.165415 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.171307 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.171854 nspr-2   HostDnsMonitor: initializing
+00:00:00.172032 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.172045 nspr-2   NAT: resolv.conf: nameserver 2401:d002:6102:300:2e2:69ff:fe52:f9cc
+00:00:00.172055 nspr-2   HostDnsMonitor: updating information
+00:00:00.172067 nspr-2   HostDnsMonitor: old information
+00:00:00.172071 nspr-2     no server entries
+00:00:00.172075 nspr-2     no domain set
+00:00:00.172079 nspr-2     no search string entries
+00:00:00.172083 nspr-2   HostDnsMonitor: new information
+00:00:00.172086 nspr-2     server 1: 192.168.1.1
+00:00:00.172091 nspr-2     server 2: 2401:d002:6102:300:2e2:69ff:fe52:f9cc
+00:00:00.172095 nspr-2     domain: home.phoenix
+00:00:00.172098 nspr-2     search string 1: home.phoenix
+00:00:00.173976 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.174939 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.174944 nspr-2   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.236850 nspr-2   Loading settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
+00:00:00.237880 nspr-2   VirtualBox: object created
+00:00:00.565788 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.565795 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.566184 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.566188 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.566707 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.566710 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.628051 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.631777 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.631784 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.651036 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.651045 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.708359 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.708366 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.708565 nspr-5   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.709245 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.710126 nspr-5   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.710761 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.712073 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.712075 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.712909 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.712910 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.713703 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.713706 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.714470 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.714472 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.716104 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.716107 nspr-5   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.717303 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening '/home/bazza/VirtualBox VMs/Maui/Maui.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.717306 nspr-4   /build/virtualbox/src/VirtualBox-7.0.6/src/VBox/Main/src-server/MachineImpl.cpp[1025] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:02.483070 nspr-2   Saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.507603 nspr-2   Finished saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml"
+00:00:02.531565 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:05.482972 nspr-3   Launched VM: 2818580784 pid: 3495464 (0x355628) frontend: GUI/Qt name: WinDev2212Eval
+00:00:05.495682 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:05.638407 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:05.954733 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:05.997861 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:06.022613 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.028450 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet2: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.034108 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.040174 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet4: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.045960 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet5: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.051606 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet6: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.057793 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet7: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.063583 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vmnet8: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:06.196960 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:06.442268 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:06.477656 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:06.779150 nspr-6   Saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:06.810816 nspr-6   Finished saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml"
+00:00:10.515547 nspr-8   Saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.548553 nspr-8   Finished saving settings file "/home/bazza/.config/VirtualBox/VirtualBox.xml"
+00:15:35.825136 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:15:50.421191 nspr-7   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
+00:15:50.530824 nspr-7   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
+00:15:50.565132 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:19:09.893577 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:19:10.099932 nspr-6   Saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox" with version "1.19-linux"
+00:19:10.209474 nspr-6   Finished saving settings file "/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval.vbox"
+00:19:10.228112 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:19:11.615014 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:55.055649 main     VirtualBox: object deletion starts
+00:29:55.057630 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/mythz/VMs/virtb/win11/WinDev2212Eval/WinDev2212Eval-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:29:55.058717 main     HostDnsMonitor: shutting down ...
+00:29:55.058909 main     HostDnsMonitor: shut down
+00:29:55.081388 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:29:55.081533 main     VirtualBox: object deleted
